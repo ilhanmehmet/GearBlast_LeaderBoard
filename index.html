@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GearBlast – Global Liderlik Tablosu</title>
+<meta name="description" content="GearBlast oyununun global liderlik tablosu. Tüm oyuncuların sıralamasını görün.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0e1b2e;
+    --bg2:       #152338;
+    --panel:     #1a2d47;
+    --border:    #2a4060;
+    --accent:    #f0a030;
+    --blue:      #4ab8f0;
+    --green:     #3de870;
+    --text:      #e8f2ff;
+    --text2:     #8aadcc;
+    --gold:      #ffd700;
+    --silver:    #c0c8d8;
+    --bronze:    #cd7f32;
+    --radius:    14px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ─── BG GEARS ─── */
+  .bg-gears {
+    position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden;
+  }
+  .gear-circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid;
+    opacity: 0.06;
+    animation: spin linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ─── LAYOUT ─── */
+  .container {
+    position: relative; z-index: 1;
+    max-width: 700px; margin: 0 auto; padding: 0 16px 40px;
+  }
+
+  /* ─── HEADER ─── */
+  header {
+    text-align: center; padding: 28px 0 12px;
+  }
+  header img.logo {
+    width: 200px; max-width: 80%;
+    filter: drop-shadow(0 6px 18px rgba(0,0,0,0.6));
+  }
+  header h1 {
+    font-size: 1.5rem; font-weight: 800; letter-spacing: 2px;
+    color: var(--text); margin-top: 10px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  }
+
+  /* ─── UPDATE BANNER ─── */
+  .update-banner {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    background: rgba(240,160,48,0.12); border: 1px solid rgba(240,160,48,0.3);
+    border-radius: 10px; padding: 8px 16px; margin: 0 0 14px;
+    font-size: 0.8rem; color: var(--accent);
+  }
+  .update-banner .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--accent); animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+  /* ─── NAV TABS ─── */
+  nav.tabs {
+    display: flex; gap: 4px; background: var(--panel);
+    border-radius: var(--radius); padding: 5px; margin-bottom: 4px;
+    border: 1px solid var(--border);
+  }
+  nav.tabs .page-tabs {
+    display: flex; gap: 4px; flex: 1;
+  }
+  .tab {
+    flex: 1; padding: 9px 4px; border-radius: 10px;
+    font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px;
+    cursor: pointer; border: none; background: transparent;
+    color: var(--text2); transition: all .2s; text-align: center;
+  }
+  .tab.active { background: var(--blue); color: #fff; }
+  .tab.rules.active { background: var(--accent); }
+
+  /* ─── MODE TABS ─── */
+  .mode-tabs {
+    display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap;
+  }
+  .mode-tab {
+    flex: 1; min-width: 120px; padding: 10px 8px; border-radius: 12px;
+    font-size: 0.78rem; font-weight: 700; cursor: pointer;
+    border: 2px solid; text-align: center; transition: all .2s;
+    background: transparent;
+  }
+  .mode-tab[data-mode="classic_normal"] { color: var(--blue);  border-color: var(--blue); }
+  .mode-tab[data-mode="classic_timed"]  { color: var(--accent);border-color: var(--accent); }
+  .mode-tab[data-mode="extra_normal"]   { color: var(--green); border-color: var(--green); }
+  .mode-tab[data-mode="extra_timed"]    { color: #c080ff;      border-color: #c080ff; }
+
+  .mode-tab[data-mode="classic_normal"].active { background: var(--blue);   color: #fff; }
+  .mode-tab[data-mode="classic_timed"].active  { background: var(--accent); color: #fff; }
+  .mode-tab[data-mode="extra_normal"].active   { background: var(--green);  color: #000; }
+  .mode-tab[data-mode="extra_timed"].active    { background: #c080ff;       color: #fff; }
+
+  /* ─── SEARCH ─── */
+  .search-bar {
+    display: flex; gap: 8px; margin-bottom: 14px;
+  }
+  .search-bar input {
+    flex: 1; padding: 10px 16px; border-radius: 12px;
+    background: var(--panel); border: 1px solid var(--border);
+    color: var(--text); font-size: 0.9rem; font-family: 'Outfit', sans-serif;
+    outline: none; transition: border .2s;
+  }
+  .search-bar input:focus { border-color: var(--blue); }
+  .search-bar input::placeholder { color: var(--text2); }
+
+  /* ─── PODIUM ─── */
+  .podium {
+    display: flex; align-items: flex-end; justify-content: center;
+    gap: 10px; margin-bottom: 18px;
+  }
+  .podium-card {
+    flex: 1; max-width: 190px;
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 14px 8px 10px;
+    text-align: center; position: relative;
+    transition: transform .2s;
+  }
+  .podium-card:hover { transform: translateY(-4px); }
+  .podium-card.rank1 { order: 2; border-color: var(--gold);   box-shadow: 0 0 20px rgba(255,215,0,0.2); }
+  .podium-card.rank2 { order: 1; border-color: var(--silver); box-shadow: 0 0 12px rgba(192,200,216,0.15); }
+  .podium-card.rank3 { order: 3; border-color: var(--bronze); box-shadow: 0 0 12px rgba(205,127,50,0.15); }
+
+  .podium-card .crown { font-size: 1.6rem; line-height: 1; }
+  .podium-card .rank-num {
+    font-size: 1rem; font-weight: 800; margin: 2px 0;
+  }
+  .rank1 .rank-num { color: var(--gold); }
+  .rank2 .rank-num { color: var(--silver); }
+  .rank3 .rank-num { color: var(--bronze); }
+
+  .podium-card .avatar-wrap {
+    width: 62px; height: 62px; border-radius: 50%; overflow: hidden;
+    margin: 6px auto; border: 3px solid;
+    background: var(--bg2);
+  }
+  .rank1 .avatar-wrap { border-color: var(--gold); }
+  .rank2 .avatar-wrap { border-color: var(--silver); }
+  .rank3 .avatar-wrap { border-color: var(--bronze); }
+
+  .podium-card .avatar-wrap img { width: 100%; height: 100%; object-fit: cover; }
+
+  .podium-card .badge-wrap img { width: 28px; height: 28px; margin: 4px auto; display: block; }
+
+  .podium-card .uname {
+    font-size: 0.82rem; font-weight: 700; color: var(--text);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    max-width: 120px; margin: 0 auto;
+  }
+  .podium-card .score {
+    font-size: 0.95rem; font-weight: 800; margin-top: 4px; color: var(--accent);
+  }
+
+  /* ─── LIST ─── */
+  .list-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 6px 12px; font-size: 0.72rem; color: var(--text2);
+    font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase;
+    border-bottom: 1px solid var(--border); margin-bottom: 6px;
+  }
+  .total-count {
+    font-size: 0.78rem; font-weight: 700; color: var(--blue);
+    background: rgba(74,184,240,0.1); border: 1px solid rgba(74,184,240,0.2);
+    border-radius: 8px; padding: 3px 10px;
+  }
+
+  .lb-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 9px 12px; border-radius: 12px; margin-bottom: 5px;
+    background: var(--panel); border: 1px solid var(--border);
+    transition: background .15s, transform .15s;
+  }
+  .lb-row:hover { background: var(--bg2); transform: translateX(3px); }
+  .lb-row.highlight { border-color: var(--gold); background: rgba(255,215,0,0.06); }
+
+  .lb-row .rank-num {
+    font-size: 0.8rem; font-weight: 800; color: var(--text2);
+    min-width: 28px; text-align: center;
+  }
+  .lb-row .rank-num.gold   { color: var(--gold); }
+  .lb-row .rank-num.silver { color: var(--silver); }
+  .lb-row .rank-num.bronze { color: var(--bronze); }
+
+  .lb-row .avatar-sm {
+    width: 40px; height: 40px; border-radius: 50%; overflow: hidden;
+    border: 2px solid var(--border); background: var(--bg2); flex-shrink: 0;
+  }
+  .lb-row .avatar-sm img { width: 100%; height: 100%; object-fit: cover; }
+
+  .lb-row .info { flex: 1; min-width: 0; }
+  .lb-row .info .uname {
+    font-size: 0.88rem; font-weight: 700;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .lb-row .info .badge-row {
+    display: flex; align-items: center; gap: 4px; margin-top: 2px;
+  }
+  .lb-row .info .badge-row img { width: 18px; height: 18px; }
+  .lb-row .info .badge-row span { font-size: 0.7rem; color: var(--text2); }
+
+  .lb-row .score-col {
+    font-size: 0.88rem; font-weight: 800; color: var(--accent);
+    white-space: nowrap;
+  }
+
+  /* ─── EMPTY / LOADING ─── */
+  .state-msg {
+    text-align: center; padding: 40px 20px; color: var(--text2); font-size: 0.9rem;
+  }
+  .spinner {
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 3px solid var(--border); border-top-color: var(--blue);
+    animation: spin .8s linear infinite; margin: 0 auto 12px;
+  }
+
+  /* ─── RULES PAGE ─── */
+  #page-rules { display: none; }
+  .rules-container { padding: 4px 0; }
+  .rules-section {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 18px; margin-bottom: 14px;
+  }
+  .rules-section h2 {
+    font-size: 1rem; font-weight: 800; color: var(--blue);
+    margin-bottom: 12px; display: flex; align-items: center; gap: 8px;
+  }
+  .rules-section ul {
+    list-style: none; display: flex; flex-direction: column; gap: 8px;
+  }
+  .rules-section ul li {
+    display: flex; gap: 10px; align-items: flex-start;
+    font-size: 0.85rem; color: var(--text2); line-height: 1.5;
+  }
+  .rules-section ul li .icon { font-size: 1.1rem; flex-shrink: 0; }
+
+  .tip-cards { display: flex; flex-direction: column; gap: 10px; }
+  .tip-card {
+    background: var(--bg2); border-radius: 12px; padding: 14px;
+    border-left: 3px solid var(--accent);
+  }
+  .tip-card .tip-title { font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+  .tip-card p { font-size: 0.83rem; color: var(--text2); line-height: 1.5; }
+
+  /* ─── SCROLLBAR ─── */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 500px) {
+    .podium-card { padding: 10px 4px 8px; }
+    .podium-card .avatar-wrap { width: 50px; height: 50px; }
+    .tab { font-size: 0.68rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- BG GEARS -->
+<div class="bg-gears" id="bgGears"></div>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <header>
+    <h1 id="title-lb">🏆 SKOR TABLOSU</h1>
+  </header>
+
+  <!-- UPDATE BANNER -->
+  <div class="update-banner">
+    <div class="dot"></div>
+    <span id="update-text">Yükleniyor...</span>
+  </div>
+
+  <!-- PAGE TABS -->
+  <nav class="tabs">
+    <div class="page-tabs">
+      <button class="tab active"  data-page="leaderboard" id="tab-lb">📊 <span data-tr="Skor" data-en="Scores">Skor</span></button>
+      <button class="tab rules"   data-page="rules"        id="tab-rules">📖 <span data-tr="Kurallar" data-en="Rules">Kurallar</span></button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════ LEADERBOARD PAGE ══════════════════ -->
+  <div id="page-leaderboard">
+
+    <!-- MODE TABS -->
+    <div class="mode-tabs">
+      <button class="mode-tab active" data-mode="classic_normal">
+        <span data-tr="Klasik Normal"  data-en="Classic Normal">Klasik Normal</span>
+      </button>
+      <button class="mode-tab"        data-mode="classic_timed">
+        <span data-tr="Klasik Süre"   data-en="Classic Timed">Klasik Süre</span>
+      </button>
+      <button class="mode-tab"        data-mode="extra_normal">
+        <span data-tr="Ekstra Normal" data-en="Extra Normal">Ekstra Normal</span>
+      </button>
+      <button class="mode-tab"        data-mode="extra_timed">
+        <span data-tr="Ekstra Süre"  data-en="Extra Timed">Ekstra Süre</span>
+      </button>
+    </div>
+
+    <!-- SEARCH -->
+    <div class="search-bar">
+      <input type="search" id="searchInput"
+             placeholder="Oyuncu ara..." autocomplete="off"
+             data-placeholder-tr="Oyuncu ara..." data-placeholder-en="Search player...">
+    </div>
+
+    <!-- PODIUM -->
+    <div class="podium" id="podium"></div>
+
+    <!-- TOTAL COUNT -->
+    <div class="list-header">
+      <span data-tr="Sıralama" data-en="Ranking">Sıralama</span>
+      <span class="total-count" id="totalCount">...</span>
+    </div>
+
+    <!-- LIST -->
+    <div id="lbList"></div>
+  </div>
+
+  <!-- ══════════════════ RULES PAGE ══════════════════ -->
+  <div id="page-rules">
+    <div class="rules-container">
+
+      <div class="rules-section">
+        <h2>⚙️ <span data-tr="Nasıl Oynanır?" data-en="How to Play?">Nasıl Oynanır?</span></h2>
+        <ul id="rules-list">
+          <li><span class="icon">🎯</span>
+              <span data-tr="Aynı renkteki dişlileri eşleştir, patlat ve puan kazan."
+                    data-en="Match same-colored gears, blast them and earn points."></span></li>
+          <li><span class="icon">💥</span>
+              <span data-tr="3 veya daha fazla dişliyi aynı anda patlatırsan COMBO bonusu kazanırsın."
+                    data-en="Blast 3 or more gears at once to earn a COMBO bonus."></span></li>
+          <li><span class="icon">🔄</span>
+              <span data-tr="Hamle hakkını doldurarak ekstra hamle hakkı kazanabilirsin."
+                    data-en="Fill the move meter to earn extra move credits."></span></li>
+          <li><span class="icon">⏱️</span>
+              <span data-tr="Zamanlı modda süre bitmeden önce mümkün olduğunca çok puan topla."
+                    data-en="In timed mode, collect as many points as possible before time runs out."></span></li>
+          <li><span class="icon">🏅</span>
+              <span data-tr="Liderlik tablosuna girmek için oyunu bitirip skorunu gönder."
+                    data-en="Finish your game and submit your score to appear on the leaderboard."></span></li>
+        </ul>
+      </div>
+
+      <div class="rules-section">
+        <h2>💡 <span data-tr="Taktikler &amp; İpuçları" data-en="Tips &amp; Tactics">Taktikler &amp; İpuçları</span></h2>
+        <div class="tip-cards">
+          <div class="tip-card">
+            <div class="tip-title" data-tr="Köşelerden Başla" data-en="Start from Corners">Köşelerden Başla</div>
+            <p data-tr="Köşe ve kenarlardaki dişlilerden başlamak daha büyük combo zincirleri oluşturur."
+               data-en="Starting from corner and edge gears creates larger combo chains."></p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-title" data-tr="Combo Zinciri Kur" data-en="Build Combo Chains">Combo Zinciri Kur</div>
+            <p data-tr="Aynı hamlede ne kadar çok dişli patlarsanız çarpan puanı o kadar yükselir."
+               data-en="The more gears you blast in one move, the higher your multiplier grows."></p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-title" data-tr="Geri Al Hakkını Sakla" data-en="Save Your Undo">Geri Al Hakkını Sakla</div>
+            <p data-tr="Geri al hakkını zor anlara sakla — yanlış hamle yaptıysan hemen kullan."
+               data-en="Save undo for tough moments — use it immediately after a wrong move."></p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-title" data-tr="Ekstra Mod = Daha Yüksek Skor" data-en="Extra Mode = Higher Score">Ekstra Mode = Daha Yüksek Skor</div>
+            <p data-tr="9×9 ızgara daha fazla dişli içerir → daha büyük combo → daha yüksek puan tavanı."
+               data-en="9×9 grid has more gears → bigger combos → higher score ceiling."></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rules-section">
+        <h2>🎖️ <span data-tr="Lig Rozetleri" data-en="League Badges">Lig Rozetleri</span></h2>
+        <ul id="badge-list"></ul>
+      </div>
+
+    </div>
+  </div>
+
+</div><!-- /container -->
+
+<script>
+// ─────────────────────────────────────────────────────────
+// CONFIG
+// ─────────────────────────────────────────────────────────
+const DATA_URL = 'data/leaderboard.json';
+
+const LEAGUE_NAMES = {
+  tr: ['Bronz','Gümüş','Altın','Platin','Elmas','Şampiyon'],
+  en: ['Bronze','Silver','Gold','Platinum','Diamond','Champion']
+};
+const LEAGUE_FILES = ['Bronz','Silver','Gold','Platinum','Diamond','Champion'];
+
+// ─────────────────────────────────────────────────────────
+// LANGUAGE
+// ─────────────────────────────────────────────────────────
+const userLang = (navigator.language || 'tr').toLowerCase().startsWith('tr') ? 'tr' : 'en';
+
+function applyLang() {
+  document.querySelectorAll('[data-tr]').forEach(el => {
+    const key = userLang === 'tr' ? 'tr' : 'en';
+    const val = el.dataset[key];
+    if (val !== undefined) el.textContent = val;
+  });
+  const si = document.getElementById('searchInput');
+  if (si) si.placeholder = userLang === 'tr' ? si.dataset.placeholderTr : si.dataset.placeholderEn;
+  document.getElementById('title-lb').textContent =
+    userLang === 'tr' ? '🏆 SKOR TABLOSU' : '🏆 LEADERBOARD';
+}
+
+// ─────────────────────────────────────────────────────────
+// BG GEARS
+// ─────────────────────────────────────────────────────────
+(function buildBg() {
+  const container = document.getElementById('bgGears');
+  const colors = ['#4ab8f0','#f0a030','#3de870','#c080ff'];
+  for (let i = 0; i < 6; i++) {
+    const g = document.createElement('div');
+    g.className = 'gear-circle';
+    const size = 120 + i * 80;
+    Object.assign(g.style, {
+      width: size + 'px', height: size + 'px',
+      top: (Math.random() * 90) + '%', left: (Math.random() * 90) + '%',
+      borderColor: colors[i % colors.length],
+      animationDuration: (20 + i * 8) + 's',
+      animationDirection: i % 2 ? 'reverse' : 'normal'
+    });
+    container.appendChild(g);
+  }
+})();
+
+// ─────────────────────────────────────────────────────────
+// AVATAR HELPER
+// ─────────────────────────────────────────────────────────
+function avatarSrc(id) {
+  const num = parseInt(id) || 1;
+  // a-1 is id=0 or negative, rest follow a{num}.png
+  if (num <= 0) return 'avatars/a-1.png';
+  return `avatars/a${num}.png`;
+}
+function badgeSrc(level) {
+  const idx = Math.min(Math.max(parseInt(level) || 0, 0), LEAGUE_FILES.length - 1);
+  return `badges/${LEAGUE_FILES[idx]}.png`;
+}
+function badgeName(level) {
+  const idx = Math.min(Math.max(parseInt(level) || 0, 0), LEAGUE_NAMES.tr.length - 1);
+  return userLang === 'tr' ? LEAGUE_NAMES.tr[idx] : LEAGUE_NAMES.en[idx];
+}
+function fmtScore(n) {
+  return Number(n).toLocaleString();
+}
+
+// ─────────────────────────────────────────────────────────
+// DATA
+// ─────────────────────────────────────────────────────────
+let allData = null;
+let currentMode = 'classic_normal';
+let searchQuery = '';
+
+async function loadData() {
+  showLoading();
+  try {
+    const r = await fetch(DATA_URL + '?v=' + Date.now());
+    if (!r.ok) throw new Error('Network error');
+    allData = await r.json();
+    updateBanner();
+    renderMode();
+  } catch (e) {
+    showError();
+  }
+}
+
+function updateBanner() {
+  if (!allData) return;
+  const d = new Date(allData.updated_at);
+  const opts = { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' };
+  const dateStr = d.toLocaleDateString(userLang === 'tr' ? 'tr-TR' : 'en-US', opts);
+  const msg = userLang === 'tr'
+    ? `Bu liste 6 saatte bir güncellenir — Son güncelleme: ${dateStr}`
+    : `List updates every 6 hours — Last updated: ${dateStr}`;
+  document.getElementById('update-text').textContent = msg;
+}
+
+// ─────────────────────────────────────────────────────────
+// RENDER
+// ─────────────────────────────────────────────────────────
+function getEntries() {
+  if (!allData) return [];
+  let list = (allData[currentMode] || []).slice();
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    list = list.filter(e => (e.username || '').toLowerCase().includes(q));
+  }
+  return list;
+}
+
+function renderMode() {
+  const entries = getEntries();
+  renderPodium(entries.slice(0, 3));
+  renderList(entries.slice(3));
+  const total = (allData && allData[currentMode]) ? allData[currentMode].length : 0;
+  document.getElementById('totalCount').textContent =
+    userLang === 'tr' ? `${total} oyuncu` : `${total} players`;
+}
+
+function renderPodium(top3) {
+  const el = document.getElementById('podium');
+  if (!top3.length) { el.innerHTML = ''; return; }
+  const crowns = ['👑','🥈','🥉'];
+  const classes = ['rank1','rank2','rank3'];
+  el.innerHTML = top3.map((e, i) => `
+    <div class="podium-card ${classes[i]}">
+      <div class="crown">${crowns[i]}</div>
+      <div class="rank-num">#${e.rank || i+1}</div>
+      <div class="avatar-wrap">
+        <img src="${avatarSrc(e.avatarId)}" alt="${e.username}"
+             onerror="this.src='avatars/a1.png'">
+      </div>
+      <div class="badge-wrap">
+        <img src="${badgeSrc(e.leagueLevel)}" alt="${badgeName(e.leagueLevel)}"
+             onerror="this.style.display='none'">
+      </div>
+      <div class="uname">${escHtml(e.username)}</div>
+      <div class="score">${fmtScore(e.score)}</div>
+    </div>`).join('');
+}
+
+function renderList(rest) {
+  const el = document.getElementById('lbList');
+  if (!rest.length && !searchQuery) {
+    if (!allData) return;
+    el.innerHTML = `<div class="state-msg">${userLang === 'tr' ? 'Henüz kayıt yok.' : 'No entries yet.'}</div>`;
+    return;
+  }
+  if (!rest.length) {
+    el.innerHTML = `<div class="state-msg">${userLang === 'tr' ? 'Sonuç bulunamadı.' : 'No results found.'}</div>`;
+    return;
+  }
+
+  const rankColors = ['gold','silver','bronze'];
+  el.innerHTML = rest.map((e, i) => {
+    const globalRank = e.rank || (i + 4);
+    const rc = globalRank <= 3 ? rankColors[globalRank - 1] : '';
+    return `
+    <div class="lb-row">
+      <div class="rank-num ${rc}">#${globalRank}</div>
+      <div class="avatar-sm">
+        <img src="${avatarSrc(e.avatarId)}" alt="${e.username}"
+             onerror="this.src='avatars/a1.png'">
+      </div>
+      <div class="info">
+        <div class="uname">${escHtml(e.username)}</div>
+        <div class="badge-row">
+          <img src="${badgeSrc(e.leagueLevel)}" alt="${badgeName(e.leagueLevel)}"
+               onerror="this.style.display='none'">
+          <span>${badgeName(e.leagueLevel)}</span>
+        </div>
+      </div>
+      <div class="score-col">${fmtScore(e.score)}</div>
+    </div>`;
+  }).join('');
+}
+
+function showLoading() {
+  document.getElementById('podium').innerHTML = '';
+  document.getElementById('lbList').innerHTML =
+    `<div class="state-msg"><div class="spinner"></div>${userLang === 'tr' ? 'Yükleniyor...' : 'Loading...'}</div>`;
+}
+function showError() {
+  document.getElementById('lbList').innerHTML =
+    `<div class="state-msg">⚠️ ${userLang === 'tr' ? 'Veri yüklenemedi.' : 'Could not load data.'}</div>`;
+  document.getElementById('update-text').textContent =
+    userLang === 'tr' ? 'Bağlantı hatası.' : 'Connection error.';
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ─────────────────────────────────────────────────────────
+// BADGE LIST (rules page)
+// ─────────────────────────────────────────────────────────
+function buildBadgeList() {
+  const ul = document.getElementById('badge-list');
+  LEAGUE_FILES.forEach((f, i) => {
+    const li = document.createElement('li');
+    li.innerHTML = `
+      <span class="icon"><img src="badges/${f}.png" style="width:28px;height:28px;vertical-align:middle"
+            onerror="this.style.display='none'"></span>
+      <span>${LEAGUE_NAMES[userLang][i]}</span>`;
+    ul.appendChild(li);
+  });
+}
+
+// ─────────────────────────────────────────────────────────
+// EVENTS
+// ─────────────────────────────────────────────────────────
+document.querySelectorAll('.mode-tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.mode-tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentMode = btn.dataset.mode;
+    renderMode();
+  });
+});
+
+document.querySelectorAll('.tab[data-page]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab[data-page]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const page = btn.dataset.page;
+    document.getElementById('page-leaderboard').style.display = page === 'leaderboard' ? '' : 'none';
+    document.getElementById('page-rules').style.display       = page === 'rules'       ? '' : 'none';
+  });
+});
+
+document.getElementById('searchInput').addEventListener('input', e => {
+  searchQuery = e.target.value.trim();
+  renderMode();
+});
+
+// ─────────────────────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────────────────────
+applyLang();
+buildBadgeList();
+loadData();
+</script>
+</body>
+</html>
