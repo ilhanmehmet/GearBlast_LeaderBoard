@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-20T15:52:47Z",
-  "total_players": 64,
+  "updated_at": "2026-04-20T15:58:56Z",
+  "total_players": 65,
   "classic_normal": [
     {
       "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
@@ -570,13 +570,22 @@
       "rank": 63
     },
     {
+      "uid": "6UxXaQINa0gG3y1a97AWeCkR7pt2",
+      "username": "Edmar",
+      "score": 1785,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 5,
+      "rank": 64
+    },
+    {
       "uid": "XV4dZjZuHdbpujuI3GbEcSw3uul1",
       "username": "Xc. x",
       "score": 999,
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 47,
-      "rank": 64
+      "rank": 65
     }
   ],
   "classic_timed": [
