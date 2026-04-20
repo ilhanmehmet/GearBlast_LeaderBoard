@@ -1,7 +1,1236 @@
 {
-  "updated_at": "2025-04-20T00:00:00Z",
-  "classic_normal": [],
-  "classic_timed": [],
-  "extra_normal": [],
-  "extra_timed": []
+  "updated_at": "2026-04-20T15:52:47Z",
+  "total_players": 64,
+  "classic_normal": [
+    {
+      "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
+      "username": "Aytuntas",
+      "score": 268833,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 1
+    },
+    {
+      "uid": "2s82qRUwXHOg4uh92wcCHHwCbTB3",
+      "username": "babo",
+      "score": 235393,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 7,
+      "rank": 2
+    },
+    {
+      "uid": "SVcYHNBvrPUZLxApH28g8nDt9Vi1",
+      "username": "Evo",
+      "score": 227966,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 9,
+      "rank": 3
+    },
+    {
+      "uid": "Jg34LD0Y61dwd1q3aglo3HceFAk1",
+      "username": "Nado",
+      "score": 220247,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 4
+    },
+    {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 203510,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 5
+    },
+    {
+      "uid": "bnwXTzc6IBTNt1822r26J2yI2IE2",
+      "username": "Rina",
+      "score": 193653,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 6
+    },
+    {
+      "uid": "UpngJk4bW0bKrZUlsrOMVf6GqVi1",
+      "username": "Evren",
+      "score": 189617,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 13,
+      "rank": 7
+    },
+    {
+      "uid": "Whf0yBXObgStAYxqxIHnCrRu2UK2",
+      "username": "Emine",
+      "score": 176185,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 4,
+      "rank": 8
+    },
+    {
+      "uid": "NmVtsvqcWJVTHcLKiKDBqaWWfCv2",
+      "username": "Ruk",
+      "score": 150147,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 7,
+      "rank": 9
+    },
+    {
+      "uid": "c5VdBPj8Bqf2fbrJPb2Egn9CL1M2",
+      "username": "Runi",
+      "score": 139208,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 10
+    },
+    {
+      "uid": "1YV2a0xuhfN4gi7jh1rY2DI13m63",
+      "username": "Cem",
+      "score": 126539,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 24,
+      "rank": 11
+    },
+    {
+      "uid": "Yzq2Fyb2QqXlVMj5ifuK3JaldoA3",
+      "username": "Çılgın cengaver",
+      "score": 117130,
+      "leagueLevel": 3,
+      "playstyleLevel": 61,
+      "avatarId": 1,
+      "rank": 12
+    },
+    {
+      "uid": "UxliF4eUJ0Yac0tNzjqHiPhRLyT2",
+      "username": "Maxim",
+      "score": 116273,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 14,
+      "rank": 13
+    },
+    {
+      "uid": "tqrBt7TZZjh2Fj5EMnVxgJvsxKr2",
+      "username": "İlhan",
+      "score": 113800,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 49,
+      "rank": 14
+    },
+    {
+      "uid": "mV7i6BUeD9SSZem044Kgw4pDlJT2",
+      "username": "Alex",
+      "score": 105702,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 9,
+      "rank": 15
+    },
+    {
+      "uid": "3Xo9RWkABPWL7kxegi7XUNetQA92",
+      "username": "Berre Desing",
+      "score": 103163,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 11,
+      "rank": 16
+    },
+    {
+      "uid": "xTJdnwXAgHQ1heT4t58c15Cjp6l2",
+      "username": "Filiz",
+      "score": 101742,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 45,
+      "rank": 17
+    },
+    {
+      "uid": "M5utwmHGAoNofeub0n9xaBNwTFW2",
+      "username": "Seher",
+      "score": 99947,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 52,
+      "rank": 18
+    },
+    {
+      "uid": "T2XKQX0vUhVfUAKAmUrmRwezkOC3",
+      "username": "Ftm",
+      "score": 88394,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 19
+    },
+    {
+      "uid": "n53WkeHdF2bbWszWFAsklZbOnoA2",
+      "username": "Cansu",
+      "score": 86387,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 20,
+      "rank": 20
+    },
+    {
+      "uid": "sZu9UvjB7rPRCIXLOykWmlvCl3P2",
+      "username": "Anki1",
+      "score": 86137,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 6,
+      "rank": 21
+    },
+    {
+      "uid": "7IJ5pCf71IbcDWjWLqdg2I6GBCe2",
+      "username": "Siyami",
+      "score": 86018,
+      "leagueLevel": 3,
+      "playstyleLevel": 5,
+      "avatarId": 1,
+      "rank": 22
+    },
+    {
+      "uid": "ivIlRLMNHxfhV0COxYQgKja250C2",
+      "username": "Mehmeilhan",
+      "score": 83631,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 49,
+      "rank": 23
+    },
+    {
+      "uid": "Y20GRe58MIeu6xtOFECYjX7fGlK2",
+      "username": "Asya",
+      "score": 82211,
+      "leagueLevel": 3,
+      "playstyleLevel": 6,
+      "avatarId": 1,
+      "rank": 24
+    },
+    {
+      "uid": "mi6IuZbz2uRAIvJ1gxMkbDkligb2",
+      "username": "Asya",
+      "score": 82211,
+      "leagueLevel": 3,
+      "playstyleLevel": 6,
+      "avatarId": 1,
+      "rank": 25
+    },
+    {
+      "uid": "oqcqdeMecjYA7F0iYz3I5xMAAHj2",
+      "username": "Kdr",
+      "score": 70335,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 26
+    },
+    {
+      "uid": "16bKLWHRQThyeyn15FKb68QYDER2",
+      "username": "Gülo",
+      "score": 69897,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 9,
+      "rank": 27
+    },
+    {
+      "uid": "LtFysn2GDTTv3DNqgWV3b1TOkKu2",
+      "username": "Nensi",
+      "score": 63710,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 13,
+      "rank": 28
+    },
+    {
+      "uid": "hVNbr3r4zHYPEW1Rl4tzdhuPuNf1",
+      "username": "dani",
+      "score": 63659,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 29
+    },
+    {
+      "uid": "KDskROMK2xhBYuXB1vWUM9JtcN63",
+      "username": "gür",
+      "score": 62319,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 30
+    },
+    {
+      "uid": "Lc6pUrojIvfyU0Lw6MQ9J1mA67C3",
+      "username": "Tuttu Lihh",
+      "score": 52357,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 31
+    },
+    {
+      "uid": "D8eJm9kXJ2SXLP3KTTSjh1siivt1",
+      "username": "Mem",
+      "score": 51521,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 5,
+      "rank": 32
+    },
+    {
+      "uid": "2Yzlcqo8RRhK8hnVNVaaQfIFYVR2",
+      "username": "Yusuf",
+      "score": 51002,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 33
+    },
+    {
+      "uid": "p7tKVKmA9KcfJmklewu9HNhqTdz1",
+      "username": "Gülo",
+      "score": 48559,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 9,
+      "rank": 34
+    },
+    {
+      "uid": "Pu2AkXVQIeMDpqnrQgKXntPNwzh1",
+      "username": "Hüseyin",
+      "score": 48451,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 35
+    },
+    {
+      "uid": "0DIDyFJ9gMPAzlh01XYXxPGOYuf2",
+      "username": "İlhanN",
+      "score": 48182,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 36
+    },
+    {
+      "uid": "4IhiAuTPTAduz95Bv4GkKTwpg6m2",
+      "username": "Metin",
+      "score": 45773,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 37
+    },
+    {
+      "uid": "mW9S97nWtvP7JXcelxEc0o7pAN73",
+      "username": "Zemzem",
+      "score": 45643,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 9,
+      "rank": 38
+    },
+    {
+      "uid": "IQLDnz2WyyQdLc29T07SX640Hiy1",
+      "username": "Eylül",
+      "score": 45115,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 32,
+      "rank": 39
+    },
+    {
+      "uid": "a50hOkW3QsbHCr6CKNonwjOprYA3",
+      "username": "Zemin",
+      "score": 44902,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 5,
+      "rank": 40
+    },
+    {
+      "uid": "ooyktqEoHWYcjgFj32jv3mdGJcV2",
+      "username": "Sumant",
+      "score": 44890,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 14,
+      "rank": 41
+    },
+    {
+      "uid": "scT0yNUr2gdNu3QmjO36gjzRAGn1",
+      "username": "Ubc",
+      "score": 44072,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 55,
+      "rank": 42
+    },
+    {
+      "uid": "4kAQ5h7SeCaXl6WRouXaPvKVUZ93",
+      "username": "Daniela@",
+      "score": 43207,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 25,
+      "rank": 43
+    },
+    {
+      "uid": "j5q3eG2J08O4I3FgVcwUl8XzwwM2",
+      "username": "Abdulah",
+      "score": 41787,
+      "leagueLevel": 2,
+      "playstyleLevel": 10,
+      "avatarId": 1,
+      "rank": 44
+    },
+    {
+      "uid": "bySE90irfNMGq9arX4St2F0UaUP2",
+      "username": "Mariano kuehn",
+      "score": 39993,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 8,
+      "rank": 45
+    },
+    {
+      "uid": "QIc6GH3cFzP93JAYxN8PCkOA1CV2",
+      "username": "Umit",
+      "score": 37448,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 46
+    },
+    {
+      "uid": "Da0rep5wPGhcq8iSoaEUFpVDBJJ3",
+      "username": "Budlek",
+      "score": 35590,
+      "leagueLevel": 1,
+      "playstyleLevel": 8,
+      "avatarId": 1,
+      "rank": 47
+    },
+    {
+      "uid": "uYc8n3psIyNKKQhLP9bp4GLEPxF2",
+      "username": "Etc jgdyhbc7uboyucxuk",
+      "score": 34466,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 16,
+      "rank": 48
+    },
+    {
+      "uid": "YLLDWjomjtgh3w5GbPXXhnJ1A853",
+      "username": "Sengul",
+      "score": 33554,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 49
+    },
+    {
+      "uid": "JgA3HZ6j55TkAoS8E5peEr58vQ32",
+      "username": "slava",
+      "score": 31938,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 5,
+      "rank": 50
+    },
+    {
+      "uid": "AKk6Zpi9VeRqL9lt462czdgHU8f2",
+      "username": "Rukiye",
+      "score": 31843,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 20,
+      "rank": 51
+    },
+    {
+      "uid": "ltC6nJaAIIT0i0NPg0oQrxCkrDm1",
+      "username": "EvaAslan",
+      "score": 30441,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 6,
+      "rank": 52
+    },
+    {
+      "uid": "1hO0cUsKaKYLbskdZiysCa6s2Jh2",
+      "username": "Sanu",
+      "score": 23789,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 4,
+      "rank": 53
+    },
+    {
+      "uid": "G0QcbWiR5ycxG4HojXfwcnOOT752",
+      "username": "Klara",
+      "score": 21359,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 6,
+      "rank": 54
+    },
+    {
+      "uid": "YLm9SpD0CVMVtXW7GxGE0DMSZYe2",
+      "username": "03117120626",
+      "score": 21041,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 55
+    },
+    {
+      "uid": "sPAuJegFu7UQTYtlKMQlvAbBrtG3",
+      "username": "66d47gsh",
+      "score": 19726,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 20,
+      "rank": 56
+    },
+    {
+      "uid": "EMQ8R9m9q6V6cWeqkG3IW5824Is1",
+      "username": "Lexi love",
+      "score": 13225,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 22,
+      "rank": 57
+    },
+    {
+      "uid": "AnoK3jZboZRPxECmRSXXKlyo9JJ2",
+      "username": "Clarissa Wilson",
+      "score": 7442,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 58
+    },
+    {
+      "uid": "kZEhq3znXFXDbUpEkUu6nFYxdkN2",
+      "username": "Elke",
+      "score": 6093,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 59
+    },
+    {
+      "uid": "44zfGZtAPLZr7TcxyAoxiLIxMQM2",
+      "username": "İbrahim",
+      "score": 4139,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 40,
+      "rank": 60
+    },
+    {
+      "uid": "jtNrgp6ByDZuVQLs4xdEX7HjPBw2",
+      "username": "Uwe667",
+      "score": 4075,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 18,
+      "rank": 61
+    },
+    {
+      "uid": "Kt8GpJf38NZPL0mLEaoQjBj0wu63",
+      "username": "Asseell",
+      "score": 3610,
+      "leagueLevel": 1,
+      "playstyleLevel": 6,
+      "avatarId": 1,
+      "rank": 62
+    },
+    {
+      "uid": "Dc34M3azUse8K4zRapV8Z5nBqs73",
+      "username": "Gkhfhk",
+      "score": 2223,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 63
+    },
+    {
+      "uid": "XV4dZjZuHdbpujuI3GbEcSw3uul1",
+      "username": "Xc. x",
+      "score": 999,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 47,
+      "rank": 64
+    }
+  ],
+  "classic_timed": [
+    {
+      "uid": "vxVkEm1kGLhvg6TuEzN9t39y2H13",
+      "username": "Helga",
+      "score": 13028,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 13,
+      "rank": 1
+    },
+    {
+      "uid": "IQLDnz2WyyQdLc29T07SX640Hiy1",
+      "username": "Eylül",
+      "score": 6585,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 32,
+      "rank": 2
+    },
+    {
+      "uid": "LtFysn2GDTTv3DNqgWV3b1TOkKu2",
+      "username": "Nensi",
+      "score": 6090,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 13,
+      "rank": 3
+    },
+    {
+      "uid": "Whf0yBXObgStAYxqxIHnCrRu2UK2",
+      "username": "Emine",
+      "score": 5472,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 4,
+      "rank": 4
+    },
+    {
+      "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
+      "username": "Aytuntas",
+      "score": 5255,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 5
+    },
+    {
+      "uid": "SVcYHNBvrPUZLxApH28g8nDt9Vi1",
+      "username": "Evo",
+      "score": 4444,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 9,
+      "rank": 6
+    },
+    {
+      "uid": "ivIlRLMNHxfhV0COxYQgKja250C2",
+      "username": "Mehmeilhan",
+      "score": 4393,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 49,
+      "rank": 7
+    },
+    {
+      "uid": "2s82qRUwXHOg4uh92wcCHHwCbTB3",
+      "username": "babo",
+      "score": 3795,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 7,
+      "rank": 8
+    },
+    {
+      "uid": "UpngJk4bW0bKrZUlsrOMVf6GqVi1",
+      "username": "Evren",
+      "score": 2990,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 13,
+      "rank": 9
+    },
+    {
+      "uid": "ThXfS10CqbgvcFlrYWWwSVhWyRN2",
+      "username": "Alex",
+      "score": 2988,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 10
+    },
+    {
+      "uid": "0DIDyFJ9gMPAzlh01XYXxPGOYuf2",
+      "username": "İlhanN",
+      "score": 1803,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 11
+    },
+    {
+      "uid": "c5VdBPj8Bqf2fbrJPb2Egn9CL1M2",
+      "username": "Runi",
+      "score": 1709,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 12
+    },
+    {
+      "uid": "4IhiAuTPTAduz95Bv4GkKTwpg6m2",
+      "username": "Metin",
+      "score": 1024,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 13
+    },
+    {
+      "uid": "AnoK3jZboZRPxECmRSXXKlyo9JJ2",
+      "username": "Clarissa Wilson",
+      "score": 275,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 14
+    },
+    {
+      "uid": "T2XKQX0vUhVfUAKAmUrmRwezkOC3",
+      "username": "Ftm",
+      "score": 225,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 15
+    },
+    {
+      "uid": "a50hOkW3QsbHCr6CKNonwjOprYA3",
+      "username": "Zemin",
+      "score": 185,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 5,
+      "rank": 16
+    },
+    {
+      "uid": "1LTmZJFajbTYb5oucxYRUzR6bZh1",
+      "username": "Michael",
+      "score": 155,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 20,
+      "rank": 17
+    },
+    {
+      "uid": "JgA3HZ6j55TkAoS8E5peEr58vQ32",
+      "username": "slava",
+      "score": 95,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 5,
+      "rank": 18
+    },
+    {
+      "uid": "tqrBt7TZZjh2Fj5EMnVxgJvsxKr2",
+      "username": "İlhan",
+      "score": 90,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 49,
+      "rank": 19
+    },
+    {
+      "uid": "S85wt1z8s2QjdYm1Af6RBmhQ2Oc2",
+      "username": "Heike",
+      "score": 45,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 20
+    },
+    {
+      "uid": "sPAuJegFu7UQTYtlKMQlvAbBrtG3",
+      "username": "66d47gsh",
+      "score": 45,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 20,
+      "rank": 21
+    },
+    {
+      "uid": "un5tfFNaQrQpRNxC3hw3cOFT5q73",
+      "username": "عندك",
+      "score": 45,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 22
+    }
+  ],
+  "extra_normal": [
+    {
+      "uid": "NmVtsvqcWJVTHcLKiKDBqaWWfCv2",
+      "username": "Ruk",
+      "score": 130821,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 7,
+      "rank": 1
+    },
+    {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 102353,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 2
+    },
+    {
+      "uid": "UpngJk4bW0bKrZUlsrOMVf6GqVi1",
+      "username": "Evren",
+      "score": 93271,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 13,
+      "rank": 3
+    },
+    {
+      "uid": "tqrBt7TZZjh2Fj5EMnVxgJvsxKr2",
+      "username": "İlhan",
+      "score": 73897,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 49,
+      "rank": 4
+    },
+    {
+      "uid": "Pu2AkXVQIeMDpqnrQgKXntPNwzh1",
+      "username": "Hüseyin",
+      "score": 47852,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 5
+    },
+    {
+      "uid": "mW9S97nWtvP7JXcelxEc0o7pAN73",
+      "username": "Zemzem",
+      "score": 43719,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 9,
+      "rank": 6
+    },
+    {
+      "uid": "bySE90irfNMGq9arX4St2F0UaUP2",
+      "username": "Mariano kuehn",
+      "score": 40126,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 8,
+      "rank": 7
+    },
+    {
+      "uid": "KDskROMK2xhBYuXB1vWUM9JtcN63",
+      "username": "gür",
+      "score": 36243,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 8
+    },
+    {
+      "uid": "zk7QNdnfApO8RKiL9Ar1WcUqBiE3",
+      "username": "Mervan",
+      "score": 36122,
+      "leagueLevel": 1,
+      "playstyleLevel": 7,
+      "avatarId": 1,
+      "rank": 9
+    },
+    {
+      "uid": "iJBBbD9AA0Oi0UdZ42TNOhYJBW73",
+      "username": "Adggfhg",
+      "score": 35526,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 5,
+      "rank": 10
+    },
+    {
+      "uid": "1YV2a0xuhfN4gi7jh1rY2DI13m63",
+      "username": "Cem",
+      "score": 35286,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 24,
+      "rank": 11
+    },
+    {
+      "uid": "rjTgXG2vu8geHuLqJ3oULfyeboW2",
+      "username": "Mehmet",
+      "score": 27833,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 6,
+      "rank": 12
+    },
+    {
+      "uid": "udvJXSx6u0hHVCzxhEDfJyX3BXI2",
+      "username": "Fatma",
+      "score": 26458,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 13
+    },
+    {
+      "uid": "Whf0yBXObgStAYxqxIHnCrRu2UK2",
+      "username": "Emine",
+      "score": 24349,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 4,
+      "rank": 14
+    },
+    {
+      "uid": "bnwXTzc6IBTNt1822r26J2yI2IE2",
+      "username": "Rina",
+      "score": 12001,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 15
+    },
+    {
+      "uid": "s0DLxDUWdCWasPsDNnHm4r5DqXW2",
+      "username": "Çılgın cengaver",
+      "score": 11770,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 61,
+      "rank": 16
+    },
+    {
+      "uid": "FdDaQE3RgUbZsDbMyjcgWhsUFuh2",
+      "username": "Алиаскар",
+      "score": 10782,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 14,
+      "rank": 17
+    },
+    {
+      "uid": "YLLDWjomjtgh3w5GbPXXhnJ1A853",
+      "username": "Sengul",
+      "score": 8745,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 18
+    },
+    {
+      "uid": "jcLFGtOFfdQaxvNmgo2CdLK0V0w2",
+      "username": "Lily",
+      "score": 7719,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 19,
+      "rank": 19
+    },
+    {
+      "uid": "JGKtodEm66Ydb9R2N7Wl2yMcY8a2",
+      "username": "محمد",
+      "score": 5832,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 48,
+      "rank": 20
+    },
+    {
+      "uid": "0DIDyFJ9gMPAzlh01XYXxPGOYuf2",
+      "username": "İlhanN",
+      "score": 5796,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 21
+    },
+    {
+      "uid": "1hO0cUsKaKYLbskdZiysCa6s2Jh2",
+      "username": "Sanu",
+      "score": 5786,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 4,
+      "rank": 22
+    },
+    {
+      "uid": "BUUgx3kt2ahp5JO17QXdDOZonI03",
+      "username": "Edt",
+      "score": 5113,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 19,
+      "rank": 23
+    },
+    {
+      "uid": "ThXfS10CqbgvcFlrYWWwSVhWyRN2",
+      "username": "Alex",
+      "score": 4048,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 24
+    },
+    {
+      "uid": "kZEhq3znXFXDbUpEkUu6nFYxdkN2",
+      "username": "Elke",
+      "score": 3474,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 25
+    },
+    {
+      "uid": "b68mUZzDjXh0cacR4rsPRIxRoVX2",
+      "username": "6767",
+      "score": 3338,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 7,
+      "rank": 26
+    },
+    {
+      "uid": "vMJbM6VEo4VqAQ8FVlhZcaLBAoj1",
+      "username": "Mike",
+      "score": 3311,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 58,
+      "rank": 27
+    },
+    {
+      "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
+      "username": "Aytuntas",
+      "score": 3033,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 28
+    },
+    {
+      "uid": "IUk81WSJR6TJSG3iqnVJNrsZonu2",
+      "username": "Eymen",
+      "score": 1380,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 8,
+      "rank": 29
+    },
+    {
+      "uid": "OCn1OXAhGpRWtvCGKShQYy3g90D2",
+      "username": "Rt4y46t46t46t45yt",
+      "score": 485,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 37,
+      "rank": 30
+    }
+  ],
+  "extra_timed": [
+    {
+      "uid": "UpngJk4bW0bKrZUlsrOMVf6GqVi1",
+      "username": "Evren",
+      "score": 7780,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 13,
+      "rank": 1
+    },
+    {
+      "uid": "ThXfS10CqbgvcFlrYWWwSVhWyRN2",
+      "username": "Alex",
+      "score": 6971,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 2
+    },
+    {
+      "uid": "NmVtsvqcWJVTHcLKiKDBqaWWfCv2",
+      "username": "Ruk",
+      "score": 5439,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 7,
+      "rank": 3
+    },
+    {
+      "uid": "0DIDyFJ9gMPAzlh01XYXxPGOYuf2",
+      "username": "İlhanN",
+      "score": 3601,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 4
+    },
+    {
+      "uid": "UxliF4eUJ0Yac0tNzjqHiPhRLyT2",
+      "username": "Maxim",
+      "score": 2538,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 14,
+      "rank": 5
+    },
+    {
+      "uid": "c5VdBPj8Bqf2fbrJPb2Egn9CL1M2",
+      "username": "Runi",
+      "score": 2530,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 6
+    },
+    {
+      "uid": "n53WkeHdF2bbWszWFAsklZbOnoA2",
+      "username": "Cansu",
+      "score": 1753,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 20,
+      "rank": 7
+    },
+    {
+      "uid": "OCn1OXAhGpRWtvCGKShQYy3g90D2",
+      "username": "Rt4y46t46t46t45yt",
+      "score": 355,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 37,
+      "rank": 8
+    },
+    {
+      "uid": "AnoK3jZboZRPxECmRSXXKlyo9JJ2",
+      "username": "Clarissa Wilson",
+      "score": 245,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 9
+    },
+    {
+      "uid": "o2xBVP9QMFhtOYMftYCc5B2Wom92",
+      "username": "Wex",
+      "score": 165,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 6,
+      "rank": 10
+    },
+    {
+      "uid": "mW9S97nWtvP7JXcelxEc0o7pAN73",
+      "username": "Zemzem",
+      "score": 140,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 9,
+      "rank": 11
+    },
+    {
+      "uid": "wTwea0Bx7VcLvp4yerrFi325Vr93",
+      "username": "jalil bbc",
+      "score": 115,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 48,
+      "rank": 12
+    },
+    {
+      "uid": "X1Lyj0BVikX9gp6fhpxYUiH2Eio1",
+      "username": "Soyez",
+      "score": 110,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 4,
+      "rank": 13
+    },
+    {
+      "uid": "EACjhW0nrxOyHDYIAW1f93HvOsc2",
+      "username": "NH GMP ffgjjjh.",
+      "score": 95,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 45,
+      "rank": 14
+    },
+    {
+      "uid": "Kt8GpJf38NZPL0mLEaoQjBj0wu63",
+      "username": "Asseell",
+      "score": 95,
+      "leagueLevel": 1,
+      "playstyleLevel": 6,
+      "avatarId": 1,
+      "rank": 15
+    },
+    {
+      "uid": "YLLDWjomjtgh3w5GbPXXhnJ1A853",
+      "username": "Sengul",
+      "score": 75,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 16
+    },
+    {
+      "uid": "vmWQ1nBIG6feYfnVxwtoaqB4mzj2",
+      "username": "yoyo",
+      "score": 70,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 59,
+      "rank": 17
+    },
+    {
+      "uid": "yFoO3IbrJmR1yV8RJSVcbAVYmBU2",
+      "username": ".ុឋ",
+      "score": 45,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 8,
+      "rank": 18
+    },
+    {
+      "uid": "CBUEzxoxRog6ogmSVzjCQIjJBEl2",
+      "username": "पुष्पेंद्र ठाकुर",
+      "score": 25,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 19
+    },
+    {
+      "uid": "Pu2AkXVQIeMDpqnrQgKXntPNwzh1",
+      "username": "Hüseyin",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 20
+    }
+  ]
 }
