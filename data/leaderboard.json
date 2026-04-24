@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T08:12:28Z",
+  "updated_at": "2026-04-24T13:48:54Z",
   "total_players": 102,
   "classic_normal": [
     {
@@ -471,13 +471,22 @@
       "rank": 52
     },
     {
+      "uid": "QIc6GH3cFzP93JAYxN8PCkOA1CV2",
+      "username": "Umit",
+      "score": 47495,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 53
+    },
+    {
       "uid": "4IhiAuTPTAduz95Bv4GkKTwpg6m2",
       "username": "Metin",
       "score": 45773,
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 53
+      "rank": 54
     },
     {
       "uid": "mW9S97nWtvP7JXcelxEc0o7pAN73",
@@ -486,7 +495,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 54
+      "rank": 55
     },
     {
       "uid": "IQLDnz2WyyQdLc29T07SX640Hiy1",
@@ -495,7 +504,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 32,
-      "rank": 55
+      "rank": 56
     },
     {
       "uid": "pTAwZSR8ObWRwhyYZXwczeNITg72",
@@ -504,7 +513,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 18,
-      "rank": 56
+      "rank": 57
     },
     {
       "uid": "a50hOkW3QsbHCr6CKNonwjOprYA3",
@@ -513,7 +522,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 5,
-      "rank": 57
+      "rank": 58
     },
     {
       "uid": "ooyktqEoHWYcjgFj32jv3mdGJcV2",
@@ -522,7 +531,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 14,
-      "rank": 58
+      "rank": 59
     },
     {
       "uid": "AnoK3jZboZRPxECmRSXXKlyo9JJ2",
@@ -531,7 +540,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 59
+      "rank": 60
     },
     {
       "uid": "scT0yNUr2gdNu3QmjO36gjzRAGn1",
@@ -540,7 +549,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 55,
-      "rank": 60
+      "rank": 61
     },
     {
       "uid": "4kAQ5h7SeCaXl6WRouXaPvKVUZ93",
@@ -549,7 +558,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 25,
-      "rank": 61
+      "rank": 62
     },
     {
       "uid": "j5q3eG2J08O4I3FgVcwUl8XzwwM2",
@@ -558,7 +567,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 10,
       "avatarId": 1,
-      "rank": 62
+      "rank": 63
     },
     {
       "uid": "FdDaQE3RgUbZsDbMyjcgWhsUFuh2",
@@ -567,7 +576,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 63
+      "rank": 64
     },
     {
       "uid": "bySE90irfNMGq9arX4St2F0UaUP2",
@@ -576,7 +585,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 64
+      "rank": 65
     },
     {
       "uid": "44zfGZtAPLZr7TcxyAoxiLIxMQM2",
@@ -585,15 +594,6 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 40,
-      "rank": 65
-    },
-    {
-      "uid": "QIc6GH3cFzP93JAYxN8PCkOA1CV2",
-      "username": "Umit",
-      "score": 37448,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "avatarId": 10,
       "rank": 66
     },
     {
@@ -1485,7 +1485,7 @@
     {
       "uid": "qqTT4BlhzZWINBbAyC4zpMRudSF3",
       "username": "Queen",
-      "score": 11606,
+      "score": 11725,
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 1,
