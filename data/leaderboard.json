@@ -1,7 +1,16 @@
 {
-  "updated_at": "2026-04-25T19:01:32Z",
-  "total_players": 111,
+  "updated_at": "2026-04-26T03:32:06Z",
+  "total_players": 113,
   "classic_normal": [
+    {
+      "uid": "2s82qRUwXHOg4uh92wcCHHwCbTB3",
+      "username": "babo",
+      "score": 1745274,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "avatarId": 7,
+      "rank": 1
+    },
     {
       "uid": "wkAOMNyIvQQTWmeoRY74rbb1Aeq1",
       "username": "Evoş",
@@ -9,7 +18,16 @@
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
+      "username": "Aytuntas",
+      "score": 897567,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 3
     },
     {
       "uid": "gCoOQToQDLeCTCNcuB4ylPiXtzG2",
@@ -18,7 +36,7 @@
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 2
+      "rank": 4
     },
     {
       "uid": "NGkcVkBzWZYhr1ik4Yor6fbdsQS2",
@@ -27,7 +45,7 @@
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 3
+      "rank": 5
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -36,7 +54,7 @@
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 4
+      "rank": 6
     },
     {
       "uid": "Jg34LD0Y61dwd1q3aglo3HceFAk1",
@@ -45,7 +63,7 @@
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 5
+      "rank": 7
     },
     {
       "uid": "EkZTJGRsmJhDNNQ4VwQAi56OfGJ3",
@@ -54,16 +72,7 @@
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "avatarId": 49,
-      "rank": 6
-    },
-    {
-      "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
-      "username": "Aytuntas",
-      "score": 353204,
-      "leagueLevel": 5,
-      "playstyleLevel": 0,
-      "avatarId": 10,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "QIc6GH3cFzP93JAYxN8PCkOA1CV2",
@@ -72,7 +81,7 @@
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "MfUbfZGgU2WwkX25H5Yycwby6tW2",
@@ -81,15 +90,6 @@
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "avatarId": 5,
-      "rank": 9
-    },
-    {
-      "uid": "2s82qRUwXHOg4uh92wcCHHwCbTB3",
-      "username": "babo",
-      "score": 235393,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 7,
       "rank": 10
     },
     {
@@ -741,13 +741,22 @@
       "rank": 82
     },
     {
+      "uid": "S8lR0TjFMSPjx0HpMvmn7lQbsbF3",
+      "username": "Ebrar",
+      "score": 23126,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 13,
+      "rank": 83
+    },
+    {
       "uid": "G0QcbWiR5ycxG4HojXfwcnOOT752",
       "username": "Klara",
       "score": 21359,
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 83
+      "rank": 84
     },
     {
       "uid": "2c6qS8Yyr9Z4WuoHAuFEo5dekaU2",
@@ -756,7 +765,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 5,
-      "rank": 84
+      "rank": 85
     },
     {
       "uid": "YLm9SpD0CVMVtXW7GxGE0DMSZYe2",
@@ -765,7 +774,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 85
+      "rank": 86
     },
     {
       "uid": "BKmG17StfVZGOjkptCf0AhSv2B92",
@@ -774,7 +783,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 86
+      "rank": 87
     },
     {
       "uid": "jDDHPMGpIIZ4TvUQMcBEv9TTgSH3",
@@ -783,7 +792,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 60,
-      "rank": 87
+      "rank": 88
     },
     {
       "uid": "WfdV2sLHaLWbhSCfDJDXpzGEjjo2",
@@ -792,7 +801,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 88
+      "rank": 89
     },
     {
       "uid": "VwzvwtwE40Y1qvfNK8p631yl9H62",
@@ -801,7 +810,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 89
+      "rank": 90
     },
     {
       "uid": "ER42Wof2AvQvLdc6TTZweKhnmfk1",
@@ -810,7 +819,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 42,
-      "rank": 90
+      "rank": 91
     },
     {
       "uid": "h7XQurgmOuXw6wUke6zUYZXIuTO2",
@@ -819,7 +828,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 25,
-      "rank": 91
+      "rank": 92
     },
     {
       "uid": "v1eoZyGYdfTygrVUCS6DaFLwRMv1",
@@ -828,7 +837,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 92
+      "rank": 93
     },
     {
       "uid": "4Qae92aPIThkzZrWyxfmVkL8WSq2",
@@ -837,7 +846,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 93
+      "rank": 94
     },
     {
       "uid": "kZEhq3znXFXDbUpEkUu6nFYxdkN2",
@@ -846,7 +855,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 94
+      "rank": 95
     },
     {
       "uid": "KvN13DJDVnYooe9gbnmmWi6OlA62",
@@ -855,7 +864,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 95
+      "rank": 96
     },
     {
       "uid": "fcO34gfoZiVv0lifJJrHnl3x4vs1",
@@ -864,7 +873,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 96
+      "rank": 97
     },
     {
       "uid": "iZt27ciJ3HRrAwZnQcoy7G2dNgj1",
@@ -873,7 +882,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 12,
-      "rank": 97
+      "rank": 98
     },
     {
       "uid": "WmkLRVQvq5Phu2ZTAn50OVuTuf63",
@@ -882,7 +891,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 98
+      "rank": 99
     },
     {
       "uid": "ZyfMzzCihgVI9dPFfn1J8S4ZPez2",
@@ -891,7 +900,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 99
+      "rank": 100
     },
     {
       "uid": "o2xBVP9QMFhtOYMftYCc5B2Wom92",
@@ -900,7 +909,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 100
+      "rank": 101
     },
     {
       "uid": "lZ5bBlCOyWgbUCNyp3UY5IV0TTC3",
@@ -909,7 +918,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 101
+      "rank": 102
     },
     {
       "uid": "jtNrgp6ByDZuVQLs4xdEX7HjPBw2",
@@ -918,7 +927,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 18,
-      "rank": 102
+      "rank": 103
     },
     {
       "uid": "CtJGamXN8MbkYw7iVSIhXsQo1m53",
@@ -927,7 +936,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 61,
-      "rank": 103
+      "rank": 104
     },
     {
       "uid": "Kt8GpJf38NZPL0mLEaoQjBj0wu63",
@@ -936,7 +945,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 6,
       "avatarId": 1,
-      "rank": 104
+      "rank": 105
     },
     {
       "uid": "Dc34M3azUse8K4zRapV8Z5nBqs73",
@@ -945,7 +954,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 105
+      "rank": 106
     },
     {
       "uid": "6UxXaQINa0gG3y1a97AWeCkR7pt2",
@@ -954,7 +963,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 5,
-      "rank": 106
+      "rank": 107
     },
     {
       "uid": "aiDTDI5PqvV86SVaRbIAuY8Vfhd2",
@@ -963,7 +972,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 107
+      "rank": 108
     },
     {
       "uid": "XV4dZjZuHdbpujuI3GbEcSw3uul1",
@@ -972,7 +981,16 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 47,
-      "rank": 108
+      "rank": 109
+    },
+    {
+      "uid": "oK7snB0zYFNquqCdKx8iQYIkji52",
+      "username": "Aslı",
+      "score": 664,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 6,
+      "rank": 110
     },
     {
       "uid": "VxV7jEefm3bootGNLRnc23rIKRW2",
@@ -981,7 +999,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 109
+      "rank": 111
     },
     {
       "uid": "6M7XjpB9hUdShJio4XFROLfLDCw1",
@@ -990,7 +1008,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 110
+      "rank": 112
     },
     {
       "uid": "y39AseQTLCN53kyhengfpdVYkaJ3",
@@ -999,7 +1017,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 45,
-      "rank": 111
+      "rank": 113
     }
   ],
   "classic_timed": [
@@ -1375,13 +1393,22 @@
   ],
   "extra_normal": [
     {
+      "uid": "EkZTJGRsmJhDNNQ4VwQAi56OfGJ3",
+      "username": "Chef",
+      "score": 442046,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "avatarId": 49,
+      "rank": 1
+    },
+    {
       "uid": "Jg34LD0Y61dwd1q3aglo3HceFAk1",
       "username": "Nado",
       "score": 215853,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 1
+      "rank": 2
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -1390,7 +1417,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 2
+      "rank": 3
     },
     {
       "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
@@ -1399,7 +1426,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "NmVtsvqcWJVTHcLKiKDBqaWWfCv2",
@@ -1408,7 +1435,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "UpngJk4bW0bKrZUlsrOMVf6GqVi1",
@@ -1417,7 +1444,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "tqrBt7TZZjh2Fj5EMnVxgJvsxKr2",
@@ -1426,7 +1453,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 49,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "wkAOMNyIvQQTWmeoRY74rbb1Aeq1",
@@ -1435,7 +1462,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "Pu2AkXVQIeMDpqnrQgKXntPNwzh1",
@@ -1444,7 +1471,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "T2XKQX0vUhVfUAKAmUrmRwezkOC3",
@@ -1453,7 +1480,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "mW9S97nWtvP7JXcelxEc0o7pAN73",
@@ -1462,7 +1489,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "jcLFGtOFfdQaxvNmgo2CdLK0V0w2",
@@ -1471,7 +1498,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "bySE90irfNMGq9arX4St2F0UaUP2",
@@ -1480,7 +1507,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "pTAwZSR8ObWRwhyYZXwczeNITg72",
@@ -1489,7 +1516,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 18,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "KDskROMK2xhBYuXB1vWUM9JtcN63",
@@ -1498,7 +1525,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "zk7QNdnfApO8RKiL9Ar1WcUqBiE3",
@@ -1507,7 +1534,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 7,
       "avatarId": 1,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "iJBBbD9AA0Oi0UdZ42TNOhYJBW73",
@@ -1516,7 +1543,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 5,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "1YV2a0xuhfN4gi7jh1rY2DI13m63",
@@ -1525,7 +1552,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 24,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "udvJXSx6u0hHVCzxhEDfJyX3BXI2",
@@ -1534,7 +1561,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "rjTgXG2vu8geHuLqJ3oULfyeboW2",
@@ -1543,7 +1570,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "Whf0yBXObgStAYxqxIHnCrRu2UK2",
@@ -1552,7 +1579,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 4,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "gCoOQToQDLeCTCNcuB4ylPiXtzG2",
@@ -1561,7 +1588,7 @@
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "XsLDxitEUPROjz9TopTa2LcuS6O2",
@@ -1570,7 +1597,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "uYc8n3psIyNKKQhLP9bp4GLEPxF2",
@@ -1579,7 +1606,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 16,
-      "rank": 23
+      "rank": 24
     },
     {
       "uid": "qqTT4BlhzZWINBbAyC4zpMRudSF3",
@@ -1588,7 +1615,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 24
+      "rank": 25
     },
     {
       "uid": "FdDaQE3RgUbZsDbMyjcgWhsUFuh2",
@@ -1597,7 +1624,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 49,
-      "rank": 25
+      "rank": 26
     },
     {
       "uid": "FyKLyBwAC6SKt6PU3z3PQkxuIK22",
@@ -1606,7 +1633,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 26
+      "rank": 27
     },
     {
       "uid": "bnwXTzc6IBTNt1822r26J2yI2IE2",
@@ -1615,7 +1642,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 27
+      "rank": 28
     },
     {
       "uid": "s0DLxDUWdCWasPsDNnHm4r5DqXW2",
@@ -1624,7 +1651,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 61,
-      "rank": 28
+      "rank": 29
     },
     {
       "uid": "ghHaDiCI2ndTkMeUlpbDeRyFJ5g1",
@@ -1633,7 +1660,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 5,
-      "rank": 29
+      "rank": 30
     },
     {
       "uid": "6stSrCNhKXQqVAJOJHaiwyMpMz62",
@@ -1642,7 +1669,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 16,
-      "rank": 30
+      "rank": 31
     },
     {
       "uid": "jDDHPMGpIIZ4TvUQMcBEv9TTgSH3",
@@ -1651,7 +1678,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 31
+      "rank": 32
     },
     {
       "uid": "YLLDWjomjtgh3w5GbPXXhnJ1A853",
@@ -1660,7 +1687,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 32
+      "rank": 33
     },
     {
       "uid": "ubCqNKUdxOal0Dgef9MsZ6eZgyL2",
@@ -1669,15 +1696,6 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 4,
-      "rank": 33
-    },
-    {
-      "uid": "EkZTJGRsmJhDNNQ4VwQAi56OfGJ3",
-      "username": "Chef",
-      "score": 8084,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "avatarId": 49,
       "rank": 34
     },
     {
@@ -1863,13 +1881,22 @@
       "rank": 1
     },
     {
+      "uid": "EkZTJGRsmJhDNNQ4VwQAi56OfGJ3",
+      "username": "Chef",
+      "score": 12723,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 49,
+      "rank": 2
+    },
+    {
       "uid": "Jg34LD0Y61dwd1q3aglo3HceFAk1",
       "username": "Nado",
       "score": 9660,
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 2
+      "rank": 3
     },
     {
       "uid": "ZqqPDhvVL2cEwK6SzJA97Yqa4fC3",
@@ -1878,7 +1905,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "UpngJk4bW0bKrZUlsrOMVf6GqVi1",
@@ -1887,7 +1914,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "wkAOMNyIvQQTWmeoRY74rbb1Aeq1",
@@ -1896,7 +1923,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "ThXfS10CqbgvcFlrYWWwSVhWyRN2",
@@ -1905,7 +1932,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "862xRul5qTPs18pawXSCWFmgO8S2",
@@ -1914,7 +1941,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "vh7uBeOgASQ1NBASCjaeQMWzjLh2",
@@ -1923,7 +1950,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "NmVtsvqcWJVTHcLKiKDBqaWWfCv2",
@@ -1932,7 +1959,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "0DIDyFJ9gMPAzlh01XYXxPGOYuf2",
@@ -1941,7 +1968,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "UxliF4eUJ0Yac0tNzjqHiPhRLyT2",
@@ -1950,7 +1977,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 14,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "c5VdBPj8Bqf2fbrJPb2Egn9CL1M2",
@@ -1959,7 +1986,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "n53WkeHdF2bbWszWFAsklZbOnoA2",
@@ -1968,7 +1995,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 20,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "OI2RCDVU2KUTCMcuuhvNzoYD6VJ3",
@@ -1977,7 +2004,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 18,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "Moyf8wT9GGWqLS7AinCAUagmZkx1",
@@ -1986,7 +2013,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 25,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "uYc8n3psIyNKKQhLP9bp4GLEPxF2",
@@ -1995,7 +2022,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 16,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
@@ -2004,7 +2031,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "0nJYqsuUYRfeahExgItOcETZeJ53",
@@ -2013,7 +2040,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 12,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "ZZIkvIdh68ewrgmyFITMICF31bC2",
@@ -2022,7 +2049,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "OCn1OXAhGpRWtvCGKShQYy3g90D2",
@@ -2031,7 +2058,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 37,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "AnoK3jZboZRPxECmRSXXKlyo9JJ2",
@@ -2040,7 +2067,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "o2xBVP9QMFhtOYMftYCc5B2Wom92",
@@ -2049,7 +2076,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "pTAwZSR8ObWRwhyYZXwczeNITg72",
@@ -2058,7 +2085,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 18,
-      "rank": 23
+      "rank": 24
     },
     {
       "uid": "mW9S97nWtvP7JXcelxEc0o7pAN73",
@@ -2067,7 +2094,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 24
+      "rank": 25
     },
     {
       "uid": "wTwea0Bx7VcLvp4yerrFi325Vr93",
@@ -2076,7 +2103,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 48,
-      "rank": 25
+      "rank": 26
     },
     {
       "uid": "X1Lyj0BVikX9gp6fhpxYUiH2Eio1",
@@ -2085,7 +2112,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 4,
-      "rank": 26
+      "rank": 27
     },
     {
       "uid": "EACjhW0nrxOyHDYIAW1f93HvOsc2",
@@ -2094,7 +2121,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 45,
-      "rank": 27
+      "rank": 28
     },
     {
       "uid": "IUk81WSJR6TJSG3iqnVJNrsZonu2",
@@ -2103,7 +2130,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 4,
-      "rank": 28
+      "rank": 29
     },
     {
       "uid": "Kt8GpJf38NZPL0mLEaoQjBj0wu63",
@@ -2112,7 +2139,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 6,
       "avatarId": 1,
-      "rank": 29
+      "rank": 30
     },
     {
       "uid": "yFoO3IbrJmR1yV8RJSVcbAVYmBU2",
@@ -2121,7 +2148,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 30
+      "rank": 31
     },
     {
       "uid": "YLLDWjomjtgh3w5GbPXXhnJ1A853",
@@ -2130,7 +2157,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 31
+      "rank": 32
     },
     {
       "uid": "vmWQ1nBIG6feYfnVxwtoaqB4mzj2",
@@ -2139,7 +2166,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 59,
-      "rank": 32
+      "rank": 33
     },
     {
       "uid": "iUjmD1eJYuVO9V5YIdcRPkJdlgx1",
@@ -2148,7 +2175,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 33
+      "rank": 34
     },
     {
       "uid": "Dc34M3azUse8K4zRapV8Z5nBqs73",
@@ -2157,7 +2184,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 34
+      "rank": 35
     },
     {
       "uid": "fNUyPzOxuVeA5QghBWCmOGTWbi33",
@@ -2166,7 +2193,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 39,
-      "rank": 35
+      "rank": 36
     },
     {
       "uid": "CBUEzxoxRog6ogmSVzjCQIjJBEl2",
@@ -2175,7 +2202,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 36
+      "rank": 37
     },
     {
       "uid": "Pu2AkXVQIeMDpqnrQgKXntPNwzh1",
@@ -2184,7 +2211,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 37
+      "rank": 38
     }
   ]
 }
