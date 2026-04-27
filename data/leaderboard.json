@@ -1,15 +1,24 @@
 {
-  "updated_at": "2026-04-27T10:18:25Z",
+  "updated_at": "2026-04-27T11:22:00Z",
   "total_players": 127,
   "classic_normal": [
     {
-      "uid": "Jg34LD0Y61dwd1q3aglo3HceFAk1",
-      "username": "Nado",
-      "score": 2104553,
+      "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
+      "username": "Aytuntas",
+      "score": 2441440,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "avatarId": 10,
       "rank": 1
+    },
+    {
+      "uid": "Jg34LD0Y61dwd1q3aglo3HceFAk1",
+      "username": "Nado",
+      "score": 2104553,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 2
     },
     {
       "uid": "2s82qRUwXHOg4uh92wcCHHwCbTB3",
@@ -18,15 +27,6 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 2
-    },
-    {
-      "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
-      "username": "Aytuntas",
-      "score": 1350908,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 10,
       "rank": 3
     },
     {
@@ -102,13 +102,22 @@
       "rank": 11
     },
     {
+      "uid": "3OEabHuXGaSywQoRlcmyJi08FKx2",
+      "username": "Elizabeth",
+      "score": 244518,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 13,
+      "rank": 12
+    },
+    {
       "uid": "MfUbfZGgU2WwkX25H5Yycwby6tW2",
       "username": "Algerya1",
       "score": 241110,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 5,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "SVcYHNBvrPUZLxApH28g8nDt9Vi1",
@@ -117,15 +126,6 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 13
-    },
-    {
-      "uid": "3OEabHuXGaSywQoRlcmyJi08FKx2",
-      "username": "Elizabeth",
-      "score": 223337,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 13,
       "rank": 14
     },
     {
