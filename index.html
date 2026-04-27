@@ -536,21 +536,29 @@ function renderPodium(top3) {
   if (!top3.length) { el.innerHTML = ''; return; }
   const crowns = ['👑','🥈','🥉'];
   const classes = ['rank1','rank2','rank3'];
-  el.innerHTML = top3.map((e, i) => `
+  el.innerHTML = top3.map((e, i) => {
+    const rank = e.rank || i + 1;
+    // KURAL: Sadece 1. numara şampiyon rozeti alabilir, diğerleri en fazla Elmas olabilir
+    let displayLevel = parseInt(e.leagueLevel) || 0;
+    if (rank === 1) displayLevel = 5;
+    else if (displayLevel >= 5) displayLevel = 4;
+
+    return `
     <div class="podium-card ${classes[i]}">
       <div class="crown">${crowns[i]}</div>
-      <div class="rank-num">#${e.rank || i+1}</div>
+      <div class="rank-num">#${rank}</div>
       <div class="avatar-wrap">
         <img src="${avatarSrc(e.avatarId)}" alt="${e.username}"
              onerror="this.src='avatars/a1.png'">
       </div>
       <div class="badge-wrap">
-        <img src="${badgeSrc(e.leagueLevel)}" alt="${badgeName(e.leagueLevel)}"
+        <img src="${badgeSrc(displayLevel)}" alt="${badgeName(displayLevel)}"
              onerror="this.style.display='none'">
       </div>
       <div class="uname">${escHtml(e.username)}</div>
       <div class="score">${fmtScore(e.score)}</div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 
 function renderList(rest) {
@@ -569,6 +577,12 @@ function renderList(rest) {
   el.innerHTML = rest.map((e, i) => {
     const globalRank = e.rank || (i + 4);
     const rc = globalRank <= 3 ? rankColors[globalRank - 1] : '';
+    
+    // KURAL: Sadece 1. numara şampiyon rozeti alabilir, diğerleri en fazla Elmas olabilir
+    let displayLevel = parseInt(e.leagueLevel) || 0;
+    if (globalRank === 1) displayLevel = 5;
+    else if (displayLevel >= 5) displayLevel = 4;
+
     return `
     <div class="lb-row">
       <div class="rank-num ${rc}">#${globalRank}</div>
@@ -579,9 +593,9 @@ function renderList(rest) {
       <div class="info">
         <div class="uname">${escHtml(e.username)}</div>
         <div class="badge-row">
-          <img src="${badgeSrc(e.leagueLevel)}" alt="${badgeName(e.leagueLevel)}"
+          <img src="${badgeSrc(displayLevel)}" alt="${badgeName(displayLevel)}"
                onerror="this.style.display='none'">
-          <span>${badgeName(e.leagueLevel)}</span>
+          <span>${badgeName(displayLevel)}</span>
         </div>
       </div>
       <div class="score-col">${fmtScore(e.score)}</div>
