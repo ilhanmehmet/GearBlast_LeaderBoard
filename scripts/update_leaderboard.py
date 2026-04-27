@@ -14,7 +14,7 @@ import firebase_admin
 from firebase_admin import credentials, db
 
 MODES = ["classic_normal", "classic_timed", "extra_normal", "extra_timed"]
-LIMIT = 1000  # Maksimum kayıt sayısı
+LIMIT = 2000  # Maksimum kayıt sayısı
 
 def init_firebase():
     key_json = os.environ.get("FIREBASE_KEY")
