@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T21:17:17Z",
+  "updated_at": "2026-04-27T22:35:03Z",
   "total_players": 132,
   "classic_normal": [
     {
@@ -30,13 +30,22 @@
       "rank": 3
     },
     {
+      "uid": "AGWIwCmkibT6V5YyzN8Ssfj4gfZ2",
+      "username": "Fransua",
+      "score": 1352972,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 4
+    },
+    {
       "uid": "EkZTJGRsmJhDNNQ4VwQAi56OfGJ3",
       "username": "Chef",
       "score": 1322950,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 49,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "wkAOMNyIvQQTWmeoRY74rbb1Aeq1",
@@ -45,7 +54,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "n53WkeHdF2bbWszWFAsklZbOnoA2",
@@ -54,7 +63,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 20,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "3OEabHuXGaSywQoRlcmyJi08FKx2",
@@ -63,7 +72,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "f2OfdFM4A3OEQqMvH74sxOw9Ub63",
@@ -72,7 +81,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "gCoOQToQDLeCTCNcuB4ylPiXtzG2",
@@ -81,7 +90,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "NGkcVkBzWZYhr1ik4Yor6fbdsQS2",
@@ -90,7 +99,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -99,7 +108,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "16bKLWHRQThyeyn15FKb68QYDER2",
@@ -108,15 +117,6 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 12
-    },
-    {
-      "uid": "AGWIwCmkibT6V5YyzN8Ssfj4gfZ2",
-      "username": "Fransua",
-      "score": 358245,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 2,
       "rank": 13
     },
     {
@@ -1648,7 +1648,7 @@
       "uid": "AGWIwCmkibT6V5YyzN8Ssfj4gfZ2",
       "username": "Fransua",
       "score": 333887,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 2,
       "rank": 6
