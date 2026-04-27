@@ -501,11 +501,14 @@ async function loadData() {
 function updateBanner() {
   if (!allData) return;
   const d = new Date(allData.updated_at);
+  const now = new Date();
   const opts = { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' };
   const dateStr = d.toLocaleDateString(userLang === 'tr' ? 'tr-TR' : 'en-US', opts);
+  const nowStr = now.toLocaleTimeString(userLang === 'tr' ? 'tr-TR' : 'en-US', { hour:'2-digit', minute:'2-digit', second:'2-digit' });
+  
   const msg = userLang === 'tr'
-    ? `Bu liste 30 dakikada bir güncellenir — Son güncelleme: ${dateStr}`
-    : `List updates every 30 minutes — Last updated: ${dateStr}`;
+    ? `Liste 30dk'da bir yenilenir — Veri Tarihi: ${dateStr} (Kontrol: ${nowStr})`
+    : `List updates every 30m — Data Date: ${dateStr} (Checked: ${nowStr})`;
   document.getElementById('update-text').textContent = msg;
 }
 

@@ -2,7 +2,7 @@ name: Update Leaderboard
 
 on:
   schedule:
-    - cron: '*/30 * * * *'         # Her 30 dakikada bir güncellenir
+    - cron: '15,45 * * * *'        # Daha belirgin zamanlarda tetiklenir
   push:                            # Her push yapıldığında da güncellenir
     branches: [ main ]
   workflow_dispatch:               # Manuel tetikleme butonu
@@ -32,5 +32,5 @@ jobs:
       - name: Commit and push updated JSON
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🏆 Leaderboard updated [skip ci]"
+          commit_message: "🏆 Global Leaderboard Auto-Update"
           file_pattern: data/leaderboard.json
