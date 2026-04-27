@@ -2,7 +2,7 @@ name: Update Leaderboard
 
 on:
   schedule:
-    - cron: '0 0,6,12,18 * * *'   # Her 6 saatte bir (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '*/30 * * * *'         # Her 30 dakikada bir güncellenir
   workflow_dispatch:               # Manuel tetikleme butonu
 
 jobs:

@@ -504,8 +504,8 @@ function updateBanner() {
   const opts = { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' };
   const dateStr = d.toLocaleDateString(userLang === 'tr' ? 'tr-TR' : 'en-US', opts);
   const msg = userLang === 'tr'
-    ? `Bu liste 6 saatte bir güncellenir — Son güncelleme: ${dateStr}`
-    : `List updates every 6 hours — Last updated: ${dateStr}`;
+    ? `Bu liste 30 dakikada bir güncellenir — Son güncelleme: ${dateStr}`
+    : `List updates every 30 minutes — Last updated: ${dateStr}`;
   document.getElementById('update-text').textContent = msg;
 }
 
