@@ -56,11 +56,21 @@ def fetch_mode(mode):
     # Skora göre büyükten küçüğe sırala
     entries.sort(key=lambda x: x["score"], reverse=True)
 
-    # Rank ekle
+    # Rank ve Rozet Kuralı ekle
     for i, e in enumerate(entries):
-        e["rank"] = i + 1
+        rank = i + 1
+        e["rank"] = rank
+        
+        # KURAL: Sadece 1. numara şampiyon olabilir.
+        # Eğer oyuncu 1. sıradaysa lig seviyesini 5 yap.
+        # Eğer 1. sırada değilse ama 5 görünüyorsa onu 4'e (Elmas) çek.
+        current_lvl = int(e.get("leagueLevel", 0))
+        if rank == 1:
+            e["leagueLevel"] = 5
+        elif current_lvl >= 5:
+            e["leagueLevel"] = 4
 
-    print(f"[{mode}] Fetched {len(entries)} entries")
+    print(f"[{mode}] Fetched and cleaned {len(entries)} entries")
     return entries
 
 def main():
