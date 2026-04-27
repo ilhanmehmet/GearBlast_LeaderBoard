@@ -461,9 +461,9 @@ function applyLang() {
 // AVATAR HELPER
 // ─────────────────────────────────────────────────────────
 function avatarSrc(id) {
-  const num = parseInt(id) || 1;
-  // a-1 is id=0 or negative, rest follow a{num}.png
-  if (num <= 0) return 'avatars/a-1.png';
+  const num = parseInt(id) || -1;
+  // Eğer id 1 veya geçersizse a-1.png döndür (çünkü a1.png mevcut değil)
+  if (num <= 1) return 'avatars/a-1.png';
   return `avatars/a${num}.png`;
 }
 function badgeSrc(level) {
@@ -549,7 +549,7 @@ function renderPodium(top3) {
       <div class="rank-num">#${rank}</div>
       <div class="avatar-wrap">
         <img src="${avatarSrc(e.avatarId)}" alt="${e.username}"
-             onerror="this.src='avatars/a1.png'">
+             onerror="this.src='avatars/a-1.png'">
       </div>
       <div class="badge-wrap">
         <img src="${badgeSrc(displayLevel)}" alt="${badgeName(displayLevel)}"
@@ -588,7 +588,7 @@ function renderList(rest) {
       <div class="rank-num ${rc}">#${globalRank}</div>
       <div class="avatar-sm">
         <img src="${avatarSrc(e.avatarId)}" alt="${e.username}"
-             onerror="this.src='avatars/a1.png'">
+             onerror="this.src='avatars/a-1.png'">
       </div>
       <div class="info">
         <div class="uname">${escHtml(e.username)}</div>
