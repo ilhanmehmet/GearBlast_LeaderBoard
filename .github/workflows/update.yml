@@ -3,6 +3,8 @@ name: Update Leaderboard
 on:
   schedule:
     - cron: '*/30 * * * *'         # Her 30 dakikada bir güncellenir
+  push:                            # Her push yapıldığında da güncellenir
+    branches: [ main ]
   workflow_dispatch:               # Manuel tetikleme butonu
 
 jobs:
