@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T11:22:00Z",
+  "updated_at": "2026-04-27T13:02:27Z",
   "total_players": 127,
   "classic_normal": [
     {
@@ -104,7 +104,7 @@
     {
       "uid": "3OEabHuXGaSywQoRlcmyJi08FKx2",
       "username": "Elizabeth",
-      "score": 244518,
+      "score": 284865,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 13,
@@ -291,13 +291,22 @@
       "rank": 32
     },
     {
+      "uid": "M5utwmHGAoNofeub0n9xaBNwTFW2",
+      "username": "Seher",
+      "score": 113770,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 52,
+      "rank": 33
+    },
+    {
       "uid": "pmtcX4qVVNRrxaAzKILWV54PTDe2",
       "username": "Budlek",
       "score": 105794,
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 33
+      "rank": 34
     },
     {
       "uid": "mV7i6BUeD9SSZem044Kgw4pDlJT2",
@@ -306,7 +315,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 34
+      "rank": 35
     },
     {
       "uid": "lOyFQtWdzpY8IlvppEkWo1KLr2o2",
@@ -315,15 +324,6 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 35,
-      "rank": 35
-    },
-    {
-      "uid": "M5utwmHGAoNofeub0n9xaBNwTFW2",
-      "username": "Seher",
-      "score": 99947,
-      "leagueLevel": 3,
-      "playstyleLevel": 0,
-      "avatarId": 52,
       "rank": 36
     },
     {
