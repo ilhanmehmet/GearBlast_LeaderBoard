@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-28T19:57:28Z",
-  "total_players": 137,
+  "updated_at": "2026-04-28T21:20:08Z",
+  "total_players": 138,
   "classic_normal": [
     {
       "uid": "Ma7w8vB365edjU6kARWFLFEuvKd2",
@@ -1182,13 +1182,22 @@
       "rank": 131
     },
     {
+      "uid": "wPS6kxOjlvca3nJCDA8krsWJ2NA3",
+      "username": "HHhhh",
+      "score": 1835,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 132
+    },
+    {
       "uid": "6UxXaQINa0gG3y1a97AWeCkR7pt2",
       "username": "Edmar",
       "score": 1785,
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 5,
-      "rank": 132
+      "rank": 133
     },
     {
       "uid": "aiDTDI5PqvV86SVaRbIAuY8Vfhd2",
@@ -1197,7 +1206,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 133
+      "rank": 134
     },
     {
       "uid": "XV4dZjZuHdbpujuI3GbEcSw3uul1",
@@ -1206,7 +1215,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 47,
-      "rank": 134
+      "rank": 135
     },
     {
       "uid": "6M7XjpB9hUdShJio4XFROLfLDCw1",
@@ -1215,7 +1224,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 135
+      "rank": 136
     },
     {
       "uid": "y39AseQTLCN53kyhengfpdVYkaJ3",
@@ -1224,7 +1233,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 45,
-      "rank": 136
+      "rank": 137
     },
     {
       "uid": "5NS3YrYRSHfa501w12oGwwLU51n2",
@@ -1233,7 +1242,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 137
+      "rank": 138
     }
   ],
   "classic_timed": [
