@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-28T23:39:09Z",
-  "total_players": 138,
+  "updated_at": "2026-04-29T01:25:24Z",
+  "total_players": 139,
   "classic_normal": [
     {
       "uid": "Ma7w8vB365edjU6kARWFLFEuvKd2",
@@ -1243,6 +1243,15 @@
       "playstyleLevel": 0,
       "avatarId": 1,
       "rank": 138
+    },
+    {
+      "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
+      "username": "Lexi love",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 139
     }
   ],
   "classic_timed": [
@@ -1686,6 +1695,15 @@
       "playstyleLevel": 0,
       "avatarId": 2,
       "rank": 49
+    },
+    {
+      "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
+      "username": "Lexi love",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 50
     }
   ],
   "extra_normal": [
@@ -2300,6 +2318,15 @@
       "playstyleLevel": 0,
       "avatarId": 1,
       "rank": 68
+    },
+    {
+      "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
+      "username": "Lexi love",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 69
     }
   ],
   "extra_timed": [
@@ -2727,13 +2754,22 @@
       "rank": 47
     },
     {
+      "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
+      "username": "Lexi love",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 3,
+      "rank": 48
+    },
+    {
       "uid": "j9R59FTCn3NlCDChr7FNAaPXxNb2",
       "username": "Laydin",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 48
+      "rank": 49
     }
   ]
 }
