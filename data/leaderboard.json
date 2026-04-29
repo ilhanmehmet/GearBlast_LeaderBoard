@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-29T01:25:24Z",
-  "total_players": 139,
+  "updated_at": "2026-04-29T05:00:18Z",
+  "total_players": 140,
   "classic_normal": [
     {
       "uid": "Ma7w8vB365edjU6kARWFLFEuvKd2",
@@ -1252,6 +1252,15 @@
       "playstyleLevel": 0,
       "avatarId": 3,
       "rank": 139
+    },
+    {
+      "uid": "q5otF4baM0SAIglOCjleT0peh3Y2",
+      "username": "Yhjj",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 8,
+      "rank": 140
     }
   ],
   "classic_timed": [
@@ -1704,6 +1713,15 @@
       "playstyleLevel": 0,
       "avatarId": 3,
       "rank": 50
+    },
+    {
+      "uid": "q5otF4baM0SAIglOCjleT0peh3Y2",
+      "username": "Yhjj",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 8,
+      "rank": 51
     }
   ],
   "extra_normal": [
@@ -2327,6 +2345,15 @@
       "playstyleLevel": 0,
       "avatarId": 3,
       "rank": 69
+    },
+    {
+      "uid": "q5otF4baM0SAIglOCjleT0peh3Y2",
+      "username": "Yhjj",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 8,
+      "rank": 70
     }
   ],
   "extra_timed": [
@@ -2770,6 +2797,15 @@
       "playstyleLevel": 0,
       "avatarId": 9,
       "rank": 49
+    },
+    {
+      "uid": "q5otF4baM0SAIglOCjleT0peh3Y2",
+      "username": "Yhjj",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 8,
+      "rank": 50
     }
   ]
 }
