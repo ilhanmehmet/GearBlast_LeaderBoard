@@ -551,6 +551,9 @@ function renderPodium(top3) {
   el.innerHTML = top3.map((e, i) => {
     const rank = e.rank || i + 1;
     let displayLevel = parseInt(e.leagueLevel) || 0;
+    // KURAL: Sadece 1. numara şampiyon rozeti alabilir, diğerleri en fazla Elmas olabilir
+    if (rank === 1) displayLevel = 5;
+    else if (displayLevel >= 5) displayLevel = 4;
 
     return `
     <div class="podium-card ${classes[i]}">
@@ -588,6 +591,9 @@ function renderList(rest) {
     const rc = globalRank <= 3 ? rankColors[globalRank - 1] : '';
     
     let displayLevel = parseInt(e.leagueLevel) || 0;
+    // KURAL: Sadece 1. numara şampiyon rozeti alabilir, diğerleri en fazla Elmas olabilir
+    if (globalRank === 1) displayLevel = 5;
+    else if (displayLevel >= 5) displayLevel = 4;
 
     return `
     <div class="lb-row">

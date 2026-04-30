@@ -72,6 +72,13 @@ def fetch_mode(mode):
         rank = i + 1
         e["rank"] = rank
         
+        # KURAL: Sadece 1. numara şampiyon olabilir.
+        current_lvl = int(e.get("leagueLevel", 0))
+        if rank == 1:
+            e["leagueLevel"] = 5
+        elif current_lvl >= 5:
+            e["leagueLevel"] = 4
+
     print(f"[{mode}] Fetched and cleaned {len(entries)} entries")
     return entries
 
