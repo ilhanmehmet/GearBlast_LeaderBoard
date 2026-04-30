@@ -6,6 +6,9 @@ on:
   push:                            # Her push yapıldığında da güncellenir
     branches: [ main ]
   workflow_dispatch:               # Manuel tetikleme butonu
+ 
+permissions:
+  contents: write
 
 jobs:
   update:

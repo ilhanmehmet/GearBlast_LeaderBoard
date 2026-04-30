@@ -44,14 +44,25 @@ def fetch_mode(mode):
 
     entries = []
     for uid, val in raw.items():
-        entries.append({
-            "uid":           uid,
-            "username":      val.get("username", "???"),
-            "score":         int(val.get("score", 0)),
-            "leagueLevel":   int(val.get("leagueLevel", 0)),
-            "playstyleLevel":int(val.get("playstyleLevel", 0)),
-            "avatarId":      int(val.get("avatarId", 1)),
-        })
+        try:
+            # Gelen verinin sözlük (dict) olduğundan emin ol
+            if not isinstance(val, dict):
+                print(f"[{mode}] Skipping invalid entry for {uid}: not a dict")
+                continue
+                
+            entries.append({
+                "uid":           uid,
+                "username":      val.get("username", "???"),
+                "score":         int(val.get("score", 0)),
+                "leagueLevel":   int(val.get("leagueLevel", 0)),
+                "playstyleLevel":int(val.get("playstyleLevel", 0)),
+                "avatarId":      int(val.get("avatarId", 1)),
+            })
+        except Exception as e:
+            print(f"[{mode}] Error parsing entry {uid}: {e}")
+            continue
+
+    print(f"[{mode}] Raw entries count: {len(entries)}")
 
     # Skora göre büyükten küçüğe sırala
     entries.sort(key=lambda x: x["score"], reverse=True)
@@ -61,15 +72,6 @@ def fetch_mode(mode):
         rank = i + 1
         e["rank"] = rank
         
-        # KURAL: Sadece 1. numara şampiyon olabilir.
-        # Eğer oyuncu 1. sıradaysa lig seviyesini 5 yap.
-        # Eğer 1. sırada değilse ama 5 görünüyorsa onu 4'e (Elmas) çek.
-        current_lvl = int(e.get("leagueLevel", 0))
-        if rank == 1:
-            e["leagueLevel"] = 5
-        elif current_lvl >= 5:
-            e["leagueLevel"] = 4
-
     print(f"[{mode}] Fetched and cleaned {len(entries)} entries")
     return entries
 
