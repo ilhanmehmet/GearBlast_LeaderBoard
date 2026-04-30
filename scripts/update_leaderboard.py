@@ -72,12 +72,16 @@ def fetch_mode(mode):
         rank = i + 1
         e["rank"] = rank
         
-        # KURAL: Sadece 1. numara şampiyon olabilir.
+        # Oyun seviyesi 1-6 arası, web indeksi 0-5 arası. (-1 ofset uygula)
         current_lvl = int(e.get("leagueLevel", 0))
+        display_lvl = max(0, current_lvl - 1)
+        
+        # KURAL: Sadece 1. numara şampiyon olabilir (indeks 5).
         if rank == 1:
             e["leagueLevel"] = 5
-        elif current_lvl >= 5:
-            e["leagueLevel"] = 4
+        else:
+            # 1. değilse en fazla Elmas (indeks 4) olabilir
+            e["leagueLevel"] = min(4, display_lvl)
 
     print(f"[{mode}] Fetched and cleaned {len(entries)} entries")
     return entries
