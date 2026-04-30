@@ -14,7 +14,7 @@ import firebase_admin
 from firebase_admin import credentials, db
 
 MODES = ["classic_normal", "classic_timed", "extra_normal", "extra_timed"]
-LIMIT = 2000  # Maksimum kayıt sayısı
+LIMIT = 10000  # Her mod için çekilecek maksimum oyuncu sayısı
 
 def init_firebase():
     key_json = os.environ.get("FIREBASE_KEY")
