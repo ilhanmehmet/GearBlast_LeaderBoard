@@ -460,11 +460,20 @@ function applyLang() {
 // ─────────────────────────────────────────────────────────
 // AVATAR HELPER
 // ─────────────────────────────────────────────────────────
+const avatarNames = [
+  "a-1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10",
+  "a11", "a12", "a13", "a14", "a16", "a17", "a18", "a19", "a20",
+  "a21", "a22", "a23", "a24", "a25", "a26", "a27", "a28", "a29", "a30",
+  "a31", "a33", "a34", "a35", "a36", "a37", "a38", "a39", "a40",
+  "a41", "a42", "a43", "a44", "a45", "a46", "a47", "a48", "a49",
+  "a51", "a52", "a53", "a54", "a55", "a56", "a57", "a58", "a59",
+  "a61", "a62", "a63", "a64", "a65", "a69"
+];
+
 function avatarSrc(id) {
-  const num = parseInt(id) || -1;
-  // Eğer id 1 veya geçersizse a-1.png döndür (çünkü a1.png mevcut değil)
-  if (num <= 1) return 'avatars/a-1.png';
-  return `avatars/a${num}.png`;
+  const idx = (parseInt(id) || 1) - 1;
+  const name = avatarNames[idx] || "a-1";
+  return `avatars/${name}.png`;
 }
 function badgeSrc(level) {
   const idx = Math.min(Math.max(parseInt(level) || 0, 0), LEAGUE_FILES.length - 1);
