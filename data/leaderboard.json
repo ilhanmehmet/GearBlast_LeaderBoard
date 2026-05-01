@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T11:33:30Z",
+  "updated_at": "2026-05-01T12:41:38Z",
   "total_players": 247,
   "classic_normal": [
     {
@@ -165,13 +165,22 @@
       "rank": 18
     },
     {
+      "uid": "PnuCFEfPRzZhGOR9JlDermbXLMG2",
+      "username": "Birsen ayan",
+      "score": 714772,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 9,
+      "rank": 19
+    },
+    {
       "uid": "gCoOQToQDLeCTCNcuB4ylPiXtzG2",
       "username": "Hayati",
       "score": 690711,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "NGkcVkBzWZYhr1ik4Yor6fbdsQS2",
@@ -180,7 +189,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "6J5KSi3qVfSQkO0wr736l0Vu8Zx2",
@@ -189,7 +198,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 20,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "16bKLWHRQThyeyn15FKb68QYDER2",
@@ -198,7 +207,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "oi0ztH4KlmbJabFmVOERKK8v58l1",
@@ -207,15 +216,6 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 11,
-      "rank": 23
-    },
-    {
-      "uid": "PnuCFEfPRzZhGOR9JlDermbXLMG2",
-      "username": "Birsen ayan",
-      "score": 537095,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 9,
       "rank": 24
     },
     {
