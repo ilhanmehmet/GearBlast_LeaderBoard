@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-01T20:12:13Z",
-  "total_players": 250,
+  "updated_at": "2026-05-01T21:09:32Z",
+  "total_players": 251,
   "classic_normal": [
     {
       "uid": "Jg34LD0Y61dwd1q3aglo3HceFAk1",
@@ -2226,13 +2226,22 @@
       "rank": 247
     },
     {
+      "uid": "wrqfjYUNcDcPWkAZMp4ynY2y9rf1",
+      "username": "Bdsdanfu",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 41,
+      "rank": 248
+    },
+    {
       "uid": "yZ3CVXMIqea0xPfSSwmTOK3ELrv2",
       "username": "daI",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 248
+      "rank": 249
     },
     {
       "uid": "zHXjkuyaHqTW5QwenCsPVcnjb0Y2",
@@ -2241,7 +2250,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 28,
-      "rank": 249
+      "rank": 250
     },
     {
       "uid": "zQ9HPDNGAXhRliO0W7V2J8RzAl43",
@@ -2250,7 +2259,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 15,
-      "rank": 250
+      "rank": 251
     }
   ],
   "classic_timed": [
@@ -3659,13 +3668,22 @@
       "rank": 156
     },
     {
+      "uid": "wrqfjYUNcDcPWkAZMp4ynY2y9rf1",
+      "username": "Bdsdanfu",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 41,
+      "rank": 157
+    },
+    {
       "uid": "x4mJs73QTmNiVbUbM806uwiJSoB3",
       "username": "Lupe",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 157
+      "rank": 158
     },
     {
       "uid": "yZ3CVXMIqea0xPfSSwmTOK3ELrv2",
@@ -3674,7 +3692,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 158
+      "rank": 159
     },
     {
       "uid": "zHXjkuyaHqTW5QwenCsPVcnjb0Y2",
@@ -3683,7 +3701,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 28,
-      "rank": 159
+      "rank": 160
     },
     {
       "uid": "zQ9HPDNGAXhRliO0W7V2J8RzAl43",
@@ -3692,7 +3710,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 15,
-      "rank": 160
+      "rank": 161
     }
   ],
   "extra_normal": [
@@ -5263,13 +5281,22 @@
       "rank": 174
     },
     {
+      "uid": "wrqfjYUNcDcPWkAZMp4ynY2y9rf1",
+      "username": "Bdsdanfu",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 41,
+      "rank": 175
+    },
+    {
       "uid": "x4mJs73QTmNiVbUbM806uwiJSoB3",
       "username": "Lupe",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 175
+      "rank": 176
     },
     {
       "uid": "yUbQ2hyLTJMZZIpNKG3IQLNXGt33",
@@ -5278,7 +5305,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 11,
-      "rank": 176
+      "rank": 177
     },
     {
       "uid": "yZ3CVXMIqea0xPfSSwmTOK3ELrv2",
@@ -5287,7 +5314,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 177
+      "rank": 178
     },
     {
       "uid": "zHXjkuyaHqTW5QwenCsPVcnjb0Y2",
@@ -5296,7 +5323,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 28,
-      "rank": 178
+      "rank": 179
     },
     {
       "uid": "zQ9HPDNGAXhRliO0W7V2J8RzAl43",
@@ -5305,7 +5332,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 15,
-      "rank": 179
+      "rank": 180
     }
   ],
   "extra_timed": [
@@ -6705,13 +6732,22 @@
       "rank": 155
     },
     {
+      "uid": "wrqfjYUNcDcPWkAZMp4ynY2y9rf1",
+      "username": "Bdsdanfu",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 41,
+      "rank": 156
+    },
+    {
       "uid": "x4mJs73QTmNiVbUbM806uwiJSoB3",
       "username": "Lupe",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 156
+      "rank": 157
     },
     {
       "uid": "yZ3CVXMIqea0xPfSSwmTOK3ELrv2",
@@ -6720,7 +6756,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 157
+      "rank": 158
     },
     {
       "uid": "zHXjkuyaHqTW5QwenCsPVcnjb0Y2",
@@ -6729,7 +6765,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 28,
-      "rank": 158
+      "rank": 159
     },
     {
       "uid": "zQ9HPDNGAXhRliO0W7V2J8RzAl43",
@@ -6738,7 +6774,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 15,
-      "rank": 159
+      "rank": 160
     }
   ]
 }
