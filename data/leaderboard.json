@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T13:59:46Z",
+  "updated_at": "2026-05-02T15:05:56Z",
   "total_players": 260,
   "classic_normal": [
     {
@@ -282,13 +282,22 @@
       "rank": 31
     },
     {
+      "uid": "zbvPcHTXbbP3Fra1Tv6lPXbzRum2",
+      "username": "Cano",
+      "score": 376375,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 18,
+      "rank": 32
+    },
+    {
       "uid": "9w0PKeCwMggMKXa3KzzAz8kRYoh1",
       "username": "Acchu",
       "score": 308727,
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 4,
-      "rank": 32
+      "rank": 33
     },
     {
       "uid": "X1AyeVzdssTz2X3pJviTQxkigoY2",
@@ -297,7 +306,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 33
+      "rank": 34
     },
     {
       "uid": "SS3lYCYrg8g9EJrls46Z1qDY8cq1",
@@ -306,15 +315,6 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 34
-    },
-    {
-      "uid": "zbvPcHTXbbP3Fra1Tv6lPXbzRum2",
-      "username": "Cano",
-      "score": 272694,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "avatarId": 18,
       "rank": 35
     },
     {
