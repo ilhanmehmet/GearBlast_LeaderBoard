@@ -3,8 +3,20 @@
 GearBlast Leaderboard Updater
 Firebase Realtime Database'den leaderboard verilerini çeker,
 data/leaderboard.json dosyasına yazar.
+
+Kimlik bilgisi (öncelik sırasıyla):
+  1) FIREBASE_SERVICE_ACCOUNT_PATH — JSON dosya yolu (yerel çalıştırma)
+  2) FIREBASE_KEY_BASE64 — service account JSON'un base64 kodu (GitHub Secrets için önerilir)
+  3) FIREBASE_KEY — ham JSON string
+
+Veritabanı URL:
+  FIREBASE_DB_URL — örn. https://xxx-default-rtdb.europe-west1.firebasedatabase.app
+
+Not: order_by_child("score") kullanılmıyor; RTDB'de .indexOn eksikliğinden kaynaklanan
+     sorgu hatalarını (exit code 1) önlemek için tüm düğümler çekilip Python'da sıralanıyor.
 """
 
+import base64
 import json
 import os
 import sys
@@ -14,32 +26,79 @@ import firebase_admin
 from firebase_admin import credentials, db
 
 MODES = ["classic_normal", "classic_timed", "extra_normal", "extra_timed"]
-LIMIT = 10000  # Her mod için çekilecek maksimum oyuncu sayısı
+LIMIT = 2000  # Maksimum kayıt sayısı
+
+
+def load_service_account_dict():
+    path = os.environ.get("FIREBASE_SERVICE_ACCOUNT_PATH", "").strip()
+    if path:
+        if not os.path.isfile(path):
+            print(f"ERROR: FIREBASE_SERVICE_ACCOUNT_PATH not a file: {path}")
+            sys.exit(1)
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    # GitHub Secret çok satırlı yapıştırılırsa ortada \n kalır; base64'i tek sürekli satır say.
+    b64 = "".join(os.environ.get("FIREBASE_KEY_BASE64", "").split())
+    if b64:
+        try:
+            raw = base64.b64decode(b64)
+            return json.loads(raw.decode("utf-8"))
+        except (ValueError, json.JSONDecodeError) as e:
+            print(f"ERROR: FIREBASE_KEY_BASE64 decode/parse failed: {e}")
+            sys.exit(1)
+
+    key_json = os.environ.get("FIREBASE_KEY", "").strip()
+    if key_json:
+        try:
+            return json.loads(key_json)
+        except json.JSONDecodeError as e:
+            print(
+                "ERROR: FIREBASE_KEY is not valid JSON. "
+                "Use FIREBASE_KEY_BASE64 secret instead (base64 of the JSON file)."
+            )
+            print(f"Parse error: {e}")
+            sys.exit(1)
+
+    print(
+        "ERROR: No credentials. Set one of:\n"
+        "  FIREBASE_SERVICE_ACCOUNT_PATH\n"
+        "  FIREBASE_KEY_BASE64 (recommended for GitHub Actions)\n"
+        "  FIREBASE_KEY"
+    )
+    sys.exit(1)
+
 
 def init_firebase():
-    key_json = os.environ.get("FIREBASE_KEY")
-    if not key_json:
-        print("ERROR: FIREBASE_KEY environment variable not set")
-        sys.exit(1)
-
-    key_dict = json.loads(key_json)
-    db_url   = os.environ.get("FIREBASE_DB_URL")
+    db_url = os.environ.get("FIREBASE_DB_URL", "").strip()
     if not db_url:
         print("ERROR: FIREBASE_DB_URL environment variable not set")
         sys.exit(1)
+
+    key_dict = load_service_account_dict()
+
+    try:
+        firebase_admin.get_app()
+        return
+    except ValueError:
+        pass
 
     cred = credentials.Certificate(key_dict)
     firebase_admin.initialize_app(cred, {"databaseURL": db_url})
     print(f"[Firebase] Connected: {db_url}")
 
 def fetch_mode(mode):
-    ref   = db.reference(f"leaderboards/{mode}")
-    # orderByChild("score") ile sıralı çek, en yüksek LIMIT kişi
-    query = ref.order_by_child("score").limit_to_last(LIMIT)
-    raw   = query.get()
+    ref = db.reference(f"leaderboards/{mode}")
+    # Tam çekim: RTDB kurallarında .indexOn eksik olsa bile çalışır.
+    # Çok büyük listelerde maliyet artar; LIMIT kadar üst skor burada kesilir.
+    raw = ref.get()
 
     if not raw:
         print(f"[{mode}] No data")
+        return []
+
+    if not isinstance(raw, dict):
+        print(f"[{mode}] Unexpected payload type: {type(raw).__name__}")
         return []
 
     entries = []
@@ -67,21 +126,22 @@ def fetch_mode(mode):
     # Skora göre büyükten küçüğe sırala
     entries.sort(key=lambda x: x["score"], reverse=True)
 
+    if len(entries) > LIMIT:
+        entries = entries[:LIMIT]
+
     # Rank ve Rozet Kuralı ekle
     for i, e in enumerate(entries):
         rank = i + 1
         e["rank"] = rank
         
-        # Oyun seviyesi 1-6 arası, web indeksi 0-5 arası. (-1 ofset uygula)
+        # KURAL: Sadece 1. numara şampiyon olabilir.
+        # Eğer oyuncu 1. sıradaysa lig seviyesini 5 yap.
+        # Eğer 1. sırada değilse ama 5 görünüyorsa onu 4'e (Elmas) çek.
         current_lvl = int(e.get("leagueLevel", 0))
-        display_lvl = max(0, current_lvl - 1)
-        
-        # KURAL: Sadece 1. numara şampiyon olabilir (indeks 5).
         if rank == 1:
             e["leagueLevel"] = 5
-        else:
-            # 1. değilse en fazla Elmas (indeks 4) olabilir
-            e["leagueLevel"] = min(4, display_lvl)
+        elif current_lvl >= 5:
+            e["leagueLevel"] = 4
 
     print(f"[{mode}] Fetched and cleaned {len(entries)} entries")
     return entries
