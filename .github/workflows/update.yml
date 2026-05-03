@@ -1,19 +1,20 @@
 name: Update Leaderboard
 
 on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '15,45 * * * *'        # Daha belirgin zamanlarda tetiklenir
-  push:                            # Her push yapıldığında da güncellenir
-    branches: [ main ]
-  workflow_dispatch:               # Manuel tetikleme butonu
- 
+    # Her saat :15 ve :45 geçe çalışır (önceki ayarına yakın)
+    - cron: "15,45 * * * *"
+
 permissions:
   contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -21,19 +22,20 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install firebase-admin
+        run: pip install --upgrade pip firebase-admin
 
       - name: Run leaderboard updater
         env:
-          FIREBASE_KEY:    ${{ secrets.FIREBASE_KEY }}
           FIREBASE_DB_URL: ${{ secrets.FIREBASE_DB_URL }}
+          FIREBASE_KEY_BASE64: ${{ secrets.FIREBASE_KEY_BASE64 }}
+          FIREBASE_KEY: ${{ secrets.FIREBASE_KEY }}
         run: python scripts/update_leaderboard.py
 
       - name: Commit and push updated JSON
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🏆 Global Leaderboard Auto-Update"
+          commit_message: "📊 Global Leaderboard Auto-Update"
           file_pattern: data/leaderboard.json
