@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T21:42:04Z",
+  "updated_at": "2026-05-08T22:39:26Z",
   "total_players": 293,
   "classic_normal": [
     {
@@ -48,13 +48,22 @@
       "rank": 5
     },
     {
+      "uid": "NmVtsvqcWJVTHcLKiKDBqaWWfCv2",
+      "username": "Ruk",
+      "score": 3079335,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 7,
+      "rank": 6
+    },
+    {
       "uid": "xgNjuwwiuxcKRjUP1Yh4omRlUHt2",
       "username": "Tina",
       "score": 2434189,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 52,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -63,15 +72,6 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 7
-    },
-    {
-      "uid": "NmVtsvqcWJVTHcLKiKDBqaWWfCv2",
-      "username": "Ruk",
-      "score": 1724993,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 7,
       "rank": 8
     },
     {
