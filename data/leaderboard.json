@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T04:55:51Z",
+  "updated_at": "2026-05-09T07:21:11Z",
   "total_players": 293,
   "classic_normal": [
     {
@@ -255,13 +255,22 @@
       "rank": 28
     },
     {
+      "uid": "T2XKQX0vUhVfUAKAmUrmRwezkOC3",
+      "username": "Ftm",
+      "score": 591272,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 29
+    },
+    {
       "uid": "44zfGZtAPLZr7TcxyAoxiLIxMQM2",
       "username": "İbrahim",
       "score": 536852,
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 40,
-      "rank": 29
+      "rank": 30
     },
     {
       "uid": "uOg1kCj8oTQDiX0RofLufFIvvHw1",
@@ -270,7 +279,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 55,
-      "rank": 30
+      "rank": 31
     },
     {
       "uid": "KDskROMK2xhBYuXB1vWUM9JtcN63",
@@ -279,7 +288,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 31
+      "rank": 32
     },
     {
       "uid": "pJFsa1A7XHXsR1qQExuxw59DWsC2",
@@ -288,7 +297,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 32
+      "rank": 33
     },
     {
       "uid": "oqcqdeMecjYA7F0iYz3I5xMAAHj2",
@@ -297,15 +306,6 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 33
-    },
-    {
-      "uid": "T2XKQX0vUhVfUAKAmUrmRwezkOC3",
-      "username": "Ftm",
-      "score": 498349,
-      "leagueLevel": 3,
-      "playstyleLevel": 0,
-      "avatarId": 1,
       "rank": 34
     },
     {
