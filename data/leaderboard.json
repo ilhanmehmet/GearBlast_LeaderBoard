@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T15:14:39Z",
+  "updated_at": "2026-05-10T16:12:25Z",
   "total_players": 297,
   "classic_normal": [
     {
@@ -4615,13 +4615,22 @@
       "rank": 15
     },
     {
+      "uid": "ThlVDc5jhNfSvp2zoGqSfUF1zOF3",
+      "username": "مرحا",
+      "score": 166340,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 16
+    },
+    {
       "uid": "YR4rxObVGnehj6sxN2kOJklquWL2",
       "username": "필린핀",
       "score": 157882,
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "zrDLsur09IcAKmqnBgqlr1Nb95H2",
@@ -4630,7 +4639,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 55,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "NmVtsvqcWJVTHcLKiKDBqaWWfCv2",
@@ -4639,15 +4648,6 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 18
-    },
-    {
-      "uid": "ThlVDc5jhNfSvp2zoGqSfUF1zOF3",
-      "username": "مرحا",
-      "score": 116573,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "avatarId": 2,
       "rank": 19
     },
     {
