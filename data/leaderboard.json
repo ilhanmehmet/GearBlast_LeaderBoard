@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T12:06:27Z",
+  "updated_at": "2026-05-10T13:56:33Z",
   "total_players": 296,
   "classic_normal": [
     {
@@ -120,13 +120,22 @@
       "rank": 13
     },
     {
+      "uid": "PnuCFEfPRzZhGOR9JlDermbXLMG2",
+      "username": "Birsen ayan",
+      "score": 1239752,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 9,
+      "rank": 14
+    },
+    {
       "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
       "username": "Lexi love",
       "score": 1211302,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "n53WkeHdF2bbWszWFAsklZbOnoA2",
@@ -135,7 +144,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 20,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "j9R59FTCn3NlCDChr7FNAaPXxNb2",
@@ -144,7 +153,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 33,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "3Xo9RWkABPWL7kxegi7XUNetQA92",
@@ -153,15 +162,6 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 11,
-      "rank": 17
-    },
-    {
-      "uid": "PnuCFEfPRzZhGOR9JlDermbXLMG2",
-      "username": "Birsen ayan",
-      "score": 1031618,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 9,
       "rank": 18
     },
     {
