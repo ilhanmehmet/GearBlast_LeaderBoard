@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11T15:49:04Z",
+  "updated_at": "2026-05-11T18:05:29Z",
   "total_players": 297,
   "classic_normal": [
     {
@@ -4525,21 +4525,21 @@
       "rank": 3
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 1624517,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 4
+    },
+    {
       "uid": "2s82qRUwXHOg4uh92wcCHHwCbTB3",
       "username": "babo",
       "score": 920648,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 47,
-      "rank": 4
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 819474,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 2,
       "rank": 5
     },
     {
