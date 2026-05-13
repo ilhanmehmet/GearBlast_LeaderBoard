@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T10:08:41Z",
+  "updated_at": "2026-05-13T12:25:14Z",
   "total_players": 300,
   "classic_normal": [
     {
@@ -12,21 +12,21 @@
       "rank": 1
     },
     {
+      "uid": "Jg34LD0Y61dwd1q3aglo3HceFAk1",
+      "username": "Nado",
+      "score": 8408852,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 10,
+      "rank": 2
+    },
+    {
       "uid": "2s82qRUwXHOg4uh92wcCHHwCbTB3",
       "username": "babo",
       "score": 7257928,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 47,
-      "rank": 2
-    },
-    {
-      "uid": "Jg34LD0Y61dwd1q3aglo3HceFAk1",
-      "username": "Nado",
-      "score": 6557607,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 10,
       "rank": 3
     },
     {
