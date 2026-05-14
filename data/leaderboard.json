@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T15:34:35Z",
+  "updated_at": "2026-05-14T17:27:24Z",
   "total_players": 302,
   "classic_normal": [
     {
@@ -1056,13 +1056,22 @@
       "rank": 117
     },
     {
+      "uid": "1eoPPwYDSAeRlsBwSiGugOhjvFI2",
+      "username": "Zsuzsanna Zuza",
+      "score": 38121,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 20,
+      "rank": 118
+    },
+    {
       "uid": "Da0rep5wPGhcq8iSoaEUFpVDBJJ3",
       "username": "Budlek",
       "score": 35590,
       "leagueLevel": 1,
       "playstyleLevel": 8,
       "avatarId": 1,
-      "rank": 118
+      "rank": 119
     },
     {
       "uid": "Moyf8wT9GGWqLS7AinCAUagmZkx1",
@@ -1071,7 +1080,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 25,
-      "rank": 119
+      "rank": 120
     },
     {
       "uid": "raL9xi5ArcZpjIsriU0BIe7N0Ku1",
@@ -1080,7 +1089,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 120
+      "rank": 121
     },
     {
       "uid": "YLLDWjomjtgh3w5GbPXXhnJ1A853",
@@ -1089,7 +1098,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 121
+      "rank": 122
     },
     {
       "uid": "JgA3HZ6j55TkAoS8E5peEr58vQ32",
@@ -1098,7 +1107,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 5,
-      "rank": 122
+      "rank": 123
     },
     {
       "uid": "AKk6Zpi9VeRqL9lt462czdgHU8f2",
@@ -1107,7 +1116,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 20,
-      "rank": 123
+      "rank": 124
     },
     {
       "uid": "sPAuJegFu7UQTYtlKMQlvAbBrtG3",
@@ -1116,7 +1125,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 20,
-      "rank": 124
+      "rank": 125
     },
     {
       "uid": "OL8xnLrGYSfKAL6Z6vRDbUPDZYg2",
@@ -1125,7 +1134,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 125
+      "rank": 126
     },
     {
       "uid": "ltC6nJaAIIT0i0NPg0oQrxCkrDm1",
@@ -1134,7 +1143,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 126
+      "rank": 127
     },
     {
       "uid": "SD9svO0dEyTDV8kL3NiGo7cR0A23",
@@ -1143,7 +1152,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 127
+      "rank": 128
     },
     {
       "uid": "2XdEOb4QvPO8PwCtCaoDRmnvCTX2",
@@ -1152,7 +1161,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 128
+      "rank": 129
     },
     {
       "uid": "pBZDbhCpeVMmwpmj8mW7lycMb443",
@@ -1161,7 +1170,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 129
+      "rank": 130
     },
     {
       "uid": "6D14ao50QUfc381dytDD3kQ6mgg2",
@@ -1170,7 +1179,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 130
+      "rank": 131
     },
     {
       "uid": "ZZIkvIdh68ewrgmyFITMICF31bC2",
@@ -1179,7 +1188,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 10,
-      "rank": 131
+      "rank": 132
     },
     {
       "uid": "YR4rxObVGnehj6sxN2kOJklquWL2",
@@ -1188,7 +1197,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 132
+      "rank": 133
     },
     {
       "uid": "1hO0cUsKaKYLbskdZiysCa6s2Jh2",
@@ -1197,15 +1206,6 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 4,
-      "rank": 133
-    },
-    {
-      "uid": "1eoPPwYDSAeRlsBwSiGugOhjvFI2",
-      "username": "Zsuzsanna Zuza",
-      "score": 23694,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "avatarId": 20,
       "rank": 134
     },
     {
