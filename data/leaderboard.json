@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T15:30:22Z",
+  "updated_at": "2026-05-15T17:15:26Z",
   "total_players": 304,
   "classic_normal": [
     {
@@ -2741,21 +2741,21 @@
   ],
   "classic_timed": [
     {
-      "uid": "j9R59FTCn3NlCDChr7FNAaPXxNb2",
-      "username": "Laydin",
-      "score": 135132,
+      "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
+      "username": "Aytuntas",
+      "score": 147364,
       "leagueLevel": 5,
       "playstyleLevel": 0,
-      "avatarId": 9,
+      "avatarId": 10,
       "rank": 1
     },
     {
-      "uid": "pm5ihRpslMdm3i3QGD9UJPdUiVW2",
-      "username": "Aytuntas",
-      "score": 89046,
-      "leagueLevel": 1,
+      "uid": "j9R59FTCn3NlCDChr7FNAaPXxNb2",
+      "username": "Laydin",
+      "score": 135132,
+      "leagueLevel": 2,
       "playstyleLevel": 0,
-      "avatarId": 10,
+      "avatarId": 9,
       "rank": 2
     },
     {
