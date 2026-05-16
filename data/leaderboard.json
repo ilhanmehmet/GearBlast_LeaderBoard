@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T19:48:41Z",
+  "updated_at": "2026-05-16T21:05:08Z",
   "total_players": 307,
   "classic_normal": [
     {
@@ -3389,13 +3389,22 @@
       "rank": 69
     },
     {
+      "uid": "3yX4qq8yufa1e2qKcZcpn4reVyC3",
+      "username": "Güloo",
+      "score": 41,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 13,
+      "rank": 70
+    },
+    {
       "uid": "JoomCyZM8kT9XVcb1bGGjKAzHB02",
       "username": "Atasay  Fatih",
       "score": 32,
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 70
+      "rank": 71
     },
     {
       "uid": "aGredOFluQPxo2AEogZd9aEBIuc2",
@@ -3404,7 +3413,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 71
+      "rank": 72
     },
     {
       "uid": "0onwsDzLrFTOb2mBPenOgApIrRr2",
@@ -3413,7 +3422,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 16,
-      "rank": 72
+      "rank": 73
     },
     {
       "uid": "0HcS4ocv6JO5tUwKpgcrNHicezR2",
@@ -3422,7 +3431,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 20,
-      "rank": 73
+      "rank": 74
     },
     {
       "uid": "0Lt65tdUkwOnnZOyPK56Fd1NeOk2",
@@ -3431,7 +3440,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 74
+      "rank": 75
     },
     {
       "uid": "0Q37JfELCUTaUgRXfXsOLyNynJk1",
@@ -3440,7 +3449,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 24,
-      "rank": 75
+      "rank": 76
     },
     {
       "uid": "0ZG9kLIwdTQYgloiTn9KGosfqsr2",
@@ -3449,7 +3458,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 76
+      "rank": 77
     },
     {
       "uid": "0hlPzxO0gUhdZXEE3fWA5pKbuLV2",
@@ -3458,7 +3467,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 16,
-      "rank": 77
+      "rank": 78
     },
     {
       "uid": "0kCV9nGJjLNDzSsRNFCcC3mmwbA2",
@@ -3467,7 +3476,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 78
+      "rank": 79
     },
     {
       "uid": "15CCkWjCs9OEZbqUepJSg7iwTgL2",
@@ -3476,7 +3485,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 79
+      "rank": 80
     },
     {
       "uid": "1eoPPwYDSAeRlsBwSiGugOhjvFI2",
@@ -3485,7 +3494,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 20,
-      "rank": 80
+      "rank": 81
     },
     {
       "uid": "2rhswvisatbInAV0DUxXfBe4Ef03",
@@ -3494,7 +3503,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 81
+      "rank": 82
     },
     {
       "uid": "3epSxzshyOR1yqKwffnpaHE4g1w2",
@@ -3503,15 +3512,6 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 61,
-      "rank": 82
-    },
-    {
-      "uid": "3yX4qq8yufa1e2qKcZcpn4reVyC3",
-      "username": "Güloo",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "avatarId": 13,
       "rank": 83
     },
     {
