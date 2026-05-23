@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T21:09:15Z",
+  "updated_at": "2026-05-23T22:09:07Z",
   "total_players": 315,
   "classic_normal": [
     {
@@ -534,13 +534,22 @@
       "rank": 59
     },
     {
+      "uid": "Whf0yBXObgStAYxqxIHnCrRu2UK2",
+      "username": "Emine",
+      "score": 213730,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 4,
+      "rank": 60
+    },
+    {
       "uid": "wGGGIOKs2hTf9TR8jrEMpV9dsQG3",
       "username": "Hiyrki",
       "score": 210726,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 60
+      "rank": 61
     },
     {
       "uid": "Weby4PaT4nRusdd8fFb7y05nwnk1",
@@ -549,7 +558,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 17,
-      "rank": 61
+      "rank": 62
     },
     {
       "uid": "yUbQ2hyLTJMZZIpNKG3IQLNXGt33",
@@ -558,7 +567,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 11,
-      "rank": 62
+      "rank": 63
     },
     {
       "uid": "bnwXTzc6IBTNt1822r26J2yI2IE2",
@@ -567,7 +576,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 63
+      "rank": 64
     },
     {
       "uid": "P5zCH0TaVYSuOxezvpx8hxU4xsZ2",
@@ -576,7 +585,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 35,
-      "rank": 64
+      "rank": 65
     },
     {
       "uid": "15CCkWjCs9OEZbqUepJSg7iwTgL2",
@@ -585,15 +594,6 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 65
-    },
-    {
-      "uid": "Whf0yBXObgStAYxqxIHnCrRu2UK2",
-      "username": "Emine",
-      "score": 176185,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 4,
       "rank": 66
     },
     {
