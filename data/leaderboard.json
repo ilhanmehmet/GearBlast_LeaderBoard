@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T18:52:54Z",
+  "updated_at": "2026-05-24T20:16:04Z",
   "total_players": 318,
   "classic_normal": [
     {
@@ -5011,13 +5011,22 @@
       "rank": 16
     },
     {
+      "uid": "Pu2AkXVQIeMDpqnrQgKXntPNwzh1",
+      "username": "Hüseyin",
+      "score": 193747,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 17
+    },
+    {
       "uid": "ThlVDc5jhNfSvp2zoGqSfUF1zOF3",
       "username": "مرحا",
       "score": 166340,
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "YR4rxObVGnehj6sxN2kOJklquWL2",
@@ -5026,7 +5035,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "3yX4qq8yufa1e2qKcZcpn4reVyC3",
@@ -5035,7 +5044,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "zrDLsur09IcAKmqnBgqlr1Nb95H2",
@@ -5044,7 +5053,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 55,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "kUwurBHdBWhuU6lqqKxXOwwKRQk1",
@@ -5053,7 +5062,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 12,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "OsAH31QMPLUe5ifwkbQU8sOIEmU2",
@@ -5062,7 +5071,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "q66onOqM0fbHMYbHnYTgS4ObOwl1",
@@ -5071,7 +5080,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 23
+      "rank": 24
     },
     {
       "uid": "lcPacMdkFyUqWDOLV7NqZO9Si5a2",
@@ -5080,7 +5089,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 55,
-      "rank": 24
+      "rank": 25
     },
     {
       "uid": "jDDHPMGpIIZ4TvUQMcBEv9TTgSH3",
@@ -5089,7 +5098,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 25
+      "rank": 26
     },
     {
       "uid": "uOg1kCj8oTQDiX0RofLufFIvvHw1",
@@ -5098,7 +5107,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 55,
-      "rank": 26
+      "rank": 27
     },
     {
       "uid": "FdDaQE3RgUbZsDbMyjcgWhsUFuh2",
@@ -5107,15 +5116,6 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 8,
-      "rank": 27
-    },
-    {
-      "uid": "Pu2AkXVQIeMDpqnrQgKXntPNwzh1",
-      "username": "Hüseyin",
-      "score": 47852,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "avatarId": 2,
       "rank": 28
     },
     {
