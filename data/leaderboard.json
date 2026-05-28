@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T12:14:20Z",
+  "updated_at": "2026-05-28T16:35:27Z",
   "total_players": 327,
   "classic_normal": [
     {
@@ -5245,13 +5245,22 @@
       "rank": 23
     },
     {
+      "uid": "PNaS1r0ysHXRDhZ5QWoQCfdGqt42",
+      "username": "Pawan Baghel and by",
+      "score": 100480,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 54,
+      "rank": 24
+    },
+    {
       "uid": "q66onOqM0fbHMYbHnYTgS4ObOwl1",
       "username": "Bfa",
       "score": 89061,
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 24
+      "rank": 25
     },
     {
       "uid": "lcPacMdkFyUqWDOLV7NqZO9Si5a2",
@@ -5260,15 +5269,6 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 55,
-      "rank": 25
-    },
-    {
-      "uid": "PNaS1r0ysHXRDhZ5QWoQCfdGqt42",
-      "username": "Pawan Baghel and by",
-      "score": 81907,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "avatarId": 54,
       "rank": 26
     },
     {
