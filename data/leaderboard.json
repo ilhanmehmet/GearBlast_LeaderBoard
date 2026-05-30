@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T20:17:33Z",
+  "updated_at": "2026-05-30T21:42:43Z",
   "total_players": 334,
   "classic_normal": [
     {
@@ -5785,13 +5785,22 @@
       "rank": 69
     },
     {
+      "uid": "pmtcX4qVVNRrxaAzKILWV54PTDe2",
+      "username": "Budlek",
+      "score": 10481,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "avatarId": 8,
+      "rank": 70
+    },
+    {
       "uid": "Ck99HqlIK1OQhfo94NYXD3RTAz32",
       "username": "HooT",
       "score": 9972,
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 34,
-      "rank": 70
+      "rank": 71
     },
     {
       "uid": "ExVrCHm9u1VQqNJvBe033jzBcZz2",
@@ -5800,7 +5809,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 71
+      "rank": 72
     },
     {
       "uid": "EFqEEcslbqTkYKWhZJKuI0RQcv82",
@@ -5809,7 +5818,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 72
+      "rank": 73
     },
     {
       "uid": "Tg8Cis9mxiTsFkNzUDacrUjjS812",
@@ -5818,7 +5827,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 39,
-      "rank": 73
+      "rank": 74
     },
     {
       "uid": "c9CzBjTP5DdRDYjsO8a8oECdHRo1",
@@ -5827,7 +5836,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 74
+      "rank": 75
     },
     {
       "uid": "gBD2fYWu9kVqntS811EM4RejsWk2",
@@ -5836,7 +5845,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 49,
-      "rank": 75
+      "rank": 76
     },
     {
       "uid": "YLLDWjomjtgh3w5GbPXXhnJ1A853",
@@ -5845,7 +5854,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 76
+      "rank": 77
     },
     {
       "uid": "ubCqNKUdxOal0Dgef9MsZ6eZgyL2",
@@ -5854,7 +5863,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 4,
-      "rank": 77
+      "rank": 78
     },
     {
       "uid": "j9R59FTCn3NlCDChr7FNAaPXxNb2",
@@ -5863,7 +5872,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 33,
-      "rank": 78
+      "rank": 79
     },
     {
       "uid": "8KFooepAVYbLqPDyuqimMRXTgeJ2",
@@ -5872,7 +5881,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 79
+      "rank": 80
     },
     {
       "uid": "PrYaMbtL3DSHp1aobT0jNsBnsK62",
@@ -5881,15 +5890,6 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 80
-    },
-    {
-      "uid": "pmtcX4qVVNRrxaAzKILWV54PTDe2",
-      "username": "Budlek",
-      "score": 7220,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "avatarId": 8,
       "rank": 81
     },
     {
