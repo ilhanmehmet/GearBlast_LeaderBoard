@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T16:46:55Z",
+  "updated_at": "2026-06-01T21:05:03Z",
   "total_players": 339,
   "classic_normal": [
     {
@@ -48,13 +48,22 @@
       "rank": 5
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 3092245,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "avatarId": 2,
+      "rank": 6
+    },
+    {
       "uid": "NmVtsvqcWJVTHcLKiKDBqaWWfCv2",
       "username": "Ruk",
       "score": 3079335,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "xgNjuwwiuxcKRjUP1Yh4omRlUHt2",
@@ -63,15 +72,6 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 52,
-      "rank": 7
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 2451338,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "avatarId": 2,
       "rank": 8
     },
     {
@@ -5398,13 +5398,22 @@
       "rank": 17
     },
     {
+      "uid": "OsAH31QMPLUe5ifwkbQU8sOIEmU2",
+      "username": "Soban",
+      "score": 203459,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 18
+    },
+    {
       "uid": "Pu2AkXVQIeMDpqnrQgKXntPNwzh1",
       "username": "Hüseyin",
       "score": 193747,
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "ThlVDc5jhNfSvp2zoGqSfUF1zOF3",
@@ -5413,7 +5422,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "YR4rxObVGnehj6sxN2kOJklquWL2",
@@ -5422,7 +5431,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 7,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "3yX4qq8yufa1e2qKcZcpn4reVyC3",
@@ -5431,7 +5440,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "zrDLsur09IcAKmqnBgqlr1Nb95H2",
@@ -5440,7 +5449,7 @@
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 55,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "kUwurBHdBWhuU6lqqKxXOwwKRQk1",
@@ -5449,15 +5458,6 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 12,
-      "rank": 23
-    },
-    {
-      "uid": "OsAH31QMPLUe5ifwkbQU8sOIEmU2",
-      "username": "Soban",
-      "score": 117856,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "avatarId": 1,
       "rank": 24
     },
     {
