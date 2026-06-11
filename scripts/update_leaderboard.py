@@ -25,7 +25,7 @@ from datetime import datetime, timezone
 import firebase_admin
 from firebase_admin import credentials, db
 
-MODES = ["classic_normal", "classic_timed", "extra_normal", "extra_timed"]
+MODES = ["classic_normal", "classic_timed", "adventure"]
 LIMIT = 2000  # Maksimum kayıt sayısı
 
 
