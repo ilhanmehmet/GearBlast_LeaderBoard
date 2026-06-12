@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T06:36:41Z",
+  "updated_at": "2026-06-12T08:28:28Z",
   "total_players": 44,
   "classic_normal": [
     {
@@ -84,13 +84,22 @@
       "rank": 9
     },
     {
+      "uid": "K0PGoTFXMQQQjFdnXKrIvrVup152",
+      "username": "İllhan",
+      "score": 1029891,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 10
+    },
+    {
       "uid": "xTJdnwXAgHQ1heT4t58c15Cjp6l2",
       "username": "Filiz",
       "score": 787409,
       "leagueLevel": 4,
       "playstyleLevel": 0,
       "avatarId": 45,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "aaPLZN6RPEZHeVpwK2tZQ0NMJcV2",
@@ -99,7 +108,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "0egR8HIBJHhKnfFa5VuaMCjuG4D3",
@@ -108,7 +117,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 19,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "1YV2a0xuhfN4gi7jh1rY2DI13m63",
@@ -117,7 +126,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 24,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -126,7 +135,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "mW9S97nWtvP7JXcelxEc0o7pAN73",
@@ -135,7 +144,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 0,
       "avatarId": 9,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "OsAH31QMPLUe5ifwkbQU8sOIEmU2",
@@ -144,7 +153,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 1,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "z6BsWsbeKUUvG3VcSrdEoU2alUL2",
@@ -153,7 +162,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "KJHoWt1xlgeUJjMtM6SwITJypiT2",
@@ -162,7 +171,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 4,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "JsiXGoedYWTq3bKIh0HFYauQQ3V2",
@@ -171,7 +180,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "avatarId": 6,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "Yzq2Fyb2QqXlVMj5ifuK3JaldoA3",
@@ -180,7 +189,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 61,
       "avatarId": 1,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "7IJ5pCf71IbcDWjWLqdg2I6GBCe2",
@@ -189,7 +198,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 5,
       "avatarId": 1,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "mi6IuZbz2uRAIvJ1gxMkbDkligb2",
@@ -198,7 +207,7 @@
       "leagueLevel": 3,
       "playstyleLevel": 6,
       "avatarId": 1,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "BNgew3M1olZBxkGqOiKIbbyMiWz1",
@@ -207,7 +216,7 @@
       "leagueLevel": 1,
       "playstyleLevel": 0,
       "avatarId": 2,
-      "rank": 23
+      "rank": 24
     },
     {
       "uid": "j5q3eG2J08O4I3FgVcwUl8XzwwM2",
@@ -216,7 +225,7 @@
       "leagueLevel": 2,
       "playstyleLevel": 10,
       "avatarId": 1,
-      "rank": 24
+      "rank": 25
     },
     {
       "uid": "Da0rep5wPGhcq8iSoaEUFpVDBJJ3",
@@ -224,15 +233,6 @@
       "score": 35590,
       "leagueLevel": 1,
       "playstyleLevel": 8,
-      "avatarId": 1,
-      "rank": 25
-    },
-    {
-      "uid": "K0PGoTFXMQQQjFdnXKrIvrVup152",
-      "username": "İllhan",
-      "score": 24707,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
       "avatarId": 1,
       "rank": 26
     },
@@ -700,13 +700,22 @@
       "rank": 7
     },
     {
+      "uid": "K0PGoTFXMQQQjFdnXKrIvrVup152",
+      "username": "İllhan",
+      "score": 3,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "avatarId": 1,
+      "rank": 8
+    },
+    {
       "uid": "YDAHVkiyJid0QXmJWa0aqsf8Xvf2",
       "username": "Mia",
       "score": 2,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 20,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -715,7 +724,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 13,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "torYnKGMdxcB2D7jkxJppw1Un2C3",
@@ -724,15 +733,6 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "avatarId": 3,
-      "rank": 10
-    },
-    {
-      "uid": "K0PGoTFXMQQQjFdnXKrIvrVup152",
-      "username": "İllhan",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "avatarId": 1,
       "rank": 11
     }
   ]
