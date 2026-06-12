@@ -174,13 +174,6 @@
   .rank3 .avatar-wrap { border-color: var(--bronze); }
 
   .podium-card .avatar-wrap img { width: 100%; height: 100%; object-fit: cover; }
-  .chicken-emoji {
-    display: flex; align-items: center; justify-content: center;
-    width: 100%; height: 100%; font-size: 2rem;
-    background: linear-gradient(145deg, #4a3510, #2a1f08);
-  }
-  .avatar-sm .chicken-emoji { font-size: 1.35rem; }
-
   .podium-card .badge-wrap img { width: 28px; height: 28px; margin: 4px auto; display: block; }
 
   .podium-card .uname {
@@ -477,17 +470,15 @@ function isChickenAvatar(id) {
 
 function avatarSrc(id) {
   const num = parseInt(id) || 1;
-  if (num === 999) return '';
+  if (num === 999) return 'avatars/a999.png';
   if (num <= 1) return 'avatars/a-1.png';
   return `avatars/a${num}.png`;
 }
 
 function avatarInner(id, alt) {
-  if (isChickenAvatar(id)) {
-    return '<span class="chicken-emoji" title="Yolunmuş Tavuk">🐔</span>';
-  }
   const src = avatarSrc(id);
-  return `<img src="${src}" alt="${escHtml(alt || '')}" onerror="this.src='avatars/a-1.png'">`;
+  const title = isChickenAvatar(id) ? 'Yolunmuş Tavuk' : escHtml(alt || '');
+  return `<img src="${src}" alt="${title}" title="${title}" onerror="this.src='avatars/a-1.png'">`;
 }
 function badgeSrc(level) {
   const idx = Math.min(Math.max(parseInt(level) || 0, 0), LEAGUE_FILES.length - 1);
