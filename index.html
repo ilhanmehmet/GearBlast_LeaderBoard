@@ -551,8 +551,8 @@ function updateBanner() {
   const nowStr = now.toLocaleTimeString(userLang === 'tr' ? 'tr-TR' : 'en-US', { hour:'2-digit', minute:'2-digit', second:'2-digit' });
   
   const msg = userLang === 'tr'
-    ? `Liste 30dk'da bir yenilenir — Veri Tarihi: ${dateStr} (Kontrol: ${nowStr})`
-    : `List updates every 30m — Data Date: ${dateStr} (Checked: ${nowStr})`;
+    ? `Liste 5dk'da bir yenilenir — Veri Tarihi: ${dateStr} (Kontrol: ${nowStr})`
+    : `List updates every 5m — Data Date: ${dateStr} (Checked: ${nowStr})`;
   document.getElementById('update-text').textContent = msg;
 }
 

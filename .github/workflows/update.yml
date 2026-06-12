@@ -6,8 +6,8 @@ on:
     branches:
       - main
   schedule:
-    # Her saat :15 ve :45 geçe çalışır (önceki ayarına yakın)
-    - cron: "15,45 * * * *"
+    # Her 5 dakikada bir
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
