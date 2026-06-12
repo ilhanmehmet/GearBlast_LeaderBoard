@@ -46,6 +46,9 @@ jobs:
           FIREBASE_KEY: ${{ secrets.FIREBASE_KEY }}
         run: python scripts/update_leaderboard.py
 
+      - name: Sync with remote before commit
+        run: git pull --rebase origin main
+
       - name: Commit and push updated JSON
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
