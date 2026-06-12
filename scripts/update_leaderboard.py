@@ -54,6 +54,18 @@ def entry_version_code(val):
         return None
 
 
+def is_chicken_entry(val):
+  if not isinstance(val, dict):
+    return False
+  ic = val.get("isChicken")
+  if ic is True or ic in (1, "1", "true", "True"):
+    return True
+  try:
+    return int(val.get("avatarId", 1) or 1) == 999
+  except (TypeError, ValueError):
+    return False
+
+
 def passes_global_list_filter(val):
     """2.0.0+ (versionCode>=20) veya versionCode yoksa 12 Haziran sonrasi skorlar."""
     if include_legacy_scores():
@@ -155,12 +167,12 @@ def fetch_mode(mode):
                 skipped_filtered += 1
                 continue
 
-            is_chicken = val.get("isChicken") is True or int(val.get("avatarId", 1) or 1) == 999
+            is_chicken = is_chicken_entry(val)
             entries.append({
                 "uid":           uid,
                 "username":      val.get("username", "???"),
                 "score":         0 if is_chicken else int(val.get("score", 0)),
-                "leagueLevel":   int(val.get("leagueLevel", 0)),
+                "leagueLevel":   0 if is_chicken else int(val.get("leagueLevel", 0)),
                 "playstyleLevel":int(val.get("playstyleLevel", 0)),
                 "avatarId":      999 if is_chicken else int(val.get("avatarId", 1)),
             })
@@ -190,7 +202,10 @@ def fetch_mode(mode):
         # Eğer oyuncu 1. sıradaysa lig seviyesini 5 yap.
         # Eğer 1. sırada değilse ama 5 görünüyorsa onu 4'e (Elmas) çek.
         current_lvl = int(e.get("leagueLevel", 0))
-        if rank == 1 and e.get("avatarId") != 999:
+        is_chicken = e.get("avatarId") == 999 or int(e.get("score") or 0) <= 0
+        if is_chicken:
+            e["leagueLevel"] = 0
+        elif rank == 1 and int(e.get("score") or 0) > 0:
             e["leagueLevel"] = 5
         elif current_lvl >= 5:
             e["leagueLevel"] = 4

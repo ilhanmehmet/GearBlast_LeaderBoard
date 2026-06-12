@@ -586,20 +586,26 @@ function renderPodium(top3) {
   const classes = ['rank1','rank2','rank3'];
   el.innerHTML = top3.map((e, i) => {
     const rank = e.rank || i + 1;
+    const chicken = isChickenAvatar(e.avatarId);
+    const pts = parseInt(e.score) || 0;
     let displayLevel = parseInt(e.leagueLevel) || 0;
-    // KURAL: Sadece 1. numara şampiyon rozeti alabilir, diğerleri en fazla Elmas olabilir
-    if (rank === 1) displayLevel = 5;
-    else if (displayLevel >= 5) displayLevel = 4;
+    if (chicken || pts <= 0) {
+      displayLevel = 0;
+    } else if (rank === 1) {
+      displayLevel = 5;
+    } else if (displayLevel >= 5) {
+      displayLevel = 4;
+    }
+    const badgeHtml = displayLevel > 0
+      ? `<div class="badge-wrap"><img src="${badgeSrc(displayLevel)}" alt="${badgeName(displayLevel)}" onerror="this.style.display='none'"></div>`
+      : '';
 
     return `
     <div class="podium-card ${classes[i]}">
       <div class="crown">${crowns[i]}</div>
       <div class="rank-num">#${rank}</div>
       <div class="avatar-wrap">${avatarInner(e.avatarId, e.username)}</div>
-      <div class="badge-wrap">
-        <img src="${badgeSrc(displayLevel)}" alt="${badgeName(displayLevel)}"
-             onerror="this.style.display='none'">
-      </div>
+      ${badgeHtml}
       <div class="uname">${escHtml(e.username)}</div>
       <div class="score">${fmtScore(e.score)}</div>
     </div>`;
@@ -623,10 +629,16 @@ function renderList(rest) {
     const globalRank = e.rank || (i + 4);
     const rc = globalRank <= 3 ? rankColors[globalRank - 1] : '';
     
+    const chicken = isChickenAvatar(e.avatarId);
+    const pts = parseInt(e.score) || 0;
     let displayLevel = parseInt(e.leagueLevel) || 0;
-    // KURAL: Sadece 1. numara şampiyon rozeti alabilir, diğerleri en fazla Elmas olabilir
-    if (globalRank === 1) displayLevel = 5;
-    else if (displayLevel >= 5) displayLevel = 4;
+    if (chicken || pts <= 0) {
+      displayLevel = 0;
+    } else if (globalRank === 1) {
+      displayLevel = 5;
+    } else if (displayLevel >= 5) {
+      displayLevel = 4;
+    }
 
     return `
     <div class="lb-row">
@@ -634,11 +646,9 @@ function renderList(rest) {
       <div class="avatar-sm">${avatarInner(e.avatarId, e.username)}</div>
       <div class="info">
         <div class="uname">${escHtml(e.username)}</div>
-        <div class="badge-row">
-          <img src="${badgeSrc(displayLevel)}" alt="${badgeName(displayLevel)}"
-               onerror="this.style.display='none'">
-          <span>${badgeName(displayLevel)}</span>
-        </div>
+        <div class="badge-row">${displayLevel > 0
+          ? `<img src="${badgeSrc(displayLevel)}" alt="${badgeName(displayLevel)}" onerror="this.style.display='none'"><span>${badgeName(displayLevel)}</span>`
+          : ''}</div>
       </div>
       <div class="score-col">${fmtScore(e.score)}</div>
     </div>`;
