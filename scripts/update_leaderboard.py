@@ -28,22 +28,42 @@ from firebase_admin import credentials, db
 MODES = ["classic_normal", "classic_timed", "adventure"]
 LIMIT = 2000  # Maksimum kayıt sayısı
 
-# Gear Blast 2.0 global liste kesiti (2026-06-09 UTC). Eski Extra/v1 skorlari haric tutulur.
-V2_CUTOFF_TS = int(os.environ.get("V2_CUTOFF_TS", "1780963200"))
+# Gear Blast 2.0 global liste kesiti (2026-06-12 00:00 UTC). Eski Extra/v1 skorlari haric tutulur.
+V2_CUTOFF_TS = int(os.environ.get("V2_CUTOFF_TS", "1781222400"))
+# versionCode 20 = oyun 2.0.0
+MIN_VERSION_CODE = int(os.environ.get("MIN_VERSION_CODE", "20"))
 
 
 def include_legacy_scores():
     return os.environ.get("INCLUDE_LEGACY_SCORES", "").strip().lower() in ("1", "true", "yes")
 
 
-def passes_v2_cutoff(val):
+def entry_timestamp(val):
+    try:
+        return int(val.get("timestamp", 0) or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
+def entry_version_code(val):
+    if "versionCode" not in val:
+        return None
+    try:
+        return int(val.get("versionCode", 0) or 0)
+    except (TypeError, ValueError):
+        return None
+
+
+def passes_global_list_filter(val):
+    """2.0.0+ (versionCode>=20) veya versionCode yoksa 12 Haziran sonrasi skorlar."""
     if include_legacy_scores():
         return True
-    try:
-        ts = int(val.get("timestamp", 0) or 0)
-    except (TypeError, ValueError):
-        ts = 0
-    return ts >= V2_CUTOFF_TS
+
+    vc = entry_version_code(val)
+    if vc is not None:
+        return vc >= MIN_VERSION_CODE
+
+    return entry_timestamp(val) >= V2_CUTOFF_TS
 
 
 def load_service_account_dict():
@@ -119,7 +139,7 @@ def fetch_mode(mode):
         return []
 
     entries = []
-    skipped_legacy = 0
+    skipped_filtered = 0
     for uid, val in raw.items():
         try:
             # Gelen verinin sözlük (dict) olduğundan emin ol
@@ -127,8 +147,8 @@ def fetch_mode(mode):
                 print(f"[{mode}] Skipping invalid entry for {uid}: not a dict")
                 continue
 
-            if not passes_v2_cutoff(val):
-                skipped_legacy += 1
+            if not passes_global_list_filter(val):
+                skipped_filtered += 1
                 continue
 
             entries.append({
@@ -143,7 +163,7 @@ def fetch_mode(mode):
             print(f"[{mode}] Error parsing entry {uid}: {e}")
             continue
 
-    print(f"[{mode}] Raw entries count: {len(entries)} (skipped legacy: {skipped_legacy})")
+    print(f"[{mode}] Raw entries count: {len(entries)} (skipped filtered: {skipped_filtered})")
 
     # Skora göre büyükten küçüğe sırala
     entries.sort(key=lambda x: x["score"], reverse=True)
