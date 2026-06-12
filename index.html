@@ -464,21 +464,51 @@ function applyLang() {
 // ─────────────────────────────────────────────────────────
 // AVATAR HELPER
 // ─────────────────────────────────────────────────────────
+const CHICKEN_FRAMES = [
+  'avatars/chicken/c1.png', 'avatars/chicken/c2.png', 'avatars/chicken/c3.png',
+  'avatars/chicken/c4.png', 'avatars/chicken/c5.png', 'avatars/chicken/c6.png',
+  'avatars/chicken/c7.png'
+];
+const CHICKEN_FRAME_MS = 800;
+let chickenFrameIdx = 0;
+let chickenAnimTimer = null;
+
+CHICKEN_FRAMES.forEach(src => { const img = new Image(); img.src = src; });
+
 function isChickenAvatar(id) {
   return parseInt(id) === 999;
 }
 
 function avatarSrc(id) {
   const num = parseInt(id) || 1;
-  if (num === 999) return 'avatars/a999.png';
   if (num <= 1) return 'avatars/a-1.png';
   return `avatars/a${num}.png`;
 }
 
 function avatarInner(id, alt) {
+  if (isChickenAvatar(id)) {
+    const title = 'Yolunmuş Tavuk';
+    return `<img class="chicken-avatar" src="${CHICKEN_FRAMES[0]}" alt="${title}" title="${title}">`;
+  }
   const src = avatarSrc(id);
-  const title = isChickenAvatar(id) ? 'Yolunmuş Tavuk' : escHtml(alt || '');
-  return `<img src="${src}" alt="${title}" title="${title}" onerror="this.src='avatars/a-1.png'">`;
+  return `<img src="${src}" alt="${escHtml(alt || '')}" title="${escHtml(alt || '')}" onerror="this.src='avatars/a-1.png'">`;
+}
+
+function tickChickenAvatars() {
+  chickenFrameIdx = (chickenFrameIdx + 1) % CHICKEN_FRAMES.length;
+  const src = CHICKEN_FRAMES[chickenFrameIdx];
+  document.querySelectorAll('.chicken-avatar').forEach(img => { img.src = src; });
+}
+
+function ensureChickenAnimation() {
+  const hasChicken = document.querySelector('.chicken-avatar');
+  if (!hasChicken) {
+    if (chickenAnimTimer) { clearInterval(chickenAnimTimer); chickenAnimTimer = null; }
+    return;
+  }
+  if (!chickenAnimTimer) {
+    chickenAnimTimer = setInterval(tickChickenAvatars, CHICKEN_FRAME_MS);
+  }
 }
 function badgeSrc(level) {
   const idx = Math.min(Math.max(parseInt(level) || 0, 0), LEAGUE_FILES.length - 1);
@@ -546,6 +576,7 @@ function renderMode() {
   const total = (allData && allData[currentMode]) ? allData[currentMode].length : 0;
   document.getElementById('totalCount').textContent =
     userLang === 'tr' ? `${total} oyuncu` : `${total} players`;
+  ensureChickenAnimation();
 }
 
 function renderPodium(top3) {
