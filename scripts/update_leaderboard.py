@@ -106,11 +106,15 @@ def load_service_account_dict():
     sys.exit(1)
 
 
+DEFAULT_DB_URL = (
+    "https://gearblast-35ada-default-rtdb.europe-west1.firebasedatabase.app"
+)
+
+
 def init_firebase():
-    db_url = os.environ.get("FIREBASE_DB_URL", "").strip()
-    if not db_url:
-        print("ERROR: FIREBASE_DB_URL environment variable not set")
-        sys.exit(1)
+    db_url = os.environ.get("FIREBASE_DB_URL", "").strip() or DEFAULT_DB_URL
+    if db_url != DEFAULT_DB_URL and "europe-west1" not in db_url:
+        print(f"[warn] FIREBASE_DB_URL region may be wrong (expected europe-west1): {db_url}")
 
     key_dict = load_service_account_dict()
 
@@ -151,13 +155,14 @@ def fetch_mode(mode):
                 skipped_filtered += 1
                 continue
 
+            is_chicken = val.get("isChicken") is True or int(val.get("avatarId", 1) or 1) == 999
             entries.append({
                 "uid":           uid,
                 "username":      val.get("username", "???"),
-                "score":         int(val.get("score", 0)),
+                "score":         0 if is_chicken else int(val.get("score", 0)),
                 "leagueLevel":   int(val.get("leagueLevel", 0)),
                 "playstyleLevel":int(val.get("playstyleLevel", 0)),
-                "avatarId":      int(val.get("avatarId", 1)),
+                "avatarId":      999 if is_chicken else int(val.get("avatarId", 1)),
             })
         except Exception as e:
             print(f"[{mode}] Error parsing entry {uid}: {e}")
@@ -165,8 +170,13 @@ def fetch_mode(mode):
 
     print(f"[{mode}] Raw entries count: {len(entries)} (skipped filtered: {skipped_filtered})")
 
-    # Skora göre büyükten küçüğe sırala
-    entries.sort(key=lambda x: x["score"], reverse=True)
+    def sort_key(e):
+        is_chicken = e.get("avatarId") == 999
+        score = 0 if is_chicken else int(e.get("score") or 0)
+        active = (not is_chicken) and score > 0
+        return (0 if active else 1, -score, e.get("username") or "")
+
+    entries.sort(key=sort_key)
 
     if len(entries) > LIMIT:
         entries = entries[:LIMIT]
@@ -180,7 +190,7 @@ def fetch_mode(mode):
         # Eğer oyuncu 1. sıradaysa lig seviyesini 5 yap.
         # Eğer 1. sırada değilse ama 5 görünüyorsa onu 4'e (Elmas) çek.
         current_lvl = int(e.get("leagueLevel", 0))
-        if rank == 1:
+        if rank == 1 and e.get("avatarId") != 999:
             e["leagueLevel"] = 5
         elif current_lvl >= 5:
             e["leagueLevel"] = 4
