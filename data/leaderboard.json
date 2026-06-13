@@ -1,7 +1,17 @@
 {
-  "updated_at": "2026-06-13T21:19:32Z",
-  "total_players": 2,
+  "updated_at": "2026-06-13T22:02:54Z",
+  "total_players": 4,
   "classic_normal": [
+    {
+      "uid": "IJdmfDwOyPP1ZL54XBxkv1WLUXv2",
+      "username": "1234",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 18,
+      "rank": 1
+    },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
       "username": "Emili",
@@ -10,7 +20,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 14,
-      "rank": 1
+      "rank": 2
     },
     {
       "uid": "9QMPYySSkcMLZj0xNT07nIR70803",
@@ -20,19 +30,39 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 37,
-      "rank": 2
+      "rank": 3
     }
   ],
   "classic_timed": [
     {
+      "uid": "56mFLK46CrT7mzmL6TyAwQyY76L2",
+      "username": "1234",
+      "score": 7195,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "rank": 1
+    },
+    {
       "uid": "9QMPYySSkcMLZj0xNT07nIR70803",
       "username": "Mehmet",
       "score": 3430,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 37,
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "uid": "IJdmfDwOyPP1ZL54XBxkv1WLUXv2",
+      "username": "1234",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 18,
+      "rank": 3
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -42,7 +72,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 14,
-      "rank": 2
+      "rank": 4
     }
   ],
   "adventure": [
@@ -65,6 +95,16 @@
       "profileAvatarId": 0,
       "avatarId": 37,
       "rank": 2
+    },
+    {
+      "uid": "IJdmfDwOyPP1ZL54XBxkv1WLUXv2",
+      "username": "1234",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 18,
+      "rank": 3
     }
   ]
 }
