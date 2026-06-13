@@ -1,110 +1,18 @@
 {
-  "updated_at": "2026-06-13T22:02:54Z",
-  "total_players": 4,
+  "updated_at": "2026-06-13T23:17:55Z",
+  "total_players": 1,
   "classic_normal": [
     {
-      "uid": "IJdmfDwOyPP1ZL54XBxkv1WLUXv2",
-      "username": "1234",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 18,
-      "rank": 1
-    },
-    {
-      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
-      "username": "Emili",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 14,
-      "rank": 2
-    },
-    {
-      "uid": "9QMPYySSkcMLZj0xNT07nIR70803",
+      "uid": "qi8XMERBjfd2oODNYPiXM89lWjH3",
       "username": "Mehmet",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 37,
-      "rank": 3
-    }
-  ],
-  "classic_timed": [
-    {
-      "uid": "56mFLK46CrT7mzmL6TyAwQyY76L2",
-      "username": "1234",
-      "score": 7195,
-      "leagueLevel": 5,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "rank": 1
-    },
-    {
-      "uid": "9QMPYySSkcMLZj0xNT07nIR70803",
-      "username": "Mehmet",
-      "score": 3430,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 37,
-      "rank": 2
-    },
-    {
-      "uid": "IJdmfDwOyPP1ZL54XBxkv1WLUXv2",
-      "username": "1234",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 18,
-      "rank": 3
-    },
-    {
-      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
-      "username": "Emili",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 14,
-      "rank": 4
-    }
-  ],
-  "adventure": [
-    {
-      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
-      "username": "Evvren",
-      "score": 19,
+      "score": 1440195,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 0,
-      "avatarId": 14,
+      "avatarId": 6,
       "rank": 1
-    },
-    {
-      "uid": "9QMPYySSkcMLZj0xNT07nIR70803",
-      "username": "Mehmet",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 37,
-      "rank": 2
-    },
-    {
-      "uid": "IJdmfDwOyPP1ZL54XBxkv1WLUXv2",
-      "username": "1234",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 18,
-      "rank": 3
     }
-  ]
+  ],
+  "classic_timed": [],
+  "adventure": []
 }
