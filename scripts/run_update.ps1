@@ -49,7 +49,7 @@ if ($Push) {
     git add data/leaderboard.json
     git commit -m "📊 Global Leaderboard manual update"
     git push origin main
-    Write-Host "GitHub'a push edildi." -ForegroundColor Green
+    Write-Host "GitHub push tamamlandi." -ForegroundColor Green
 } else {
     Write-Host "Yayin icin: git add data/leaderboard.json && git push"
     Write-Host "veya: .\scripts\run_update.ps1 -Push"

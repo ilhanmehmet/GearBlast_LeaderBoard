@@ -27,6 +27,7 @@ from firebase_admin import credentials, db
 
 MODES = ["classic_normal", "classic_timed", "adventure"]
 LIMIT = 2000  # Maksimum kayıt sayısı
+MAX_AVATAR_ID = 65
 
 # Gear Blast 2.0 global liste kesiti (2026-06-12 00:00 UTC). Eski Extra/v1 skorlari haric tutulur.
 V2_CUTOFF_TS = int(os.environ.get("V2_CUTOFF_TS", "1781222400"))
@@ -64,6 +65,66 @@ def is_chicken_entry(val):
     return int(val.get("avatarId", 1) or 1) == 999
   except (TypeError, ValueError):
     return False
+
+
+def stable_avatar_id(uid, username):
+    """Oyunla ayni: uid/isim hash -> 2-20 arasi sabit avatar."""
+    if uid and uid not in ("", "anonymous"):
+        key = f"uid:{uid}"
+    elif username and username != "???":
+        key = f"name:{username.lower()}"
+    else:
+        key = "player"
+    h = 0
+    for ch in key:
+        h = (h * 31 + ord(ch)) % 2147483647
+    return 2 + (h % max(1, MAX_AVATAR_ID - 1))
+
+
+_users_avatar_cache = None
+
+
+def load_users_avatar_map():
+    global _users_avatar_cache
+    if _users_avatar_cache is not None:
+        return _users_avatar_cache
+    cache = {}
+    try:
+        raw = db.reference("users").get()
+        if isinstance(raw, dict):
+            for uid, val in raw.items():
+                if not isinstance(val, dict):
+                    continue
+                for field in ("avatarId", "savedAvatarId"):
+                    try:
+                        av = int(val.get(field) or 0)
+                    except (TypeError, ValueError):
+                        av = 0
+                    if 2 <= av <= MAX_AVATAR_ID and av != 999:
+                        cache[uid] = av
+                        break
+    except Exception as e:
+        print(f"[warn] users avatar fetch failed: {e}")
+    _users_avatar_cache = cache
+    print(f"[users] Loaded {len(cache)} profile avatars")
+    return cache
+
+
+def resolve_avatar_id(val, uid, users_av):
+    if is_chicken_entry(val):
+        return 999
+    try:
+        lb_av = int(val.get("avatarId", 1) or 1)
+    except (TypeError, ValueError):
+        lb_av = 1
+    if lb_av == 999:
+        return 999
+    profile_av = users_av.get(uid)
+    if profile_av and 2 <= profile_av <= MAX_AVATAR_ID:
+        return profile_av
+    if 2 <= lb_av <= MAX_AVATAR_ID:
+        return lb_av
+    return stable_avatar_id(uid, val.get("username", "???"))
 
 
 def passes_global_list_filter(val):
@@ -140,7 +201,7 @@ def init_firebase():
     firebase_admin.initialize_app(cred, {"databaseURL": db_url})
     print(f"[Firebase] Connected: {db_url}")
 
-def fetch_mode(mode):
+def fetch_mode(mode, users_av):
     ref = db.reference(f"leaderboards/{mode}")
     # Tam çekim: RTDB kurallarında .indexOn eksik olsa bile çalışır.
     # Çok büyük listelerde maliyet artar; LIMIT kadar üst skor burada kesilir.
@@ -168,13 +229,16 @@ def fetch_mode(mode):
                 continue
 
             is_chicken = is_chicken_entry(val)
+            profile_av = users_av.get(uid)
+            avatar_id = resolve_avatar_id(val, uid, users_av)
             entries.append({
                 "uid":           uid,
                 "username":      val.get("username", "???"),
                 "score":         0 if is_chicken else int(val.get("score", 0)),
                 "leagueLevel":   0 if is_chicken else int(val.get("leagueLevel", 0)),
                 "playstyleLevel":int(val.get("playstyleLevel", 0)),
-                "avatarId":      999 if is_chicken else int(val.get("avatarId", 1)),
+                "profileAvatarId": profile_av or 0,
+                "avatarId":      avatar_id,
             })
         except Exception as e:
             print(f"[{mode}] Error parsing entry {uid}: {e}")
@@ -221,9 +285,10 @@ def main():
         "total_players": 0,
     }
 
+    users_av = load_users_avatar_map()
     total = 0
     for mode in MODES:
-        entries = fetch_mode(mode)
+        entries = fetch_mode(mode, users_av)
         output[mode] = entries
         total = max(total, len(entries))
 

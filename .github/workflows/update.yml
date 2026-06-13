@@ -46,9 +46,8 @@ jobs:
           FIREBASE_KEY: ${{ secrets.FIREBASE_KEY }}
         run: python scripts/update_leaderboard.py
 
-      - name: Sync with remote before commit
-        run: git pull --rebase origin main
-
+      # Not: JSON degistikten sonra "git pull --rebase" calismaz (kirli calisma agaci, exit 128).
+      # git-auto-commit-action once commit eder, sonra pull --rebase + push yapar.
       - name: Commit and push updated JSON
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -56,3 +55,4 @@ jobs:
           file_pattern: data/leaderboard.json
           commit_user_name: github-actions[bot]
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          pull_strategy: --rebase

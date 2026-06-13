@@ -479,10 +479,42 @@ function isChickenAvatar(id) {
   return parseInt(id) === 999;
 }
 
+function isValidUid(uid) {
+  return !!(uid && uid !== '' && uid !== 'anonymous');
+}
+
+const MAX_AVATAR_ID = 65;
+
+/** Oyunla ayni: uid/isim hash -> 2-MAX arasi sabit avatar */
+function stableAvatarIdForEntry(entry) {
+  const uid = entry.uid || '';
+  const uname = (entry.username || entry.name || '').toLowerCase();
+  let key;
+  if (isValidUid(uid)) key = 'uid:' + uid;
+  else if (uname) key = 'name:' + uname;
+  else key = 'player';
+  let h = 0;
+  for (let i = 0; i < key.length; i++) {
+    h = (h * 31 + key.charCodeAt(i)) % 2147483647;
+  }
+  return 2 + (h % (MAX_AVATAR_ID - 1));
+}
+
+function resolveDisplayAvatarId(entry) {
+  if (isChickenAvatar(entry.avatarId)) return 999;
+  const profileAv = parseInt(entry.profileAvatarId) || 0;
+  if (profileAv >= 2 && profileAv <= MAX_AVATAR_ID) return profileAv;
+  const av = parseInt(entry.avatarId) || 0;
+  if (av === 999) return 999;
+  if (av >= 2 && av <= MAX_AVATAR_ID) return av;
+  return stableAvatarIdForEntry(entry);
+}
+
 function avatarSrc(id) {
   const num = parseInt(id) || 1;
   if (num <= 1) return 'avatars/a-1.png';
-  return `avatars/a${num}.png`;
+  const clamped = Math.min(Math.max(num, 2), MAX_AVATAR_ID);
+  return `avatars/a${clamped}.png`;
 }
 
 function avatarInner(id, alt) {
@@ -492,6 +524,10 @@ function avatarInner(id, alt) {
   }
   const src = avatarSrc(id);
   return `<img src="${src}" alt="${escHtml(alt || '')}" title="${escHtml(alt || '')}" onerror="this.src='avatars/a-1.png'">`;
+}
+
+function avatarInnerForEntry(entry) {
+  return avatarInner(resolveDisplayAvatarId(entry), entry.username);
 }
 
 function tickChickenAvatars() {
@@ -604,7 +640,7 @@ function renderPodium(top3) {
     <div class="podium-card ${classes[i]}">
       <div class="crown">${crowns[i]}</div>
       <div class="rank-num">#${rank}</div>
-      <div class="avatar-wrap">${avatarInner(e.avatarId, e.username)}</div>
+      <div class="avatar-wrap">${avatarInnerForEntry(e)}</div>
       ${badgeHtml}
       <div class="uname">${escHtml(e.username)}</div>
       <div class="score">${fmtScore(e.score)}</div>
@@ -643,7 +679,7 @@ function renderList(rest) {
     return `
     <div class="lb-row">
       <div class="rank-num ${rc}">#${globalRank}</div>
-      <div class="avatar-sm">${avatarInner(e.avatarId, e.username)}</div>
+      <div class="avatar-sm">${avatarInnerForEntry(e)}</div>
       <div class="info">
         <div class="uname">${escHtml(e.username)}</div>
         <div class="badge-row">${displayLevel > 0
