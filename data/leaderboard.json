@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T09:34:17Z",
+  "updated_at": "2026-06-13T11:30:24Z",
   "total_players": 17,
   "classic_normal": [
     {
@@ -145,11 +145,11 @@
     {
       "uid": "fv8wpDcNtgenQXgiW86a1nbrj652",
       "username": "9090",
-      "score": 0,
+      "score": 28,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 0,
-      "avatarId": 2,
+      "avatarId": 65,
       "rank": 15
     },
     {
@@ -241,7 +241,7 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 0,
-      "avatarId": 2,
+      "avatarId": 65,
       "rank": 7
     }
   ],
@@ -287,16 +287,6 @@
       "rank": 4
     },
     {
-      "uid": "fv8wpDcNtgenQXgiW86a1nbrj652",
-      "username": "9090",
-      "score": 2,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 65,
-      "rank": 5
-    },
-    {
       "uid": "4tOuhtohTFWWOsXm6lgu9ItNiho1",
       "username": "Memi",
       "score": 1,
@@ -304,6 +294,16 @@
       "playstyleLevel": 0,
       "profileAvatarId": 3,
       "avatarId": 3,
+      "rank": 5
+    },
+    {
+      "uid": "fv8wpDcNtgenQXgiW86a1nbrj652",
+      "username": "9090",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 65,
       "rank": 6
     },
     {
