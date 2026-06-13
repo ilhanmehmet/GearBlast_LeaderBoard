@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-13T07:21:58Z",
-  "total_players": 16,
+  "updated_at": "2026-06-13T09:34:17Z",
+  "total_players": 17,
   "classic_normal": [
     {
       "uid": "qi8XMERBjfd2oODNYPiXM89lWjH3",
@@ -143,6 +143,16 @@
       "rank": 14
     },
     {
+      "uid": "fv8wpDcNtgenQXgiW86a1nbrj652",
+      "username": "9090",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 2,
+      "rank": 15
+    },
+    {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 0,
@@ -150,7 +160,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 999,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -160,7 +170,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 14,
-      "rank": 16
+      "rank": 17
     }
   ],
   "classic_timed": [
@@ -223,6 +233,16 @@
       "profileAvatarId": 7,
       "avatarId": 7,
       "rank": 6
+    },
+    {
+      "uid": "fv8wpDcNtgenQXgiW86a1nbrj652",
+      "username": "9090",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 2,
+      "rank": 7
     }
   ],
   "adventure": [
@@ -267,6 +287,16 @@
       "rank": 4
     },
     {
+      "uid": "fv8wpDcNtgenQXgiW86a1nbrj652",
+      "username": "9090",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 65,
+      "rank": 5
+    },
+    {
       "uid": "4tOuhtohTFWWOsXm6lgu9ItNiho1",
       "username": "Memi",
       "score": 1,
@@ -274,7 +304,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 3,
       "avatarId": 3,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -284,7 +314,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 999,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "cGEkCeWgDtcXzU7JdroBCDNaroI2",
@@ -294,7 +324,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 57,
-      "rank": 7
+      "rank": 8
     }
   ]
 }
