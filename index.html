@@ -343,16 +343,25 @@
     <!-- PODIUM -->
     <div class="podium" id="podium"></div>
 
-    <!--  <div id="page-rules">
+    <!-- TOTAL COUNT -->
+    <div class="list-header">
+      <span data-tr="Sıralama" data-en="Ranking">Sıralama</span>
+      <span class="total-count" id="totalCount">...</span>
+    </div>
+
+    <!-- LIST -->
+    <div id="lbList"></div>
+  </div>
+
+  <!-- ══════════════════ RULES PAGE ══════════════════ -->
+  <div id="page-rules">
     <div class="rules-container">
 
       <!-- Türkçe Rehber -->
       <div id="rules-lang-tr" style="display: none;">
         <div class="rules-section">
-          <h2>📖 Gear Blast Oyuncu Rehberi</h2>
-          <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5; margin-bottom: 10px;">
-            Gear Blast, parçaları ızgaraya yerleştirip satır ve sütunları temizleyerek yüksek skorlar elde ettiğiniz, macera haritasında ilerlediğiniz ve diğer oyuncularla rekabet ettiğiniz eğlenceli bir bulmaca oyunudur.
-          </p>
+          <h2>📖 Gear Blast — Oyuncu Rehberi</h2>
+          <p>Gear Blast, parçaları ızgaraya yerleştirip satır ve sütunları temizleyerek skor yaptığınız sürükleyici bir bulmaca oyunudur. Tek bir oturumda hızlı oynayabilir, uzun vadede macera haritasında ilerleyebilir veya diğer oyunculara meydan okuyabilirsiniz. Bu rehberde oyunun tüm özellikleri sade ve anlaşılır bir dille açıklanmıştır.</p>
         </div>
 
         <div class="rules-section">
@@ -367,23 +376,49 @@
         </div>
 
         <div class="rules-section">
+          <h2>🚀 İlk Açılış ve Kayıt</h2>
+          <p>Uygulamayı ilk kez açtığınızda doğrudan ana menüye gitmezsiniz. Önce <strong>Hoş Geldin Ekranı</strong> gelir:</p>
+          <ul>
+            <li><span class="icon">🌐</span> Oyun diliniz otomatik seçilir (isterseniz ayarlardan sonra değiştirebilirsiniz).</li>
+            <li><span class="icon">🛡️</span> Gizlilik ve veri kullanımı hakkında kısa bir onay istenir.</li>
+            <li><span class="icon">✍️</span> <strong>Kullanıcı adınızı</strong> seçersiniz (3–22 karakter; bu isim skor tablosunda görünür).</li>
+            <li><span class="icon">👤</span> <strong>Avatarınızı</strong> seçersiniz (oyun boyunca sizi temsil eden karakter).</li>
+          </ul>
+          <p>Kayıt tamamlandığında ana menü açılır. Bir sonraki açılışlarda doğrudan ana menüye gelirsiniz; tekrar kayıt olmanız gerekmez.</p>
+        </div>
+
+        <div class="rules-section">
+          <h2>🏠 Ana Menü — Oyunun Kalbi</h2>
+          <p>Ana menü, tüm modlara ve özelliklere ulaştığınız merkezdir. Burada şunları görürsünüz:</p>
+          <ul>
+            <li><strong>Profil Kartınız:</strong> Avatar, kullanıcı adı ve undo (geri al) haklarınız.</li>
+            <li><strong>Skor Tablosu:</strong> Üç mod için anlık sıralamalar.</li>
+            <li><strong>Arşiv:</strong> Rozetler, istatistikler ve rekabet geçmişiniz.</li>
+            <li><strong>Mağaza:</strong> Undo paketleri ve kalıcı reklamsızlık gibi ekstralar.</li>
+            <li><strong>Ayarlar:</strong> Ses, müzik, titreşim, dil ve gizlilik tercihleri.</li>
+            <li><strong>Dönen Şampiyon Bandı:</strong> O anki mod şampiyonunu gösterir; dokunarak meydan okuyabilirsiniz.</li>
+            <li><strong>Meydan Okuma Girişi:</strong> Rakiplere karşı maç başlatma alanı.</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
           <h2>🎮 Dört Oyun Modu</h2>
           <div class="tip-cards">
             <div class="tip-card">
               <div class="tip-title">1. Macera Modu</div>
-              <p>3000 bölümlük bir yolculuk. Süre ve hamle sınırı yok. Üstteki renk barlarını doldurarak veya varsa engel taşlarını temizleyerek oynanır. Bölüm bitince robot koleksiyonunuz gelişir.</p>
+              <p>3000 bölümlük bir yolculuktur. Süre veya hamle sınırı yoktur. Üstteki renk barlarını doldurarak veya varsa engel taşlarını temizleyerek bölümleri tamamlarsınız. Belirli bölümlerde nadir robotlar kazanarak robot koleksiyonunuzu geliştirebilirsiniz.</p>
             </div>
             <div class="tip-card">
               <div class="tip-title">2. Klasik Normal Mod</div>
-              <p>Sınırsız skor, level sistemi ve bonus turları. Combo sayacı dolunca buz çerçevesi kırılır ve level geçilir, ardından 10 kat skor çarpanlı 60 saniyelik bonus turları başlar.</p>
+              <p>Sınırsız skor, level sistemi ve bonus turları içerir. Temizlemelerle combo sayacını doldurarak buz çerçevesini kırıp level atlarsınız. Her seviye geçişinde, 10 kat daha hızlı skor kazandıran 60 saniyelik hareketli ızgara bonus turu teklif edilir.</p>
             </div>
             <div class="tip-card">
               <div class="tip-title">3. Klasik Zamanlı Mod</div>
-              <p>Süre kısıtlamalı mod. Her 3 parçayı bitirdiğinizde süre yenilenir (genelde 3-6 saniye). Level ve bonus yoktur.</p>
+              <p>Süre baskısının olduğu moddur. İlk parçayı tuttuğunuzda süre başlar. Her 3 parçayı bitirdiğinizde süre yenilenir (genelde 3–6 saniye arası). Süre barı dolmadan veya hamleler kilitlenmeden oynamalısınız.</p>
             </div>
             <div class="tip-card">
-              <div class="tip-title">4. Meydan Okuma (Düello)</div>
-              <p>Başka bir oyuncunun skorunu geçme yarışı. Kazanırsanız rakibin puanı size eklenir, rakip "Tavuk" olur. Kaybederseniz rekorlarınız ve liginiz sıfırlanır, kendiniz "Tavuk" olursunuz.</p>
+              <div class="tip-title">4. Meydan Okuma (Rekabet)</div>
+              <p>Başka bir oyuncunun skorunu aynı oturumda geçmeye çalıştığınız rekabet modudur. Klasik Normal ve Klasik Zamanlı modlarında oynanır. Hedef skora ulaştığınız an oyunu kazanırsınız.</p>
             </div>
           </div>
         </div>
@@ -397,7 +432,7 @@
             </li>
             <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
               <span class="icon" style="font-size: 0.8rem;">🔹</span>
-              <span>Eğer meydan okuduğun rakibini yenersen, rakibinin avatarı "TAVUK AVATARI" olur ve puanı sıfırlanır. Tüm puanları senin hanene yazılır ve ligden düşer.</span>
+              <span><strong>Rakibinizi yenerseniz:</strong> Rakibin avatarı yolunmuş "TAVUK AVATARI" olur, puanı sıfırlanır, ligden düşer ve tüm puanı sizin hanenize yazılır.</span>
             </li>
             <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
               <span class="icon">⚠️</span>
@@ -405,7 +440,7 @@
             </li>
             <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
               <span class="icon" style="font-size: 0.8rem;">🔸</span>
-              <span>Puanın sıfırlanır, lig ilerlemen silinir ve senin avatarın yolunmuş tavuk olur.</span>
+              <span>Kendi en yüksek skorlarınız sıfırlanır, lig ilerlemeniz silinir ve avatarınız yolunmuş tavuk olur.</span>
             </li>
             <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
               <span class="icon">✨</span>
@@ -413,22 +448,41 @@
             </li>
             <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
               <span class="icon" style="font-size: 0.8rem;">🔸</span>
-              <span>Herhangi birine meydan okuyup yendiğin zaman avatarını geri alırsın, puan kazanmaya devam edersin ve ligde yükselerek rozetlerini geri kazanırsın.</span>
+              <span>Herhangi bir oyuncuya meydan okuyup kazanmanız yeterlidir. Avatarınız geri gelir, ligde tekrar yükselir ve rozetlerinizi kazanırsınız.</span>
             </li>
           </ul>
         </div>
 
         <div class="rules-section">
+          <h2>⏸️ Ekran &amp; Duraklat Menüsü</h2>
+          <p>Oyun ortasında oyunu duraklattığınızda şu seçenekleri görürsünüz:</p>
+          <ul>
+            <li><strong>Devam:</strong> Oyuna geri dön.</li>
+            <li><strong>Yeni Oyun:</strong> Mevcut modda sıfırdan başla.</li>
+            <li><strong>Ayarlar:</strong> Ses, müzik ve titreşim ayarları.</li>
+            <li><strong>Ana Menü:</strong> Onay alarak menüye dön (kayıtlı oyun silinebilir).</li>
+            <li><strong>Harita (Macera):</strong> Macera haritasına geri dön.</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
+          <h2>🔄 Kilitlenme, Hata Analizi ve Canlandırma</h2>
+          <p>Izgarada hamle kalmadığında veya süre dolduğunda oyun biter. Ardından şu adımlar izlenir:</p>
+          <ul>
+            <li><strong>Hata Analizi:</strong> Son hamleleriniz incelenir, yanlış yerleşimler ve doğru alternatifler gösterilir.</li>
+            <li><strong>Canlandırma:</strong> Bir oturumda en fazla 2 kez canlanabilirsiniz (reklam veya reklamsız paketle).</li>
+            <li>Canlanma hakkı bittiğinde doğrudan oyun sonu ekranına gidersiniz.</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
           <h2>🎖️ Lig Rozetleri &amp; Başarımlar</h2>
-          <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5; margin-bottom: 12px;">
-            Gear Blast'ta en yüksek skorunuza göre liglerde yükselirsiniz. Lig seviyeleri kalıcıdır: Bronz, Gümüş, Altın, Platin ve Elmas. İlgili modda 1. sıraya yükselen oyuncu geçici olarak Şampiyon rozetini taşır.
-          </p>
+          <p>En yüksek skorunuza göre lig seviyeniz belirlenir: <strong>Bronz, Gümüş, Altın, Platin ve Elmas</strong>. Ligler kalıcıdır ve düşmez (tavuk cezası hariç). Mod 1.'si ise geçici <strong>Şampiyon</strong> rozetini taşır.</p>
           <ul id="badge-list-tr" style="margin-bottom: 12px;"></ul>
-          <div class="tip-cards">
-            <div class="tip-card">
-              <div class="tip-title">Kalıcı Arşiv Rozetleri</div>
-              <p>Arşiv ekranında toplayabileceğiniz 24 adet rozet bulunur. Günlük giriş, toplam oyun süresi, combo rekorları ve macera ilerlemesi gibi kriterlerle kademeli olarak açılır.</p>
-            </div>
+          
+          <div class="tip-card" style="margin-top: 12px;">
+            <div class="tip-title">24 Kalıcı Arşiv Rozeti</div>
+            <p>Arşiv ekranında biriken 24 adet rozet kademeli olarak (bronz → gümüş → altın → mor...) açılır. Günlük giriş, toplam oyun süresi, combo rekorları ve meydan okuma sayılarına göre otomatik verilir.</p>
           </div>
         </div>
 
@@ -452,9 +506,7 @@
 
         <div class="rules-section">
           <h2>⭐ Oyunu Değerlendirin</h2>
-          <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5;">
-            Macera modunda belirli bölümleri tamamladığınızda (5, 10, 25, 50, 100) bazen “Oyunu beğendiniz mi?” ekranı çıkar. Bize yıldız verip değerlendirerek GearBlast'ın gelişmesine destek olabilirsiniz! Düşünceleriniz ve geri bildirimleriniz bizim için çok değerlidir.
-          </p>
+          <p>Macera modunda belirli bölümleri tamamladığınızda (5, 10, 25, 50, 100) bazen “Oyunu beğendiniz mi?” ekranı çıkar. Bize yıldız verip değerlendirerek GearBlast'ın gelişmesine destek olabilirsiniz! Düşünceleriniz ve geri bildirimleriniz bizim için çok değerlidir. Bu ekran günde en fazla bir kez gösterilir.</p>
         </div>
 
         <div class="rules-section">
@@ -479,10 +531,8 @@
       <!-- English Guide -->
       <div id="rules-lang-en" style="display: none;">
         <div class="rules-section">
-          <h2>📖 Gear Blast Player Guide</h2>
-          <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5; margin-bottom: 10px;">
-            Gear Blast is an exciting puzzle game where you place shapes on a grid, clear rows and columns to score points, progress through an adventure map, and challenge other players.
-          </p>
+          <h2>📖 Gear Blast — Player Guide</h2>
+          <p>Gear Blast is an engaging puzzle game where you place shapes on a grid, clear rows and columns to score points, progress through an adventure map, and challenge other players. In this guide, all features of the game are explained in a clear and professional manner.</p>
         </div>
 
         <div class="rules-section">
@@ -497,23 +547,49 @@
         </div>
 
         <div class="rules-section">
+          <h2>🚀 First Launch &amp; Registration</h2>
+          <p>When you open the app for the first time, you will start with the <strong>Welcome Screen</strong>:</p>
+          <ul>
+            <li><span class="icon">🌐</span> Your game language is automatically selected (can be changed in settings later).</li>
+            <li><span class="icon">🛡️</span> A quick approval is requested for privacy and data usage.</li>
+            <li><span class="icon">✍️</span> Choose your <strong>username</strong> (3–22 characters; shown on leaderboards).</li>
+            <li><span class="icon">👤</span> Choose your <strong>avatar</strong> (the character representing you).</li>
+          </ul>
+          <p>Once registered, the main menu will open. On subsequent launches, you will go directly to the main menu without registering again.</p>
+        </div>
+
+        <div class="rules-section">
+          <h2>🏠 Main Menu — The Heart of the Game</h2>
+          <p>The main menu is the central hub of the game. Here you will find:</p>
+          <ul>
+            <li><strong>Your Profile Card:</strong> Avatar, username, and undo credits.</li>
+            <li><strong>Leaderboards:</strong> Real-time rankings for three modes.</li>
+            <li><strong>Archive:</strong> Badges, stats, and match history.</li>
+            <li><strong>Shop:</strong> Undo packs and ad-free packages.</li>
+            <li><strong>Settings:</strong> Sound, music, vibration, language, and privacy choices.</li>
+            <li><strong>Rotating Champion Banner:</strong> Displays the current mode champion; tap to challenge.</li>
+            <li><strong>Challenge Input:</strong> Direct entry to launch duels.</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
           <h2>🎮 Four Game Modes</h2>
           <div class="tip-cards">
             <div class="tip-card">
               <div class="tip-title">1. Adventure Mode</div>
-              <p>A journey through 3000 levels. There are no move or time limits. Fill the color bars at the top and clear obstacles to pass levels and collect rare robots.</p>
+              <p>A journey through 3000 levels. There are no move or time limits. Fill the color bars at the top and clear obstacles to pass levels and collect rare robots for your collection.</p>
             </div>
             <div class="tip-card">
               <div class="tip-title">2. Classic Normal Mode</div>
-              <p>Infinite scoring, a combo counter, and a level system. Shatter the ice frames to level up, and trigger 60-second bonus rounds for a 10x score multiplier.</p>
+              <p>Infinite scoring, a combo counter, and a level system. Shatter the ice frames to level up, and trigger 60-second bonus rounds for a 10x score multiplier on a shifting grid.</p>
             </div>
             <div class="tip-card">
               <div class="tip-title">3. Classic Timed Mode</div>
-              <p>A fast-paced mode with time pressure. The timer resets after completing every 3-piece set (typically 3-6 seconds).</p>
+              <p>A fast-paced mode with time pressure. The timer resets after completing every 3-piece set (typically 3-6 seconds). No levels or bonus rounds are available.</p>
             </div>
             <div class="tip-card">
               <div class="tip-title">4. Challenge Mode (Duel)</div>
-              <p>Challenge other players. If you win, their score is added to yours and they turn into a chicken. If you lose, your high scores reset and you become a plucked chicken.</p>
+              <p>A competitive mode where you try to beat another player's high score. Played in Classic Normal or Timed mode. You win immediately when reaching the target score.</p>
             </div>
           </div>
         </div>
@@ -527,7 +603,7 @@
             </li>
             <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
               <span class="icon" style="font-size: 0.8rem;">🔹</span>
-              <span>If you defeat the opponent, their avatar becomes a plucked "CHICKEN AVATAR" and their score resets to zero. All of their points are added to yours.</span>
+              <span><strong>If you defeat the opponent:</strong> Their avatar becomes a plucked "CHICKEN AVATAR", their score resets to zero, they drop out of the league, and their points are added to yours.</span>
             </li>
             <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
               <span class="icon">⚠️</span>
@@ -535,7 +611,7 @@
             </li>
             <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
               <span class="icon" style="font-size: 0.8rem;">🔸</span>
-              <span>Your score resets to zero, your league progress resets, and your avatar becomes a plucked chicken.</span>
+              <span>Your score resets to zero, your league progress is deleted, and your avatar becomes a plucked chicken.</span>
             </li>
             <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
               <span class="icon">✨</span>
@@ -610,19 +686,6 @@
       <div class="chicken-anim-container" style="display: flex; flex-direction: column; align-items: center; margin-top: 32px; gap: 16px; width: 100%;">
         <img id="animated-chicken" src="avatars/chicken/c1.png" style="width: 80px; height: 80px; border-radius: 12px; border: 2px solid var(--accent); box-shadow: 0 0 10px rgba(240, 160, 48, 0.3);" alt="Chicken" />
         <button id="rules-accept-btn" style="background: #1faf3b; color: #fff; border: none; padding: 14px 32px; font-size: 1.1rem; font-weight: bold; border-radius: 12px; cursor: pointer; box-shadow: 0 4px 12px rgba(31,175,59,0.3); transition: all 0.2s;" data-tr="ANLADIM, BAŞLA" data-en="I UNDERSTAND, START">ANLADIM, BAŞLA</button>
-      </div>
-
-    </div>
-  </div>"tip-title" data-tr="Macera Modu" data-en="Adventure Mode">Macera Modu</div>
-            <p data-tr="Haritada ilerle, robotları topla ve macera skor tablosunda yüksel."
-               data-en="Progress on the map, collect robots and climb the adventure leaderboard."></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="rules-section">
-        <h2>🎖️ <span data-tr="Lig Rozetleri" data-en="League Badges">Lig Rozetleri</span></h2>
-        <ul id="badge-list"></ul>
       </div>
 
     </div>
