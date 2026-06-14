@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T11:57:19Z",
+  "updated_at": "2026-06-14T11:57:53Z",
   "total_players": 10,
   "classic_normal": [
     {
@@ -204,7 +204,7 @@
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
-      "username": "Player",
+      "username": "Berre",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
@@ -305,7 +305,7 @@
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
-      "username": "Player",
+      "username": "Berre",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
@@ -313,17 +313,6 @@
       "avatarId": 999,
       "timestamp": 1781436577,
       "rank": 9
-    },
-    {
-      "uid": "Djv7DopHDYYHovIHQtOH4mA96O32",
-      "username": "Emili",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 999,
-      "timestamp": 1781437256,
-      "rank": 10
     }
   ]
 }
