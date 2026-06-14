@@ -1,26 +1,17 @@
 {
-  "updated_at": "2026-06-14T09:20:45Z",
+  "updated_at": "2026-06-14T09:29:02Z",
   "total_players": 9,
   "classic_normal": [
-    {
-      "uid": "ntkKdtXjyKS3G1OLcC157qNNI5h2",
-      "username": "123",
-      "score": 945181,
-      "leagueLevel": 5,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "rank": 1
-    },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 648298,
-      "leagueLevel": 2,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "rank": 2
+      "timestamp": 1781419873,
+      "rank": 1
     },
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
@@ -30,7 +21,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "rank": 3
+      "timestamp": 1781418198,
+      "rank": 2
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -40,16 +32,29 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 4
+      "timestamp": 1781427008,
+      "rank": 3
     },
     {
-      "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
-      "username": "1",
+      "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
+      "username": "Nar",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 999,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1781428825,
+      "rank": 4
+    },
+    {
+      "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
+      "username": "개고수 맛도리",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 17,
+      "avatarId": 17,
+      "timestamp": 1781412411,
       "rank": 5
     },
     {
@@ -60,6 +65,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
+      "timestamp": 1781393023,
       "rank": 6
     },
     {
@@ -70,48 +76,53 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
+      "timestamp": 1781392850,
       "rank": 7
     },
     {
-      "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
-      "username": "Nar",
+      "uid": "ntkKdtXjyKS3G1OLcC157qNNI5h2",
+      "username": "123",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
+      "profileAvatarId": 18,
+      "avatarId": 999,
+      "timestamp": 1781414129,
       "rank": 8
     },
     {
-      "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
-      "username": "개고수 맛도리",
+      "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
+      "username": "1",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 17,
-      "avatarId": 17,
+      "profileAvatarId": 0,
+      "avatarId": 999,
+      "timestamp": 1781426536,
       "rank": 9
     }
   ],
   "classic_timed": [
     {
-      "uid": "ntkKdtXjyKS3G1OLcC157qNNI5h2",
-      "username": "123",
-      "score": 38023,
-      "leagueLevel": 5,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "rank": 1
-    },
-    {
-      "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
-      "username": "1",
+      "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
+      "username": "Nar",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 999,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1781428825,
+      "rank": 1
+    },
+    {
+      "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
+      "username": "Berre",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1781426876,
       "rank": 2
     },
     {
@@ -122,17 +133,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
+      "timestamp": 1781419077,
       "rank": 3
-    },
-    {
-      "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
-      "username": "Berre",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "rank": 4
     },
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
@@ -142,6 +144,18 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
+      "timestamp": 1781415047,
+      "rank": 4
+    },
+    {
+      "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
+      "username": "개고수 맛도리",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 17,
+      "avatarId": 17,
+      "timestamp": 1781412411,
       "rank": 5
     },
     {
@@ -152,6 +166,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
+      "timestamp": 1781393023,
       "rank": 6
     },
     {
@@ -162,59 +177,54 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
+      "timestamp": 1781392850,
       "rank": 7
     },
     {
-      "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
-      "username": "Nar",
+      "uid": "ntkKdtXjyKS3G1OLcC157qNNI5h2",
+      "username": "123",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
+      "profileAvatarId": 18,
+      "avatarId": 999,
+      "timestamp": 1781410188,
       "rank": 8
     },
     {
-      "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
-      "username": "개고수 맛도리",
+      "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
+      "username": "1",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 17,
-      "avatarId": 17,
+      "profileAvatarId": 0,
+      "avatarId": 999,
+      "timestamp": 1781426536,
       "rank": 9
     }
   ],
   "adventure": [
     {
-      "uid": "ntkKdtXjyKS3G1OLcC157qNNI5h2",
-      "username": "123",
-      "score": 1,
-      "leagueLevel": 5,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "rank": 1
-    },
-    {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 1,
-      "leagueLevel": 0,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "rank": 2
+      "timestamp": 1781420401,
+      "rank": 1
     },
     {
-      "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
-      "username": "1",
+      "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
+      "username": "Nar",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 999,
-      "rank": 3
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1781428825,
+      "rank": 2
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -224,7 +234,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 4
+      "timestamp": 1781426876,
+      "rank": 3
     },
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
@@ -234,6 +245,18 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
+      "timestamp": 1781415047,
+      "rank": 4
+    },
+    {
+      "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
+      "username": "개고수 맛도리",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 17,
+      "avatarId": 17,
+      "timestamp": 1781412411,
       "rank": 5
     },
     {
@@ -244,6 +267,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
+      "timestamp": 1781393023,
       "rank": 6
     },
     {
@@ -254,26 +278,29 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
+      "timestamp": 1781392850,
       "rank": 7
     },
     {
-      "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
-      "username": "Nar",
+      "uid": "ntkKdtXjyKS3G1OLcC157qNNI5h2",
+      "username": "123",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
+      "profileAvatarId": 18,
+      "avatarId": 999,
+      "timestamp": 1781414179,
       "rank": 8
     },
     {
-      "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
-      "username": "개고수 맛도리",
+      "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
+      "username": "1",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 17,
-      "avatarId": 17,
+      "profileAvatarId": 0,
+      "avatarId": 999,
+      "timestamp": 1781426536,
       "rank": 9
     }
   ]
