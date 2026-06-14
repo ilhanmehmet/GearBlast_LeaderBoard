@@ -381,24 +381,24 @@
       <div class="rules-section">
         <h2>⚔️ <span data-tr="Meydan Okuma Kuralları" data-en="Challenge Rules">Meydan Okuma Kuralları</span></h2>
         <ul id="challenge-rules-list">
-          <li style="font-weight: bold; margin-bottom: 6px; color: #f0a030; display: flex; align-items: center; gap: 8px;">
+          <li style="font-weight: bold; margin-top: 36px; margin-bottom: 24px; color: #f0a030; display: flex; align-items: center; gap: 8px; font-size: 1.25rem;">
             <span class="icon">🏆</span>
             <span data-tr="MEYDAN OKUMADAN ÖNCE BİLMEN GEREKENLER" data-en="WHAT YOU NEED TO KNOW BEFORE CHALLENGING">MEYDAN OKUMADAN ÖNCE BİLMEN GEREKENLER</span>
           </li>
-          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px; margin-top: 24px;">
             <span class="icon" style="font-size: 0.8rem;">🔹</span>
             <span data-tr="Eğer meydan okuduğun rakibini yenersen," data-en="If you defeat the opponent you challenged,">Eğer meydan okuduğun rakibini yenersen,</span>
           </li>
           <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
             <span class="icon" style="font-size: 0.8rem;">🔹</span>
-            <span data-tr="Rakibinin Avatarı Yolunmuş Tavuk Avatarı Olur ve Puanı sıfırlanır," data-en="Their avatar becomes a Plucked Chicken avatar and their score resets to zero,">Rakibinin Avatarı Yolunmuş Tavuk Avatarı Olur ve Puanı sıfırlanır,</span>
+            <span data-tr="Rakibinin Avatarı Yolunmuş &quot;TAVUK AVATARI&quot; Olur ve Puanı sıfırlanır," data-en="Their avatar becomes a Plucked &quot;CHICKEN AVATAR&quot; and their score resets to zero,">Rakibinin Avatarı Yolunmuş "TAVUK AVATARI" Olur ve Puanı sıfırlanır,</span>
           </li>
           <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
             <span class="icon" style="font-size: 0.8rem;">🔹</span>
             <span data-tr="Rakibinin Tüm Puanı senin Hanene yazılır ve Ligden düşer" data-en="All of their points are added to your score and they drop in league level">Rakibinin Tüm Puanı senin Hanene yazılır ve Ligden düşer</span>
           </li>
           
-          <li style="font-weight: bold; margin-top: 16px; margin-bottom: 6px; color: #ff5533; display: flex; align-items: center; gap: 8px;">
+          <li style="font-weight: bold; margin-top: 24px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
             <span class="icon">⚠️</span>
             <span data-tr="EĞER RAKİBİNİ YENEMEZSEN" data-en="IF YOU CANNOT DEFEAT YOUR OPPONENT">EĞER RAKİBİNİ YENEMEZSEN</span>
           </li>
@@ -407,7 +407,7 @@
             <span data-tr="Puanın sıfırlanır ve senin avatarın yolunmuş tavuk olur" data-en="Your score resets to zero and your avatar becomes a plucked chicken">Puanın sıfırlanır ve senin avatarın yolunmuş tavuk olur</span>
           </li>
           
-          <li style="font-weight: bold; margin-top: 16px; margin-bottom: 6px; color: #4ab8f0; display: flex; align-items: center; gap: 8px;">
+          <li style="font-weight: bold; margin-top: 24px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
             <span class="icon">✨</span>
             <span data-tr="YOLUNMUŞ TAVUK AVATARINDAN KURTULMAK İÇİN YAPMAN GEREKEN" data-en="WHAT YOU NEED TO DO TO RECOVER FROM PLUCKED CHICKEN STATE">YOLUNMUŞ TAVUK AVATARINDAN KURTULMAK İÇİN YAPMAN GEREKEN</span>
           </li>
@@ -425,9 +425,15 @@
           </li>
           <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
             <span class="icon" style="font-size: 0.8rem;">🔸</span>
-            <span data-tr="Ligde yükselip rozetlerini kazanır şampiyon olursun" data-en="you will climb the league, win your badges and become the champion">Ligde yükselip rozetlerini kazanır şampiyon olursun</span>
+            <span data-tr="Ligde yükselip rozetlerini kazanır, şampiyon olursun" data-en="you will climb the league, win your badges and become the champion">Ligde yükselip rozetlerini kazanır, şampiyon olursun</span>
           </li>
         </ul>
+
+        <!-- Chicken Anim and Accept Button Container -->
+        <div class="chicken-anim-container" style="display: flex; flex-direction: column; align-items: center; margin-top: 32px; gap: 16px; width: 100%;">
+          <img id="animated-chicken" src="avatars/chicken/c1.png" style="width: 80px; height: 80px; border-radius: 12px; border: 2px solid var(--accent); box-shadow: 0 0 10px rgba(240, 160, 48, 0.3);" alt="Chicken" />
+          <button id="rules-accept-btn" style="background: #1faf3b; color: #fff; border: none; padding: 14px 32px; font-size: 1.1rem; font-weight: bold; border-radius: 12px; cursor: pointer; box-shadow: 0 4px 12px rgba(31,175,59,0.3); transition: all 0.2s;" data-tr="ANLADIM, BAŞLA" data-en="I UNDERSTAND, START">ANLADIM, BAŞLA</button>
+        </div>
       </div>
 
       <div class="rules-section">
@@ -981,6 +987,13 @@ document.querySelectorAll('.tab[data-page]').forEach(btn => {
     document.getElementById('page-leaderboard').style.display = page === 'leaderboard' ? '' : 'none';
     document.getElementById('page-rules').style.display       = page === 'rules'       ? '' : 'none';
   });
+ document.querySelectorAll('#tab-rules, #rules-accept-btn').forEach(btn => {
+    // If we transition to rules page, ensure the image is reset to frame 1
+    btn.addEventListener('click', () => {
+      const img = document.getElementById('animated-chicken');
+      if (img) img.src = 'avatars/chicken/c1.png';
+    });
+  });
 });
 
 document.getElementById('searchInput').addEventListener('input', e => {
@@ -994,6 +1007,25 @@ document.getElementById('searchInput').addEventListener('input', e => {
 applyLang();
 buildBadgeList();
 initFirebaseLive();
+
+// Animated Chicken Frame Loop
+let chickenFrame = 1;
+setInterval(() => {
+  chickenFrame = (chickenFrame % 7) + 1;
+  const img = document.getElementById('animated-chicken');
+  if (img) {
+    img.src = `avatars/chicken/c${chickenFrame}.png`;
+  }
+}, 200);
+
+// Rules Accept Button Event Listener
+const acceptBtn = document.getElementById('rules-accept-btn');
+if (acceptBtn) {
+  acceptBtn.addEventListener('click', () => {
+    const tabLb = document.getElementById('tab-lb');
+    if (tabLb) tabLb.click();
+  });
+}
 </script>
 </body>
 </html>
