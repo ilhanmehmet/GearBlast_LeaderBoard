@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T21:29:00Z",
+  "updated_at": "2026-06-14T21:29:33Z",
   "total_players": 16,
   "classic_normal": [
     {
@@ -43,7 +43,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "timestamp": 1781472523,
+      "timestamp": 1781472562,
       "rank": 4
     },
     {
@@ -194,12 +194,12 @@
     {
       "uid": "WWFdCXqUBKZCiFolXmHrDsmOf172",
       "username": "Trii",
-      "score": 0,
+      "score": 1021,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "timestamp": 1781472523,
+      "timestamp": 1781472561,
       "rank": 2
     },
     {
@@ -388,7 +388,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "timestamp": 1781472523,
+      "timestamp": 1781472562,
       "rank": 3
     },
     {
