@@ -379,6 +379,58 @@
       </div>
 
       <div class="rules-section">
+        <h2>⚔️ <span data-tr="Meydan Okuma Kuralları" data-en="Challenge Rules">Meydan Okuma Kuralları</span></h2>
+        <ul id="challenge-rules-list">
+          <li style="font-weight: bold; margin-bottom: 6px; color: #f0a030; display: flex; align-items: center; gap: 8px;">
+            <span class="icon">🏆</span>
+            <span data-tr="MEYDAN OKUMADAN ÖNCE BİLMEN GEREKENLER" data-en="WHAT YOU NEED TO KNOW BEFORE CHALLENGING">MEYDAN OKUMADAN ÖNCE BİLMEN GEREKENLER</span>
+          </li>
+          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+            <span class="icon" style="font-size: 0.8rem;">🔹</span>
+            <span data-tr="Eğer meydan okuduğun rakibini yenersen," data-en="If you defeat the opponent you challenged,">Eğer meydan okuduğun rakibini yenersen,</span>
+          </li>
+          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+            <span class="icon" style="font-size: 0.8rem;">🔹</span>
+            <span data-tr="Rakibinin Avatarı Yolunmuş Tavuk Avatarı Olur ve Puanı sıfırlanır," data-en="Their avatar becomes a Plucked Chicken avatar and their score resets to zero,">Rakibinin Avatarı Yolunmuş Tavuk Avatarı Olur ve Puanı sıfırlanır,</span>
+          </li>
+          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+            <span class="icon" style="font-size: 0.8rem;">🔹</span>
+            <span data-tr="Rakibinin Tüm Puanı senin Hanene yazılır ve Ligden düşer" data-en="All of their points are added to your score and they drop in league level">Rakibinin Tüm Puanı senin Hanene yazılır ve Ligden düşer</span>
+          </li>
+          
+          <li style="font-weight: bold; margin-top: 16px; margin-bottom: 6px; color: #ff5533; display: flex; align-items: center; gap: 8px;">
+            <span class="icon">⚠️</span>
+            <span data-tr="EĞER RAKİBİNİ YENEMEZSEN" data-en="IF YOU CANNOT DEFEAT YOUR OPPONENT">EĞER RAKİBİNİ YENEMEZSEN</span>
+          </li>
+          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+            <span class="icon" style="font-size: 0.8rem;">🔸</span>
+            <span data-tr="Puanın sıfırlanır ve senin avatarın yolunmuş tavuk olur" data-en="Your score resets to zero and your avatar becomes a plucked chicken">Puanın sıfırlanır ve senin avatarın yolunmuş tavuk olur</span>
+          </li>
+          
+          <li style="font-weight: bold; margin-top: 16px; margin-bottom: 6px; color: #4ab8f0; display: flex; align-items: center; gap: 8px;">
+            <span class="icon">✨</span>
+            <span data-tr="YOLUNMUŞ TAVUK AVATARINDAN KURTULMAK İÇİN YAPMAN GEREKEN" data-en="WHAT YOU NEED TO DO TO RECOVER FROM PLUCKED CHICKEN STATE">YOLUNMUŞ TAVUK AVATARINDAN KURTULMAK İÇİN YAPMAN GEREKEN</span>
+          </li>
+          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+            <span class="icon" style="font-size: 0.8rem;">🔸</span>
+            <span data-tr="Herhangi birine meydan okuyup yendiğin zaman" data-en="When you challenge anyone and win">Herhangi birine meydan okuyup yendiğin zaman</span>
+          </li>
+          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+            <span class="icon" style="font-size: 0.8rem;">🔸</span>
+            <span data-tr="avatarını geri alırsın" data-en="you will get your avatar back">avatarını geri alırsın</span>
+          </li>
+          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+            <span class="icon" style="font-size: 0.8rem;">🔸</span>
+            <span data-tr="puan kazanmayada devam edersin" data-en="you will continue to earn points">puan kazanmayada devam edersin</span>
+          </li>
+          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+            <span class="icon" style="font-size: 0.8rem;">🔸</span>
+            <span data-tr="Ligde yükselip rozetlerini kazanır şampiyon olursun" data-en="you will climb the league, win your badges and become the champion">Ligde yükselip rozetlerini kazanır şampiyon olursun</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="rules-section">
         <h2>💡 <span data-tr="Taktikler &amp; İpuçları" data-en="Tips &amp; Tactics">Taktikler &amp; İpuçları</span></h2>
         <div class="tip-cards">
           <div class="tip-card">
@@ -532,10 +584,10 @@ function stableAvatarIdForEntry(entry) {
 function resolveDisplayAvatarId(entry) {
   if (isChickenAvatar(entry.avatarId)) return 999;
   const profileAv = parseInt(entry.profileAvatarId) || 0;
-  if (profileAv >= 2 && profileAv <= AVATAR_COUNT) return profileAv;
+  if (profileAv >= 1 && profileAv <= AVATAR_COUNT) return profileAv;
   const av = parseInt(entry.avatarId) || 0;
   if (av === 999) return 999;
-  if (av >= 2 && av <= AVATAR_COUNT) return av;
+  if (av >= 1 && av <= AVATAR_COUNT) return av;
   return stableAvatarIdForEntry(entry);
 }
 
