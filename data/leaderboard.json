@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-06-14T18:48:27Z",
+  "updated_at": "2026-06-14T18:54:01Z",
   "total_players": 13,
   "classic_normal": [
+    {
+      "uid": "tGepCvwmsTcHwNGCH3K7qtKYj882",
+      "username": "Milla",
+      "score": 1126744,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1781463224,
+      "rank": 1
+    },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 1105731,
-      "leagueLevel": 5,
+      "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1781432327,
-      "rank": 1
-    },
-    {
-      "uid": "tGepCvwmsTcHwNGCH3K7qtKYj882",
-      "username": "Milla",
-      "score": 601350,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 13,
-      "avatarId": 13,
-      "timestamp": 1781462225,
       "rank": 2
     },
     {
