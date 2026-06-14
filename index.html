@@ -984,15 +984,16 @@ document.querySelectorAll('.tab[data-page]').forEach(btn => {
     document.querySelectorAll('.tab[data-page]').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     const page = btn.dataset.page;
-    document.getElementById('page-leaderboard').style.display = page === 'leaderboard' ? '' : 'none';
-    document.getElementById('page-rules').style.display       = page === 'rules'       ? '' : 'none';
+    document.getElementById('page-leaderboard').style.display = page === 'leaderboard' ? 'block' : 'none';
+    document.getElementById('page-rules').style.display       = page === 'rules'       ? 'block' : 'none';
   });
- document.querySelectorAll('#tab-rules, #rules-accept-btn').forEach(btn => {
-    // If we transition to rules page, ensure the image is reset to frame 1
-    btn.addEventListener('click', () => {
-      const img = document.getElementById('animated-chicken');
-      if (img) img.src = 'avatars/chicken/c1.png';
-    });
+});
+
+document.querySelectorAll('#tab-rules, #rules-accept-btn').forEach(btn => {
+  // If we transition to rules page, ensure the image is reset to frame 1
+  btn.addEventListener('click', () => {
+    const img = document.getElementById('animated-chicken');
+    if (img) img.src = 'avatars/chicken/c1.png';
   });
 });
 
