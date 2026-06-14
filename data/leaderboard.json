@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T19:02:18Z",
+  "updated_at": "2026-06-14T19:02:53Z",
   "total_players": 13,
   "classic_normal": [
     {
@@ -304,6 +304,17 @@
       "rank": 1
     },
     {
+      "uid": "tGepCvwmsTcHwNGCH3K7qtKYj882",
+      "username": "Milla",
+      "score": 3,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 38,
+      "timestamp": 1781463743,
+      "rank": 2
+    },
+    {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
       "username": "Seher",
       "score": 1,
@@ -312,7 +323,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1781460963,
-      "rank": 2
+      "rank": 3
     },
     {
       "uid": "NRngrhDcXOapdhswUXQO6U91kwo1",
@@ -323,7 +334,7 @@
       "profileAvatarId": 16,
       "avatarId": 16,
       "timestamp": 1781445429,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
@@ -334,7 +345,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1781428825,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
@@ -345,7 +356,7 @@
       "profileAvatarId": 17,
       "avatarId": 17,
       "timestamp": 1781412411,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -356,7 +367,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781393023,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
@@ -367,7 +378,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781392850,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -378,7 +389,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781426536,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -389,7 +400,7 @@
       "profileAvatarId": 9,
       "avatarId": 999,
       "timestamp": 1781436577,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "sfyfkE3lmHOoQMLdkz6yGjRgcEZ2",
@@ -400,7 +411,7 @@
       "profileAvatarId": 13,
       "avatarId": 999,
       "timestamp": 1781462091,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
@@ -411,17 +422,6 @@
       "profileAvatarId": 19,
       "avatarId": 999,
       "timestamp": 1781462226,
-      "rank": 11
-    },
-    {
-      "uid": "tGepCvwmsTcHwNGCH3K7qtKYj882",
-      "username": "Milla",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 999,
-      "timestamp": 1781463379,
       "rank": 12
     },
     {
