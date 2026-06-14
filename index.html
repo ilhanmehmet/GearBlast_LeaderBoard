@@ -287,6 +287,9 @@
     .tab { font-size: 0.68rem; }
   }
 </style>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
 </head>
 <body>
 
@@ -415,7 +418,20 @@
 // ─────────────────────────────────────────────────────────
 // CONFIG
 // ─────────────────────────────────────────────────────────
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyDXdF9eotcwJWThyRAXZ4n37zt0o8XDhYs",
+  authDomain: "gearblast-35ada.firebaseapp.com",
+  databaseURL: "https://gearblast-35ada-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "gearblast-35ada",
+  storageBucket: "gearblast-35ada.firebasestorage.app",
+  messagingSenderId: "7064440004",
+};
+
 const DATA_URL = 'data/leaderboard.json';
+const LIVE_MODES = ['classic_normal', 'classic_timed', 'adventure'];
+const V2_CUTOFF_TS = 1781222400;
+const MIN_VERSION_CODE = 20;
+const LIVE_LIMIT = 2000;
 
 const LEAGUE_NAMES = {
   tr: ['Bronz','Gümüş','Altın','Platin','Elmas','Şampiyon'],
@@ -564,32 +580,188 @@ function fmtScore(n) {
 let allData = null;
 let currentMode = 'classic_normal';
 let searchQuery = '';
+let usersProfileMap = {};
+let liveBoardRaw = { classic_normal: {}, classic_timed: {}, adventure: {} };
+let liveReady = false;
+let useLive = false;
 
-async function loadData() {
+function isChickenRow(val) {
+  if (!val || typeof val !== 'object') return false;
+  const ic = val.isChicken;
+  if (ic === true || ic === 1 || ic === '1' || ic === 'true') return true;
+  return parseInt(val.avatarId, 10) === 999;
+}
+
+function entryTimestamp(val) {
+  return parseInt(val.timestamp, 10) || 0;
+}
+
+function entryVersionCode(val) {
+  if (val.versionCode === undefined || val.versionCode === null) return null;
+  return parseInt(val.versionCode, 10) || 0;
+}
+
+function passesGlobalListFilter(val) {
+  const vc = entryVersionCode(val);
+  if (vc !== null) return vc >= MIN_VERSION_CODE;
+  return entryTimestamp(val) >= V2_CUTOFF_TS;
+}
+
+function buildUsersProfileMap(raw) {
+  const cache = {};
+  if (!raw || typeof raw !== 'object') return cache;
+  for (const [uid, val] of Object.entries(raw)) {
+    if (!val || typeof val !== 'object') continue;
+    let avatar = null;
+    for (const field of ['avatarId', 'savedAvatarId']) {
+      const av = parseInt(val[field], 10) || 0;
+      if (av >= 2 && av <= MAX_AVATAR_ID && av !== 999) { avatar = av; break; }
+    }
+    cache[uid] = {
+      isChicken: isChickenRow(val),
+      avatarId: avatar,
+    };
+  }
+  return cache;
+}
+
+function normalizeModeEntries(raw) {
+  const entries = [];
+  if (!raw || typeof raw !== 'object') return entries;
+  for (const [uid, val] of Object.entries(raw)) {
+    if (!val || typeof val !== 'object') continue;
+    if (!passesGlobalListFilter(val)) continue;
+    const profile = usersProfileMap[uid] || {};
+    const chicken = isChickenRow(val) || profile.isChicken;
+    const avatarId = chicken ? 999 : resolveDisplayAvatarId({
+      uid,
+      username: val.username,
+      avatarId: val.avatarId,
+      profileAvatarId: profile.avatarId || 0,
+    });
+    entries.push({
+      uid,
+      username: val.username || '???',
+      score: chicken ? 0 : parseInt(val.score, 10) || 0,
+      leagueLevel: chicken ? 0 : parseInt(val.leagueLevel, 10) || 0,
+      playstyleLevel: chicken ? 0 : parseInt(val.playstyleLevel, 10) || 0,
+      profileAvatarId: profile.avatarId || 0,
+      avatarId,
+      timestamp: entryTimestamp(val),
+    });
+  }
+
+  entries.sort((a, b) => {
+    const aChicken = a.avatarId === 999;
+    const bChicken = b.avatarId === 999;
+    const aScore = aChicken ? 0 : a.score;
+    const bScore = bChicken ? 0 : b.score;
+    if (!aChicken && aScore > 0 && !bChicken && bScore > 0) return bScore - aScore;
+    if (!aChicken && aScore > 0) return -1;
+    if (!bChicken && bScore > 0) return 1;
+    if (aChicken !== bChicken) return aChicken ? 1 : -1;
+    return (b.timestamp - a.timestamp) || String(a.username || '').localeCompare(b.username || '');
+  });
+
+  const limited = entries.slice(0, LIVE_LIMIT);
+  limited.forEach((e, i) => {
+    e.rank = i + 1;
+    const chicken = e.avatarId === 999 || e.score <= 0;
+    if (chicken) {
+      e.leagueLevel = 0;
+      e.score = 0;
+    } else if (e.rank === 1 && e.score > 0) {
+      e.leagueLevel = 5;
+    } else if (e.leagueLevel >= 5) {
+      e.leagueLevel = 4;
+    }
+  });
+  return limited;
+}
+
+function rebuildLiveData() {
+  allData = {
+    updated_at: new Date().toISOString(),
+    total_players: 0,
+    classic_normal: normalizeModeEntries(liveBoardRaw.classic_normal),
+    classic_timed: normalizeModeEntries(liveBoardRaw.classic_timed),
+    adventure: normalizeModeEntries(liveBoardRaw.adventure),
+  };
+  allData.total_players = Math.max(
+    allData.classic_normal.length,
+    allData.classic_timed.length,
+    allData.adventure.length
+  );
+  updateBanner(true);
+  renderMode();
+}
+
+function initFirebaseLive() {
+  showLoading();
+  try {
+    if (typeof firebase === 'undefined') throw new Error('firebase SDK missing');
+    if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
+    const db = firebase.database();
+    let pendingModes = LIVE_MODES.length;
+
+    LIVE_MODES.forEach(mode => {
+      db.ref('leaderboards/' + mode).on('value', snap => {
+        liveBoardRaw[mode] = snap.val() || {};
+        pendingModes = Math.max(0, pendingModes - 1);
+        liveReady = true;
+        useLive = true;
+        rebuildLiveData();
+      }, err => {
+        console.warn('leaderboard listener error', mode, err);
+        if (!useLive) loadDataFallback();
+      });
+    });
+
+    firebase.auth().signInAnonymously().then(() => {
+      db.ref('users').on('value', snap => {
+        usersProfileMap = buildUsersProfileMap(snap.val());
+        if (liveReady) rebuildLiveData();
+      });
+    }).catch(err => {
+      console.warn('anonymous auth failed; users merge disabled', err);
+    });
+  } catch (e) {
+    console.warn('Firebase live init failed', e);
+    loadDataFallback();
+  }
+}
+
+async function loadDataFallback() {
   showLoading();
   try {
     const r = await fetch(DATA_URL + '?v=' + Date.now());
     if (!r.ok) throw new Error('Network error');
     allData = await r.json();
-    updateBanner();
+    useLive = false;
+    updateBanner(false);
     renderMode();
   } catch (e) {
     showError();
   }
 }
 
-function updateBanner() {
+function updateBanner(live) {
   if (!allData) return;
-  const d = new Date(allData.updated_at);
   const now = new Date();
-  const opts = { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' };
+  const nowStr = now.toLocaleTimeString(userLang === 'tr' ? 'tr-TR' : 'en-US',
+    { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+  if (live) {
+    document.getElementById('update-text').textContent = userLang === 'tr'
+      ? `Canlı bağlantı — son güncelleme: ${nowStr}`
+      : `Live connection — last update: ${nowStr}`;
+    return;
+  }
+  const d = new Date(allData.updated_at);
+  const opts = { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' };
   const dateStr = d.toLocaleDateString(userLang === 'tr' ? 'tr-TR' : 'en-US', opts);
-  const nowStr = now.toLocaleTimeString(userLang === 'tr' ? 'tr-TR' : 'en-US', { hour:'2-digit', minute:'2-digit', second:'2-digit' });
-  
-  const msg = userLang === 'tr'
-    ? `Liste 15dk'da bir yenilenir — Veri Tarihi: ${dateStr} (Kontrol: ${nowStr})`
-    : `List updates every 15m — Data Date: ${dateStr} (Checked: ${nowStr})`;
-  document.getElementById('update-text').textContent = msg;
+  document.getElementById('update-text').textContent = userLang === 'tr'
+    ? `Yedek liste — Veri: ${dateStr} (Kontrol: ${nowStr})`
+    : `Backup list — Data: ${dateStr} (Checked: ${nowStr})`;
 }
 
 // ─────────────────────────────────────────────────────────
@@ -754,7 +926,7 @@ document.getElementById('searchInput').addEventListener('input', e => {
 // ─────────────────────────────────────────────────────────
 applyLang();
 buildBadgeList();
-loadData();
+initFirebaseLive();
 </script>
 </body>
 </html>

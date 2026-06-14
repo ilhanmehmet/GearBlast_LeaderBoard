@@ -81,13 +81,13 @@ def stable_avatar_id(uid, username):
     return 2 + (h % max(1, MAX_AVATAR_ID - 1))
 
 
-_users_avatar_cache = None
+_users_profile_cache = None
 
 
-def load_users_avatar_map():
-    global _users_avatar_cache
-    if _users_avatar_cache is not None:
-        return _users_avatar_cache
+def load_users_profile_map():
+    global _users_profile_cache
+    if _users_profile_cache is not None:
+        return _users_profile_cache
     cache = {}
     try:
         raw = db.reference("users").get()
@@ -95,23 +95,34 @@ def load_users_avatar_map():
             for uid, val in raw.items():
                 if not isinstance(val, dict):
                     continue
+                ic = val.get("isChicken")
+                is_ch = (ic is True) or (ic in (1, "1", "true", "True")) or (val.get("avatarId") == 999)
+                
+                avatar = None
                 for field in ("avatarId", "savedAvatarId"):
                     try:
                         av = int(val.get(field) or 0)
                     except (TypeError, ValueError):
                         av = 0
                     if 2 <= av <= MAX_AVATAR_ID and av != 999:
-                        cache[uid] = av
+                        avatar = av
                         break
+                cache[uid] = {
+                    "isChicken": is_ch,
+                    "avatarId": avatar
+                }
     except Exception as e:
-        print(f"[warn] users avatar fetch failed: {e}")
-    _users_avatar_cache = cache
-    print(f"[users] Loaded {len(cache)} profile avatars")
+        print(f"[warn] users profile fetch failed: {e}")
+    _users_profile_cache = cache
+    print(f"[users] Loaded {len(cache)} profile records")
     return cache
 
 
-def resolve_avatar_id(val, uid, users_av):
+def resolve_avatar_id(val, uid, users_profile):
     if is_chicken_entry(val):
+        return 999
+    profile = users_profile.get(uid, {})
+    if profile.get("isChicken"):
         return 999
     try:
         lb_av = int(val.get("avatarId", 1) or 1)
@@ -119,7 +130,7 @@ def resolve_avatar_id(val, uid, users_av):
         lb_av = 1
     if lb_av == 999:
         return 999
-    profile_av = users_av.get(uid)
+    profile_av = profile.get("avatarId")
     if profile_av and 2 <= profile_av <= MAX_AVATAR_ID:
         return profile_av
     if 2 <= lb_av <= MAX_AVATAR_ID:
@@ -201,7 +212,7 @@ def init_firebase():
     firebase_admin.initialize_app(cred, {"databaseURL": db_url})
     print(f"[Firebase] Connected: {db_url}")
 
-def fetch_mode(mode, users_av):
+def fetch_mode(mode, users_profile):
     ref = db.reference(f"leaderboards/{mode}")
     # Tam çekim: RTDB kurallarında .indexOn eksik olsa bile çalışır.
     # Çok büyük listelerde maliyet artar; LIMIT kadar üst skor burada kesilir.
@@ -228,17 +239,19 @@ def fetch_mode(mode, users_av):
                 skipped_filtered += 1
                 continue
 
-            is_chicken = is_chicken_entry(val)
-            profile_av = users_av.get(uid)
-            avatar_id = resolve_avatar_id(val, uid, users_av)
+            profile = users_profile.get(uid, {})
+            is_chicken = is_chicken_entry(val) or profile.get("isChicken", False)
+            avatar_id = resolve_avatar_id(val, uid, users_profile)
+            
             entries.append({
                 "uid":           uid,
                 "username":      val.get("username", "???"),
                 "score":         0 if is_chicken else int(val.get("score", 0)),
                 "leagueLevel":   0 if is_chicken else int(val.get("leagueLevel", 0)),
-                "playstyleLevel":int(val.get("playstyleLevel", 0)),
-                "profileAvatarId": profile_av or 0,
+                "playstyleLevel":0 if is_chicken else int(val.get("playstyleLevel", 0)),
+                "profileAvatarId": profile.get("avatarId") or 0,
                 "avatarId":      avatar_id,
+                "timestamp":     entry_timestamp(val),
             })
         except Exception as e:
             print(f"[{mode}] Error parsing entry {uid}: {e}")
@@ -249,8 +262,14 @@ def fetch_mode(mode, users_av):
     def sort_key(e):
         is_chicken = e.get("avatarId") == 999
         score = 0 if is_chicken else int(e.get("score") or 0)
-        active = (not is_chicken) and score > 0
-        return (0 if active else 1, -score, e.get("username") or "")
+        ts = e.get("timestamp") or 0
+        
+        if not is_chicken and score > 0:
+            return (0, -score, -ts, e.get("username") or "")
+        elif not is_chicken:
+            return (1, -ts, e.get("username") or "")
+        else:
+            return (2, ts, e.get("username") or "")
 
     entries.sort(key=sort_key)
 
@@ -269,6 +288,8 @@ def fetch_mode(mode, users_av):
         is_chicken = e.get("avatarId") == 999 or int(e.get("score") or 0) <= 0
         if is_chicken:
             e["leagueLevel"] = 0
+            # Tavuk olanlarin rozeti/puanı olmamalı
+            e["score"] = 0
         elif rank == 1 and int(e.get("score") or 0) > 0:
             e["leagueLevel"] = 5
         elif current_lvl >= 5:
@@ -285,10 +306,10 @@ def main():
         "total_players": 0,
     }
 
-    users_av = load_users_avatar_map()
+    users_profile = load_users_profile_map()
     total = 0
     for mode in MODES:
-        entries = fetch_mode(mode, users_av)
+        entries = fetch_mode(mode, users_profile)
         output[mode] = entries
         total = max(total, len(entries))
 
