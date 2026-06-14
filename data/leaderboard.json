@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T12:36:32Z",
+  "updated_at": "2026-06-14T13:26:13Z",
   "total_players": 10,
   "classic_normal": [
     {
@@ -41,9 +41,9 @@
       "score": 1239,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 57,
-      "avatarId": 57,
-      "timestamp": 1781440578,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781440662,
       "rank": 4
     },
     {
@@ -131,9 +131,9 @@
       "score": 65,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 57,
-      "avatarId": 57,
-      "timestamp": 1781440544,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781440662,
       "rank": 2
     },
     {
@@ -238,6 +238,17 @@
       "rank": 1
     },
     {
+      "uid": "gjaddqXG1WhwcB2T3zmxBujjs9L2",
+      "username": "Krall",
+      "score": 1,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781443555,
+      "rank": 2
+    },
+    {
       "uid": "sfyfkE3lmHOoQMLdkz6yGjRgcEZ2",
       "username": "Emili",
       "score": 1,
@@ -246,17 +257,6 @@
       "profileAvatarId": 13,
       "avatarId": 13,
       "timestamp": 1781439671,
-      "rank": 2
-    },
-    {
-      "uid": "gjaddqXG1WhwcB2T3zmxBujjs9L2",
-      "username": "Krall",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 57,
-      "avatarId": 57,
-      "timestamp": 1781440288,
       "rank": 3
     },
     {
