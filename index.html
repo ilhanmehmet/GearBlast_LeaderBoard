@@ -313,7 +313,7 @@
   <nav class="tabs">
     <div class="page-tabs">
       <button class="tab active"  data-page="leaderboard" id="tab-lb">📊 <span data-tr="Skor" data-en="Scores">Skor</span></button>
-      <button class="tab rules"   data-page="rules"        id="tab-rules">📖 <span data-tr="Kurallar" data-en="Rules">Kurallar</span></button>
+      <button class="tab rules"   data-page="rules"        id="tab-rules">📖 <span data-tr="GearBlast Hakkında Herşey" data-en="All About GearBlast">GearBlast Hakkında Herşey</span></button>
     </div>
   </nav>
 
@@ -343,119 +343,277 @@
     <!-- PODIUM -->
     <div class="podium" id="podium"></div>
 
-    <!-- TOTAL COUNT -->
-    <div class="list-header">
-      <span data-tr="Sıralama" data-en="Ranking">Sıralama</span>
-      <span class="total-count" id="totalCount">...</span>
-    </div>
-
-    <!-- LIST -->
-    <div id="lbList"></div>
-  </div>
-
-  <!-- ══════════════════ RULES PAGE ══════════════════ -->
-  <div id="page-rules">
+    <!--  <div id="page-rules">
     <div class="rules-container">
 
-      <div class="rules-section">
-        <h2>⚙️ <span data-tr="Nasıl Oynanır?" data-en="How to Play?">Nasıl Oynanır?</span></h2>
-        <ul id="rules-list">
-          <li><span class="icon">🎯</span>
-              <span data-tr="Aynı renkteki dişlileri eşleştir, patlat ve puan kazan."
-                    data-en="Match same-colored gears, blast them and earn points."></span></li>
-          <li><span class="icon">💥</span>
-              <span data-tr="3 veya daha fazla dişliyi aynı anda patlatırsan COMBO bonusu kazanırsın."
-                    data-en="Blast 3 or more gears at once to earn a COMBO bonus."></span></li>
-          <li><span class="icon">🔄</span>
-              <span data-tr="Hamle hakkını doldurarak ekstra hamle hakkı kazanabilirsin."
-                    data-en="Fill the move meter to earn extra move credits."></span></li>
-          <li><span class="icon">⏱️</span>
-              <span data-tr="Zamanlı modda süre bitmeden önce mümkün olduğunca çok puan topla."
-                    data-en="In timed mode, collect as many points as possible before time runs out."></span></li>
-          <li><span class="icon">🏅</span>
-              <span data-tr="Liderlik tablosuna girmek için oyunu bitirip skorunu gönder."
-                    data-en="Finish your game and submit your score to appear on the leaderboard."></span></li>
-        </ul>
-      </div>
+      <!-- Türkçe Rehber -->
+      <div id="rules-lang-tr" style="display: none;">
+        <div class="rules-section">
+          <h2>📖 Gear Blast Oyuncu Rehberi</h2>
+          <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5; margin-bottom: 10px;">
+            Gear Blast, parçaları ızgaraya yerleştirip satır ve sütunları temizleyerek yüksek skorlar elde ettiğiniz, macera haritasında ilerlediğiniz ve diğer oyuncularla rekabet ettiğiniz eğlenceli bir bulmaca oyunudur.
+          </p>
+        </div>
 
-      <div class="rules-section">
-        <h2>⚔️ <span data-tr="Meydan Okuma Kuralları" data-en="Challenge Rules">Meydan Okuma Kuralları</span></h2>
-        <ul id="challenge-rules-list">
-          <li style="font-weight: bold; margin-top: 36px; margin-bottom: 24px; color: #f0a030; display: flex; align-items: center; gap: 8px; font-size: 1.25rem;">
-            <span class="icon">🏆</span>
-            <span data-tr="MEYDAN OKUMADAN ÖNCE BİLMEN GEREKENLER" data-en="WHAT YOU NEED TO KNOW BEFORE CHALLENGING">MEYDAN OKUMADAN ÖNCE BİLMEN GEREKENLER</span>
-          </li>
-          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px; margin-top: 24px;">
-            <span class="icon" style="font-size: 0.8rem;">🔹</span>
-            <span data-tr="Eğer meydan okuduğun rakibini yenersen," data-en="If you defeat the opponent you challenged,">Eğer meydan okuduğun rakibini yenersen,</span>
-          </li>
-          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
-            <span class="icon" style="font-size: 0.8rem;">🔹</span>
-            <span data-tr="Rakibinin Avatarı Yolunmuş &quot;TAVUK AVATARI&quot; Olur ve Puanı sıfırlanır," data-en="Their avatar becomes a Plucked &quot;CHICKEN AVATAR&quot; and their score resets to zero,">Rakibinin Avatarı Yolunmuş "TAVUK AVATARI" Olur ve Puanı sıfırlanır,</span>
-          </li>
-          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
-            <span class="icon" style="font-size: 0.8rem;">🔹</span>
-            <span data-tr="Rakibinin Tüm Puanı senin Hanene yazılır ve Ligden düşer" data-en="All of their points are added to your score and they drop in league level">Rakibinin Tüm Puanı senin Hanene yazılır ve Ligden düşer</span>
-          </li>
-          
-          <li style="font-weight: bold; margin-top: 24px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
-            <span class="icon">⚠️</span>
-            <span data-tr="EĞER RAKİBİNİ YENEMEZSEN" data-en="IF YOU CANNOT DEFEAT YOUR OPPONENT">EĞER RAKİBİNİ YENEMEZSEN</span>
-          </li>
-          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
-            <span class="icon" style="font-size: 0.8rem;">🔸</span>
-            <span data-tr="Puanın sıfırlanır ve senin avatarın yolunmuş tavuk olur" data-en="Your score resets to zero and your avatar becomes a plucked chicken">Puanın sıfırlanır ve senin avatarın yolunmuş tavuk olur</span>
-          </li>
-          
-          <li style="font-weight: bold; margin-top: 24px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
-            <span class="icon">✨</span>
-            <span data-tr="YOLUNMUŞ TAVUK AVATARINDAN KURTULMAK İÇİN YAPMAN GEREKEN" data-en="WHAT YOU NEED TO DO TO RECOVER FROM PLUCKED CHICKEN STATE">YOLUNMUŞ TAVUK AVATARINDAN KURTULMAK İÇİN YAPMAN GEREKEN</span>
-          </li>
-          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
-            <span class="icon" style="font-size: 0.8rem;">🔸</span>
-            <span data-tr="Herhangi birine meydan okuyup yendiğin zaman" data-en="When you challenge anyone and win">Herhangi birine meydan okuyup yendiğin zaman</span>
-          </li>
-          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
-            <span class="icon" style="font-size: 0.8rem;">🔸</span>
-            <span data-tr="avatarını geri alırsın" data-en="you will get your avatar back">avatarını geri alırsın</span>
-          </li>
-          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
-            <span class="icon" style="font-size: 0.8rem;">🔸</span>
-            <span data-tr="puan kazanmayada devam edersin" data-en="you will continue to earn points">puan kazanmayada devam edersin</span>
-          </li>
-          <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
-            <span class="icon" style="font-size: 0.8rem;">🔸</span>
-            <span data-tr="Ligde yükselip rozetlerini kazanır, şampiyon olursun" data-en="you will climb the league, win your badges and become the champion">Ligde yükselip rozetlerini kazanır, şampiyon olursun</span>
-          </li>
-        </ul>
+        <div class="rules-section">
+          <h2>⚙️ Nasıl Oynanır?</h2>
+          <ul>
+            <li><span class="icon">🎯</span> Aynı renkteki dişlileri eşleştir, patlat ve puan kazan.</li>
+            <li><span class="icon">💥</span> 3 veya daha fazla dişliyi aynı anda patlatırsan COMBO bonusu kazanırsın.</li>
+            <li><span class="icon">🔄</span> Hamle hakkını doldurarak ekstra hamle hakkı kazanabilirsin.</li>
+            <li><span class="icon">⏱️</span> Zamanlı modda süre bitmeden önce mümkün olduğunca çok puan topla.</li>
+            <li><span class="icon">🏅</span> Liderlik tablosuna girmek için oyunu bitirip skorunu gönder.</li>
+          </ul>
+        </div>
 
-        <!-- Chicken Anim and Accept Button Container -->
-        <div class="chicken-anim-container" style="display: flex; flex-direction: column; align-items: center; margin-top: 32px; gap: 16px; width: 100%;">
-          <img id="animated-chicken" src="avatars/chicken/c1.png" style="width: 80px; height: 80px; border-radius: 12px; border: 2px solid var(--accent); box-shadow: 0 0 10px rgba(240, 160, 48, 0.3);" alt="Chicken" />
-          <button id="rules-accept-btn" style="background: #1faf3b; color: #fff; border: none; padding: 14px 32px; font-size: 1.1rem; font-weight: bold; border-radius: 12px; cursor: pointer; box-shadow: 0 4px 12px rgba(31,175,59,0.3); transition: all 0.2s;" data-tr="ANLADIM, BAŞLA" data-en="I UNDERSTAND, START">ANLADIM, BAŞLA</button>
+        <div class="rules-section">
+          <h2>🎮 Dört Oyun Modu</h2>
+          <div class="tip-cards">
+            <div class="tip-card">
+              <div class="tip-title">1. Macera Modu</div>
+              <p>3000 bölümlük bir yolculuk. Süre ve hamle sınırı yok. Üstteki renk barlarını doldurarak veya varsa engel taşlarını temizleyerek oynanır. Bölüm bitince robot koleksiyonunuz gelişir.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-title">2. Klasik Normal Mod</div>
+              <p>Sınırsız skor, level sistemi ve bonus turları. Combo sayacı dolunca buz çerçevesi kırılır ve level geçilir, ardından 10 kat skor çarpanlı 60 saniyelik bonus turları başlar.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-title">3. Klasik Zamanlı Mod</div>
+              <p>Süre kısıtlamalı mod. Her 3 parçayı bitirdiğinizde süre yenilenir (genelde 3-6 saniye). Level ve bonus yoktur.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-title">4. Meydan Okuma (Düello)</div>
+              <p>Başka bir oyuncunun skorunu geçme yarışı. Kazanırsanız rakibin puanı size eklenir, rakip "Tavuk" olur. Kaybederseniz rekorlarınız ve liginiz sıfırlanır, kendiniz "Tavuk" olursunuz.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rules-section">
+          <h2>⚔️ Meydan Okuma Kuralları</h2>
+          <ul id="challenge-rules-list-tr">
+            <li style="font-weight: bold; margin-top: 10px; margin-bottom: 12px; color: #f0a030; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
+              <span class="icon">🏆</span>
+              <span>MEYDAN OKUMADAN ÖNCE BİLMEN GEREKENLER</span>
+            </li>
+            <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+              <span class="icon" style="font-size: 0.8rem;">🔹</span>
+              <span>Eğer meydan okuduğun rakibini yenersen, rakibinin avatarı "TAVUK AVATARI" olur ve puanı sıfırlanır. Tüm puanları senin hanene yazılır ve ligden düşer.</span>
+            </li>
+            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
+              <span class="icon">⚠️</span>
+              <span>EĞER RAKİBİNİ YENEMEZSEN</span>
+            </li>
+            <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+              <span class="icon" style="font-size: 0.8rem;">🔸</span>
+              <span>Puanın sıfırlanır, lig ilerlemen silinir ve senin avatarın yolunmuş tavuk olur.</span>
+            </li>
+            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
+              <span class="icon">✨</span>
+              <span>YOLUNMUŞ TAVUK AVATARINDAN KURTULMAK İÇİN</span>
+            </li>
+            <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+              <span class="icon" style="font-size: 0.8rem;">🔸</span>
+              <span>Herhangi birine meydan okuyup yendiğin zaman avatarını geri alırsın, puan kazanmaya devam edersin ve ligde yükselerek rozetlerini geri kazanırsın.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
+          <h2>🎖️ Lig Rozetleri &amp; Başarımlar</h2>
+          <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5; margin-bottom: 12px;">
+            Gear Blast'ta en yüksek skorunuza göre liglerde yükselirsiniz. Lig seviyeleri kalıcıdır: Bronz, Gümüş, Altın, Platin ve Elmas. İlgili modda 1. sıraya yükselen oyuncu geçici olarak Şampiyon rozetini taşır.
+          </p>
+          <ul id="badge-list-tr" style="margin-bottom: 12px;"></ul>
+          <div class="tip-cards">
+            <div class="tip-card">
+              <div class="tip-title">Kalıcı Arşiv Rozetleri</div>
+              <p>Arşiv ekranında toplayabileceğiniz 24 adet rozet bulunur. Günlük giriş, toplam oyun süresi, combo rekorları ve macera ilerlemesi gibi kriterlerle kademeli olarak açılır.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rules-section">
+          <h2>💡 Taktikler &amp; İpuçları</h2>
+          <div class="tip-cards">
+            <div class="tip-card">
+              <div class="tip-title">Köşelerden Başlayın</div>
+              <p>Köşe ve kenarlardan başlamak, parçaları daha rahat yerleştirmenizi sağlar ve büyük combo patlamalarının önünü açar.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-title">Combo Zincirini Koruyun</div>
+              <p>Aynı hamlede ne kadar çok dişli patlatırsanız çarpan puanınız o denli yüksek olur.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-title">Geri Al (Undo) Hakkını Saklayın</div>
+              <p>Undo hamlelerinizi kilitlendiğiniz zor anlar veya yanlış yerleştirdiğiniz parçalar için saklayın.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rules-section">
+          <h2>⭐ Oyunu Değerlendirin</h2>
+          <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5;">
+            Macera modunda belirli bölümleri tamamladığınızda (5, 10, 25, 50, 100) bazen “Oyunu beğendiniz mi?” ekranı çıkar. Bize yıldız verip değerlendirerek GearBlast'ın gelişmesine destek olabilirsiniz! Düşünceleriniz ve geri bildirimleriniz bizim için çok değerlidir.
+          </p>
+        </div>
+
+        <div class="rules-section">
+          <h2>❓ Sık Sorulan Sorular (SSS)</h2>
+          <div style="font-size: 0.83rem; color: var(--text2); line-height: 1.5; display: flex; flex-direction: column; gap: 10px;">
+            <div>
+              <strong style="color: var(--accent);">İnternet bağlantısı gerekli mi?</strong>
+              <p>Tek başınıza oynamak için gerekmez. Ancak skor tablosu, meydan okumalar ve profil senkronizasyonu için internet bağlantısı şarttır.</p>
+            </div>
+            <div>
+              <strong style="color: var(--accent);">Kullanıcı adımı değiştirebilir miyim?</strong>
+              <p>Mağazadan isim değiştirme paketi alarak kullanıcı adınızı bir kez değiştirebilirsiniz. Avatarınızı ise profilinizden dilediğiniz zaman ücretsiz değiştirebilirsiniz.</p>
+            </div>
+            <div>
+              <strong style="color: var(--accent);">Tavuk oldum, nasıl kurtulurum?</strong>
+              <p>Herhangi bir aktif oyuncuya meydan okuyup maçı kazanarak tavuk cezasından kurtulabilir ve profilinizi geri alabilirsiniz.</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="rules-section">
-        <h2>💡 <span data-tr="Taktikler &amp; İpuçları" data-en="Tips &amp; Tactics">Taktikler &amp; İpuçları</span></h2>
-        <div class="tip-cards">
-          <div class="tip-card">
-            <div class="tip-title" data-tr="Köşelerden Başla" data-en="Start from Corners">Köşelerden Başla</div>
-            <p data-tr="Köşe ve kenarlardaki dişlilerden başlamak daha büyük combo zincirleri oluşturur."
-               data-en="Starting from corner and edge gears creates larger combo chains."></p>
+      <!-- English Guide -->
+      <div id="rules-lang-en" style="display: none;">
+        <div class="rules-section">
+          <h2>📖 Gear Blast Player Guide</h2>
+          <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5; margin-bottom: 10px;">
+            Gear Blast is an exciting puzzle game where you place shapes on a grid, clear rows and columns to score points, progress through an adventure map, and challenge other players.
+          </p>
+        </div>
+
+        <div class="rules-section">
+          <h2>⚙️ How to Play?</h2>
+          <ul>
+            <li><span class="icon">🎯</span> Match same-colored gears, fill rows and columns to blast them, and earn points.</li>
+            <li><span class="icon">💥</span> Clear 3 or more rows/columns at once to earn a COMBO bonus.</li>
+            <li><span class="icon">🔄</span> Move credits are limited, but you can fill your move meter to earn extra Undo credits.</li>
+            <li><span class="icon">⏱️</span> In Timed Mode, collect as many points as possible before time runs out.</li>
+            <li><span class="icon">🏅</span> Submit your score to climb the leaderboard!</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
+          <h2>🎮 Four Game Modes</h2>
+          <div class="tip-cards">
+            <div class="tip-card">
+              <div class="tip-title">1. Adventure Mode</div>
+              <p>A journey through 3000 levels. There are no move or time limits. Fill the color bars at the top and clear obstacles to pass levels and collect rare robots.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-title">2. Classic Normal Mode</div>
+              <p>Infinite scoring, a combo counter, and a level system. Shatter the ice frames to level up, and trigger 60-second bonus rounds for a 10x score multiplier.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-title">3. Classic Timed Mode</div>
+              <p>A fast-paced mode with time pressure. The timer resets after completing every 3-piece set (typically 3-6 seconds).</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-title">4. Challenge Mode (Duel)</div>
+              <p>Challenge other players. If you win, their score is added to yours and they turn into a chicken. If you lose, your high scores reset and you become a plucked chicken.</p>
+            </div>
           </div>
-          <div class="tip-card">
-            <div class="tip-title" data-tr="Combo Zinciri Kur" data-en="Build Combo Chains">Combo Zinciri Kur</div>
-            <p data-tr="Aynı hamlede ne kadar çok dişli patlarsanız çarpan puanı o kadar yükselir."
-               data-en="The more gears you blast in one move, the higher your multiplier grows."></p>
+        </div>
+
+        <div class="rules-section">
+          <h2>⚔️ Challenge Rules</h2>
+          <ul id="challenge-rules-list-en">
+            <li style="font-weight: bold; margin-top: 10px; margin-bottom: 12px; color: #f0a030; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
+              <span class="icon">🏆</span>
+              <span>WHAT YOU NEED TO KNOW BEFORE CHALLENGING</span>
+            </li>
+            <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+              <span class="icon" style="font-size: 0.8rem;">🔹</span>
+              <span>If you defeat the opponent, their avatar becomes a plucked "CHICKEN AVATAR" and their score resets to zero. All of their points are added to yours.</span>
+            </li>
+            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
+              <span class="icon">⚠️</span>
+              <span>IF YOU CANNOT DEFEAT YOUR OPPONENT</span>
+            </li>
+            <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+              <span class="icon" style="font-size: 0.8rem;">🔸</span>
+              <span>Your score resets to zero, your league progress resets, and your avatar becomes a plucked chicken.</span>
+            </li>
+            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #e0e0e4; display: flex; align-items: center; gap: 8px;">
+              <span class="icon">✨</span>
+              <span>RECOVERING FROM CHICKEN STATE</span>
+            </li>
+            <li style="margin-left: 12px; display: flex; align-items: center; gap: 8px;">
+              <span class="icon" style="font-size: 0.8rem;">🔸</span>
+              <span>Challenge anyone and win to get your avatar back and start earning league points again.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
+          <h2>🎖️ Leagues &amp; Badges</h2>
+          <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5; margin-bottom: 12px;">
+            Climb the leagues based on your highest score: Bronze, Silver, Gold, Platinum, and Diamond. The first place player on the leaderboard temporarily holds the Champion badge.
+          </p>
+          <ul id="badge-list-en" style="margin-bottom: 12px;"></ul>
+          <div class="tip-cards">
+            <div class="tip-card">
+              <div class="tip-title">Permanent Archive Badges</div>
+              <p>Collect 24 permanent badges in your Archive, unlocked through milestones like daily logins, total play time, combo records, and adventure progress.</p>
+            </div>
           </div>
-          <div class="tip-card">
-            <div class="tip-title" data-tr="Geri Al Hakkını Sakla" data-en="Save Your Undo">Geri Al Hakkını Sakla</div>
-            <p data-tr="Geri al hakkını zor anlara sakla — yanlış hamle yaptıysan hemen kullan."
-               data-en="Save undo for tough moments — use it immediately after a wrong move."></p>
+        </div>
+
+        <div class="rules-section">
+          <h2>💡 Tips &amp; Tactics</h2>
+          <div class="tip-cards">
+            <div class="tip-card">
+              <div class="tip-title">Start from Corners</div>
+              <p>Placing pieces near corners and edges leaves the center open, making it easier to form massive combo clears.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-title">Build Combo Chains</div>
+              <p>The more lines you clear in a single move, the larger your score multiplier grows.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-title">Save Your Undos</div>
+              <p>Keep your Undos for tight situations when you run out of moves, or immediately after a wrong placement.</p>
+            </div>
           </div>
-          <div class="tip-card">
-            <div class="tip-title" data-tr="Macera Modu" data-en="Adventure Mode">Macera Modu</div>
+        </div>
+
+        <div class="rules-section">
+          <h2>⭐ Rate the Game</h2>
+          <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5;">
+            When you complete certain levels in Adventure Mode (5, 10, 25, 50, 100), a "Do you like the game?" screen may appear. Please support GearBlast by rating and sharing your feedback with us! Your thoughts are extremely valuable to us.
+          </p>
+        </div>
+
+        <div class="rules-section">
+          <h2>❓ FAQ</h2>
+          <div style="font-size: 0.83rem; color: var(--text2); line-height: 1.5; display: flex; flex-direction: column; gap: 10px;">
+            <div>
+              <strong style="color: var(--accent);">Is an internet connection required?</strong>
+              <p>Not for playing offline, but internet is required for leaderboards, duels, and syncing your profile.</p>
+            </div>
+            <div>
+              <strong style="color: var(--accent);">Can I change my username?</strong>
+              <p>You can change your username once by buying the Username Change Pack in the shop. Avatars can be changed for free at any time.</p>
+            </div>
+            <div>
+              <strong style="color: var(--accent);">How do I recover from chicken status?</strong>
+              <p>Simply challenge any active player on the leaderboard and win the match to recover your profile.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chicken Anim and Accept Button Container -->
+      <div class="chicken-anim-container" style="display: flex; flex-direction: column; align-items: center; margin-top: 32px; gap: 16px; width: 100%;">
+        <img id="animated-chicken" src="avatars/chicken/c1.png" style="width: 80px; height: 80px; border-radius: 12px; border: 2px solid var(--accent); box-shadow: 0 0 10px rgba(240, 160, 48, 0.3);" alt="Chicken" />
+        <button id="rules-accept-btn" style="background: #1faf3b; color: #fff; border: none; padding: 14px 32px; font-size: 1.1rem; font-weight: bold; border-radius: 12px; cursor: pointer; box-shadow: 0 4px 12px rgba(31,175,59,0.3); transition: all 0.2s;" data-tr="ANLADIM, BAŞLA" data-en="I UNDERSTAND, START">ANLADIM, BAŞLA</button>
+      </div>
+
+    </div>
+  </div>"tip-title" data-tr="Macera Modu" data-en="Adventure Mode">Macera Modu</div>
             <p data-tr="Haritada ilerle, robotları topla ve macera skor tablosunda yüksel."
                data-en="Progress on the map, collect robots and climb the adventure leaderboard."></p>
           </div>
@@ -512,6 +670,13 @@ function applyLang() {
   if (si) si.placeholder = userLang === 'tr' ? si.dataset.placeholderTr : si.dataset.placeholderEn;
   document.getElementById('title-lb').textContent =
     userLang === 'tr' ? '🏆 SKOR TABLOSU' : '🏆 LEADERBOARD';
+
+  const rulesTr = document.getElementById('rules-lang-tr');
+  const rulesEn = document.getElementById('rules-lang-en');
+  if (rulesTr && rulesEn) {
+    rulesTr.style.display = userLang === 'tr' ? 'block' : 'none';
+    rulesEn.style.display = userLang === 'tr' ? 'none' : 'block';
+  }
 }
 
 // ─────────────────────────────────────────────────────────
@@ -956,14 +1121,25 @@ function escHtml(s) {
 // BADGE LIST (rules page)
 // ─────────────────────────────────────────────────────────
 function buildBadgeList() {
-  const ul = document.getElementById('badge-list');
+  const ulTr = document.getElementById('badge-list-tr');
+  const ulEn = document.getElementById('badge-list-en');
   LEAGUE_FILES.forEach((f, i) => {
-    const li = document.createElement('li');
-    li.innerHTML = `
-      <span class="icon"><img src="badges/${f}.png" style="width:28px;height:28px;vertical-align:middle"
-            onerror="this.style.display='none'"></span>
-      <span>${LEAGUE_NAMES[userLang][i]}</span>`;
-    ul.appendChild(li);
+    if (ulTr) {
+      const li = document.createElement('li');
+      li.innerHTML = `
+        <span class="icon"><img src="badges/${f}.png" style="width:28px;height:28px;vertical-align:middle"
+              onerror="this.style.display='none'"></span>
+        <span>${LEAGUE_NAMES.tr[i]}</span>`;
+      ulTr.appendChild(li);
+    }
+    if (ulEn) {
+      const li = document.createElement('li');
+      li.innerHTML = `
+        <span class="icon"><img src="badges/${f}.png" style="width:28px;height:28px;vertical-align:middle"
+              onerror="this.style.display='none'"></span>
+        <span>${LEAGUE_NAMES.en[i]}</span>`;
+      ulEn.appendChild(li);
+    }
   });
 }
 
