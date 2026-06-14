@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-14T01:39:13Z",
-  "total_players": 3,
+  "updated_at": "2026-06-14T04:32:30Z",
+  "total_players": 4,
   "classic_normal": [
     {
       "uid": "qi8XMERBjfd2oODNYPiXM89lWjH3",
@@ -10,6 +10,48 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 6,
+      "rank": 1
+    },
+    {
+      "uid": "ntkKdtXjyKS3G1OLcC157qNNI5h2",
+      "username": "123",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "rank": 2
+    },
+    {
+      "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
+      "username": "Lex",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "rank": 3
+    },
+    {
+      "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
+      "username": "Lexi",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "rank": 4
+    }
+  ],
+  "classic_timed": [
+    {
+      "uid": "ntkKdtXjyKS3G1OLcC157qNNI5h2",
+      "username": "123",
+      "score": 38023,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
       "rank": 1
     },
     {
@@ -33,30 +75,18 @@
       "rank": 3
     }
   ],
-  "classic_timed": [
-    {
-      "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
-      "username": "Lex",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "rank": 1
-    },
-    {
-      "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
-      "username": "Lexi",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "rank": 2
-    }
-  ],
   "adventure": [
     {
+      "uid": "ntkKdtXjyKS3G1OLcC157qNNI5h2",
+      "username": "123",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "rank": 1
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 0,
@@ -64,7 +94,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 1
+      "rank": 2
     },
     {
       "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
@@ -74,7 +104,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 2
+      "rank": 3
     }
   ]
 }
