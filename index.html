@@ -742,6 +742,48 @@ const LEAGUE_NAMES = {
 };
 const LEAGUE_FILES = ['Bronz','Silver','Gold','Platinum','Diamond','Champion'];
 
+// Oyunla ayni lig esikleri (systems/league.lua)
+const LEAGUE_TIER_MIN = [0, 320000, 1360000, 3200000, 7750000];
+
+function calculateTierFromScore(score) {
+  const s = parseInt(score, 10) || 0;
+  for (let i = LEAGUE_TIER_MIN.length - 1; i >= 0; i--) {
+    if (s >= LEAGUE_TIER_MIN[i]) return i + 1;
+  }
+  return 1;
+}
+
+/** Skor tablosu ile ayni rozet mantigi (states/leaderboard.lua getLeagueBadgeInfo) */
+function resolveLeagueBadge(rank, entry) {
+  if (isChickenAvatar(entry.avatarId)) return null;
+  const pts = parseInt(entry.score, 10) || 0;
+
+  if (rank === 1 && pts > 0) {
+    return { file: 'Champion', nameTr: LEAGUE_NAMES.tr[5], nameEn: LEAGUE_NAMES.en[5] };
+  }
+
+  let lvl = parseInt(entry.leagueLevel, 10) || 0;
+  if (lvl <= 0) lvl = calculateTierFromScore(pts);
+  if (lvl <= 0) return null;
+
+  const tierIdx = Math.min(Math.max(lvl, 1), 5) - 1;
+  return {
+    file: LEAGUE_FILES[tierIdx],
+    nameTr: LEAGUE_NAMES.tr[tierIdx],
+    nameEn: LEAGUE_NAMES.en[tierIdx],
+  };
+}
+
+function leagueBadgeName(badge) {
+  if (!badge) return '';
+  return userLang === 'tr' ? badge.nameTr : badge.nameEn;
+}
+
+function leagueBadgeImgSrc(badge) {
+  if (!badge) return '';
+  return `badges/${badge.file}.png`;
+}
+
 // ─────────────────────────────────────────────────────────
 // LANGUAGE
 // ─────────────────────────────────────────────────────────
@@ -991,14 +1033,9 @@ function normalizeModeEntries(raw) {
   const limited = entries.slice(0, LIVE_LIMIT);
   limited.forEach((e, i) => {
     e.rank = i + 1;
-    const chicken = e.avatarId === 999 || e.score <= 0;
-    if (chicken) {
+    if (e.avatarId === 999) {
       e.leagueLevel = 0;
       e.score = 0;
-    } else if (e.rank === 1 && e.score > 0) {
-      e.leagueLevel = 5;
-    } else if (e.leagueLevel >= 5) {
-      e.leagueLevel = 4;
     }
   });
   return limited;
@@ -1119,18 +1156,9 @@ function renderPodium(top3) {
   const classes = ['rank1','rank2','rank3'];
   el.innerHTML = top3.map((e, i) => {
     const rank = e.rank || i + 1;
-    const chicken = isChickenAvatar(e.avatarId);
-    const pts = parseInt(e.score) || 0;
-    let displayLevel = parseInt(e.leagueLevel) || 0;
-    if (chicken || pts <= 0) {
-      displayLevel = 0;
-    } else if (rank === 1) {
-      displayLevel = 5;
-    } else if (displayLevel >= 5) {
-      displayLevel = 4;
-    }
-    const badgeHtml = displayLevel > 0
-      ? `<div class="badge-wrap"><img src="${badgeSrc(displayLevel)}" alt="${badgeName(displayLevel)}" onerror="this.style.display='none'"></div>`
+    const badge = resolveLeagueBadge(rank, e);
+    const badgeHtml = badge
+      ? `<div class="badge-wrap"><img src="${leagueBadgeImgSrc(badge)}" alt="${leagueBadgeName(badge)}" onerror="this.style.display='none'"><span>${leagueBadgeName(badge)}</span></div>`
       : '';
 
     return `
@@ -1162,16 +1190,7 @@ function renderList(rest) {
     const globalRank = e.rank || (i + 4);
     const rc = globalRank <= 3 ? rankColors[globalRank - 1] : '';
     
-    const chicken = isChickenAvatar(e.avatarId);
-    const pts = parseInt(e.score) || 0;
-    let displayLevel = parseInt(e.leagueLevel) || 0;
-    if (chicken || pts <= 0) {
-      displayLevel = 0;
-    } else if (globalRank === 1) {
-      displayLevel = 5;
-    } else if (displayLevel >= 5) {
-      displayLevel = 4;
-    }
+    const badge = resolveLeagueBadge(globalRank, e);
 
     return `
     <div class="lb-row">
@@ -1179,8 +1198,8 @@ function renderList(rest) {
       <div class="avatar-sm">${avatarInnerForEntry(e)}</div>
       <div class="info">
         <div class="uname">${escHtml(e.username)}</div>
-        <div class="badge-row">${displayLevel > 0
-          ? `<img src="${badgeSrc(displayLevel)}" alt="${badgeName(displayLevel)}" onerror="this.style.display='none'"><span>${badgeName(displayLevel)}</span>`
+        <div class="badge-row">${badge
+          ? `<img src="${leagueBadgeImgSrc(badge)}" alt="${leagueBadgeName(badge)}" onerror="this.style.display='none'"><span>${leagueBadgeName(badge)}</span>`
           : ''}</div>
       </div>
       <div class="score-col">${fmtScore(e.score)}</div>
