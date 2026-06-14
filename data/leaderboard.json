@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-14T08:52:11Z",
-  "total_players": 8,
+  "updated_at": "2026-06-14T09:20:45Z",
+  "total_players": 9,
   "classic_normal": [
     {
       "uid": "ntkKdtXjyKS3G1OLcC157qNNI5h2",
@@ -73,6 +73,16 @@
       "rank": 7
     },
     {
+      "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
+      "username": "Nar",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 8
+    },
+    {
       "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
       "username": "개고수 맛도리",
       "score": 0,
@@ -80,7 +90,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 8
+      "rank": 9
     }
   ],
   "classic_timed": [
@@ -155,6 +165,16 @@
       "rank": 7
     },
     {
+      "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
+      "username": "Nar",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 8
+    },
+    {
       "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
       "username": "개고수 맛도리",
       "score": 0,
@@ -162,7 +182,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 8
+      "rank": 9
     }
   ],
   "adventure": [
@@ -237,6 +257,16 @@
       "rank": 7
     },
     {
+      "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
+      "username": "Nar",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 8
+    },
+    {
       "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
       "username": "개고수 맛도리",
       "score": 0,
@@ -244,7 +274,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 8
+      "rank": 9
     }
   ]
 }
