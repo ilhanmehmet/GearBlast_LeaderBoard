@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T11:29:49Z",
+  "updated_at": "2026-06-14T11:35:52Z",
   "total_players": 10,
   "classic_normal": [
     {
@@ -229,12 +229,12 @@
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
-      "score": 10,
+      "score": 11,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1781436549,
+      "timestamp": 1781436937,
       "rank": 1
     },
     {
