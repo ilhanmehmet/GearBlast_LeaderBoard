@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T21:33:10Z",
+  "updated_at": "2026-06-14T21:38:51Z",
   "total_players": 16,
   "classic_normal": [
     {
@@ -175,7 +175,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 999,
-      "timestamp": 1781472780,
+      "timestamp": 1781473131,
       "rank": 16
     }
   ],
@@ -183,7 +183,7 @@
     {
       "uid": "BZAQvUjDgrT1vDFg85cRzGmtSXW2",
       "username": "Elya",
-      "score": 415879,
+      "score": 423136,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 61,
@@ -353,7 +353,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 999,
-      "timestamp": 1781472780,
+      "timestamp": 1781473131,
       "rank": 16
     }
   ],
@@ -366,7 +366,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1781460898,
+      "timestamp": 1781473098,
       "rank": 1
     },
     {
@@ -520,7 +520,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 999,
-      "timestamp": 1781472779,
+      "timestamp": 1781473131,
       "rank": 15
     }
   ]
