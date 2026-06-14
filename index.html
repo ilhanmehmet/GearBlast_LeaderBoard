@@ -501,7 +501,19 @@ function isValidUid(uid) {
 
 const MAX_AVATAR_ID = 65;
 
-/** Oyunla ayni: uid/isim hash -> 2-MAX arasi sabit avatar */
+/** Oyun ui/avatars.lua avatarNames ile birebir ayni (indeks = avatarId) */
+const AVATAR_FILENAMES = [
+  'a-1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9', 'a10',
+  'a11', 'a12', 'a13', 'a14', 'a16', 'a17', 'a18', 'a19', 'a20',
+  'a21', 'a22', 'a23', 'a24', 'a25', 'a26', 'a27', 'a28', 'a29', 'a30',
+  'a31', 'a33', 'a34', 'a35', 'a36', 'a37', 'a38', 'a39', 'a40',
+  'a41', 'a42', 'a43', 'a44', 'a45', 'a46', 'a47', 'a48', 'a49',
+  'a51', 'a52', 'a53', 'a54', 'a55', 'a56', 'a57', 'a58', 'a59',
+  'a61', 'a62', 'a63', 'a64', 'a65', 'a69'
+];
+const AVATAR_COUNT = AVATAR_FILENAMES.length;
+
+/** Oyunla ayni: uid/isim hash -> 2..AVATAR_COUNT arasi sabit avatar indeksi */
 function stableAvatarIdForEntry(entry) {
   const uid = entry.uid || '';
   const uname = (entry.username || entry.name || '').toLowerCase();
@@ -513,24 +525,27 @@ function stableAvatarIdForEntry(entry) {
   for (let i = 0; i < key.length; i++) {
     h = (h * 31 + key.charCodeAt(i)) % 2147483647;
   }
-  return 2 + (h % (MAX_AVATAR_ID - 1));
+  const span = Math.max(1, AVATAR_COUNT - 1);
+  return Math.min(AVATAR_COUNT, 2 + (h % span));
 }
 
 function resolveDisplayAvatarId(entry) {
   if (isChickenAvatar(entry.avatarId)) return 999;
   const profileAv = parseInt(entry.profileAvatarId) || 0;
-  if (profileAv >= 2 && profileAv <= MAX_AVATAR_ID) return profileAv;
+  if (profileAv >= 2 && profileAv <= AVATAR_COUNT) return profileAv;
   const av = parseInt(entry.avatarId) || 0;
   if (av === 999) return 999;
-  if (av >= 2 && av <= MAX_AVATAR_ID) return av;
+  if (av >= 2 && av <= AVATAR_COUNT) return av;
   return stableAvatarIdForEntry(entry);
 }
 
 function avatarSrc(id) {
   const num = parseInt(id) || 1;
   if (num <= 1) return 'avatars/a-1.png';
-  const clamped = Math.min(Math.max(num, 2), MAX_AVATAR_ID);
-  return `avatars/a${clamped}.png`;
+  if (num >= 1 && num <= AVATAR_COUNT) {
+    return 'avatars/' + AVATAR_FILENAMES[num - 1] + '.png';
+  }
+  return 'avatars/a-1.png';
 }
 
 function avatarInner(id, alt) {

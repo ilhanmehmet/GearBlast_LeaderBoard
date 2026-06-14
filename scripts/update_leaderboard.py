@@ -28,6 +28,7 @@ from firebase_admin import credentials, db
 MODES = ["classic_normal", "classic_timed", "adventure"]
 LIMIT = 2000  # Maksimum kayıt sayısı
 MAX_AVATAR_ID = 65
+AVATAR_COUNT = 62  # ui/avatars.lua avatarNames uzunlugu (indeks = avatarId)
 
 # Gear Blast 2.0 global liste kesiti (2026-06-12 00:00 UTC). Eski Extra/v1 skorlari haric tutulur.
 V2_CUTOFF_TS = int(os.environ.get("V2_CUTOFF_TS", "1781222400"))
@@ -68,7 +69,7 @@ def is_chicken_entry(val):
 
 
 def stable_avatar_id(uid, username):
-    """Oyunla ayni: uid/isim hash -> 2-20 arasi sabit avatar."""
+    """Oyunla ayni: uid/isim hash -> 2..AVATAR_COUNT arasi sabit avatar indeksi."""
     if uid and uid not in ("", "anonymous"):
         key = f"uid:{uid}"
     elif username and username != "???":
@@ -78,7 +79,8 @@ def stable_avatar_id(uid, username):
     h = 0
     for ch in key:
         h = (h * 31 + ord(ch)) % 2147483647
-    return 2 + (h % max(1, MAX_AVATAR_ID - 1))
+    span = max(1, AVATAR_COUNT - 1)
+    return min(AVATAR_COUNT, 2 + (h % span))
 
 
 _users_profile_cache = None
@@ -131,9 +133,9 @@ def resolve_avatar_id(val, uid, users_profile):
     if lb_av == 999:
         return 999
     profile_av = profile.get("avatarId")
-    if profile_av and 2 <= profile_av <= MAX_AVATAR_ID:
+    if profile_av and 2 <= profile_av <= AVATAR_COUNT:
         return profile_av
-    if 2 <= lb_av <= MAX_AVATAR_ID:
+    if 2 <= lb_av <= AVATAR_COUNT:
         return lb_av
     return stable_avatar_id(uid, val.get("username", "???"))
 
