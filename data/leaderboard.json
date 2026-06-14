@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T11:41:08Z",
+  "updated_at": "2026-06-14T11:57:19Z",
   "total_players": 10,
   "classic_normal": [
     {
@@ -212,17 +212,6 @@
       "avatarId": 999,
       "timestamp": 1781436577,
       "rank": 9
-    },
-    {
-      "uid": "Djv7DopHDYYHovIHQtOH4mA96O32",
-      "username": "Emili",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 999,
-      "timestamp": 1781437256,
-      "rank": 10
     }
   ],
   "adventure": [
@@ -234,7 +223,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1781437256,
+      "timestamp": 1781438066,
       "rank": 1
     },
     {
