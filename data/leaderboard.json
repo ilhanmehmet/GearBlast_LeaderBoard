@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T18:37:24Z",
+  "updated_at": "2026-06-14T18:46:52Z",
   "total_players": 13,
   "classic_normal": [
     {
@@ -304,6 +304,17 @@
       "rank": 1
     },
     {
+      "uid": "tGepCvwmsTcHwNGCH3K7qtKYj882",
+      "username": "Milla",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1781462788,
+      "rank": 2
+    },
+    {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
       "username": "Seher",
       "score": 1,
@@ -312,17 +323,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1781460963,
-      "rank": 2
-    },
-    {
-      "uid": "tGepCvwmsTcHwNGCH3K7qtKYj882",
-      "username": "Milla",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 13,
-      "avatarId": 13,
-      "timestamp": 1781458999,
       "rank": 3
     },
     {
