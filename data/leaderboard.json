@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T18:35:04Z",
+  "updated_at": "2026-06-14T18:37:24Z",
   "total_players": 13,
   "classic_normal": [
     {
@@ -14,14 +14,14 @@
       "rank": 1
     },
     {
-      "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
-      "username": "Eda",
-      "score": 550668,
-      "leagueLevel": 2,
+      "uid": "tGepCvwmsTcHwNGCH3K7qtKYj882",
+      "username": "Milla",
+      "score": 601350,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 19,
-      "avatarId": 19,
-      "timestamp": 1781459605,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1781462225,
       "rank": 2
     },
     {
@@ -47,17 +47,6 @@
       "rank": 4
     },
     {
-      "uid": "tGepCvwmsTcHwNGCH3K7qtKYj882",
-      "username": "Milla",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 13,
-      "avatarId": 13,
-      "timestamp": 1781457765,
-      "rank": 5
-    },
-    {
       "uid": "NRngrhDcXOapdhswUXQO6U91kwo1",
       "username": "Zek",
       "score": 0,
@@ -66,7 +55,7 @@
       "profileAvatarId": 16,
       "avatarId": 16,
       "timestamp": 1781445429,
-      "rank": 6
+      "rank": 5
     },
     {
       "uid": "V01a35UaxNNpyo7OVVoDvcMljtx2",
@@ -77,7 +66,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1781428825,
-      "rank": 7
+      "rank": 6
     },
     {
       "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
@@ -88,7 +77,7 @@
       "profileAvatarId": 17,
       "avatarId": 17,
       "timestamp": 1781412411,
-      "rank": 8
+      "rank": 7
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -99,7 +88,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781393023,
-      "rank": 9
+      "rank": 8
     },
     {
       "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
@@ -110,7 +99,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781392850,
-      "rank": 10
+      "rank": 9
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -121,7 +110,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781426536,
-      "rank": 11
+      "rank": 10
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -132,7 +121,7 @@
       "profileAvatarId": 9,
       "avatarId": 999,
       "timestamp": 1781436577,
-      "rank": 12
+      "rank": 11
     },
     {
       "uid": "sfyfkE3lmHOoQMLdkz6yGjRgcEZ2",
@@ -143,6 +132,17 @@
       "profileAvatarId": 13,
       "avatarId": 999,
       "timestamp": 1781462091,
+      "rank": 12
+    },
+    {
+      "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
+      "username": "Eda",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 19,
+      "avatarId": 999,
+      "timestamp": 1781462226,
       "rank": 13
     }
   ],
@@ -155,7 +155,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1781462099,
+      "timestamp": 1781462123,
       "rank": 1
     },
     {
@@ -214,17 +214,6 @@
       "rank": 6
     },
     {
-      "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
-      "username": "Eda",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 19,
-      "avatarId": 19,
-      "timestamp": 1781415047,
-      "rank": 7
-    },
-    {
       "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
       "username": "개고수 맛도리",
       "score": 0,
@@ -233,7 +222,7 @@
       "profileAvatarId": 17,
       "avatarId": 17,
       "timestamp": 1781412411,
-      "rank": 8
+      "rank": 7
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -244,7 +233,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781393023,
-      "rank": 9
+      "rank": 8
     },
     {
       "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
@@ -255,7 +244,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781392850,
-      "rank": 10
+      "rank": 9
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -266,7 +255,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781426536,
-      "rank": 11
+      "rank": 10
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -277,7 +266,7 @@
       "profileAvatarId": 9,
       "avatarId": 999,
       "timestamp": 1781436577,
-      "rank": 12
+      "rank": 11
     },
     {
       "uid": "sfyfkE3lmHOoQMLdkz6yGjRgcEZ2",
@@ -288,6 +277,17 @@
       "profileAvatarId": 13,
       "avatarId": 999,
       "timestamp": 1781462091,
+      "rank": 12
+    },
+    {
+      "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
+      "username": "Eda",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 19,
+      "avatarId": 999,
+      "timestamp": 1781462226,
       "rank": 13
     }
   ],
@@ -359,17 +359,6 @@
       "rank": 6
     },
     {
-      "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
-      "username": "Eda",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 19,
-      "avatarId": 19,
-      "timestamp": 1781415047,
-      "rank": 7
-    },
-    {
       "uid": "McA4b8mxeHPc2NjZsh0Jw06bwxs2",
       "username": "개고수 맛도리",
       "score": 0,
@@ -378,7 +367,7 @@
       "profileAvatarId": 17,
       "avatarId": 17,
       "timestamp": 1781412411,
-      "rank": 8
+      "rank": 7
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -389,7 +378,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781393023,
-      "rank": 9
+      "rank": 8
     },
     {
       "uid": "U9jL7LMnqQVVkgRPuElWRLnCwo22",
@@ -400,7 +389,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781392850,
-      "rank": 10
+      "rank": 9
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -411,7 +400,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781426536,
-      "rank": 11
+      "rank": 10
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -422,7 +411,7 @@
       "profileAvatarId": 9,
       "avatarId": 999,
       "timestamp": 1781436577,
-      "rank": 12
+      "rank": 11
     },
     {
       "uid": "sfyfkE3lmHOoQMLdkz6yGjRgcEZ2",
@@ -433,6 +422,17 @@
       "profileAvatarId": 13,
       "avatarId": 999,
       "timestamp": 1781462091,
+      "rank": 12
+    },
+    {
+      "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
+      "username": "Eda",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 19,
+      "avatarId": 999,
+      "timestamp": 1781462226,
       "rank": 13
     }
   ]
