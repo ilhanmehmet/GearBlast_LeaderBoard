@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T17:36:32Z",
+  "updated_at": "2026-06-15T17:37:18Z",
   "total_players": 4,
   "classic_normal": [
     {
@@ -10,8 +10,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781544881,
+      "timestamp": 1781545017,
       "rank": 1
+    },
+    {
+      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
+      "username": "Warkilla",
+      "score": 416989,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781545017,
+      "rank": 2
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -22,17 +33,6 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781544967,
-      "rank": 2
-    },
-    {
-      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
-      "username": "Warkilla",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781544680,
       "rank": 3
     },
     {
@@ -56,8 +56,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781544881,
+      "timestamp": 1781545017,
       "rank": 1
+    },
+    {
+      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
+      "username": "Warkilla",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781545017,
+      "rank": 2
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -68,17 +79,6 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781544967,
-      "rank": 2
-    },
-    {
-      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
-      "username": "Warkilla",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781544680,
       "rank": 3
     },
     {
@@ -108,12 +108,12 @@
     {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
       "username": "LostChef",
-      "score": 1,
+      "score": 2,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781544881,
+      "timestamp": 1781545016,
       "rank": 2
     },
     {
@@ -124,7 +124,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781544680,
+      "timestamp": 1781545017,
       "rank": 3
     },
     {
