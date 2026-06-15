@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T09:11:41Z",
+  "updated_at": "2026-06-15T09:12:16Z",
   "total_players": 18,
   "classic_normal": [
     {
@@ -32,7 +32,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 16,
-      "timestamp": 1781514682,
+      "timestamp": 1781514713,
       "rank": 3
     },
     {
@@ -199,7 +199,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 16,
-      "timestamp": 1781514683,
+      "timestamp": 1781514713,
       "rank": 1
     },
     {
@@ -403,6 +403,17 @@
       "rank": 2
     },
     {
+      "uid": "dj7aBpqESxRJbvANxY6DqwCeyQv2",
+      "username": "Yaserint",
+      "score": 3,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 16,
+      "timestamp": 1781514712,
+      "rank": 3
+    },
+    {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
       "username": "Seher",
       "score": 1,
@@ -411,17 +422,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1781460963,
-      "rank": 3
-    },
-    {
-      "uid": "dj7aBpqESxRJbvANxY6DqwCeyQv2",
-      "username": "Yaserint",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 16,
-      "timestamp": 1781514683,
       "rank": 4
     },
     {
