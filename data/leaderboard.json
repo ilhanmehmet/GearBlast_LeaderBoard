@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-15T15:01:36Z",
+  "updated_at": "2026-06-15T16:28:48Z",
   "total_players": 26,
   "classic_normal": [
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
-      "username": "Bir oyuncu",
-      "score": 4314768,
+      "username": "Nadir",
+      "score": 2892025,
       "leagueLevel": 5,
       "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 19,
-      "timestamp": 1781535672,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1781535881,
       "rank": 1
     },
     {
@@ -52,7 +52,7 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 13,
+      "profileAvatarId": 0,
       "avatarId": 13,
       "timestamp": 1781529569,
       "rank": 5
@@ -285,7 +285,7 @@
       "score": 377,
       "leagueLevel": 5,
       "playstyleLevel": 0,
-      "profileAvatarId": 13,
+      "profileAvatarId": 0,
       "avatarId": 13,
       "timestamp": 1781529569,
       "rank": 1
@@ -296,8 +296,8 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 19,
+      "profileAvatarId": 10,
+      "avatarId": 10,
       "timestamp": 1781535316,
       "rank": 2
     },
@@ -595,8 +595,8 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 19,
+      "profileAvatarId": 10,
+      "avatarId": 10,
       "timestamp": 1781535316,
       "rank": 4
     },
@@ -617,7 +617,7 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 13,
+      "profileAvatarId": 0,
       "avatarId": 13,
       "timestamp": 1781529569,
       "rank": 6
