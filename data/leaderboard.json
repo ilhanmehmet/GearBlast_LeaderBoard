@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T05:44:41Z",
+  "updated_at": "2026-06-15T05:46:44Z",
   "total_players": 17,
   "classic_normal": [
     {
@@ -27,12 +27,12 @@
     {
       "uid": "wRxMRqGn70VKDx73GGxQe33t53I3",
       "username": "Sarii",
-      "score": 366915,
-      "leagueLevel": 2,
+      "score": 669489,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1781502268,
+      "timestamp": 1781502399,
       "rank": 3
     },
     {
@@ -188,7 +188,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1781502268,
+      "timestamp": 1781502399,
       "rank": 1
     },
     {
@@ -410,7 +410,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1781502268,
+      "timestamp": 1781502399,
       "rank": 5
     },
     {
