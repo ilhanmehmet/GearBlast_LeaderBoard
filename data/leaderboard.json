@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-06-15T19:55:08Z",
-  "total_players": 8,
+  "updated_at": "2026-06-15T19:57:45Z",
+  "total_players": 9,
   "classic_normal": [
+    {
+      "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
+      "username": "Nadir",
+      "score": 4314768,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1781553466,
+      "rank": 1
+    },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 3146339,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1781550395,
-      "rank": 1
-    },
-    {
-      "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
-      "username": "Gülşah",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1781553293,
       "rank": 2
     },
     {
@@ -89,9 +89,7 @@
       "avatarId": 999,
       "timestamp": 1781552629,
       "rank": 8
-    }
-  ],
-  "classic_timed": [
+    },
     {
       "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
       "username": "Gülşah",
@@ -99,8 +97,21 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1781553293,
+      "avatarId": 999,
+      "timestamp": 1781553457,
+      "rank": 9
+    }
+  ],
+  "classic_timed": [
+    {
+      "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
+      "username": "Nadir",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1781553466,
       "rank": 1
     },
     {
@@ -179,6 +190,17 @@
       "avatarId": 999,
       "timestamp": 1781552629,
       "rank": 8
+    },
+    {
+      "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
+      "username": "Gülşah",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 999,
+      "timestamp": 1781553457,
+      "rank": 9
     }
   ],
   "adventure": [
@@ -205,14 +227,14 @@
       "rank": 2
     },
     {
-      "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
-      "username": "Gülşah",
+      "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
+      "username": "Nadir",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1781553293,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1781553466,
       "rank": 3
     },
     {
@@ -269,6 +291,17 @@
       "avatarId": 999,
       "timestamp": 1781552629,
       "rank": 8
+    },
+    {
+      "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
+      "username": "Gülşah",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 999,
+      "timestamp": 1781553456,
+      "rank": 9
     }
   ]
 }
