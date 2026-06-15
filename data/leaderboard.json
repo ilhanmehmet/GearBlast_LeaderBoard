@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-15T17:22:06Z",
-  "total_players": 2,
+  "updated_at": "2026-06-15T17:25:17Z",
+  "total_players": 3,
   "classic_normal": [
     {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
@@ -10,8 +10,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781544116,
+      "timestamp": 1781544142,
       "rank": 1
+    },
+    {
+      "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
+      "username": "1",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 62,
+      "timestamp": 1781544306,
+      "rank": 2
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -22,7 +33,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
-      "rank": 2
+      "rank": 3
     }
   ],
   "classic_timed": [
@@ -34,8 +45,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781544116,
+      "timestamp": 1781544142,
       "rank": 1
+    },
+    {
+      "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
+      "username": "1",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 62,
+      "timestamp": 1781544306,
+      "rank": 2
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -46,10 +68,21 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
-      "rank": 2
+      "rank": 3
     }
   ],
   "adventure": [
+    {
+      "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
+      "username": "1",
+      "score": 2,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 62,
+      "timestamp": 1781544306,
+      "rank": 1
+    },
     {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
       "username": "LostChef",
@@ -58,8 +91,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781544116,
-      "rank": 1
+      "timestamp": 1781544141,
+      "rank": 2
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -70,7 +103,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
-      "rank": 2
+      "rank": 3
     }
   ]
 }
