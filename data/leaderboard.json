@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-15T11:28:42Z",
-  "total_players": 19,
+  "updated_at": "2026-06-15T11:32:24Z",
+  "total_players": 20,
   "classic_normal": [
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
       "username": "Seher",
-      "score": 1421670,
+      "score": 1422743,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 6,
@@ -199,6 +199,17 @@
       "avatarId": 999,
       "timestamp": 1781514593,
       "rank": 18
+    },
+    {
+      "uid": "bgldJosT1gNgQM9ePmiKU0L8j6y1",
+      "username": "Max",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 14,
+      "avatarId": 999,
+      "timestamp": 1781523143,
+      "rank": 19
     }
   ],
   "classic_timed": [
@@ -399,6 +410,17 @@
       "avatarId": 999,
       "timestamp": 1781514593,
       "rank": 18
+    },
+    {
+      "uid": "bgldJosT1gNgQM9ePmiKU0L8j6y1",
+      "username": "Max",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 14,
+      "avatarId": 999,
+      "timestamp": 1781523143,
+      "rank": 19
     }
   ],
   "adventure": [
@@ -610,6 +632,17 @@
       "avatarId": 999,
       "timestamp": 1781514593,
       "rank": 19
+    },
+    {
+      "uid": "bgldJosT1gNgQM9ePmiKU0L8j6y1",
+      "username": "Max",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 14,
+      "avatarId": 999,
+      "timestamp": 1781523143,
+      "rank": 20
     }
   ]
 }
