@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T13:18:19Z",
+  "updated_at": "2026-06-15T13:18:55Z",
   "total_players": 24,
   "classic_normal": [
     {
@@ -36,6 +36,17 @@
       "rank": 3
     },
     {
+      "uid": "zFUhcP7Q0GXjWGGAtqyXnNhgI0w1",
+      "username": "Mavi",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1781529518,
+      "rank": 4
+    },
+    {
       "uid": "W7Ny6bJllNS27LYKH1GltZ08lP43",
       "username": "Fötür",
       "score": 0,
@@ -44,7 +55,7 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1781528580,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "ooFF3qNIRhc0gd09VsUHvQ5fDi62",
@@ -55,7 +66,7 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1781527453,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "Ldc2q9FKvrYyFEPEqPveraOYalh2",
@@ -66,7 +77,7 @@
       "profileAvatarId": 0,
       "avatarId": 42,
       "timestamp": 1781524478,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "bgldJosT1gNgQM9ePmiKU0L8j6y1",
@@ -77,17 +88,6 @@
       "profileAvatarId": 0,
       "avatarId": 57,
       "timestamp": 1781523686,
-      "rank": 7
-    },
-    {
-      "uid": "wmj2RqrAe9ZrTAzHFZPzXlTk7G42",
-      "username": "Denemen",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 45,
-      "timestamp": 1781522101,
       "rank": 8
     },
     {
@@ -245,27 +245,27 @@
       "rank": 22
     },
     {
-      "uid": "zFUhcP7Q0GXjWGGAtqyXnNhgI0w1",
-      "username": "Mavi",
+      "uid": "wmj2RqrAe9ZrTAzHFZPzXlTk7G42",
+      "username": "Denemen",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 13,
+      "profileAvatarId": 0,
       "avatarId": 999,
-      "timestamp": 1781529459,
+      "timestamp": 1781529507,
       "rank": 23
     }
   ],
   "classic_timed": [
     {
-      "uid": "wmj2RqrAe9ZrTAzHFZPzXlTk7G42",
-      "username": "Denemen",
-      "score": 79,
+      "uid": "zFUhcP7Q0GXjWGGAtqyXnNhgI0w1",
+      "username": "Mavi",
+      "score": 101,
       "leagueLevel": 5,
       "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 45,
-      "timestamp": 1781522101,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1781529517,
       "rank": 1
     },
     {
@@ -500,14 +500,14 @@
       "rank": 22
     },
     {
-      "uid": "zFUhcP7Q0GXjWGGAtqyXnNhgI0w1",
-      "username": "Mavi",
+      "uid": "wmj2RqrAe9ZrTAzHFZPzXlTk7G42",
+      "username": "Denemen",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 13,
+      "profileAvatarId": 0,
       "avatarId": 999,
-      "timestamp": 1781529459,
+      "timestamp": 1781529507,
       "rank": 23
     }
   ],
@@ -557,6 +557,17 @@
       "rank": 4
     },
     {
+      "uid": "zFUhcP7Q0GXjWGGAtqyXnNhgI0w1",
+      "username": "Mavi",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1781529518,
+      "rank": 5
+    },
+    {
       "uid": "W7Ny6bJllNS27LYKH1GltZ08lP43",
       "username": "Fötür",
       "score": 0,
@@ -565,7 +576,7 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1781528580,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "ooFF3qNIRhc0gd09VsUHvQ5fDi62",
@@ -576,7 +587,7 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1781527453,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "Ldc2q9FKvrYyFEPEqPveraOYalh2",
@@ -587,7 +598,7 @@
       "profileAvatarId": 0,
       "avatarId": 42,
       "timestamp": 1781524478,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "bgldJosT1gNgQM9ePmiKU0L8j6y1",
@@ -598,17 +609,6 @@
       "profileAvatarId": 0,
       "avatarId": 57,
       "timestamp": 1781523682,
-      "rank": 8
-    },
-    {
-      "uid": "wmj2RqrAe9ZrTAzHFZPzXlTk7G42",
-      "username": "Denemen",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 45,
-      "timestamp": 1781522100,
       "rank": 9
     },
     {
@@ -766,14 +766,14 @@
       "rank": 23
     },
     {
-      "uid": "zFUhcP7Q0GXjWGGAtqyXnNhgI0w1",
-      "username": "Mavi",
+      "uid": "wmj2RqrAe9ZrTAzHFZPzXlTk7G42",
+      "username": "Denemen",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 13,
+      "profileAvatarId": 0,
       "avatarId": 999,
-      "timestamp": 1781529459,
+      "timestamp": 1781529507,
       "rank": 24
     }
   ]
