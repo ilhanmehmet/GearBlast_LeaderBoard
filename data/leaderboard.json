@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T17:17:22Z",
+  "updated_at": "2026-06-15T17:22:06Z",
   "total_players": 2,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781543713,
+      "timestamp": 1781544116,
       "rank": 1
     },
     {
@@ -19,49 +19,38 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1781543825,
+      "profileAvatarId": 43,
+      "avatarId": 43,
+      "timestamp": 1781543972,
       "rank": 2
     }
   ],
   "classic_timed": [
     {
+      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
+      "username": "LostChef",
+      "score": 40728,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "timestamp": 1781544116,
+      "rank": 1
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1781543825,
-      "rank": 1
-    },
-    {
-      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
-      "username": "LostChef",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
-      "timestamp": 1781543713,
+      "profileAvatarId": 43,
+      "avatarId": 43,
+      "timestamp": 1781543972,
       "rank": 2
     }
   ],
   "adventure": [
     {
-      "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
-      "username": "Lex",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1781543825,
-      "rank": 1
-    },
-    {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
       "username": "LostChef",
       "score": 0,
@@ -69,7 +58,18 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781543713,
+      "timestamp": 1781544116,
+      "rank": 1
+    },
+    {
+      "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
+      "username": "Lex",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 43,
+      "avatarId": 43,
+      "timestamp": 1781543972,
       "rank": 2
     }
   ]
