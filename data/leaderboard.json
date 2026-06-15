@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T09:29:11Z",
+  "updated_at": "2026-06-15T09:29:52Z",
   "total_players": 19,
   "classic_normal": [
     {
@@ -38,12 +38,12 @@
     {
       "uid": "wmj2RqrAe9ZrTAzHFZPzXlTk7G42",
       "username": "Denemen",
-      "score": 0,
+      "score": 60,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 3,
       "avatarId": 3,
-      "timestamp": 1781515727,
+      "timestamp": 1781515788,
       "rank": 4
     },
     {
@@ -210,7 +210,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 3,
       "avatarId": 3,
-      "timestamp": 1781515727,
+      "timestamp": 1781515788,
       "rank": 1
     },
     {
@@ -454,7 +454,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 3,
       "avatarId": 3,
-      "timestamp": 1781515727,
+      "timestamp": 1781515788,
       "rank": 5
     },
     {
