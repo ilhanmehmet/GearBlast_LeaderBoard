@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T12:51:58Z",
+  "updated_at": "2026-06-15T12:52:29Z",
   "total_players": 23,
   "classic_normal": [
     {
@@ -43,7 +43,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "timestamp": 1781527907,
+      "timestamp": 1781527942,
       "rank": 4
     },
     {
@@ -260,12 +260,12 @@
     {
       "uid": "W7Ny6bJllNS27LYKH1GltZ08lP43",
       "username": "Fötür",
-      "score": 0,
+      "score": 63,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "timestamp": 1781527907,
+      "timestamp": 1781527942,
       "rank": 2
     },
     {
@@ -542,7 +542,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "timestamp": 1781527907,
+      "timestamp": 1781527942,
       "rank": 5
     },
     {
