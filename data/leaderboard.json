@@ -1,28 +1,17 @@
 {
-  "updated_at": "2026-06-15T17:45:00Z",
+  "updated_at": "2026-06-15T17:51:31Z",
   "total_players": 4,
   "classic_normal": [
     {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
       "username": "LostChef",
-      "score": 505483,
+      "score": 924557,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781545398,
+      "timestamp": 1781545866,
       "rank": 1
-    },
-    {
-      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
-      "username": "Warkilla",
-      "score": 419074,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781545455,
-      "rank": 2
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -33,7 +22,7 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781544967,
-      "rank": 3
+      "rank": 2
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -44,6 +33,17 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
+      "rank": 3
+    },
+    {
+      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
+      "username": "Warkilla",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 999,
+      "timestamp": 1781545848,
       "rank": 4
     }
   ],
@@ -56,19 +56,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781545398,
+      "timestamp": 1781545866,
       "rank": 1
-    },
-    {
-      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
-      "username": "Warkilla",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781545455,
-      "rank": 2
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -79,7 +68,7 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781544967,
-      "rank": 3
+      "rank": 2
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -90,6 +79,17 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
+      "rank": 3
+    },
+    {
+      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
+      "username": "Warkilla",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 999,
+      "timestamp": 1781545848,
       "rank": 4
     }
   ],
@@ -113,19 +113,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781545397,
+      "timestamp": 1781545866,
       "rank": 2
-    },
-    {
-      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
-      "username": "Warkilla",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781545455,
-      "rank": 3
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -136,6 +125,17 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
+      "rank": 3
+    },
+    {
+      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
+      "username": "Warkilla",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 999,
+      "timestamp": 1781545848,
       "rank": 4
     }
   ]
