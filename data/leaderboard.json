@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T05:41:35Z",
+  "updated_at": "2026-06-15T05:44:41Z",
   "total_players": 17,
   "classic_normal": [
     {
@@ -25,6 +25,17 @@
       "rank": 2
     },
     {
+      "uid": "wRxMRqGn70VKDx73GGxQe33t53I3",
+      "username": "Sarii",
+      "score": 366915,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1781502268,
+      "rank": 3
+    },
+    {
       "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
       "username": "Ruk",
       "score": 17435,
@@ -33,17 +44,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1781474297,
-      "rank": 3
-    },
-    {
-      "uid": "wRxMRqGn70VKDx73GGxQe33t53I3",
-      "username": "Sarii",
-      "score": 2195,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
-      "timestamp": 1781502073,
       "rank": 4
     },
     {
@@ -188,7 +188,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1781502074,
+      "timestamp": 1781502268,
       "rank": 1
     },
     {
@@ -410,7 +410,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1781502074,
+      "timestamp": 1781502268,
       "rank": 5
     },
     {
