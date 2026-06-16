@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T00:11:01Z",
+  "updated_at": "2026-06-16T03:45:21Z",
   "total_players": 10,
   "classic_normal": [
     {
@@ -47,6 +47,17 @@
       "rank": 4
     },
     {
+      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
+      "username": "LostChef",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "timestamp": 1781552629,
+      "rank": 5
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 0,
@@ -55,7 +66,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
@@ -66,7 +77,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781545848,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
@@ -77,7 +88,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781548927,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -88,17 +99,6 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781550562,
-      "rank": 8
-    },
-    {
-      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
-      "username": "LostChef",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 999,
-      "timestamp": 1781552629,
       "rank": 9
     },
     {
@@ -159,6 +159,17 @@
       "rank": 4
     },
     {
+      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
+      "username": "LostChef",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "timestamp": 1781552629,
+      "rank": 5
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 0,
@@ -167,7 +178,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
@@ -178,7 +189,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781545848,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
@@ -189,7 +200,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781548927,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -200,17 +211,6 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781550562,
-      "rank": 8
-    },
-    {
-      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
-      "username": "LostChef",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 999,
-      "timestamp": 1781552629,
       "rank": 9
     },
     {
@@ -271,6 +271,17 @@
       "rank": 4
     },
     {
+      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
+      "username": "LostChef",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "timestamp": 1781552629,
+      "rank": 5
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 0,
@@ -279,7 +290,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
@@ -290,7 +301,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781545848,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
@@ -301,7 +312,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781548927,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -312,17 +323,6 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781550562,
-      "rank": 8
-    },
-    {
-      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
-      "username": "LostChef",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 999,
-      "timestamp": 1781552629,
       "rank": 9
     },
     {
