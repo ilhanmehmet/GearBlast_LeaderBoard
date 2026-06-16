@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T21:45:57Z",
+  "updated_at": "2026-06-16T22:03:18Z",
   "total_players": 13,
   "classic_normal": [
     {
@@ -14,6 +14,17 @@
       "rank": 1
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 1894537,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1781647371,
+      "rank": 2
+    },
+    {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
       "username": "Eda",
       "score": 1291800,
@@ -22,17 +33,6 @@
       "profileAvatarId": 0,
       "avatarId": 27,
       "timestamp": 1781601881,
-      "rank": 2
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 804901,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1781645798,
       "rank": 3
     },
     {
@@ -159,6 +159,17 @@
       "rank": 1
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1781647372,
+      "rank": 2
+    },
+    {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
       "username": "LostChef",
       "score": 0,
@@ -167,17 +178,6 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1781646234,
-      "rank": 2
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1781645798,
       "rank": 3
     },
     {
@@ -300,7 +300,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1781645798,
+      "timestamp": 1781647372,
       "rank": 1
     },
     {
