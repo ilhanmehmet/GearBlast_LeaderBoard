@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T21:05:56Z",
+  "updated_at": "2026-06-16T21:06:54Z",
   "total_players": 13,
   "classic_normal": [
     {
@@ -58,17 +58,6 @@
       "rank": 5
     },
     {
-      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
-      "username": "Emili",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 28,
-      "timestamp": 1781643949,
-      "rank": 6
-    },
-    {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
       "score": 0,
@@ -76,7 +65,18 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781643866,
+      "timestamp": 1781643992,
+      "rank": 6
+    },
+    {
+      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
+      "username": "Emili",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 28,
+      "timestamp": 1781643964,
       "rank": 7
     },
     {
@@ -159,17 +159,6 @@
       "rank": 1
     },
     {
-      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
-      "username": "Emili",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 28,
-      "timestamp": 1781643949,
-      "rank": 2
-    },
-    {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
       "score": 0,
@@ -177,7 +166,18 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781643866,
+      "timestamp": 1781643992,
+      "rank": 2
+    },
+    {
+      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
+      "username": "Emili",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 28,
+      "timestamp": 1781643964,
       "rank": 3
     },
     {
@@ -306,12 +306,12 @@
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
-      "score": 10,
+      "score": 11,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781643866,
+      "timestamp": 1781643990,
       "rank": 2
     },
     {
@@ -322,7 +322,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 28,
-      "timestamp": 1781643948,
+      "timestamp": 1781643963,
       "rank": 3
     },
     {
