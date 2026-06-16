@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T15:03:55Z",
+  "updated_at": "2026-06-16T15:05:14Z",
   "total_players": 13,
   "classic_normal": [
     {
@@ -49,12 +49,12 @@
     {
       "uid": "a5EasP8uYyYnHUOfQcF5zEHGtdV2",
       "username": "Áurea",
-      "score": 1645,
+      "score": 11621,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 62,
       "avatarId": 62,
-      "timestamp": 1781622206,
+      "timestamp": 1781622287,
       "rank": 5
     },
     {
@@ -155,7 +155,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 62,
       "avatarId": 62,
-      "timestamp": 1781622206,
+      "timestamp": 1781622288,
       "rank": 1
     },
     {
@@ -355,7 +355,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 62,
       "avatarId": 62,
-      "timestamp": 1781622206,
+      "timestamp": 1781622288,
       "rank": 6
     },
     {
