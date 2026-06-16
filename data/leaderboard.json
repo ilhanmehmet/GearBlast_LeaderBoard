@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T14:31:46Z",
+  "updated_at": "2026-06-16T14:32:31Z",
   "total_players": 12,
   "classic_normal": [
     {
@@ -54,7 +54,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781620273,
+      "timestamp": 1781620328,
       "rank": 5
     },
     {
@@ -144,7 +144,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781620273,
+      "timestamp": 1781620328,
       "rank": 1
     },
     {
@@ -293,6 +293,17 @@
       "rank": 2
     },
     {
+      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
+      "username": "Aytuntas",
+      "score": 4,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781620327,
+      "rank": 3
+    },
+    {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
       "username": "Eda",
       "score": 4,
@@ -301,17 +312,6 @@
       "profileAvatarId": 0,
       "avatarId": 27,
       "timestamp": 1781601881,
-      "rank": 3
-    },
-    {
-      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
-      "username": "Aytuntas",
-      "score": 3,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781620272,
       "rank": 4
     },
     {
