@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T08:29:09Z",
+  "updated_at": "2026-06-16T08:30:36Z",
   "total_players": 11,
   "classic_normal": [
     {
@@ -25,6 +25,17 @@
       "rank": 2
     },
     {
+      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
+      "username": "LostChef",
+      "score": 787609,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "timestamp": 1781598629,
+      "rank": 3
+    },
+    {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
       "username": "Eda",
       "score": 504191,
@@ -33,17 +44,6 @@
       "profileAvatarId": 0,
       "avatarId": 27,
       "timestamp": 1781596631,
-      "rank": 3
-    },
-    {
-      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
-      "username": "LostChef",
-      "score": 496932,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
-      "timestamp": 1781598528,
       "rank": 4
     },
     {
@@ -133,7 +133,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781598528,
+      "timestamp": 1781598629,
       "rank": 1
     },
     {
@@ -267,7 +267,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781598528,
+      "timestamp": 1781598629,
       "rank": 2
     },
     {
