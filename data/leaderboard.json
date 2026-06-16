@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T19:04:24Z",
+  "updated_at": "2026-06-16T19:40:40Z",
   "total_players": 13,
   "classic_normal": [
     {
@@ -58,6 +58,17 @@
       "rank": 5
     },
     {
+      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
+      "username": "Aytuntas",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781638814,
+      "rank": 6
+    },
+    {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
       "username": "LostChef",
       "score": 0,
@@ -66,17 +77,6 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1781626624,
-      "rank": 6
-    },
-    {
-      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
-      "username": "Aytuntas",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781620801,
       "rank": 7
     },
     {
@@ -159,6 +159,17 @@
       "rank": 1
     },
     {
+      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
+      "username": "Aytuntas",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781638814,
+      "rank": 2
+    },
+    {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
       "username": "LostChef",
       "score": 0,
@@ -167,17 +178,6 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1781626624,
-      "rank": 2
-    },
-    {
-      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
-      "username": "Aytuntas",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781620801,
       "rank": 3
     },
     {
@@ -328,12 +328,12 @@
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
-      "score": 6,
+      "score": 7,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781620800,
+      "timestamp": 1781638814,
       "rank": 4
     },
     {
