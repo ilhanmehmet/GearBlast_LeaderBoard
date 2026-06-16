@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T07:46:43Z",
+  "updated_at": "2026-06-16T07:48:46Z",
   "total_players": 11,
   "classic_normal": [
     {
@@ -38,12 +38,12 @@
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
       "username": "Eda",
-      "score": 24801,
+      "score": 357017,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 27,
-      "timestamp": 1781595979,
+      "timestamp": 1781596107,
       "rank": 4
     },
     {
@@ -133,7 +133,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 27,
-      "timestamp": 1781595980,
+      "timestamp": 1781596108,
       "rank": 1
     },
     {
@@ -278,7 +278,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 27,
-      "timestamp": 1781595980,
+      "timestamp": 1781596108,
       "rank": 3
     },
     {
