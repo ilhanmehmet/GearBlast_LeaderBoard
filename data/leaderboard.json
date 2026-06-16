@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T04:38:09Z",
+  "updated_at": "2026-06-16T04:40:15Z",
   "total_players": 10,
   "classic_normal": [
     {
@@ -27,12 +27,12 @@
     {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
       "username": "LostChef",
-      "score": 30070,
+      "score": 804841,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781584672,
+      "timestamp": 1781584808,
       "rank": 3
     },
     {
@@ -122,7 +122,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781584673,
+      "timestamp": 1781584808,
       "rank": 1
     },
     {
@@ -245,7 +245,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1781584673,
+      "timestamp": 1781584808,
       "rank": 2
     },
     {
