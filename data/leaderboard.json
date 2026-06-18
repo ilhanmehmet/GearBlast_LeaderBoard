@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T01:41:51Z",
+  "updated_at": "2026-06-18T05:43:34Z",
   "total_players": 15,
   "classic_normal": [
     {
@@ -76,7 +76,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1781716190,
+      "timestamp": 1781758462,
       "rank": 7
     },
     {
@@ -124,6 +124,17 @@
       "rank": 11
     },
     {
+      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
+      "username": "Warkilla",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781545848,
+      "rank": 12
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 0,
@@ -132,17 +143,6 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
-      "rank": 12
-    },
-    {
-      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
-      "username": "Warkilla",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 999,
-      "timestamp": 1781545848,
       "rank": 13
     },
     {
@@ -210,7 +210,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1781716190,
+      "timestamp": 1781758462,
       "rank": 4
     },
     {
@@ -291,6 +291,17 @@
       "rank": 11
     },
     {
+      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
+      "username": "Warkilla",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781545848,
+      "rank": 12
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 0,
@@ -299,17 +310,6 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
-      "rank": 12
-    },
-    {
-      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
-      "username": "Warkilla",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 999,
-      "timestamp": 1781545848,
       "rank": 13
     },
     {
@@ -421,7 +421,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1781716190,
+      "timestamp": 1781758462,
       "rank": 8
     },
     {
@@ -458,6 +458,17 @@
       "rank": 11
     },
     {
+      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
+      "username": "Warkilla",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781545848,
+      "rank": 12
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 0,
@@ -466,17 +477,6 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781543972,
-      "rank": 12
-    },
-    {
-      "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
-      "username": "Warkilla",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 999,
-      "timestamp": 1781545848,
       "rank": 13
     },
     {
