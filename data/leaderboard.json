@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-19T18:22:09Z",
-  "total_players": 19,
+  "updated_at": "2026-06-19T18:43:00Z",
+  "total_players": 20,
   "classic_normal": [
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -69,6 +69,17 @@
       "rank": 6
     },
     {
+      "uid": "8pnH3U2aaQSDtvw3fijWrPoyVmG3",
+      "username": "Ferooo",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1781894563,
+      "rank": 7
+    },
+    {
       "uid": "0U22ftOV5HQpagblncWOqJOhOSO2",
       "username": "Fatma",
       "score": 0,
@@ -76,8 +87,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1781893315,
-      "rank": 7
+      "timestamp": 1781893381,
+      "rank": 8
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -88,7 +99,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879163,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
@@ -99,7 +110,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781860710,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -110,7 +121,7 @@
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1781856920,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "Xk57kX6yiMS0JG2FKJeWZDNI2803",
@@ -121,7 +132,7 @@
       "profileAvatarId": 0,
       "avatarId": 15,
       "timestamp": 1781810294,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -132,7 +143,7 @@
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1781797704,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
@@ -143,7 +154,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1781548927,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
@@ -154,7 +165,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781545848,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
@@ -165,7 +176,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781553800,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -176,7 +187,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781598528,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
@@ -187,7 +198,7 @@
       "profileAvatarId": 49,
       "avatarId": 999,
       "timestamp": 1781799603,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
@@ -198,7 +209,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781824745,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -209,7 +220,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781860565,
-      "rank": 19
+      "rank": 20
     }
   ],
   "classic_timed": [
@@ -236,6 +247,17 @@
       "rank": 2
     },
     {
+      "uid": "8pnH3U2aaQSDtvw3fijWrPoyVmG3",
+      "username": "Ferooo",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1781894563,
+      "rank": 3
+    },
+    {
       "uid": "0U22ftOV5HQpagblncWOqJOhOSO2",
       "username": "Fatma",
       "score": 0,
@@ -243,8 +265,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1781893315,
-      "rank": 3
+      "timestamp": 1781893381,
+      "rank": 4
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -255,7 +277,7 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781893225,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
@@ -266,7 +288,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781889753,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -277,7 +299,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1781881489,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -288,7 +310,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879164,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -299,7 +321,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781879044,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -310,7 +332,7 @@
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1781856920,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "Xk57kX6yiMS0JG2FKJeWZDNI2803",
@@ -321,7 +343,7 @@
       "profileAvatarId": 0,
       "avatarId": 15,
       "timestamp": 1781810294,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -332,7 +354,7 @@
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1781797704,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
@@ -343,7 +365,7 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783351,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
@@ -354,7 +376,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1781548927,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
@@ -365,7 +387,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781545848,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
@@ -376,7 +398,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781553800,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -387,7 +409,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781598528,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
@@ -398,7 +420,7 @@
       "profileAvatarId": 49,
       "avatarId": 999,
       "timestamp": 1781799603,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
@@ -409,7 +431,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781824745,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -420,7 +442,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781860565,
-      "rank": 19
+      "rank": 20
     }
   ],
   "adventure": [
@@ -491,6 +513,17 @@
       "rank": 6
     },
     {
+      "uid": "8pnH3U2aaQSDtvw3fijWrPoyVmG3",
+      "username": "Ferooo",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1781894563,
+      "rank": 7
+    },
+    {
       "uid": "0U22ftOV5HQpagblncWOqJOhOSO2",
       "username": "Fatma",
       "score": 0,
@@ -498,8 +531,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1781893315,
-      "rank": 7
+      "timestamp": 1781893381,
+      "rank": 8
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
@@ -510,7 +543,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781889753,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -521,7 +554,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781879044,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "Xk57kX6yiMS0JG2FKJeWZDNI2803",
@@ -532,7 +565,7 @@
       "profileAvatarId": 0,
       "avatarId": 15,
       "timestamp": 1781810294,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
@@ -543,7 +576,7 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783351,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "a5EasP8uYyYnHUOfQcF5zEHGtdV2",
@@ -554,7 +587,7 @@
       "profileAvatarId": 62,
       "avatarId": 62,
       "timestamp": 1781690309,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
@@ -565,7 +598,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1781548927,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
@@ -576,7 +609,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781545848,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
@@ -587,7 +620,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781553800,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -598,7 +631,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781598528,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
@@ -609,7 +642,7 @@
       "profileAvatarId": 49,
       "avatarId": 999,
       "timestamp": 1781799603,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
@@ -620,7 +653,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781824745,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -631,7 +664,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781860565,
-      "rank": 19
+      "rank": 20
     }
   ]
 }
