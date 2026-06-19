@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T15:04:25Z",
+  "updated_at": "2026-06-19T17:01:45Z",
   "total_players": 18,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1781881458,
+      "timestamp": 1781881489,
       "rank": 1
     },
     {
@@ -21,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1781865615,
+      "timestamp": 1781888050,
       "rank": 2
     },
     {
@@ -225,6 +225,17 @@
       "rank": 2
     },
     {
+      "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
+      "username": "Filiz",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "timestamp": 1781888050,
+      "rank": 3
+    },
+    {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 0,
@@ -232,8 +243,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1781881458,
-      "rank": 3
+      "timestamp": 1781881489,
+      "rank": 4
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -244,7 +255,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879164,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -255,17 +266,6 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781879044,
-      "rank": 5
-    },
-    {
-      "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
-      "username": "Filiz",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1781865615,
       "rank": 6
     },
     {
@@ -454,7 +454,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1781881457,
+      "timestamp": 1781881488,
       "rank": 5
     },
     {
@@ -469,6 +469,17 @@
       "rank": 6
     },
     {
+      "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
+      "username": "Filiz",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "timestamp": 1781888050,
+      "rank": 7
+    },
+    {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
       "username": "Ahmet",
       "score": 0,
@@ -477,17 +488,6 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781879044,
-      "rank": 7
-    },
-    {
-      "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
-      "username": "Filiz",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1781865615,
       "rank": 8
     },
     {
