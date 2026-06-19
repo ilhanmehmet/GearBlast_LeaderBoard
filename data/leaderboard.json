@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T23:59:11Z",
+  "updated_at": "2026-06-19T23:59:39Z",
   "total_players": 20,
   "classic_normal": [
     {
@@ -36,6 +36,17 @@
       "rank": 3
     },
     {
+      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
+      "username": "Aytuntas",
+      "score": 38973,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781913564,
+      "rank": 4
+    },
+    {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
       "username": "Shristi Mahara",
       "score": 11755,
@@ -44,17 +55,6 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783350,
-      "rank": 4
-    },
-    {
-      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
-      "username": "Aytuntas",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781913548,
       "rank": 5
     },
     {
@@ -232,7 +232,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781913548,
+      "timestamp": 1781913564,
       "rank": 1
     },
     {
@@ -447,15 +447,26 @@
   ],
   "adventure": [
     {
+      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
+      "username": "Aytuntas",
+      "score": 20,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1781913564,
+      "rank": 1
+    },
+    {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
       "username": "1",
       "score": 19,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781893223,
-      "rank": 1
+      "rank": 2
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -466,7 +477,7 @@
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1781856920,
-      "rank": 2
+      "rank": 3
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -477,7 +488,7 @@
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1781797704,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -488,17 +499,6 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879163,
-      "rank": 4
-    },
-    {
-      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
-      "username": "Aytuntas",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781913548,
       "rank": 5
     },
     {
