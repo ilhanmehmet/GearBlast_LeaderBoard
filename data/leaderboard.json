@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T14:52:16Z",
+  "updated_at": "2026-06-19T14:58:43Z",
   "total_players": 18,
   "classic_normal": [
     {
@@ -14,6 +14,17 @@
       "rank": 1
     },
     {
+      "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
+      "username": "Nadir",
+      "score": 827317,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1781881100,
+      "rank": 2
+    },
+    {
       "uid": "a5EasP8uYyYnHUOfQcF5zEHGtdV2",
       "username": "Áurea",
       "score": 783964,
@@ -22,7 +33,7 @@
       "profileAvatarId": 62,
       "avatarId": 62,
       "timestamp": 1781690308,
-      "rank": 2
+      "rank": 3
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -33,17 +44,6 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781879043,
-      "rank": 3
-    },
-    {
-      "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
-      "username": "Nadir",
-      "score": 288886,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 10,
-      "timestamp": 1781880716,
       "rank": 4
     },
     {
@@ -232,7 +232,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1781880717,
+      "timestamp": 1781881101,
       "rank": 3
     },
     {
@@ -454,7 +454,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1781880717,
+      "timestamp": 1781881101,
       "rank": 5
     },
     {
