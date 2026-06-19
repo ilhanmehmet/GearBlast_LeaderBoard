@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T07:33:07Z",
+  "updated_at": "2026-06-19T07:33:53Z",
   "total_players": 18,
   "classic_normal": [
     {
@@ -14,6 +14,17 @@
       "rank": 1
     },
     {
+      "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
+      "username": "Filiz",
+      "score": 862786,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "timestamp": 1781854419,
+      "rank": 2
+    },
+    {
       "uid": "a5EasP8uYyYnHUOfQcF5zEHGtdV2",
       "username": "Áurea",
       "score": 783964,
@@ -22,7 +33,7 @@
       "profileAvatarId": 62,
       "avatarId": 62,
       "timestamp": 1781690308,
-      "rank": 2
+      "rank": 3
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -33,7 +44,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781716460,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -44,17 +55,6 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781722190,
-      "rank": 4
-    },
-    {
-      "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
-      "username": "Filiz",
-      "score": 45590,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1781854244,
       "rank": 5
     },
     {
@@ -232,7 +232,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1781854245,
+      "timestamp": 1781854419,
       "rank": 3
     },
     {
@@ -476,7 +476,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1781854245,
+      "timestamp": 1781854419,
       "rank": 7
     },
     {
