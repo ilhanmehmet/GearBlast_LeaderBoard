@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-20T18:08:40Z",
-  "total_players": 22,
+  "updated_at": "2026-06-20T18:34:20Z",
+  "total_players": 21,
   "classic_normal": [
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
@@ -168,17 +168,6 @@
       "rank": 15
     },
     {
-      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
-      "username": "LostChef",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 999,
-      "timestamp": 1781799603,
-      "rank": 16
-    },
-    {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
       "username": "Eda",
       "score": 0,
@@ -187,7 +176,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781824745,
-      "rank": 17
+      "rank": 16
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
@@ -198,7 +187,7 @@
       "profileAvatarId": 20,
       "avatarId": 999,
       "timestamp": 1781911314,
-      "rank": 18
+      "rank": 17
     },
     {
       "uid": "a5EasP8uYyYnHUOfQcF5zEHGtdV2",
@@ -209,7 +198,7 @@
       "profileAvatarId": 62,
       "avatarId": 999,
       "timestamp": 1781913918,
-      "rank": 19
+      "rank": 18
     },
     {
       "uid": "qi8XMERBjfd2oODNYPiXM89lWjH3",
@@ -220,7 +209,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781967933,
-      "rank": 20
+      "rank": 19
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -231,7 +220,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781977287,
-      "rank": 21
+      "rank": 20
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -242,19 +231,19 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781977558,
-      "rank": 22
+      "rank": 21
     }
   ],
   "classic_timed": [
     {
       "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
       "username": "Maverick",
-      "score": 1644643,
+      "score": 22000,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781977574,
+      "timestamp": 1781979533,
       "rank": 1
     },
     {
@@ -412,17 +401,6 @@
       "rank": 15
     },
     {
-      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
-      "username": "LostChef",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 999,
-      "timestamp": 1781799603,
-      "rank": 16
-    },
-    {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
       "username": "Eda",
       "score": 0,
@@ -431,7 +409,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781824745,
-      "rank": 17
+      "rank": 16
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
@@ -442,7 +420,7 @@
       "profileAvatarId": 20,
       "avatarId": 999,
       "timestamp": 1781911314,
-      "rank": 18
+      "rank": 17
     },
     {
       "uid": "a5EasP8uYyYnHUOfQcF5zEHGtdV2",
@@ -453,7 +431,7 @@
       "profileAvatarId": 62,
       "avatarId": 999,
       "timestamp": 1781913918,
-      "rank": 19
+      "rank": 18
     },
     {
       "uid": "qi8XMERBjfd2oODNYPiXM89lWjH3",
@@ -464,7 +442,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781967933,
-      "rank": 20
+      "rank": 19
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -475,7 +453,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781977287,
-      "rank": 21
+      "rank": 20
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -486,7 +464,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781977557,
-      "rank": 22
+      "rank": 21
     }
   ],
   "adventure": [
@@ -656,17 +634,6 @@
       "rank": 15
     },
     {
-      "uid": "07y2pTLz1pWIZN1ZcaaEgau5G7H2",
-      "username": "LostChef",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 999,
-      "timestamp": 1781799603,
-      "rank": 16
-    },
-    {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
       "username": "Eda",
       "score": 0,
@@ -675,7 +642,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781824745,
-      "rank": 17
+      "rank": 16
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
@@ -686,7 +653,7 @@
       "profileAvatarId": 20,
       "avatarId": 999,
       "timestamp": 1781911314,
-      "rank": 18
+      "rank": 17
     },
     {
       "uid": "a5EasP8uYyYnHUOfQcF5zEHGtdV2",
@@ -697,7 +664,7 @@
       "profileAvatarId": 62,
       "avatarId": 999,
       "timestamp": 1781913918,
-      "rank": 19
+      "rank": 18
     },
     {
       "uid": "qi8XMERBjfd2oODNYPiXM89lWjH3",
@@ -708,7 +675,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781967933,
-      "rank": 20
+      "rank": 19
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -719,7 +686,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781977287,
-      "rank": 21
+      "rank": 20
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -730,7 +697,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781977552,
-      "rank": 22
+      "rank": 21
     }
   ]
 }
