@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T19:01:19Z",
+  "updated_at": "2026-06-20T19:04:06Z",
   "total_players": 22,
   "classic_normal": [
     {
@@ -25,6 +25,17 @@
       "rank": 2
     },
     {
+      "uid": "ruy9DArK4aVOaEnRVaDr2JsG53S2",
+      "username": "Gam",
+      "score": 27554,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "timestamp": 1781982226,
+      "rank": 3
+    },
+    {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
       "username": "Shristi Mahara",
       "score": 11755,
@@ -33,7 +44,7 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783350,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "tJrG0BnHZYVv1mmtf82MlDKWGtD3",
@@ -44,17 +55,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1781966178,
-      "rank": 4
-    },
-    {
-      "uid": "ruy9DArK4aVOaEnRVaDr2JsG53S2",
-      "username": "Gam",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1781982058,
       "rank": 5
     },
     {
@@ -265,7 +265,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1781982058,
+      "timestamp": 1781982227,
       "rank": 2
     },
     {
@@ -564,7 +564,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1781982058,
+      "timestamp": 1781982227,
       "rank": 7
     },
     {
