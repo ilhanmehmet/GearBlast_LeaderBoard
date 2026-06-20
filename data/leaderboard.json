@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T21:07:32Z",
+  "updated_at": "2026-06-20T21:14:25Z",
   "total_players": 22,
   "classic_normal": [
     {
@@ -16,12 +16,12 @@
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
-      "score": 1178799,
+      "score": 1182146,
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1781989636,
+      "timestamp": 1781990048,
       "rank": 2
     },
     {
@@ -254,7 +254,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1781989638,
+      "timestamp": 1781990050,
       "rank": 1
     },
     {
@@ -520,7 +520,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1781989638,
+      "timestamp": 1781990050,
       "rank": 3
     },
     {
