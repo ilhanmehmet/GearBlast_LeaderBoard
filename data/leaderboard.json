@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T12:29:50Z",
+  "updated_at": "2026-06-21T13:57:49Z",
   "total_players": 22,
   "classic_normal": [
     {
@@ -69,6 +69,17 @@
       "rank": 6
     },
     {
+      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
+      "username": "Maverick",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1782050254,
+      "rank": 7
+    },
+    {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 0,
@@ -77,17 +88,6 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782033546,
-      "rank": 7
-    },
-    {
-      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
-      "username": "Maverick",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1782015948,
       "rank": 8
     },
     {
@@ -247,6 +247,17 @@
   ],
   "classic_timed": [
     {
+      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
+      "username": "Maverick",
+      "score": 2895,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1782050254,
+      "rank": 1
+    },
+    {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 0,
@@ -255,7 +266,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782033546,
-      "rank": 1
+      "rank": 2
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -266,17 +277,6 @@
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1782021477,
-      "rank": 2
-    },
-    {
-      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
-      "username": "Maverick",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1782015948,
       "rank": 3
     },
     {
@@ -542,7 +542,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782015948,
+      "timestamp": 1782050254,
       "rank": 5
     },
     {
