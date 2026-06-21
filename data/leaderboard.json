@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T13:58:42Z",
+  "updated_at": "2026-06-21T13:59:39Z",
   "total_players": 22,
   "classic_normal": [
     {
@@ -71,12 +71,12 @@
     {
       "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
       "username": "Maverick",
-      "score": 0,
+      "score": 2895,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782050309,
+      "timestamp": 1782050375,
       "rank": 7
     },
     {
@@ -249,12 +249,12 @@
     {
       "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
       "username": "Maverick",
-      "score": 6954,
+      "score": 18029,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782050308,
+      "timestamp": 1782050375,
       "rank": 1
     },
     {
@@ -542,7 +542,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782050309,
+      "timestamp": 1782050374,
       "rank": 5
     },
     {
