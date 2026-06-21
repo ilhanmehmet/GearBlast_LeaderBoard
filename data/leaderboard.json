@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T04:25:26Z",
+  "updated_at": "2026-06-21T07:04:53Z",
   "total_players": 22,
   "classic_normal": [
     {
@@ -17,11 +17,11 @@
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 1182146,
-      "leagueLevel": 2,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1781990048,
+      "timestamp": 1782021477,
       "rank": 2
     },
     {
@@ -76,7 +76,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781987188,
+      "timestamp": 1782015948,
       "rank": 7
     },
     {
@@ -254,8 +254,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1781990050,
+      "timestamp": 1782021477,
       "rank": 1
+    },
+    {
+      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
+      "username": "Maverick",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1782015948,
+      "rank": 2
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -266,17 +277,6 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781987222,
-      "rank": 2
-    },
-    {
-      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
-      "username": "Maverick",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1781987188,
       "rank": 3
     },
     {
@@ -520,7 +520,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1781990050,
+      "timestamp": 1782021476,
       "rank": 3
     },
     {
@@ -542,7 +542,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1781987188,
+      "timestamp": 1782015948,
       "rank": 5
     },
     {
