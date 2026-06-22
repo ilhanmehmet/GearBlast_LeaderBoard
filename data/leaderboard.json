@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T11:07:10Z",
+  "updated_at": "2026-06-22T11:08:29Z",
   "total_players": 44,
   "classic_normal": [
     {
@@ -131,7 +131,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 58,
       "avatarId": 58,
-      "timestamp": 1782126408,
+      "timestamp": 1782126490,
       "rank": 12
     },
     {
@@ -529,7 +529,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 58,
       "avatarId": 58,
-      "timestamp": 1782126408,
+      "timestamp": 1782126490,
       "rank": 4
     },
     {
@@ -1030,6 +1030,17 @@
       "rank": 5
     },
     {
+      "uid": "xA46ht12pFZZyC9Z6prAmVBI7Zk2",
+      "username": "EDi",
+      "score": 1,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 58,
+      "avatarId": 58,
+      "timestamp": 1782126490,
+      "rank": 6
+    },
+    {
       "uid": "9zXoOrwuw6XVpESSQG6srNxGQy72",
       "username": "Abcd",
       "score": 1,
@@ -1038,7 +1049,7 @@
       "profileAvatarId": 44,
       "avatarId": 44,
       "timestamp": 1782119133,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "VI8Jv6x36iZQyLZrKsIpbUQbbux2",
@@ -1049,7 +1060,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782086722,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "hH47sYSpfDNE1BG51Gv9nFcfHHW2",
@@ -1060,7 +1071,7 @@
       "profileAvatarId": 51,
       "avatarId": 51,
       "timestamp": 1782078233,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -1071,17 +1082,6 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879163,
-      "rank": 9
-    },
-    {
-      "uid": "xA46ht12pFZZyC9Z6prAmVBI7Zk2",
-      "username": "EDi",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 58,
-      "avatarId": 58,
-      "timestamp": 1782126408,
       "rank": 10
     },
     {
