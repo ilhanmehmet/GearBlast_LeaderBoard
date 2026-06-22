@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T12:15:01Z",
+  "updated_at": "2026-06-22T12:27:17Z",
   "total_players": 44,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782130488,
+      "timestamp": 1782131217,
       "rank": 1
     },
     {
@@ -21,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782073730,
+      "timestamp": 1782131172,
       "rank": 2
     },
     {
@@ -496,8 +496,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782073730,
+      "timestamp": 1782131172,
       "rank": 1
+    },
+    {
+      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
+      "username": "Maverick",
+      "score": 32108,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1782131217,
+      "rank": 2
     },
     {
       "uid": "hH47sYSpfDNE1BG51Gv9nFcfHHW2",
@@ -508,7 +519,7 @@
       "profileAvatarId": 51,
       "avatarId": 51,
       "timestamp": 1782078234,
-      "rank": 2
+      "rank": 3
     },
     {
       "uid": "u3duvosHY0Y63xxN3NLB4I08cMx1",
@@ -519,17 +530,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782045438,
-      "rank": 3
-    },
-    {
-      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
-      "username": "Maverick",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1782130488,
       "rank": 4
     },
     {
@@ -982,7 +982,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782073730,
+      "timestamp": 1782131171,
       "rank": 1
     },
     {
@@ -993,7 +993,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782130487,
+      "timestamp": 1782131217,
       "rank": 2
     },
     {
