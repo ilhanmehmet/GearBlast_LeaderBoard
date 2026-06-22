@@ -15,11 +15,11 @@ on:
   repository_dispatch:
     types: [leaderboard-update]
 
-# Ayni anda tek guncelleme: paralel push catismasi ve mail spam'i onlenir.
+# Tek kuyruk: paralel kosular birbirinin ustune yazmasin (mail spam + rebase catismasi).
 # Oyun icindeki canli Firebase listesi etkilenmez (yalnizca statik web JSON).
 concurrency:
   group: leaderboard-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -32,6 +32,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -41,22 +42,39 @@ jobs:
       - name: Install dependencies
         run: pip install --upgrade pip firebase-admin
 
-      - name: Run leaderboard updater
+      - name: Update leaderboard JSON and push
         env:
           FIREBASE_DB_URL: ${{ secrets.FIREBASE_DB_URL }}
           FIREBASE_KEY_BASE64: ${{ secrets.FIREBASE_KEY_BASE64 }}
           FIREBASE_KEY: ${{ secrets.FIREBASE_KEY }}
-        run: python scripts/update_leaderboard.py
-
-      - name: Commit and push updated JSON
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/leaderboard.json
-          if git diff --staged --quiet; then
-            echo "No leaderboard changes to commit."
-            exit 0
-          fi
-          git commit -m "📊 Global Leaderboard Auto-Update"
-          git pull --rebase origin main
-          git push origin main
+
+          for attempt in 1 2 3 4 5; do
+            echo "=== Attempt ${attempt} ==="
+            git fetch origin main
+            git checkout main
+            git reset --hard origin/main
+
+            python scripts/update_leaderboard.py
+
+            git add data/leaderboard.json
+            if git diff --staged --quiet; then
+              echo "No leaderboard changes to commit."
+              exit 0
+            fi
+
+            git commit -m "📊 Global Leaderboard Auto-Update"
+
+            if git push origin main; then
+              echo "Push succeeded on attempt ${attempt}"
+              exit 0
+            fi
+
+            echo "Push rejected; syncing and retrying..."
+            sleep 3
+          done
+
+          echo "ERROR: push failed after 5 attempts"
+          exit 1
