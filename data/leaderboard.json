@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-22T05:22:05Z",
-  "total_players": 34,
+  "updated_at": "2026-06-22T05:41:46Z",
+  "total_players": 35,
   "classic_normal": [
     {
       "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
@@ -168,6 +168,17 @@
       "rank": 15
     },
     {
+      "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
+      "username": "Qwertyuiopasdfghjklñzx",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782063669,
+      "rank": 16
+    },
+    {
       "uid": "49aH6VrYeqQbyCFl44EX7xgkTr52",
       "username": "Deni",
       "score": 0,
@@ -176,7 +187,7 @@
       "profileAvatarId": 3,
       "avatarId": 3,
       "timestamp": 1782059104,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "Ik70wbH04CZWNyHMdHNkvHfOGTv2",
@@ -187,7 +198,7 @@
       "profileAvatarId": 0,
       "avatarId": 51,
       "timestamp": 1782057342,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "u3duvosHY0Y63xxN3NLB4I08cMx1",
@@ -198,7 +209,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782045440,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "8pnH3U2aaQSDtvw3fijWrPoyVmG3",
@@ -209,7 +220,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1781894592,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "0U22ftOV5HQpagblncWOqJOhOSO2",
@@ -220,7 +231,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1781893381,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -231,7 +242,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879163,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -242,7 +253,7 @@
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1781856920,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "Xk57kX6yiMS0JG2FKJeWZDNI2803",
@@ -253,7 +264,7 @@
       "profileAvatarId": 0,
       "avatarId": 15,
       "timestamp": 1781810294,
-      "rank": 23
+      "rank": 24
     },
     {
       "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
@@ -264,7 +275,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781545848,
-      "rank": 24
+      "rank": 25
     },
     {
       "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
@@ -275,7 +286,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781553800,
-      "rank": 25
+      "rank": 26
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -286,7 +297,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781598528,
-      "rank": 26
+      "rank": 27
     },
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
@@ -297,7 +308,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781824745,
-      "rank": 27
+      "rank": 28
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
@@ -308,7 +319,7 @@
       "profileAvatarId": 20,
       "avatarId": 999,
       "timestamp": 1781911314,
-      "rank": 28
+      "rank": 29
     },
     {
       "uid": "a5EasP8uYyYnHUOfQcF5zEHGtdV2",
@@ -319,7 +330,7 @@
       "profileAvatarId": 62,
       "avatarId": 999,
       "timestamp": 1781913918,
-      "rank": 29
+      "rank": 30
     },
     {
       "uid": "qi8XMERBjfd2oODNYPiXM89lWjH3",
@@ -330,7 +341,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781967933,
-      "rank": 30
+      "rank": 31
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -341,7 +352,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781977287,
-      "rank": 31
+      "rank": 32
     },
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
@@ -352,7 +363,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781981284,
-      "rank": 32
+      "rank": 33
     },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -363,7 +374,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1782074560,
-      "rank": 33
+      "rank": 34
     },
     {
       "uid": "fdh81R4QuvNBxRR2vxwRCIeA4es1",
@@ -374,7 +385,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1782078661,
-      "rank": 34
+      "rank": 35
     }
   ],
   "classic_timed": [
@@ -511,6 +522,17 @@
       "rank": 12
     },
     {
+      "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
+      "username": "Qwertyuiopasdfghjklñzx",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782063669,
+      "rank": 13
+    },
+    {
       "uid": "49aH6VrYeqQbyCFl44EX7xgkTr52",
       "username": "Deni",
       "score": 0,
@@ -519,7 +541,7 @@
       "profileAvatarId": 3,
       "avatarId": 3,
       "timestamp": 1782059104,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "Ik70wbH04CZWNyHMdHNkvHfOGTv2",
@@ -530,7 +552,7 @@
       "profileAvatarId": 0,
       "avatarId": 51,
       "timestamp": 1782057342,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "tJrG0BnHZYVv1mmtf82MlDKWGtD3",
@@ -541,7 +563,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782054916,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "ruy9DArK4aVOaEnRVaDr2JsG53S2",
@@ -552,7 +574,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781982227,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "8pnH3U2aaQSDtvw3fijWrPoyVmG3",
@@ -563,7 +585,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1781894592,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "0U22ftOV5HQpagblncWOqJOhOSO2",
@@ -574,7 +596,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1781893381,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -585,7 +607,7 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781893225,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -596,7 +618,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879164,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -607,7 +629,7 @@
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1781856920,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "Xk57kX6yiMS0JG2FKJeWZDNI2803",
@@ -618,7 +640,7 @@
       "profileAvatarId": 0,
       "avatarId": 15,
       "timestamp": 1781810294,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
@@ -629,7 +651,7 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783351,
-      "rank": 23
+      "rank": 24
     },
     {
       "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
@@ -640,7 +662,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781545848,
-      "rank": 24
+      "rank": 25
     },
     {
       "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
@@ -651,7 +673,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781553800,
-      "rank": 25
+      "rank": 26
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -662,7 +684,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781598528,
-      "rank": 26
+      "rank": 27
     },
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
@@ -673,7 +695,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781824745,
-      "rank": 27
+      "rank": 28
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
@@ -684,7 +706,7 @@
       "profileAvatarId": 20,
       "avatarId": 999,
       "timestamp": 1781911314,
-      "rank": 28
+      "rank": 29
     },
     {
       "uid": "a5EasP8uYyYnHUOfQcF5zEHGtdV2",
@@ -695,7 +717,7 @@
       "profileAvatarId": 62,
       "avatarId": 999,
       "timestamp": 1781913918,
-      "rank": 29
+      "rank": 30
     },
     {
       "uid": "qi8XMERBjfd2oODNYPiXM89lWjH3",
@@ -706,7 +728,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781967933,
-      "rank": 30
+      "rank": 31
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -717,7 +739,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781977287,
-      "rank": 31
+      "rank": 32
     },
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
@@ -728,7 +750,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781981284,
-      "rank": 32
+      "rank": 33
     },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -739,7 +761,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1782074560,
-      "rank": 33
+      "rank": 34
     },
     {
       "uid": "fdh81R4QuvNBxRR2vxwRCIeA4es1",
@@ -750,7 +772,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1782078661,
-      "rank": 34
+      "rank": 35
     }
   ],
   "adventure": [
@@ -909,6 +931,17 @@
       "rank": 14
     },
     {
+      "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
+      "username": "Qwertyuiopasdfghjklñzx",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782063669,
+      "rank": 15
+    },
+    {
       "uid": "49aH6VrYeqQbyCFl44EX7xgkTr52",
       "username": "Deni",
       "score": 0,
@@ -917,7 +950,7 @@
       "profileAvatarId": 3,
       "avatarId": 3,
       "timestamp": 1782059104,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "Ik70wbH04CZWNyHMdHNkvHfOGTv2",
@@ -928,7 +961,7 @@
       "profileAvatarId": 0,
       "avatarId": 51,
       "timestamp": 1782057342,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "tJrG0BnHZYVv1mmtf82MlDKWGtD3",
@@ -939,7 +972,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782054916,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "u3duvosHY0Y63xxN3NLB4I08cMx1",
@@ -950,7 +983,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782045440,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "ruy9DArK4aVOaEnRVaDr2JsG53S2",
@@ -961,7 +994,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781982227,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "8pnH3U2aaQSDtvw3fijWrPoyVmG3",
@@ -972,7 +1005,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1781894592,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "0U22ftOV5HQpagblncWOqJOhOSO2",
@@ -983,7 +1016,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1781893381,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "Xk57kX6yiMS0JG2FKJeWZDNI2803",
@@ -994,7 +1027,7 @@
       "profileAvatarId": 0,
       "avatarId": 15,
       "timestamp": 1781810294,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
@@ -1005,7 +1038,7 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783351,
-      "rank": 23
+      "rank": 24
     },
     {
       "uid": "0dBtqY5KY1XQEslPubynZKe8W7P2",
@@ -1016,7 +1049,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1781545848,
-      "rank": 24
+      "rank": 25
     },
     {
       "uid": "1imoj44DP7PLTUppuK5bkN1Q6MH2",
@@ -1027,7 +1060,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781553800,
-      "rank": 25
+      "rank": 26
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -1038,7 +1071,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781598528,
-      "rank": 26
+      "rank": 27
     },
     {
       "uid": "Uvm136USGBPtACB2DVPB1Y0zuaO2",
@@ -1049,7 +1082,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781824745,
-      "rank": 27
+      "rank": 28
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
@@ -1060,7 +1093,7 @@
       "profileAvatarId": 20,
       "avatarId": 999,
       "timestamp": 1781911314,
-      "rank": 28
+      "rank": 29
     },
     {
       "uid": "a5EasP8uYyYnHUOfQcF5zEHGtdV2",
@@ -1071,7 +1104,7 @@
       "profileAvatarId": 62,
       "avatarId": 999,
       "timestamp": 1781913918,
-      "rank": 29
+      "rank": 30
     },
     {
       "uid": "qi8XMERBjfd2oODNYPiXM89lWjH3",
@@ -1082,7 +1115,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1781967933,
-      "rank": 30
+      "rank": 31
     },
     {
       "uid": "nURYiUJNEHNbokiHewbKnNgmR5c2",
@@ -1093,7 +1126,7 @@
       "profileAvatarId": 18,
       "avatarId": 999,
       "timestamp": 1781977287,
-      "rank": 31
+      "rank": 32
     },
     {
       "uid": "R6ORxkAcwJW0LAZLb67ZqjL91Pe2",
@@ -1104,7 +1137,7 @@
       "profileAvatarId": 6,
       "avatarId": 999,
       "timestamp": 1781981284,
-      "rank": 32
+      "rank": 33
     },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -1115,7 +1148,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1782074560,
-      "rank": 33
+      "rank": 34
     },
     {
       "uid": "fdh81R4QuvNBxRR2vxwRCIeA4es1",
@@ -1126,7 +1159,7 @@
       "profileAvatarId": 0,
       "avatarId": 999,
       "timestamp": 1782078661,
-      "rank": 34
+      "rank": 35
     }
   ]
 }
