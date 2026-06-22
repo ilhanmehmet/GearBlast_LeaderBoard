@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T22:10:47Z",
+  "updated_at": "2026-06-22T22:13:04Z",
   "total_players": 51,
   "classic_normal": [
     {
@@ -126,12 +126,12 @@
     {
       "uid": "5fyDy4HzlZZ9SGs5YHbGMr8zfkK2",
       "username": "Fd b",
-      "score": 1136,
+      "score": 1156,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 55,
       "avatarId": 55,
-      "timestamp": 1782166228,
+      "timestamp": 1782166370,
       "rank": 12
     },
     {
@@ -606,7 +606,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 55,
       "avatarId": 55,
-      "timestamp": 1782166229,
+      "timestamp": 1782166370,
       "rank": 4
     },
     {
@@ -1224,7 +1224,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 55,
       "avatarId": 55,
-      "timestamp": 1782166229,
+      "timestamp": 1782166370,
       "rank": 9
     },
     {
