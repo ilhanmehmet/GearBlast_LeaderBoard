@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T11:33:24Z",
+  "updated_at": "2026-06-22T12:07:57Z",
   "total_players": 44,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782102142,
+      "timestamp": 1782130057,
       "rank": 1
     },
     {
@@ -522,6 +522,17 @@
       "rank": 3
     },
     {
+      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
+      "username": "Maverick",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1782130057,
+      "rank": 4
+    },
+    {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
       "username": "Ttt",
       "score": 0,
@@ -530,7 +541,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782127983,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "xA46ht12pFZZyC9Z6prAmVBI7Zk2",
@@ -541,7 +552,7 @@
       "profileAvatarId": 58,
       "avatarId": 58,
       "timestamp": 1782126695,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "hPkRiYFjilWqKG0W3X6n9m9GR7g1",
@@ -552,7 +563,7 @@
       "profileAvatarId": 3,
       "avatarId": 3,
       "timestamp": 1782125253,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "wAb7PJTOhacw6XNjIoxxObDcFow1",
@@ -563,7 +574,7 @@
       "profileAvatarId": 28,
       "avatarId": 28,
       "timestamp": 1782125127,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "7a6WHTMTSDbg3RfthaAu38XWt4T2",
@@ -574,7 +585,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782125101,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "r9dDUXVDrzSztFAHAVTBRDoOgPf1",
@@ -585,7 +596,7 @@
       "profileAvatarId": 40,
       "avatarId": 40,
       "timestamp": 1782124780,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "RNBG72omHXc5thALglYnFgZi2PE2",
@@ -596,7 +607,7 @@
       "profileAvatarId": 8,
       "avatarId": 8,
       "timestamp": 1782121802,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "9zXoOrwuw6XVpESSQG6srNxGQy72",
@@ -607,7 +618,7 @@
       "profileAvatarId": 44,
       "avatarId": 44,
       "timestamp": 1782119135,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "2PfeDjtfAiWwbAs2n7fyYszZOxP2",
@@ -618,7 +629,7 @@
       "profileAvatarId": 8,
       "avatarId": 8,
       "timestamp": 1782116406,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "5SyTroqzE9goQuFMoLPc5eI5Wb72",
@@ -629,7 +640,7 @@
       "profileAvatarId": 8,
       "avatarId": 8,
       "timestamp": 1782115151,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -640,17 +651,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782104042,
-      "rank": 14
-    },
-    {
-      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
-      "username": "Maverick",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1782102142,
       "rank": 15
     },
     {
@@ -999,12 +999,12 @@
     {
       "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
       "username": "Maverick",
-      "score": 15,
+      "score": 16,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782102141,
+      "timestamp": 1782130056,
       "rank": 3
     },
     {
