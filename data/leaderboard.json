@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T09:00:59Z",
+  "updated_at": "2026-06-22T09:05:54Z",
   "total_players": 38,
   "classic_normal": [
     {
@@ -120,7 +120,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 44,
       "avatarId": 44,
-      "timestamp": 1782118842,
+      "timestamp": 1782119135,
       "rank": 11
     },
     {
@@ -463,7 +463,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 44,
       "avatarId": 44,
-      "timestamp": 1782118842,
+      "timestamp": 1782119135,
       "rank": 4
     },
     {
@@ -898,6 +898,17 @@
       "rank": 5
     },
     {
+      "uid": "9zXoOrwuw6XVpESSQG6srNxGQy72",
+      "username": "Abcd",
+      "score": 1,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 44,
+      "avatarId": 44,
+      "timestamp": 1782119133,
+      "rank": 6
+    },
+    {
       "uid": "VI8Jv6x36iZQyLZrKsIpbUQbbux2",
       "username": "WELCOME TO GEAR BLAST",
       "score": 1,
@@ -906,7 +917,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782086722,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "hH47sYSpfDNE1BG51Gv9nFcfHHW2",
@@ -917,7 +928,7 @@
       "profileAvatarId": 51,
       "avatarId": 51,
       "timestamp": 1782078233,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -928,17 +939,6 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879163,
-      "rank": 8
-    },
-    {
-      "uid": "9zXoOrwuw6XVpESSQG6srNxGQy72",
-      "username": "Abcd",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 44,
-      "avatarId": 44,
-      "timestamp": 1782118841,
       "rank": 9
     },
     {
