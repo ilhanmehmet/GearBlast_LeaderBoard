@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T20:41:13Z",
+  "updated_at": "2026-06-22T20:53:02Z",
   "total_players": 50,
   "classic_normal": [
     {
@@ -549,7 +549,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 999,
-      "timestamp": 1782160866,
+      "timestamp": 1782161582,
       "rank": 50
     }
   ],
@@ -1101,7 +1101,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 999,
-      "timestamp": 1782160866,
+      "timestamp": 1782161582,
       "rank": 50
     }
   ],
@@ -1653,7 +1653,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 999,
-      "timestamp": 1782160853,
+      "timestamp": 1782161564,
       "rank": 50
     }
   ]
