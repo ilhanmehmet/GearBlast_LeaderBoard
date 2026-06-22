@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T05:41:46Z",
+  "updated_at": "2026-06-22T05:42:28Z",
   "total_players": 35,
   "classic_normal": [
     {
@@ -102,6 +102,17 @@
       "rank": 9
     },
     {
+      "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
+      "username": "Qwertyuiopasdfghjklñzx",
+      "score": 92,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782063694,
+      "rank": 10
+    },
+    {
       "uid": "3KfFCRKzHxZEKEbtKCL70wLwKkq2",
       "username": "Sinsin pame",
       "score": 0,
@@ -110,7 +121,7 @@
       "profileAvatarId": 7,
       "avatarId": 7,
       "timestamp": 1782100540,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "dZd8BNbTLZaDpXJkNkWlsELpgjw2",
@@ -121,7 +132,7 @@
       "profileAvatarId": 3,
       "avatarId": 3,
       "timestamp": 1782092514,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "VI8Jv6x36iZQyLZrKsIpbUQbbux2",
@@ -132,7 +143,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782086723,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "fww3UmTe6LgZYqJQyCDonCqxfs13",
@@ -143,7 +154,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782080042,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "4046dmNRJPO6IG7Ge6Qfgchviq73",
@@ -154,7 +165,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1782079060,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "hH47sYSpfDNE1BG51Gv9nFcfHHW2",
@@ -165,17 +176,6 @@
       "profileAvatarId": 51,
       "avatarId": 51,
       "timestamp": 1782078234,
-      "rank": 15
-    },
-    {
-      "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
-      "username": "Qwertyuiopasdfghjklñzx",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782063669,
       "rank": 16
     },
     {
@@ -529,7 +529,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782063669,
+      "timestamp": 1782063695,
       "rank": 13
     },
     {
@@ -938,7 +938,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782063669,
+      "timestamp": 1782063695,
       "rank": 15
     },
     {
