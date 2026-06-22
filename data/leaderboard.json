@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T09:49:32Z",
+  "updated_at": "2026-06-22T09:50:18Z",
   "total_players": 39,
   "classic_normal": [
     {
@@ -91,6 +91,17 @@
       "rank": 8
     },
     {
+      "uid": "RNBG72omHXc5thALglYnFgZi2PE2",
+      "username": "Ddt",
+      "score": 7276,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 8,
+      "avatarId": 8,
+      "timestamp": 1782121801,
+      "rank": 9
+    },
+    {
       "uid": "tJrG0BnHZYVv1mmtf82MlDKWGtD3",
       "username": "Elke",
       "score": 4113,
@@ -99,7 +110,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782054916,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
@@ -110,17 +121,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 10
-    },
-    {
-      "uid": "RNBG72omHXc5thALglYnFgZi2PE2",
-      "username": "Ddt",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 8,
-      "avatarId": 8,
-      "timestamp": 1782121751,
       "rank": 11
     },
     {
@@ -474,7 +474,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 8,
       "avatarId": 8,
-      "timestamp": 1782121751,
+      "timestamp": 1782121802,
       "rank": 4
     },
     {
@@ -971,7 +971,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 8,
       "avatarId": 8,
-      "timestamp": 1782121751,
+      "timestamp": 1782121802,
       "rank": 10
     },
     {
