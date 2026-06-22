@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T15:46:19Z",
+  "updated_at": "2026-06-22T15:46:42Z",
   "total_players": 48,
   "classic_normal": [
     {
@@ -36,6 +36,17 @@
       "rank": 3
     },
     {
+      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
+      "username": "Jai Shree ram",
+      "score": 604617,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782143181,
+      "rank": 4
+    },
+    {
       "uid": "KpkhsyofcfYH2NI5jAAefndFdn13",
       "username": "FRIDA",
       "score": 190203,
@@ -44,7 +55,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782089507,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -55,7 +66,7 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781893225,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "ruy9DArK4aVOaEnRVaDr2JsG53S2",
@@ -66,17 +77,6 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781982226,
-      "rank": 6
-    },
-    {
-      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
-      "username": "Jai Shree ram",
-      "score": 20990,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782142987,
       "rank": 7
     },
     {
@@ -573,7 +573,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782142993,
+      "timestamp": 1782143185,
       "rank": 4
     },
     {
@@ -1169,7 +1169,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782142993,
+      "timestamp": 1782143185,
       "rank": 10
     },
     {
