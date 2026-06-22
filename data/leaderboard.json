@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T15:40:14Z",
+  "updated_at": "2026-06-22T15:41:16Z",
   "total_players": 48,
   "classic_normal": [
     {
@@ -124,6 +124,17 @@
       "rank": 11
     },
     {
+      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
+      "username": "Jai Shree ram",
+      "score": 871,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782142855,
+      "rank": 12
+    },
+    {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
       "username": "Qwertyuiopasdfghjklñzx",
       "score": 92,
@@ -132,17 +143,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 12
-    },
-    {
-      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
-      "username": "Jai Shree ram",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782142801,
       "rank": 13
     },
     {
@@ -584,7 +584,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782142801,
+      "timestamp": 1782142857,
       "rank": 5
     },
     {
@@ -1180,7 +1180,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782142801,
+      "timestamp": 1782142857,
       "rank": 11
     },
     {
