@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T14:02:27Z",
+  "updated_at": "2026-06-23T14:05:56Z",
   "total_players": 63,
   "classic_normal": [
     {
@@ -87,7 +87,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782223326,
+      "timestamp": 1782223548,
       "rank": 8
     },
     {
@@ -705,7 +705,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782223326,
+      "timestamp": 1782223548,
       "rank": 1
     },
     {
@@ -1393,25 +1393,25 @@
   ],
   "adventure": [
     {
+      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
+      "username": "Maverick",
+      "score": 29,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1782223547,
+      "rank": 1
+    },
+    {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
       "username": "Emili",
       "score": 29,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1782217501,
-      "rank": 1
-    },
-    {
-      "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
-      "username": "Maverick",
-      "score": 28,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1782223326,
       "rank": 2
     },
     {
