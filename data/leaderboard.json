@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T22:25:12Z",
+  "updated_at": "2026-06-23T22:27:00Z",
   "total_players": 73,
   "classic_normal": [
     {
@@ -38,12 +38,12 @@
     {
       "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
       "username": "Ruk",
-      "score": 346302,
+      "score": 360606,
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782253496,
+      "timestamp": 1782253603,
       "rank": 4
     },
     {
@@ -859,7 +859,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782253502,
+      "timestamp": 1782253604,
       "rank": 5
     },
     {
@@ -1664,7 +1664,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782253502,
+      "timestamp": 1782253604,
       "rank": 5
     },
     {
