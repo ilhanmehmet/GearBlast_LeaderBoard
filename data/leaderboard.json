@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T05:54:03Z",
+  "updated_at": "2026-06-23T05:57:30Z",
   "total_players": 58,
   "classic_normal": [
     {
@@ -60,12 +60,12 @@
     {
       "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
       "username": "Clarissa Wilson",
-      "score": 47778,
-      "leagueLevel": 1,
+      "score": 53015,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "timestamp": 1782193596,
+      "timestamp": 1782194239,
       "rank": 6
     },
     {
@@ -676,6 +676,17 @@
       "rank": 3
     },
     {
+      "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
+      "username": "Clarissa Wilson",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 25,
+      "avatarId": 25,
+      "timestamp": 1782194239,
+      "rank": 4
+    },
+    {
       "uid": "82Nq9g6BHONXDKIKZBk0MyclSBA3",
       "username": "Monika Libova",
       "score": 0,
@@ -684,7 +695,7 @@
       "profileAvatarId": 3,
       "avatarId": 3,
       "timestamp": 1782194013,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -695,17 +706,6 @@
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1782193929,
-      "rank": 5
-    },
-    {
-      "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
-      "username": "Clarissa Wilson",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 25,
-      "avatarId": 25,
-      "timestamp": 1782193596,
       "rank": 6
     },
     {
@@ -1404,6 +1404,17 @@
       "rank": 11
     },
     {
+      "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
+      "username": "Clarissa Wilson",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 25,
+      "avatarId": 25,
+      "timestamp": 1782194238,
+      "rank": 12
+    },
+    {
       "uid": "82Nq9g6BHONXDKIKZBk0MyclSBA3",
       "username": "Monika Libova",
       "score": 0,
@@ -1412,17 +1423,6 @@
       "profileAvatarId": 3,
       "avatarId": 3,
       "timestamp": 1782194013,
-      "rank": 12
-    },
-    {
-      "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
-      "username": "Clarissa Wilson",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 25,
-      "avatarId": 25,
-      "timestamp": 1782193596,
       "rank": 13
     },
     {
