@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T05:41:13Z",
+  "updated_at": "2026-06-23T05:42:54Z",
   "total_players": 57,
   "classic_normal": [
     {
@@ -91,6 +91,17 @@
       "rank": 8
     },
     {
+      "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
+      "username": "Clarissa Wilson",
+      "score": 11871,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 25,
+      "avatarId": 25,
+      "timestamp": 1782193361,
+      "rank": 9
+    },
+    {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
       "username": "Shristi Mahara",
       "score": 11755,
@@ -99,7 +110,7 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783350,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "RNBG72omHXc5thALglYnFgZi2PE2",
@@ -110,7 +121,7 @@
       "profileAvatarId": 8,
       "avatarId": 8,
       "timestamp": 1782121801,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "tJrG0BnHZYVv1mmtf82MlDKWGtD3",
@@ -121,7 +132,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782054916,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "vyqboh8xoEQvwKX0z9eHpDzqgOE2",
@@ -132,7 +143,7 @@
       "profileAvatarId": 38,
       "avatarId": 38,
       "timestamp": 1782154437,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "IFl5UDeMg5aM2x79EYEw3rV8ftR2",
@@ -143,7 +154,7 @@
       "profileAvatarId": 55,
       "avatarId": 55,
       "timestamp": 1782184488,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "5fyDy4HzlZZ9SGs5YHbGMr8zfkK2",
@@ -154,7 +165,7 @@
       "profileAvatarId": 55,
       "avatarId": 55,
       "timestamp": 1782166370,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
@@ -165,17 +176,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 15
-    },
-    {
-      "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
-      "username": "Clarissa Wilson",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 25,
-      "avatarId": 25,
-      "timestamp": 1782193243,
       "rank": 16
     },
     {
@@ -672,7 +672,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "timestamp": 1782193243,
+      "timestamp": 1782193361,
       "rank": 4
     },
     {
@@ -1389,7 +1389,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "timestamp": 1782193243,
+      "timestamp": 1782193361,
       "rank": 12
     },
     {
