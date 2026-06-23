@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T18:41:10Z",
+  "updated_at": "2026-06-23T18:44:41Z",
   "total_players": 71,
   "classic_normal": [
     {
@@ -219,7 +219,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782240033,
+      "timestamp": 1782240259,
       "rank": 20
     },
     {
@@ -837,7 +837,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782240033,
+      "timestamp": 1782240259,
       "rank": 5
     },
     {
@@ -1624,6 +1624,17 @@
       "rank": 5
     },
     {
+      "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
+      "username": "Ruk",
+      "score": 3,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782240259,
+      "rank": 6
+    },
+    {
       "uid": "bs6ldT7PJlbIWH7tJj7IGwnvhHJ2",
       "username": "Red",
       "score": 2,
@@ -1632,7 +1643,7 @@
       "profileAvatarId": 23,
       "avatarId": 23,
       "timestamp": 1782172750,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "xA46ht12pFZZyC9Z6prAmVBI7Zk2",
@@ -1643,7 +1654,7 @@
       "profileAvatarId": 58,
       "avatarId": 58,
       "timestamp": 1782126695,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "CoNi4kG47VX2KmUHnrtbydXCd343",
@@ -1654,7 +1665,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782233244,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "SMxgvHc6vFN3ApmtGcWXupq9mbq2",
@@ -1665,7 +1676,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782217650,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "HpN2wqD5i2Oe39TSIeVlt4uOlpY2",
@@ -1676,7 +1687,7 @@
       "profileAvatarId": 25,
       "avatarId": 25,
       "timestamp": 1782211697,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "kwMDAxnE8jUigSPyexgkJt6Cebl2",
@@ -1687,7 +1698,7 @@
       "profileAvatarId": 56,
       "avatarId": 56,
       "timestamp": 1782192897,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "GQ8ixp6Re7Wj2p0D7TgcjEVMezF2",
@@ -1698,7 +1709,7 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782169667,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "9zXoOrwuw6XVpESSQG6srNxGQy72",
@@ -1709,7 +1720,7 @@
       "profileAvatarId": 44,
       "avatarId": 44,
       "timestamp": 1782119133,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "VI8Jv6x36iZQyLZrKsIpbUQbbux2",
@@ -1720,7 +1731,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782086722,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "hH47sYSpfDNE1BG51Gv9nFcfHHW2",
@@ -1731,7 +1742,7 @@
       "profileAvatarId": 51,
       "avatarId": 51,
       "timestamp": 1782078233,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -1742,17 +1753,6 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879163,
-      "rank": 16
-    },
-    {
-      "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
-      "username": "Ruk",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782240033,
       "rank": 17
     },
     {
