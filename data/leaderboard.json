@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T12:27:49Z",
+  "updated_at": "2026-06-23T12:28:57Z",
   "total_players": 63,
   "classic_normal": [
     {
@@ -146,6 +146,17 @@
       "rank": 13
     },
     {
+      "uid": "5HPWXGcOmENscfcGzmpm7y2Sy5u2",
+      "username": "Masum ahmed",
+      "score": 2844,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 6,
+      "avatarId": 6,
+      "timestamp": 1782217722,
+      "rank": 14
+    },
+    {
       "uid": "vyqboh8xoEQvwKX0z9eHpDzqgOE2",
       "username": "डढढढ",
       "score": 2602,
@@ -154,7 +165,7 @@
       "profileAvatarId": 38,
       "avatarId": 38,
       "timestamp": 1782154437,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "IFl5UDeMg5aM2x79EYEw3rV8ftR2",
@@ -165,7 +176,7 @@
       "profileAvatarId": 55,
       "avatarId": 55,
       "timestamp": 1782184488,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "5fyDy4HzlZZ9SGs5YHbGMr8zfkK2",
@@ -176,7 +187,7 @@
       "profileAvatarId": 55,
       "avatarId": 55,
       "timestamp": 1782166370,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
@@ -187,7 +198,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "SMxgvHc6vFN3ApmtGcWXupq9mbq2",
@@ -198,17 +209,6 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782217651,
-      "rank": 18
-    },
-    {
-      "uid": "5HPWXGcOmENscfcGzmpm7y2Sy5u2",
-      "username": "Masum ahmed",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 6,
-      "avatarId": 6,
-      "timestamp": 1782217560,
       "rank": 19
     },
     {
@@ -731,6 +731,17 @@
       "rank": 3
     },
     {
+      "uid": "5HPWXGcOmENscfcGzmpm7y2Sy5u2",
+      "username": "Masum ahmed",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 6,
+      "avatarId": 6,
+      "timestamp": 1782217723,
+      "rank": 4
+    },
+    {
       "uid": "SMxgvHc6vFN3ApmtGcWXupq9mbq2",
       "username": "Nico",
       "score": 0,
@@ -739,17 +750,6 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782217651,
-      "rank": 4
-    },
-    {
-      "uid": "5HPWXGcOmENscfcGzmpm7y2Sy5u2",
-      "username": "Masum ahmed",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 6,
-      "avatarId": 6,
-      "timestamp": 1782217560,
       "rank": 5
     },
     {
@@ -1565,7 +1565,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1782217559,
+      "timestamp": 1782217723,
       "rank": 16
     },
     {
