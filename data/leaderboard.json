@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T05:42:54Z",
+  "updated_at": "2026-06-23T05:46:50Z",
   "total_players": 57,
   "classic_normal": [
     {
@@ -58,6 +58,17 @@
       "rank": 5
     },
     {
+      "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
+      "username": "Clarissa Wilson",
+      "score": 47778,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 25,
+      "avatarId": 25,
+      "timestamp": 1782193596,
+      "rank": 6
+    },
+    {
       "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
       "username": "Maverick",
       "score": 44058,
@@ -66,7 +77,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1782187535,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "ruy9DArK4aVOaEnRVaDr2JsG53S2",
@@ -77,7 +88,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781982226,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -88,17 +99,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782104042,
-      "rank": 8
-    },
-    {
-      "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
-      "username": "Clarissa Wilson",
-      "score": 11871,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 25,
-      "avatarId": 25,
-      "timestamp": 1782193361,
       "rank": 9
     },
     {
@@ -672,7 +672,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "timestamp": 1782193361,
+      "timestamp": 1782193596,
       "rank": 4
     },
     {
@@ -1389,7 +1389,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "timestamp": 1782193361,
+      "timestamp": 1782193596,
       "rank": 12
     },
     {
