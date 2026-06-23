@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T18:07:44Z",
+  "updated_at": "2026-06-23T18:10:18Z",
   "total_players": 69,
   "classic_normal": [
     {
@@ -76,7 +76,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782223548,
+      "timestamp": 1782238081,
       "rank": 7
     },
     {
@@ -190,6 +190,17 @@
       "rank": 17
     },
     {
+      "uid": "lot4FirhXndODH8tsWhWT7x6UnR2",
+      "username": "Mica",
+      "score": 1096,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 6,
+      "avatarId": 6,
+      "timestamp": 1782238206,
+      "rank": 18
+    },
+    {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
       "username": "Qwertyuiopasdfghjklñzx",
       "score": 92,
@@ -198,17 +209,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 18
-    },
-    {
-      "uid": "lot4FirhXndODH8tsWhWT7x6UnR2",
-      "username": "Mica",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 6,
-      "avatarId": 6,
-      "timestamp": 1782238015,
       "rank": 19
     },
     {
@@ -766,12 +766,12 @@
     {
       "uid": "ceW3jQ3dCfVKRZrSQaMBPNke6tY2",
       "username": "Maverick",
-      "score": 1125054,
+      "score": 44058,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782223548,
+      "timestamp": 1782238081,
       "rank": 1
     },
     {
@@ -815,7 +815,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1782238015,
+      "timestamp": 1782238206,
       "rank": 5
     },
     {
@@ -1532,7 +1532,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782223547,
+      "timestamp": 1782238081,
       "rank": 1
     },
     {
@@ -1697,7 +1697,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1782238015,
+      "timestamp": 1782238206,
       "rank": 16
     },
     {
