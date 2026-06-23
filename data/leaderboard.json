@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T10:15:46Z",
+  "updated_at": "2026-06-23T10:48:42Z",
   "total_players": 60,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 28,
-      "timestamp": 1782209746,
+      "timestamp": 1782209756,
       "rank": 1
     },
     {
@@ -179,6 +179,17 @@
       "rank": 16
     },
     {
+      "uid": "HpN2wqD5i2Oe39TSIeVlt4uOlpY2",
+      "username": "Ξυλινο",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 25,
+      "avatarId": 25,
+      "timestamp": 1782211697,
+      "rank": 17
+    },
+    {
       "uid": "VcN8lWlu4GRtTdEIMmTgCnTNHOo1",
       "username": "IVONA",
       "score": 0,
@@ -187,17 +198,6 @@
       "profileAvatarId": 11,
       "avatarId": 11,
       "timestamp": 1782206780,
-      "rank": 17
-    },
-    {
-      "uid": "HpN2wqD5i2Oe39TSIeVlt4uOlpY2",
-      "username": "Ξυλινο",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 25,
-      "avatarId": 25,
-      "timestamp": 1782205901,
       "rank": 18
     },
     {
@@ -698,6 +698,17 @@
       "rank": 3
     },
     {
+      "uid": "HpN2wqD5i2Oe39TSIeVlt4uOlpY2",
+      "username": "Ξυλινο",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 25,
+      "avatarId": 25,
+      "timestamp": 1782211697,
+      "rank": 4
+    },
+    {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
       "username": "Emili",
       "score": 0,
@@ -705,8 +716,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 28,
-      "timestamp": 1782209746,
-      "rank": 4
+      "timestamp": 1782209756,
+      "rank": 5
     },
     {
       "uid": "VcN8lWlu4GRtTdEIMmTgCnTNHOo1",
@@ -717,17 +728,6 @@
       "profileAvatarId": 11,
       "avatarId": 11,
       "timestamp": 1782206780,
-      "rank": 5
-    },
-    {
-      "uid": "HpN2wqD5i2Oe39TSIeVlt4uOlpY2",
-      "username": "Ξυλινο",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 25,
-      "avatarId": 25,
-      "timestamp": 1782205901,
       "rank": 6
     },
     {
@@ -1334,7 +1334,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 28,
-      "timestamp": 1782209745,
+      "timestamp": 1782209756,
       "rank": 1
     },
     {
@@ -1404,6 +1404,17 @@
       "rank": 7
     },
     {
+      "uid": "HpN2wqD5i2Oe39TSIeVlt4uOlpY2",
+      "username": "Ξυλινο",
+      "score": 1,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 25,
+      "avatarId": 25,
+      "timestamp": 1782211697,
+      "rank": 8
+    },
+    {
       "uid": "kwMDAxnE8jUigSPyexgkJt6Cebl2",
       "username": "Nadeem Ahmed",
       "score": 1,
@@ -1412,7 +1423,7 @@
       "profileAvatarId": 56,
       "avatarId": 56,
       "timestamp": 1782192897,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "GQ8ixp6Re7Wj2p0D7TgcjEVMezF2",
@@ -1423,7 +1434,7 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782169667,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "9zXoOrwuw6XVpESSQG6srNxGQy72",
@@ -1434,7 +1445,7 @@
       "profileAvatarId": 44,
       "avatarId": 44,
       "timestamp": 1782119133,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "VI8Jv6x36iZQyLZrKsIpbUQbbux2",
@@ -1445,7 +1456,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782086722,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "hH47sYSpfDNE1BG51Gv9nFcfHHW2",
@@ -1456,7 +1467,7 @@
       "profileAvatarId": 51,
       "avatarId": 51,
       "timestamp": 1782078233,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -1467,7 +1478,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879163,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "VcN8lWlu4GRtTdEIMmTgCnTNHOo1",
@@ -1478,17 +1489,6 @@
       "profileAvatarId": 11,
       "avatarId": 11,
       "timestamp": 1782206780,
-      "rank": 14
-    },
-    {
-      "uid": "HpN2wqD5i2Oe39TSIeVlt4uOlpY2",
-      "username": "Ξυλινο",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 25,
-      "avatarId": 25,
-      "timestamp": 1782205901,
       "rank": 15
     },
     {
