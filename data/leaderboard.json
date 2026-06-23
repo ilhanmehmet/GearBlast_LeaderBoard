@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T22:00:21Z",
+  "updated_at": "2026-06-23T22:20:15Z",
   "total_players": 73,
   "classic_normal": [
     {
@@ -223,6 +223,17 @@
       "rank": 20
     },
     {
+      "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
+      "username": "Ruk",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782253193,
+      "rank": 21
+    },
+    {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 0,
@@ -231,7 +242,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782248842,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "RZiFmOKQvUNFC2yYCB1bFyBO0U13",
@@ -242,17 +253,6 @@
       "profileAvatarId": 26,
       "avatarId": 26,
       "timestamp": 1782240496,
-      "rank": 22
-    },
-    {
-      "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
-      "username": "Ruk",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782240259,
       "rank": 23
     },
     {
@@ -852,6 +852,17 @@
       "rank": 4
     },
     {
+      "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
+      "username": "Ruk",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782253193,
+      "rank": 5
+    },
+    {
       "uid": "DiPwOdJQW7cf3oD1Scl5ch0KS7v2",
       "username": "Döne",
       "score": 0,
@@ -860,7 +871,7 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782250561,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
@@ -871,7 +882,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782249441,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -882,7 +893,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782248842,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "RZiFmOKQvUNFC2yYCB1bFyBO0U13",
@@ -893,17 +904,6 @@
       "profileAvatarId": 26,
       "avatarId": 26,
       "timestamp": 1782240496,
-      "rank": 8
-    },
-    {
-      "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
-      "username": "Ruk",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782240259,
       "rank": 9
     },
     {
@@ -1659,12 +1659,12 @@
     {
       "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
       "username": "Ruk",
-      "score": 3,
+      "score": 4,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782240259,
+      "timestamp": 1782253193,
       "rank": 5
     },
     {
