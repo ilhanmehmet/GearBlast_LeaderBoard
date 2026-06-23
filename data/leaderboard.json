@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T12:25:18Z",
+  "updated_at": "2026-06-23T12:27:49Z",
   "total_players": 63,
   "classic_normal": [
     {
@@ -197,7 +197,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782217382,
+      "timestamp": 1782217651,
       "rank": 18
     },
     {
@@ -208,7 +208,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1782217117,
+      "timestamp": 1782217560,
       "rank": 19
     },
     {
@@ -731,17 +731,6 @@
       "rank": 3
     },
     {
-      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
-      "username": "Emili",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 28,
-      "timestamp": 1782217501,
-      "rank": 4
-    },
-    {
       "uid": "SMxgvHc6vFN3ApmtGcWXupq9mbq2",
       "username": "Nico",
       "score": 0,
@@ -749,8 +738,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782217382,
-      "rank": 5
+      "timestamp": 1782217651,
+      "rank": 4
     },
     {
       "uid": "5HPWXGcOmENscfcGzmpm7y2Sy5u2",
@@ -760,7 +749,18 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1782217117,
+      "timestamp": 1782217560,
+      "rank": 5
+    },
+    {
+      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
+      "username": "Emili",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 28,
+      "timestamp": 1782217501,
       "rank": 6
     },
     {
@@ -1470,6 +1470,17 @@
       "rank": 7
     },
     {
+      "uid": "SMxgvHc6vFN3ApmtGcWXupq9mbq2",
+      "username": "Nico",
+      "score": 1,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1782217650,
+      "rank": 8
+    },
+    {
       "uid": "HpN2wqD5i2Oe39TSIeVlt4uOlpY2",
       "username": "Ξυλινο",
       "score": 1,
@@ -1478,7 +1489,7 @@
       "profileAvatarId": 25,
       "avatarId": 25,
       "timestamp": 1782211697,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "kwMDAxnE8jUigSPyexgkJt6Cebl2",
@@ -1489,7 +1500,7 @@
       "profileAvatarId": 56,
       "avatarId": 56,
       "timestamp": 1782192897,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "GQ8ixp6Re7Wj2p0D7TgcjEVMezF2",
@@ -1500,7 +1511,7 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782169667,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "9zXoOrwuw6XVpESSQG6srNxGQy72",
@@ -1511,7 +1522,7 @@
       "profileAvatarId": 44,
       "avatarId": 44,
       "timestamp": 1782119133,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "VI8Jv6x36iZQyLZrKsIpbUQbbux2",
@@ -1522,7 +1533,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782086722,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "hH47sYSpfDNE1BG51Gv9nFcfHHW2",
@@ -1533,7 +1544,7 @@
       "profileAvatarId": 51,
       "avatarId": 51,
       "timestamp": 1782078233,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -1544,17 +1555,6 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879163,
-      "rank": 14
-    },
-    {
-      "uid": "SMxgvHc6vFN3ApmtGcWXupq9mbq2",
-      "username": "Nico",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
-      "timestamp": 1782217382,
       "rank": 15
     },
     {
@@ -1565,7 +1565,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1782217116,
+      "timestamp": 1782217559,
       "rank": 16
     },
     {
