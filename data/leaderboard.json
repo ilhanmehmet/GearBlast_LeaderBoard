@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T05:33:12Z",
+  "updated_at": "2026-06-23T05:35:20Z",
   "total_players": 56,
   "classic_normal": [
     {
@@ -175,7 +175,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 56,
       "avatarId": 56,
-      "timestamp": 1782192758,
+      "timestamp": 1782192898,
       "rank": 16
     },
     {
@@ -661,7 +661,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 56,
       "avatarId": 56,
-      "timestamp": 1782192758,
+      "timestamp": 1782192898,
       "rank": 4
     },
     {
@@ -1294,6 +1294,17 @@
       "rank": 5
     },
     {
+      "uid": "kwMDAxnE8jUigSPyexgkJt6Cebl2",
+      "username": "Nadeem Ahmed",
+      "score": 1,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 56,
+      "avatarId": 56,
+      "timestamp": 1782192897,
+      "rank": 6
+    },
+    {
       "uid": "GQ8ixp6Re7Wj2p0D7TgcjEVMezF2",
       "username": "مرتضی",
       "score": 1,
@@ -1302,7 +1313,7 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782169667,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "9zXoOrwuw6XVpESSQG6srNxGQy72",
@@ -1313,7 +1324,7 @@
       "profileAvatarId": 44,
       "avatarId": 44,
       "timestamp": 1782119133,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "VI8Jv6x36iZQyLZrKsIpbUQbbux2",
@@ -1324,7 +1335,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782086722,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "hH47sYSpfDNE1BG51Gv9nFcfHHW2",
@@ -1335,7 +1346,7 @@
       "profileAvatarId": 51,
       "avatarId": 51,
       "timestamp": 1782078233,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -1346,17 +1357,6 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1781879163,
-      "rank": 10
-    },
-    {
-      "uid": "kwMDAxnE8jUigSPyexgkJt6Cebl2",
-      "username": "Nadeem Ahmed",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 56,
-      "avatarId": 56,
-      "timestamp": 1782192758,
       "rank": 11
     },
     {
