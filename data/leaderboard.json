@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T14:20:28Z",
+  "updated_at": "2026-06-23T14:20:44Z",
   "total_players": 64,
   "classic_normal": [
     {
@@ -219,7 +219,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "timestamp": 1782224410,
+      "timestamp": 1782224442,
       "rank": 20
     },
     {
@@ -731,6 +731,17 @@
       "rank": 2
     },
     {
+      "uid": "2nLLc7AaWdhz0wnEXegCL88v8Ry2",
+      "username": "Sara",
+      "score": 910,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 19,
+      "avatarId": 19,
+      "timestamp": 1782224442,
+      "rank": 3
+    },
+    {
       "uid": "u3duvosHY0Y63xxN3NLB4I08cMx1",
       "username": "Lis cEciL",
       "score": 19,
@@ -739,17 +750,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782045438,
-      "rank": 3
-    },
-    {
-      "uid": "2nLLc7AaWdhz0wnEXegCL88v8Ry2",
-      "username": "Sara",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 19,
-      "avatarId": 19,
-      "timestamp": 1782224410,
       "rank": 4
     },
     {
@@ -1587,7 +1587,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "timestamp": 1782224410,
+      "timestamp": 1782224442,
       "rank": 16
     },
     {
