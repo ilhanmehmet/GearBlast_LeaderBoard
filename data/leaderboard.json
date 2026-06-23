@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T20:31:31Z",
+  "updated_at": "2026-06-23T20:41:15Z",
   "total_players": 72,
   "classic_normal": [
     {
@@ -201,6 +201,17 @@
       "rank": 18
     },
     {
+      "uid": "DiPwOdJQW7cf3oD1Scl5ch0KS7v2",
+      "username": "Döne",
+      "score": 107,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 4,
+      "avatarId": 4,
+      "timestamp": 1782247256,
+      "rank": 19
+    },
+    {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
       "username": "Qwertyuiopasdfghjklñzx",
       "score": 92,
@@ -209,17 +220,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 19
-    },
-    {
-      "uid": "DiPwOdJQW7cf3oD1Scl5ch0KS7v2",
-      "username": "Döne",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 4,
-      "avatarId": 4,
-      "timestamp": 1782246662,
       "rank": 20
     },
     {
@@ -848,7 +848,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 4,
       "avatarId": 4,
-      "timestamp": 1782246662,
+      "timestamp": 1782247257,
       "rank": 5
     },
     {
@@ -1785,7 +1785,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 4,
       "avatarId": 4,
-      "timestamp": 1782246662,
+      "timestamp": 1782247257,
       "rank": 18
     },
     {
