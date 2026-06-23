@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T14:21:02Z",
+  "updated_at": "2026-06-23T14:22:06Z",
   "total_players": 64,
   "classic_normal": [
     {
@@ -219,7 +219,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "timestamp": 1782224442,
+      "timestamp": 1782224504,
       "rank": 20
     },
     {
@@ -733,12 +733,12 @@
     {
       "uid": "2nLLc7AaWdhz0wnEXegCL88v8Ry2",
       "username": "Sara",
-      "score": 910,
+      "score": 945,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "timestamp": 1782224442,
+      "timestamp": 1782224503,
       "rank": 3
     },
     {
@@ -1587,7 +1587,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "timestamp": 1782224442,
+      "timestamp": 1782224504,
       "rank": 16
     },
     {
