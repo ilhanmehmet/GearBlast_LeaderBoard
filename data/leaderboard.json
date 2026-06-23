@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T13:34:14Z",
+  "updated_at": "2026-06-23T13:40:25Z",
   "total_players": 63,
   "classic_normal": [
     {
@@ -27,12 +27,12 @@
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
-      "score": 277318,
-      "leagueLevel": 0,
+      "score": 394755,
+      "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782217042,
+      "timestamp": 1782222010,
       "rank": 3
     },
     {
@@ -731,6 +731,17 @@
       "rank": 3
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1782222010,
+      "rank": 4
+    },
+    {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
       "username": "Ttt",
       "score": 0,
@@ -739,7 +750,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782218895,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "5HPWXGcOmENscfcGzmpm7y2Sy5u2",
@@ -750,7 +761,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782217723,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "SMxgvHc6vFN3ApmtGcWXupq9mbq2",
@@ -761,7 +772,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782217651,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -772,17 +783,6 @@
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1782217501,
-      "rank": 7
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1782217042,
       "rank": 8
     },
     {
@@ -1444,7 +1444,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782217042,
+      "timestamp": 1782222010,
       "rank": 5
     },
     {
