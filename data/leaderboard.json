@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T11:38:28Z",
+  "updated_at": "2026-06-23T11:41:41Z",
   "total_players": 60,
   "classic_normal": [
     {
@@ -25,6 +25,17 @@
       "rank": 2
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 268217,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1782214890,
+      "rank": 3
+    },
+    {
       "uid": "KpkhsyofcfYH2NI5jAAefndFdn13",
       "username": "FRIDA",
       "score": 190203,
@@ -33,7 +44,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782089507,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -44,7 +55,7 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781893225,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "KXcbJYobpPcyiOVqqV76hZanzJH2",
@@ -55,17 +66,6 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782151087,
-      "rank": 5
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 115231,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1782214699,
       "rank": 6
     },
     {
@@ -705,7 +705,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782214699,
+      "timestamp": 1782214890,
       "rank": 4
     },
     {
@@ -1378,7 +1378,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782214699,
+      "timestamp": 1782214890,
       "rank": 5
     },
     {
