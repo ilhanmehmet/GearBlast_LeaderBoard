@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T20:28:28Z",
+  "updated_at": "2026-06-24T20:29:20Z",
   "total_players": 86,
   "classic_normal": [
     {
@@ -252,7 +252,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782332891,
+      "timestamp": 1782332943,
       "rank": 23
     },
     {
@@ -991,7 +991,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782332891,
+      "timestamp": 1782332943,
       "rank": 4
     },
     {
@@ -1954,6 +1954,17 @@
       "rank": 5
     },
     {
+      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
+      "username": "Ciciki",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782332943,
+      "rank": 6
+    },
+    {
       "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
       "username": "Huseyin",
       "score": 2,
@@ -1962,7 +1973,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782323059,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "bs6ldT7PJlbIWH7tJj7IGwnvhHJ2",
@@ -1973,7 +1984,7 @@
       "profileAvatarId": 23,
       "avatarId": 23,
       "timestamp": 1782172750,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "xA46ht12pFZZyC9Z6prAmVBI7Zk2",
@@ -1984,17 +1995,6 @@
       "profileAvatarId": 58,
       "avatarId": 58,
       "timestamp": 1782126695,
-      "rank": 8
-    },
-    {
-      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
-      "username": "Ciciki",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782332890,
       "rank": 9
     },
     {
