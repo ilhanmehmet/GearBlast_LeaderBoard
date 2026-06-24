@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T21:09:22Z",
+  "updated_at": "2026-06-24T21:12:44Z",
   "total_players": 86,
   "classic_normal": [
     {
@@ -14,6 +14,17 @@
       "rank": 1
     },
     {
+      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
+      "username": "Ciciki",
+      "score": 1699994,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782335546,
+      "rank": 2
+    },
+    {
       "uid": "DiPwOdJQW7cf3oD1Scl5ch0KS7v2",
       "username": "Döne",
       "score": 1636528,
@@ -22,7 +33,7 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782275473,
-      "rank": 2
+      "rank": 3
     },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -33,7 +44,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782334764,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
@@ -44,17 +55,6 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782323059,
-      "rank": 4
-    },
-    {
-      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
-      "username": "Ciciki",
-      "score": 278171,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782335347,
       "rank": 5
     },
     {
@@ -987,11 +987,11 @@
       "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
       "username": "Ciciki",
       "score": 176,
-      "leagueLevel": 1,
+      "leagueLevel": 3,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782335348,
+      "timestamp": 1782335547,
       "rank": 4
     },
     {
@@ -1950,7 +1950,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782335348,
+      "timestamp": 1782335547,
       "rank": 5
     },
     {
