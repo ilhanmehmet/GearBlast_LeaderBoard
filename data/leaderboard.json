@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T21:05:49Z",
+  "updated_at": "2026-06-24T21:08:48Z",
   "total_players": 86,
   "classic_normal": [
     {
@@ -47,6 +47,17 @@
       "rank": 4
     },
     {
+      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
+      "username": "Ciciki",
+      "score": 274057,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782335327,
+      "rank": 5
+    },
+    {
       "uid": "KpkhsyofcfYH2NI5jAAefndFdn13",
       "username": "FRIDA",
       "score": 190203,
@@ -55,7 +66,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782089507,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -66,7 +77,7 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781893225,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -77,7 +88,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782297334,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "KXcbJYobpPcyiOVqqV76hZanzJH2",
@@ -88,7 +99,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782151087,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
@@ -99,7 +110,7 @@
       "profileAvatarId": 25,
       "avatarId": 25,
       "timestamp": 1782194239,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "ruy9DArK4aVOaEnRVaDr2JsG53S2",
@@ -110,7 +121,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781982226,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -121,17 +132,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782104042,
-      "rank": 11
-    },
-    {
-      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
-      "username": "Ciciki",
-      "score": 13094,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782335134,
       "rank": 12
     },
     {
@@ -991,7 +991,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782335135,
+      "timestamp": 1782335328,
       "rank": 4
     },
     {
@@ -1950,7 +1950,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782335135,
+      "timestamp": 1782335328,
       "rank": 5
     },
     {
