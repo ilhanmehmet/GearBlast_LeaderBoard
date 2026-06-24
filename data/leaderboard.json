@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T21:00:35Z",
+  "updated_at": "2026-06-24T21:00:52Z",
   "total_players": 86,
   "classic_normal": [
     {
@@ -157,6 +157,17 @@
       "rank": 14
     },
     {
+      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
+      "username": "Ciciki",
+      "score": 6258,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782334836,
+      "rank": 15
+    },
+    {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
       "username": "Emili",
       "score": 6010,
@@ -165,7 +176,7 @@
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1782299526,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "tJrG0BnHZYVv1mmtf82MlDKWGtD3",
@@ -176,17 +187,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782054916,
-      "rank": 16
-    },
-    {
-      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
-      "username": "Ciciki",
-      "score": 3822,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782334818,
       "rank": 17
     },
     {
@@ -991,7 +991,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782334818,
+      "timestamp": 1782334836,
       "rank": 4
     },
     {
@@ -1950,7 +1950,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782334817,
+      "timestamp": 1782334836,
       "rank": 5
     },
     {
