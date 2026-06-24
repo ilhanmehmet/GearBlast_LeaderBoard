@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T15:33:44Z",
+  "updated_at": "2026-06-24T15:47:58Z",
   "total_players": 83,
   "classic_normal": [
     {
@@ -32,7 +32,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782312916,
+      "timestamp": 1782315438,
       "rank": 3
     },
     {
@@ -910,9 +910,9 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 27,
+      "profileAvatarId": 0,
       "avatarId": 999,
-      "timestamp": 1782312872,
+      "timestamp": 1782316072,
       "rank": 83
     }
   ],
@@ -984,6 +984,17 @@
       "rank": 6
     },
     {
+      "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
+      "username": "Nadir",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1782315439,
+      "rank": 7
+    },
+    {
       "uid": "A6YKfLhY1XbQq5EhCpFdDpdtCQv2",
       "username": "ЋtKDeylsz,, dBdvdhshcd",
       "score": 0,
@@ -992,17 +1003,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782315189,
-      "rank": 7
-    },
-    {
-      "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
-      "username": "Nadir",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 10,
-      "timestamp": 1782312916,
       "rank": 8
     },
     {
@@ -1825,9 +1825,9 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 27,
+      "profileAvatarId": 0,
       "avatarId": 999,
-      "timestamp": 1782312872,
+      "timestamp": 1782316072,
       "rank": 83
     }
   ],
@@ -1884,7 +1884,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782312916,
+      "timestamp": 1782315438,
       "rank": 5
     },
     {
@@ -2729,9 +2729,9 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 27,
+      "profileAvatarId": 0,
       "avatarId": 999,
-      "timestamp": 1782312872,
+      "timestamp": 1782316059,
       "rank": 82
     }
   ]
