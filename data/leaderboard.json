@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T21:05:21Z",
+  "updated_at": "2026-06-24T21:05:49Z",
   "total_players": 86,
   "classic_normal": [
     {
@@ -124,6 +124,17 @@
       "rank": 11
     },
     {
+      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
+      "username": "Ciciki",
+      "score": 13094,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782335134,
+      "rank": 12
+    },
+    {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
       "username": "Shristi Mahara",
       "score": 11755,
@@ -132,17 +143,6 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783350,
-      "rank": 12
-    },
-    {
-      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
-      "username": "Ciciki",
-      "score": 8030,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782335083,
       "rank": 13
     },
     {
@@ -991,7 +991,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782335102,
+      "timestamp": 1782335135,
       "rank": 4
     },
     {
@@ -1950,7 +1950,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782335102,
+      "timestamp": 1782335135,
       "rank": 5
     },
     {
