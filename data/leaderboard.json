@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T21:26:26Z",
+  "updated_at": "2026-06-24T21:37:09Z",
   "total_players": 86,
   "classic_normal": [
     {
@@ -21,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782336293,
+      "timestamp": 1782337012,
       "rank": 2
     },
     {
@@ -973,6 +973,17 @@
       "rank": 2
     },
     {
+      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
+      "username": "Ciciki",
+      "score": 4421,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782337011,
+      "rank": 3
+    },
+    {
       "uid": "2nLLc7AaWdhz0wnEXegCL88v8Ry2",
       "username": "Sara",
       "score": 945,
@@ -981,17 +992,6 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782224503,
-      "rank": 3
-    },
-    {
-      "uid": "CS669AFsqdceBUgpF05yoKTeQ3E3",
-      "username": "Ciciki",
-      "score": 176,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782336293,
       "rank": 4
     },
     {
@@ -1950,7 +1950,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782336293,
+      "timestamp": 1782337012,
       "rank": 5
     },
     {
