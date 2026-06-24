@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T21:14:25Z",
+  "updated_at": "2026-06-24T21:26:26Z",
   "total_players": 86,
   "classic_normal": [
     {
@@ -21,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782335656,
+      "timestamp": 1782336293,
       "rank": 2
     },
     {
@@ -54,7 +54,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782323059,
+      "timestamp": 1782336368,
       "rank": 5
     },
     {
@@ -991,7 +991,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782335656,
+      "timestamp": 1782336293,
       "rank": 4
     },
     {
@@ -1017,6 +1017,17 @@
       "rank": 6
     },
     {
+      "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
+      "username": "Huseyin",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1782336368,
+      "rank": 7
+    },
+    {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 0,
@@ -1025,7 +1036,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782334764,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -1036,17 +1047,6 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1782323226,
-      "rank": 8
-    },
-    {
-      "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
-      "username": "Huseyin",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
-      "timestamp": 1782323059,
       "rank": 9
     },
     {
@@ -1950,7 +1950,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782335656,
+      "timestamp": 1782336293,
       "rank": 5
     },
     {
@@ -1967,12 +1967,12 @@
     {
       "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
       "username": "Huseyin",
-      "score": 2,
+      "score": 3,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782323059,
+      "timestamp": 1782336368,
       "rank": 7
     },
     {
