@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T16:37:26Z",
+  "updated_at": "2026-06-24T16:40:25Z",
   "total_players": 86,
   "classic_normal": [
     {
@@ -212,6 +212,17 @@
       "rank": 19
     },
     {
+      "uid": "t9CM5pdZARYsFKR2pvHAQcOL6au2",
+      "username": "Mimi",
+      "score": 1927,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 19,
+      "avatarId": 19,
+      "timestamp": 1782319209,
+      "rank": 20
+    },
+    {
       "uid": "IFl5UDeMg5aM2x79EYEw3rV8ftR2",
       "username": "Uuhhhjhghxhcxgjhhhbnkj",
       "score": 1766,
@@ -220,7 +231,7 @@
       "profileAvatarId": 55,
       "avatarId": 55,
       "timestamp": 1782184488,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "5fyDy4HzlZZ9SGs5YHbGMr8zfkK2",
@@ -231,7 +242,7 @@
       "profileAvatarId": 55,
       "avatarId": 55,
       "timestamp": 1782166370,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "lot4FirhXndODH8tsWhWT7x6UnR2",
@@ -242,7 +253,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782238206,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
@@ -253,17 +264,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 23
-    },
-    {
-      "uid": "t9CM5pdZARYsFKR2pvHAQcOL6au2",
-      "username": "Mimi",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 19,
-      "avatarId": 19,
-      "timestamp": 1782319024,
       "rank": 24
     },
     {
@@ -1024,7 +1024,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "timestamp": 1782319024,
+      "timestamp": 1782319209,
       "rank": 7
     },
     {
@@ -2093,7 +2093,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "timestamp": 1782319024,
+      "timestamp": 1782319209,
       "rank": 18
     },
     {
