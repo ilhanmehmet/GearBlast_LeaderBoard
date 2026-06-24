@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T04:12:01Z",
+  "updated_at": "2026-06-24T04:28:40Z",
   "total_players": 74,
   "classic_normal": [
     {
@@ -21,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 4,
       "avatarId": 4,
-      "timestamp": 1782250561,
+      "timestamp": 1782275315,
       "rank": 2
     },
     {
@@ -830,6 +830,17 @@
       "rank": 1
     },
     {
+      "uid": "DiPwOdJQW7cf3oD1Scl5ch0KS7v2",
+      "username": "Döne",
+      "score": 14831,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 4,
+      "avatarId": 4,
+      "timestamp": 1782275315,
+      "rank": 2
+    },
+    {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
       "username": "Emili",
       "score": 6010,
@@ -838,7 +849,7 @@
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1782255604,
-      "rank": 2
+      "rank": 3
     },
     {
       "uid": "2nLLc7AaWdhz0wnEXegCL88v8Ry2",
@@ -849,7 +860,7 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782224503,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "l9rbn6i4wcNxzu5AC6AozynRa552",
@@ -860,7 +871,7 @@
       "profileAvatarId": 7,
       "avatarId": 7,
       "timestamp": 1782274296,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "u3duvosHY0Y63xxN3NLB4I08cMx1",
@@ -871,7 +882,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782045438,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
@@ -882,17 +893,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782255240,
-      "rank": 6
-    },
-    {
-      "uid": "DiPwOdJQW7cf3oD1Scl5ch0KS7v2",
-      "username": "Döne",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 4,
-      "avatarId": 4,
-      "timestamp": 1782250561,
       "rank": 7
     },
     {
@@ -1822,6 +1822,17 @@
       "rank": 17
     },
     {
+      "uid": "DiPwOdJQW7cf3oD1Scl5ch0KS7v2",
+      "username": "Döne",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 4,
+      "avatarId": 4,
+      "timestamp": 1782275315,
+      "rank": 18
+    },
+    {
       "uid": "l9rbn6i4wcNxzu5AC6AozynRa552",
       "username": "Cipi",
       "score": 0,
@@ -1830,17 +1841,6 @@
       "profileAvatarId": 7,
       "avatarId": 7,
       "timestamp": 1782274297,
-      "rank": 18
-    },
-    {
-      "uid": "DiPwOdJQW7cf3oD1Scl5ch0KS7v2",
-      "username": "Döne",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 4,
-      "avatarId": 4,
-      "timestamp": 1782250561,
       "rank": 19
     },
     {
