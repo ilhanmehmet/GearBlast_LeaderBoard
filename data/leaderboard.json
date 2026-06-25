@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T20:49:43Z",
+  "updated_at": "2026-06-25T20:51:41Z",
   "total_players": 103,
   "classic_normal": [
     {
@@ -36,6 +36,17 @@
       "rank": 3
     },
     {
+      "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
+      "username": "Huseyin",
+      "score": 582226,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1782420679,
+      "rank": 4
+    },
+    {
       "uid": "Un6wTB51mdYnfGtZD7E2HWT0yLX2",
       "username": "LostChef",
       "score": 426229,
@@ -44,17 +55,6 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782420106,
-      "rank": 4
-    },
-    {
-      "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
-      "username": "Huseyin",
-      "score": 408122,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
-      "timestamp": 1782420497,
       "rank": 5
     },
     {
@@ -1237,6 +1237,17 @@
       "rank": 9
     },
     {
+      "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
+      "username": "Huseyin",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1782420679,
+      "rank": 10
+    },
+    {
       "uid": "Nz7rC1iFgahlZQn5dggWRwiBQOi1",
       "username": "Tzoogjmk",
       "score": 0,
@@ -1245,17 +1256,6 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782420564,
-      "rank": 10
-    },
-    {
-      "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
-      "username": "Huseyin",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
-      "timestamp": 1782420497,
       "rank": 11
     },
     {
@@ -2324,7 +2324,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782420497,
+      "timestamp": 1782420679,
       "rank": 6
     },
     {
