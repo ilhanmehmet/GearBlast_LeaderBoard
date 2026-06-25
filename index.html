@@ -286,6 +286,40 @@
     .podium-card .avatar-wrap { width: 50px; height: 50px; }
     .tab { font-size: 0.68rem; }
   }
+
+  /* ─── WEB SITE LINK BUTTON ─── */
+  .web-link-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(74, 184, 240, 0.15) 0%, rgba(74, 184, 240, 0.05) 100%);
+    border: 1px solid rgba(74, 184, 240, 0.4);
+    border-radius: 12px;
+    color: var(--blue);
+    padding: 10px 24px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    margin-top: 10px;
+  }
+  .web-link-btn:hover {
+    background: linear-gradient(135deg, rgba(74, 184, 240, 0.25) 0%, rgba(74, 184, 240, 0.1) 100%);
+    border-color: var(--blue);
+    box-shadow: 0 0 15px rgba(74, 184, 240, 0.4);
+    transform: translateY(-2px);
+  }
+  .click-icon {
+    animation: blinkIcon 1s infinite;
+    display: inline-block;
+    margin-left: 6px;
+  }
+  @keyframes blinkIcon {
+    0%, 49% { opacity: 0; }
+    50%, 100% { opacity: 1; }
+  }
 </style>
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database-compat.js"></script>
@@ -309,6 +343,14 @@
     <span id="update-text">Yükleniyor...</span>
   </div>
 
+  <!-- WEB SITE LINK BUTTON -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <a href="https://ilhanmehmet.github.io/gearblast-web/" target="_blank" class="web-link-btn">
+      GearBlast : Block Puzzle 
+      <span class="click-icon">👆</span>
+    </a>
+  </div>
+
   <!-- PAGE TABS -->
   <nav class="tabs">
     <div class="page-tabs">
@@ -319,6 +361,9 @@
 
   <!-- ══════════════════ LEADERBOARD PAGE ══════════════════ -->
   <div id="page-leaderboard">
+
+    <!-- 3 satır boşluk -->
+    <br><br><br>
 
     <!-- MODE TABS -->
     <div class="mode-tabs">
