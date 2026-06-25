@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T13:56:00Z",
+  "updated_at": "2026-06-25T13:59:38Z",
   "total_players": 99,
   "classic_normal": [
     {
@@ -80,6 +80,17 @@
       "rank": 7
     },
     {
+      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
+      "username": "Jai Shree ram",
+      "score": 181038,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782395954,
+      "rank": 8
+    },
+    {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
       "username": "Hüseyin",
       "score": 180781,
@@ -88,7 +99,7 @@
       "profileAvatarId": 0,
       "avatarId": 62,
       "timestamp": 1781893225,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -99,7 +110,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782391554,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "KXcbJYobpPcyiOVqqV76hZanzJH2",
@@ -110,7 +121,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782151087,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "qWw1P8QgSpOyFT837qyYJa8cJkW2",
@@ -121,7 +132,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782362235,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
@@ -132,17 +143,6 @@
       "profileAvatarId": 25,
       "avatarId": 25,
       "timestamp": 1782194239,
-      "rank": 12
-    },
-    {
-      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
-      "username": "Jai Shree ram",
-      "score": 28315,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782395729,
       "rank": 13
     },
     {
@@ -1211,7 +1211,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782395732,
+      "timestamp": 1782395956,
       "rank": 11
     },
     {
@@ -2412,7 +2412,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782395732,
+      "timestamp": 1782395956,
       "rank": 21
     },
     {
