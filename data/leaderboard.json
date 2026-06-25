@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T12:36:58Z",
+  "updated_at": "2026-06-25T12:43:14Z",
   "total_players": 99,
   "classic_normal": [
     {
@@ -98,7 +98,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1782390961,
+      "timestamp": 1782391373,
       "rank": 9
     },
     {
@@ -1211,7 +1211,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1782390961,
+      "timestamp": 1782391373,
       "rank": 11
     },
     {
@@ -2273,6 +2273,17 @@
       "rank": 8
     },
     {
+      "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
+      "username": "Ttt",
+      "score": 3,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 6,
+      "avatarId": 6,
+      "timestamp": 1782391373,
+      "rank": 9
+    },
+    {
       "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
       "username": "Huseyin",
       "score": 3,
@@ -2281,17 +2292,6 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782336368,
-      "rank": 9
-    },
-    {
-      "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
-      "username": "Ttt",
-      "score": 2,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 6,
-      "avatarId": 6,
-      "timestamp": 1782390961,
       "rank": 10
     },
     {
