@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T22:41:36Z",
+  "updated_at": "2026-06-25T22:43:56Z",
   "total_players": 104,
   "classic_normal": [
     {
@@ -335,12 +335,12 @@
     {
       "uid": "qwmS8J3P1WTAkUArJAdcQ1vRHXg2",
       "username": "Cers",
-      "score": 0,
+      "score": 63,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782427250,
+      "timestamp": 1782427417,
       "rank": 31
     },
     {
@@ -1255,7 +1255,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782427250,
+      "timestamp": 1782427417,
       "rank": 10
     },
     {
@@ -2511,7 +2511,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782427249,
+      "timestamp": 1782427417,
       "rank": 21
     },
     {
