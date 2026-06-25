@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T10:22:11Z",
+  "updated_at": "2026-06-25T10:22:30Z",
   "total_players": 99,
   "classic_normal": [
     {
@@ -318,7 +318,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "timestamp": 1782382926,
+      "timestamp": 1782382938,
       "rank": 29
     },
     {
@@ -1138,6 +1138,17 @@
       "rank": 4
     },
     {
+      "uid": "fy6klS40vHOdbbpslTsxPzKVTVl1",
+      "username": "Hggsfs",
+      "score": 47,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 5,
+      "avatarId": 5,
+      "timestamp": 1782382937,
+      "rank": 5
+    },
+    {
       "uid": "8Kpw8fsQbsMAURC9PTdaDflQ0hC3",
       "username": "Qxb07",
       "score": 47,
@@ -1146,17 +1157,6 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1782375121,
-      "rank": 5
-    },
-    {
-      "uid": "fy6klS40vHOdbbpslTsxPzKVTVl1",
-      "username": "Hggsfs",
-      "score": 19,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 5,
-      "avatarId": 5,
-      "timestamp": 1782382925,
       "rank": 6
     },
     {
@@ -2401,7 +2401,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "timestamp": 1782382926,
+      "timestamp": 1782382938,
       "rank": 20
     },
     {
