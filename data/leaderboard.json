@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T13:59:38Z",
+  "updated_at": "2026-06-25T14:17:02Z",
   "total_players": 99,
   "classic_normal": [
     {
@@ -69,6 +69,17 @@
       "rank": 6
     },
     {
+      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
+      "username": "Jai Shree ram",
+      "score": 197383,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782396997,
+      "rank": 7
+    },
+    {
       "uid": "KpkhsyofcfYH2NI5jAAefndFdn13",
       "username": "FRIDA",
       "score": 190203,
@@ -77,17 +88,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782089507,
-      "rank": 7
-    },
-    {
-      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
-      "username": "Jai Shree ram",
-      "score": 181038,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782395954,
       "rank": 8
     },
     {
@@ -322,6 +322,17 @@
       "rank": 29
     },
     {
+      "uid": "r8R7vzBqVIZqD4l2htTldUXKnq63",
+      "username": "Anjali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 51,
+      "avatarId": 51,
+      "timestamp": 1782396937,
+      "rank": 30
+    },
+    {
       "uid": "fy6klS40vHOdbbpslTsxPzKVTVl1",
       "username": "Hggsfs",
       "score": 0,
@@ -330,7 +341,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782383135,
-      "rank": 30
+      "rank": 31
     },
     {
       "uid": "UsvxGGhZxRRUs9jJzn7o7f6PRqv2",
@@ -341,7 +352,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782382884,
-      "rank": 31
+      "rank": 32
     },
     {
       "uid": "3ziezLI3Uze6wejQZ4UvYjWAyJJ2",
@@ -352,7 +363,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782378064,
-      "rank": 32
+      "rank": 33
     },
     {
       "uid": "8Kpw8fsQbsMAURC9PTdaDflQ0hC3",
@@ -363,7 +374,7 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1782375134,
-      "rank": 33
+      "rank": 34
     },
     {
       "uid": "R4JXoKs17AM4YbmXGWOG693IsQi2",
@@ -374,7 +385,7 @@
       "profileAvatarId": 52,
       "avatarId": 52,
       "timestamp": 1782372402,
-      "rank": 34
+      "rank": 35
     },
     {
       "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
@@ -385,7 +396,7 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782370680,
-      "rank": 35
+      "rank": 36
     },
     {
       "uid": "ihvNPoIHawgLYgjYBJXo4KDpMro2",
@@ -396,7 +407,7 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1782370013,
-      "rank": 36
+      "rank": 37
     },
     {
       "uid": "diLBdfBUEwhz0bvbYYfIGRwE8aK2",
@@ -407,17 +418,6 @@
       "profileAvatarId": 0,
       "avatarId": 17,
       "timestamp": 1782368798,
-      "rank": 37
-    },
-    {
-      "uid": "r8R7vzBqVIZqD4l2htTldUXKnq63",
-      "username": "Anjali",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 51,
-      "avatarId": 51,
-      "timestamp": 1782355680,
       "rank": 38
     },
     {
@@ -1211,8 +1211,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782395956,
+      "timestamp": 1782397000,
       "rank": 11
+    },
+    {
+      "uid": "r8R7vzBqVIZqD4l2htTldUXKnq63",
+      "username": "Anjali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 51,
+      "avatarId": 51,
+      "timestamp": 1782396937,
+      "rank": 12
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -1223,7 +1234,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782391554,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -1234,7 +1245,7 @@
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1782383899,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "UsvxGGhZxRRUs9jJzn7o7f6PRqv2",
@@ -1245,7 +1256,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782382884,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "3ziezLI3Uze6wejQZ4UvYjWAyJJ2",
@@ -1256,7 +1267,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782378064,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "R4JXoKs17AM4YbmXGWOG693IsQi2",
@@ -1267,7 +1278,7 @@
       "profileAvatarId": 52,
       "avatarId": 52,
       "timestamp": 1782372402,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
@@ -1278,7 +1289,7 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782370680,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "ihvNPoIHawgLYgjYBJXo4KDpMro2",
@@ -1289,7 +1300,7 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1782370013,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "diLBdfBUEwhz0bvbYYfIGRwE8aK2",
@@ -1300,7 +1311,7 @@
       "profileAvatarId": 0,
       "avatarId": 17,
       "timestamp": 1782368798,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "qWw1P8QgSpOyFT837qyYJa8cJkW2",
@@ -1311,17 +1322,6 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782362236,
-      "rank": 20
-    },
-    {
-      "uid": "r8R7vzBqVIZqD4l2htTldUXKnq63",
-      "username": "Anjali",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 51,
-      "avatarId": 51,
-      "timestamp": 1782355680,
       "rank": 21
     },
     {
@@ -2412,8 +2412,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782395956,
+      "timestamp": 1782397000,
       "rank": 21
+    },
+    {
+      "uid": "r8R7vzBqVIZqD4l2htTldUXKnq63",
+      "username": "Anjali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 51,
+      "avatarId": 51,
+      "timestamp": 1782396937,
+      "rank": 22
     },
     {
       "uid": "fy6klS40vHOdbbpslTsxPzKVTVl1",
@@ -2424,7 +2435,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782383135,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "UsvxGGhZxRRUs9jJzn7o7f6PRqv2",
@@ -2435,7 +2446,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782382884,
-      "rank": 23
+      "rank": 24
     },
     {
       "uid": "3ziezLI3Uze6wejQZ4UvYjWAyJJ2",
@@ -2446,7 +2457,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782378064,
-      "rank": 24
+      "rank": 25
     },
     {
       "uid": "8Kpw8fsQbsMAURC9PTdaDflQ0hC3",
@@ -2457,7 +2468,7 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1782375134,
-      "rank": 25
+      "rank": 26
     },
     {
       "uid": "R4JXoKs17AM4YbmXGWOG693IsQi2",
@@ -2468,7 +2479,7 @@
       "profileAvatarId": 52,
       "avatarId": 52,
       "timestamp": 1782372402,
-      "rank": 26
+      "rank": 27
     },
     {
       "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
@@ -2479,7 +2490,7 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782370679,
-      "rank": 27
+      "rank": 28
     },
     {
       "uid": "ihvNPoIHawgLYgjYBJXo4KDpMro2",
@@ -2490,7 +2501,7 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1782370013,
-      "rank": 28
+      "rank": 29
     },
     {
       "uid": "diLBdfBUEwhz0bvbYYfIGRwE8aK2",
@@ -2501,7 +2512,7 @@
       "profileAvatarId": 0,
       "avatarId": 17,
       "timestamp": 1782368798,
-      "rank": 29
+      "rank": 30
     },
     {
       "uid": "qWw1P8QgSpOyFT837qyYJa8cJkW2",
@@ -2512,7 +2523,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782362236,
-      "rank": 30
+      "rank": 31
     },
     {
       "uid": "omw7uzEDuBXIFGg6xe6Z4FywrND2",
@@ -2523,17 +2534,6 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782356957,
-      "rank": 31
-    },
-    {
-      "uid": "r8R7vzBqVIZqD4l2htTldUXKnq63",
-      "username": "Anjali",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 51,
-      "avatarId": 51,
-      "timestamp": 1782355678,
       "rank": 32
     },
     {
