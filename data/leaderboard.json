@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T13:38:09Z",
+  "updated_at": "2026-06-25T13:56:00Z",
   "total_players": 99,
   "classic_normal": [
     {
@@ -135,6 +135,17 @@
       "rank": 12
     },
     {
+      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
+      "username": "Jai Shree ram",
+      "score": 28315,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782395729,
+      "rank": 13
+    },
+    {
       "uid": "ruy9DArK4aVOaEnRVaDr2JsG53S2",
       "username": "Gam",
       "score": 27554,
@@ -143,7 +154,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781982226,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -154,7 +165,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782104042,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
@@ -165,17 +176,6 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783350,
-      "rank": 15
-    },
-    {
-      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
-      "username": "Jai Shree ram",
-      "score": 9736,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782385434,
       "rank": 16
     },
     {
@@ -1204,6 +1204,17 @@
       "rank": 10
     },
     {
+      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
+      "username": "Jai Shree ram",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "timestamp": 1782395732,
+      "rank": 11
+    },
+    {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
       "username": "Ttt",
       "score": 0,
@@ -1212,17 +1223,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782391554,
-      "rank": 11
-    },
-    {
-      "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
-      "username": "Jai Shree ram",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
-      "timestamp": 1782385436,
       "rank": 12
     },
     {
@@ -2412,7 +2412,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782385436,
+      "timestamp": 1782395732,
       "rank": 21
     },
     {
