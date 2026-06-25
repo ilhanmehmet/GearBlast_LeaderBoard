@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T04:33:37Z",
+  "updated_at": "2026-06-25T04:37:31Z",
   "total_players": 90,
   "classic_normal": [
     {
@@ -113,6 +113,17 @@
       "rank": 10
     },
     {
+      "uid": "qWw1P8QgSpOyFT837qyYJa8cJkW2",
+      "username": "KRSYTIAN",
+      "score": 105012,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1782362235,
+      "rank": 11
+    },
+    {
       "uid": "zVNU4oa8lOQL3WBuSLcu9xGAAaN2",
       "username": "Clarissa Wilson",
       "score": 53015,
@@ -121,7 +132,7 @@
       "profileAvatarId": 25,
       "avatarId": 25,
       "timestamp": 1782194239,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "ruy9DArK4aVOaEnRVaDr2JsG53S2",
@@ -132,7 +143,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1781982226,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -143,7 +154,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782104042,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
@@ -154,7 +165,7 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783350,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "RNBG72omHXc5thALglYnFgZi2PE2",
@@ -165,7 +176,7 @@
       "profileAvatarId": 8,
       "avatarId": 8,
       "timestamp": 1782121801,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "lbOnMbiVUvPpSl2rid8Z8RYRN0i2",
@@ -176,7 +187,7 @@
       "profileAvatarId": 8,
       "avatarId": 8,
       "timestamp": 1782312332,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -187,7 +198,7 @@
       "profileAvatarId": 0,
       "avatarId": 28,
       "timestamp": 1782299526,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "tJrG0BnHZYVv1mmtf82MlDKWGtD3",
@@ -198,7 +209,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782054916,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "5HPWXGcOmENscfcGzmpm7y2Sy5u2",
@@ -209,17 +220,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782217722,
-      "rank": 19
-    },
-    {
-      "uid": "qWw1P8QgSpOyFT837qyYJa8cJkW2",
-      "username": "KRSYTIAN",
-      "score": 2666,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
-      "timestamp": 1782362000,
       "rank": 20
     },
     {
@@ -1079,7 +1079,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782362001,
+      "timestamp": 1782362236,
       "rank": 8
     },
     {
@@ -2192,7 +2192,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782362001,
+      "timestamp": 1782362236,
       "rank": 19
     },
     {
