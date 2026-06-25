@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T10:22:30Z",
+  "updated_at": "2026-06-25T10:22:47Z",
   "total_players": 99,
   "classic_normal": [
     {
@@ -318,7 +318,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "timestamp": 1782382938,
+      "timestamp": 1782382960,
       "rank": 29
     },
     {
@@ -1140,12 +1140,12 @@
     {
       "uid": "fy6klS40vHOdbbpslTsxPzKVTVl1",
       "username": "Hggsfs",
-      "score": 47,
+      "score": 114,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "timestamp": 1782382937,
+      "timestamp": 1782382959,
       "rank": 5
     },
     {
@@ -2401,7 +2401,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "timestamp": 1782382938,
+      "timestamp": 1782382960,
       "rank": 20
     },
     {
