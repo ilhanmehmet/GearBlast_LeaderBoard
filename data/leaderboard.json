@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T20:29:59Z",
+  "updated_at": "2026-06-25T20:30:31Z",
   "total_players": 105,
   "classic_normal": [
     {
@@ -322,6 +322,17 @@
       "rank": 29
     },
     {
+      "uid": "BM38xk0nL1Q78J54E65fvEs70vH2",
+      "username": "Grannys Granny",
+      "score": 812,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 17,
+      "avatarId": 17,
+      "timestamp": 1782419418,
+      "rank": 30
+    },
+    {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
       "username": "Qwertyuiopasdfghjklñzx",
       "score": 92,
@@ -330,17 +341,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 30
-    },
-    {
-      "uid": "BM38xk0nL1Q78J54E65fvEs70vH2",
-      "username": "Grannys Granny",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 17,
-      "avatarId": 17,
-      "timestamp": 1782419309,
       "rank": 31
     },
     {
@@ -1288,7 +1288,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "timestamp": 1782419309,
+      "timestamp": 1782419418,
       "rank": 12
     },
     {
@@ -2544,7 +2544,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "timestamp": 1782419309,
+      "timestamp": 1782419418,
       "rank": 22
     },
     {
