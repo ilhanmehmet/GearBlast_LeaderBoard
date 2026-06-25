@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T20:40:56Z",
+  "updated_at": "2026-06-25T20:42:03Z",
   "total_players": 102,
   "classic_normal": [
     {
@@ -43,18 +43,18 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1782420049,
+      "timestamp": 1782420106,
       "rank": 4
     },
     {
       "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
       "username": "Huseyin",
       "score": 408122,
-      "leagueLevel": 0,
+      "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782419900,
+      "timestamp": 1782420116,
       "rank": 5
     },
     {
@@ -1182,6 +1182,17 @@
       "rank": 5
     },
     {
+      "uid": "Un6wTB51mdYnfGtZD7E2HWT0yLX2",
+      "username": "LostChef",
+      "score": 28,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "timestamp": 1782420105,
+      "rank": 6
+    },
+    {
       "uid": "l9rbn6i4wcNxzu5AC6AozynRa552",
       "username": "Cipi",
       "score": 19,
@@ -1190,7 +1201,7 @@
       "profileAvatarId": 7,
       "avatarId": 7,
       "timestamp": 1782274296,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "u3duvosHY0Y63xxN3NLB4I08cMx1",
@@ -1201,7 +1212,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782045438,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "omw7uzEDuBXIFGg6xe6Z4FywrND2",
@@ -1212,17 +1223,6 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782356957,
-      "rank": 8
-    },
-    {
-      "uid": "Un6wTB51mdYnfGtZD7E2HWT0yLX2",
-      "username": "LostChef",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
-      "timestamp": 1782420049,
       "rank": 9
     },
     {
@@ -1233,7 +1233,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782419900,
+      "timestamp": 1782420116,
       "rank": 10
     },
     {
@@ -2302,7 +2302,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782419900,
+      "timestamp": 1782420116,
       "rank": 6
     },
     {
@@ -2357,7 +2357,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1782420049,
+      "timestamp": 1782420106,
       "rank": 11
     },
     {
