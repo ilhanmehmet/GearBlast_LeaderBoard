@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T04:26:00Z",
+  "updated_at": "2026-06-26T04:27:23Z",
   "total_players": 105,
   "classic_normal": [
     {
@@ -296,7 +296,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782447947,
+      "timestamp": 1782448029,
       "rank": 27
     },
     {
@@ -1266,7 +1266,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782447947,
+      "timestamp": 1782448029,
       "rank": 10
     },
     {
@@ -2394,6 +2394,17 @@
       "rank": 8
     },
     {
+      "uid": "qwmS8J3P1WTAkUArJAdcQ1vRHXg2",
+      "username": "Cers",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1782448029,
+      "rank": 9
+    },
+    {
       "uid": "bs6ldT7PJlbIWH7tJj7IGwnvhHJ2",
       "username": "Red",
       "score": 2,
@@ -2402,7 +2413,7 @@
       "profileAvatarId": 23,
       "avatarId": 23,
       "timestamp": 1782172750,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "xA46ht12pFZZyC9Z6prAmVBI7Zk2",
@@ -2413,17 +2424,6 @@
       "profileAvatarId": 58,
       "avatarId": 58,
       "timestamp": 1782126695,
-      "rank": 10
-    },
-    {
-      "uid": "qwmS8J3P1WTAkUArJAdcQ1vRHXg2",
-      "username": "Cers",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 13,
-      "avatarId": 13,
-      "timestamp": 1782447946,
       "rank": 11
     },
     {
