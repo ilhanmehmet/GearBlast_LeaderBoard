@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T18:20:18Z",
+  "updated_at": "2026-06-26T18:23:39Z",
   "total_players": 111,
   "classic_normal": [
     {
@@ -208,7 +208,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782497980,
+      "timestamp": 1782498204,
       "rank": 19
     },
     {
@@ -1244,7 +1244,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782497980,
+      "timestamp": 1782498204,
       "rank": 2
     },
     {
@@ -2526,6 +2526,17 @@
       "rank": 8
     },
     {
+      "uid": "mNw9GYjkxEYAV26JEQdH6Jvdb182",
+      "username": "Memo",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1782498202,
+      "rank": 9
+    },
+    {
       "uid": "bs6ldT7PJlbIWH7tJj7IGwnvhHJ2",
       "username": "Red",
       "score": 2,
@@ -2534,7 +2545,7 @@
       "profileAvatarId": 23,
       "avatarId": 23,
       "timestamp": 1782172750,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "xA46ht12pFZZyC9Z6prAmVBI7Zk2",
@@ -2545,17 +2556,6 @@
       "profileAvatarId": 58,
       "avatarId": 58,
       "timestamp": 1782126695,
-      "rank": 10
-    },
-    {
-      "uid": "mNw9GYjkxEYAV26JEQdH6Jvdb182",
-      "username": "Memo",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 10,
-      "timestamp": 1782497980,
       "rank": 11
     },
     {
