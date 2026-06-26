@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T10:42:05Z",
+  "updated_at": "2026-06-26T10:56:06Z",
   "total_players": 109,
   "classic_normal": [
     {
@@ -223,17 +223,6 @@
       "rank": 20
     },
     {
-      "uid": "mNw9GYjkxEYAV26JEQdH6Jvdb182",
-      "username": "Memo",
-      "score": 4834,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 10,
-      "timestamp": 1782470509,
-      "rank": 21
-    },
-    {
       "uid": "tJrG0BnHZYVv1mmtf82MlDKWGtD3",
       "username": "Elke",
       "score": 4113,
@@ -242,7 +231,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782054916,
-      "rank": 22
+      "rank": 21
     },
     {
       "uid": "5HPWXGcOmENscfcGzmpm7y2Sy5u2",
@@ -253,7 +242,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782217722,
-      "rank": 23
+      "rank": 22
     },
     {
       "uid": "vyqboh8xoEQvwKX0z9eHpDzqgOE2",
@@ -264,7 +253,7 @@
       "profileAvatarId": 38,
       "avatarId": 38,
       "timestamp": 1782154437,
-      "rank": 24
+      "rank": 23
     },
     {
       "uid": "Nz7rC1iFgahlZQn5dggWRwiBQOi1",
@@ -275,7 +264,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782420564,
-      "rank": 25
+      "rank": 24
     },
     {
       "uid": "t9CM5pdZARYsFKR2pvHAQcOL6au2",
@@ -286,7 +275,7 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782319209,
-      "rank": 26
+      "rank": 25
     },
     {
       "uid": "IFl5UDeMg5aM2x79EYEw3rV8ftR2",
@@ -297,7 +286,7 @@
       "profileAvatarId": 55,
       "avatarId": 55,
       "timestamp": 1782184488,
-      "rank": 27
+      "rank": 26
     },
     {
       "uid": "omw7uzEDuBXIFGg6xe6Z4FywrND2",
@@ -308,7 +297,7 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782356957,
-      "rank": 28
+      "rank": 27
     },
     {
       "uid": "5fyDy4HzlZZ9SGs5YHbGMr8zfkK2",
@@ -319,7 +308,7 @@
       "profileAvatarId": 55,
       "avatarId": 55,
       "timestamp": 1782166370,
-      "rank": 29
+      "rank": 28
     },
     {
       "uid": "lot4FirhXndODH8tsWhWT7x6UnR2",
@@ -330,7 +319,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782238206,
-      "rank": 30
+      "rank": 29
     },
     {
       "uid": "BM38xk0nL1Q78J54E65fvEs70vH2",
@@ -341,6 +330,17 @@
       "profileAvatarId": 17,
       "avatarId": 17,
       "timestamp": 1782419418,
+      "rank": 30
+    },
+    {
+      "uid": "mNw9GYjkxEYAV26JEQdH6Jvdb182",
+      "username": "Memo",
+      "score": 92,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1782471346,
       "rank": 31
     },
     {
@@ -1250,12 +1250,12 @@
     {
       "uid": "mNw9GYjkxEYAV26JEQdH6Jvdb182",
       "username": "Memo",
-      "score": 47,
+      "score": 88,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782470508,
+      "timestamp": 1782471346,
       "rank": 5
     },
     {
@@ -2621,7 +2621,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782470509,
+      "timestamp": 1782471346,
       "rank": 21
     },
     {
