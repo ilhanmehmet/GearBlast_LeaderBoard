@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T21:12:41Z",
+  "updated_at": "2026-06-26T21:16:07Z",
   "total_players": 112,
   "classic_normal": [
     {
@@ -14,6 +14,17 @@
       "rank": 1
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 1559354,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1782508547,
+      "rank": 2
+    },
+    {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 1155884,
@@ -22,17 +33,6 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782497830,
-      "rank": 2
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 755135,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1782507050,
       "rank": 3
     },
     {
@@ -1358,6 +1358,17 @@
       "rank": 11
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1782508547,
+      "rank": 12
+    },
+    {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
       "username": "Emili",
       "score": 0,
@@ -1366,17 +1377,6 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1782508348,
-      "rank": 12
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1782507051,
       "rank": 13
     },
     {
@@ -2500,7 +2500,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782507051,
+      "timestamp": 1782508547,
       "rank": 4
     },
     {
