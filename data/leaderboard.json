@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T10:56:06Z",
+  "updated_at": "2026-06-26T11:14:19Z",
   "total_players": 109,
   "classic_normal": [
     {
@@ -190,6 +190,17 @@
       "rank": 17
     },
     {
+      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
+      "username": "Emili",
+      "score": 7910,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 28,
+      "timestamp": 1782472457,
+      "rank": 18
+    },
+    {
       "uid": "RNBG72omHXc5thALglYnFgZi2PE2",
       "username": "Ddt",
       "score": 7276,
@@ -198,7 +209,7 @@
       "profileAvatarId": 8,
       "avatarId": 8,
       "timestamp": 1782121801,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "lbOnMbiVUvPpSl2rid8Z8RYRN0i2",
@@ -209,17 +220,6 @@
       "profileAvatarId": 8,
       "avatarId": 8,
       "timestamp": 1782312332,
-      "rank": 19
-    },
-    {
-      "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
-      "username": "Emili",
-      "score": 6010,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 28,
-      "timestamp": 1782417705,
       "rank": 20
     },
     {
@@ -340,7 +340,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782471346,
+      "timestamp": 1782471797,
       "rank": 31
     },
     {
@@ -1211,7 +1211,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 28,
-      "timestamp": 1782417705,
+      "timestamp": 1782472457,
       "rank": 1
     },
     {
@@ -1255,7 +1255,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782471346,
+      "timestamp": 1782471796,
       "rank": 5
     },
     {
@@ -2401,7 +2401,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 28,
-      "timestamp": 1782417705,
+      "timestamp": 1782472456,
       "rank": 1
     },
     {
@@ -2621,7 +2621,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782471346,
+      "timestamp": 1782471797,
       "rank": 21
     },
     {
