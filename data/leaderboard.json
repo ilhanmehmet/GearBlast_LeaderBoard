@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T22:27:39Z",
+  "updated_at": "2026-06-26T22:29:43Z",
   "total_players": 113,
   "classic_normal": [
     {
@@ -98,7 +98,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782512858,
+      "timestamp": 1782512860,
       "rank": 9
     },
     {
@@ -311,6 +311,17 @@
       "rank": 28
     },
     {
+      "uid": "GjnDIUY7MuXcSpdEIShDqZfSTpV2",
+      "username": "Memet",
+      "score": 1631,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1782512970,
+      "rank": 29
+    },
+    {
       "uid": "5fyDy4HzlZZ9SGs5YHbGMr8zfkK2",
       "username": "Fd b",
       "score": 1156,
@@ -319,7 +330,7 @@
       "profileAvatarId": 55,
       "avatarId": 55,
       "timestamp": 1782166370,
-      "rank": 29
+      "rank": 30
     },
     {
       "uid": "lot4FirhXndODH8tsWhWT7x6UnR2",
@@ -330,7 +341,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782238206,
-      "rank": 30
+      "rank": 31
     },
     {
       "uid": "BM38xk0nL1Q78J54E65fvEs70vH2",
@@ -341,7 +352,7 @@
       "profileAvatarId": 17,
       "avatarId": 17,
       "timestamp": 1782419418,
-      "rank": 31
+      "rank": 32
     },
     {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
@@ -352,17 +363,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 32
-    },
-    {
-      "uid": "GjnDIUY7MuXcSpdEIShDqZfSTpV2",
-      "username": "Memet",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1782512722,
       "rank": 33
     },
     {
@@ -1270,6 +1270,17 @@
       "rank": 2
     },
     {
+      "uid": "GjnDIUY7MuXcSpdEIShDqZfSTpV2",
+      "username": "Memet",
+      "score": 7529,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1782512970,
+      "rank": 3
+    },
+    {
       "uid": "2nLLc7AaWdhz0wnEXegCL88v8Ry2",
       "username": "Sara",
       "score": 945,
@@ -1278,7 +1289,7 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782224503,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
@@ -1289,7 +1300,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782400253,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "fy6klS40vHOdbbpslTsxPzKVTVl1",
@@ -1300,7 +1311,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782383135,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "ufiJcBkaObg9YCSKuha3pNbDXH73",
@@ -1311,7 +1322,7 @@
       "profileAvatarId": 34,
       "avatarId": 34,
       "timestamp": 1782512094,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "8Kpw8fsQbsMAURC9PTdaDflQ0hC3",
@@ -1322,7 +1333,7 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1782375121,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "Un6wTB51mdYnfGtZD7E2HWT0yLX2",
@@ -1333,7 +1344,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782420105,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "l9rbn6i4wcNxzu5AC6AozynRa552",
@@ -1344,7 +1355,7 @@
       "profileAvatarId": 7,
       "avatarId": 7,
       "timestamp": 1782274296,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "u3duvosHY0Y63xxN3NLB4I08cMx1",
@@ -1355,7 +1366,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782045438,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "omw7uzEDuBXIFGg6xe6Z4FywrND2",
@@ -1366,7 +1377,7 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782356957,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
@@ -1376,18 +1387,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782512859,
-      "rank": 12
-    },
-    {
-      "uid": "GjnDIUY7MuXcSpdEIShDqZfSTpV2",
-      "username": "Memet",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1782512722,
+      "timestamp": 1782512860,
       "rank": 13
     },
     {
@@ -2544,7 +2544,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782512722,
+      "timestamp": 1782512970,
       "rank": 6
     },
     {
