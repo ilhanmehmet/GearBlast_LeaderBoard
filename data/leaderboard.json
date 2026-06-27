@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T21:43:24Z",
+  "updated_at": "2026-06-27T21:45:21Z",
   "total_players": 114,
   "classic_normal": [
     {
@@ -168,6 +168,17 @@
       "rank": 15
     },
     {
+      "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
+      "username": "Cefri",
+      "score": 48793,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1782596704,
+      "rank": 16
+    },
+    {
       "uid": "wjP1mTLXy3djoZ6OKtoyuVCvank2",
       "username": "АНЯ",
       "score": 14216,
@@ -176,7 +187,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782548905,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
@@ -187,7 +198,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782104042,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
@@ -198,17 +209,6 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783350,
-      "rank": 18
-    },
-    {
-      "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
-      "username": "Cefri",
-      "score": 11676,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 13,
-      "avatarId": 13,
-      "timestamp": 1782596588,
       "rank": 19
     },
     {
@@ -1387,7 +1387,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782596589,
+      "timestamp": 1782596704,
       "rank": 12
     },
     {
@@ -2621,7 +2621,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782596589,
+      "timestamp": 1782596704,
       "rank": 11
     },
     {
