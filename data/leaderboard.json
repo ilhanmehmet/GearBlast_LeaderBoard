@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T07:16:01Z",
+  "updated_at": "2026-06-27T07:16:49Z",
   "total_players": 115,
   "classic_normal": [
     {
@@ -179,6 +179,17 @@
       "rank": 16
     },
     {
+      "uid": "wjP1mTLXy3djoZ6OKtoyuVCvank2",
+      "username": "АНЯ",
+      "score": 14216,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 6,
+      "avatarId": 6,
+      "timestamp": 1782544592,
+      "rank": 17
+    },
+    {
       "uid": "EMsVJIVtzeQKXXKcuJE3umtAtju1",
       "username": "Berre",
       "score": 14168,
@@ -187,17 +198,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782104042,
-      "rank": 17
-    },
-    {
-      "uid": "wjP1mTLXy3djoZ6OKtoyuVCvank2",
-      "username": "АНЯ",
-      "score": 13234,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 6,
-      "avatarId": 6,
-      "timestamp": 1782544541,
       "rank": 18
     },
     {
@@ -1409,7 +1409,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1782544542,
+      "timestamp": 1782544592,
       "rank": 13
     },
     {
@@ -2786,7 +2786,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "timestamp": 1782544542,
+      "timestamp": 1782544592,
       "rank": 24
     },
     {
