@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T19:41:42Z",
+  "updated_at": "2026-06-27T19:46:14Z",
   "total_players": 114,
   "classic_normal": [
     {
@@ -25,6 +25,17 @@
       "rank": 2
     },
     {
+      "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
+      "username": "Cefri",
+      "score": 1229985,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1782589557,
+      "rank": 3
+    },
+    {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 1155884,
@@ -33,17 +44,6 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782583128,
-      "rank": 3
-    },
-    {
-      "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
-      "username": "Cefri",
-      "score": 592554,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 13,
-      "avatarId": 13,
-      "timestamp": 1782589229,
       "rank": 4
     },
     {
@@ -1380,6 +1380,17 @@
       "rank": 11
     },
     {
+      "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
+      "username": "Cefri",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1782589558,
+      "rank": 12
+    },
+    {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 0,
@@ -1388,17 +1399,6 @@
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1782589290,
-      "rank": 12
-    },
-    {
-      "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
-      "username": "Cefri",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 13,
-      "avatarId": 13,
-      "timestamp": 1782589229,
       "rank": 13
     },
     {
@@ -2621,7 +2621,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782589229,
+      "timestamp": 1782589558,
       "rank": 11
     },
     {
