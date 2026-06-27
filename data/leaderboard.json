@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T05:06:21Z",
+  "updated_at": "2026-06-27T05:16:52Z",
   "total_players": 115,
   "classic_normal": [
     {
@@ -54,7 +54,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782535870,
+      "timestamp": 1782537406,
       "rank": 5
     },
     {
@@ -1402,6 +1402,17 @@
       "rank": 12
     },
     {
+      "uid": "GjnDIUY7MuXcSpdEIShDqZfSTpV2",
+      "username": "Memet",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1782537406,
+      "rank": 13
+    },
+    {
       "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
       "username": "Leizl",
       "score": 0,
@@ -1410,17 +1421,6 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782536762,
-      "rank": 13
-    },
-    {
-      "uid": "GjnDIUY7MuXcSpdEIShDqZfSTpV2",
-      "username": "Memet",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1782535870,
       "rank": 14
     },
     {
@@ -2572,12 +2572,12 @@
     {
       "uid": "GjnDIUY7MuXcSpdEIShDqZfSTpV2",
       "username": "Memet",
-      "score": 11,
+      "score": 12,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782535870,
+      "timestamp": 1782537405,
       "rank": 5
     },
     {
