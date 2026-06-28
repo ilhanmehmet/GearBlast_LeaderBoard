@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T05:41:35Z",
+  "updated_at": "2026-06-28T05:42:27Z",
   "total_players": 114,
   "classic_normal": [
     {
@@ -71,12 +71,12 @@
     {
       "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
       "username": "Cefri",
-      "score": 248637,
-      "leagueLevel": 1,
+      "score": 255057,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782625276,
+      "timestamp": 1782625338,
       "rank": 7
     },
     {
@@ -1387,7 +1387,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782625276,
+      "timestamp": 1782625338,
       "rank": 12
     },
     {
@@ -2588,7 +2588,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782625276,
+      "timestamp": 1782625337,
       "rank": 8
     },
     {
