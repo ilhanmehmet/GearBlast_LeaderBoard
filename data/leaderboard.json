@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T05:40:03Z",
+  "updated_at": "2026-06-28T05:41:35Z",
   "total_players": 114,
   "classic_normal": [
     {
@@ -69,6 +69,17 @@
       "rank": 6
     },
     {
+      "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
+      "username": "Cefri",
+      "score": 248637,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1782625276,
+      "rank": 7
+    },
+    {
       "uid": "cfI0yJNGrYN4lq1YWoiMHtHK38G2",
       "username": "Iva",
       "score": 197652,
@@ -77,7 +88,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782466496,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
@@ -88,7 +99,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782400253,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "KpkhsyofcfYH2NI5jAAefndFdn13",
@@ -99,7 +110,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782089507,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
@@ -110,17 +121,6 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1782559683,
-      "rank": 10
-    },
-    {
-      "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
-      "username": "Cefri",
-      "score": 187486,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 13,
-      "avatarId": 13,
-      "timestamp": 1782625179,
       "rank": 11
     },
     {
@@ -1387,7 +1387,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782625180,
+      "timestamp": 1782625276,
       "rank": 12
     },
     {
@@ -2588,7 +2588,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782625180,
+      "timestamp": 1782625276,
       "rank": 8
     },
     {
