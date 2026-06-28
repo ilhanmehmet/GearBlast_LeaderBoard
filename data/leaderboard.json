@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T01:36:26Z",
+  "updated_at": "2026-06-28T02:54:07Z",
   "total_players": 114,
   "classic_normal": [
     {
@@ -355,6 +355,17 @@
       "rank": 32
     },
     {
+      "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
+      "username": "Leizl",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 4,
+      "avatarId": 4,
+      "timestamp": 1782615226,
+      "rank": 33
+    },
+    {
       "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
       "username": "Cefri",
       "score": 0,
@@ -363,7 +374,7 @@
       "profileAvatarId": 13,
       "avatarId": 13,
       "timestamp": 1782598223,
-      "rank": 33
+      "rank": 34
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -374,17 +385,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782585914,
-      "rank": 34
-    },
-    {
-      "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
-      "username": "Leizl",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 4,
-      "avatarId": 4,
-      "timestamp": 1782573899,
       "rank": 35
     },
     {
@@ -1380,6 +1380,17 @@
       "rank": 11
     },
     {
+      "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
+      "username": "Leizl",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 4,
+      "avatarId": 4,
+      "timestamp": 1782615226,
+      "rank": 12
+    },
+    {
       "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
       "username": "Huseyin",
       "score": 0,
@@ -1388,7 +1399,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782601967,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
@@ -1399,7 +1410,7 @@
       "profileAvatarId": 13,
       "avatarId": 13,
       "timestamp": 1782598223,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -1410,7 +1421,7 @@
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1782592875,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -1421,7 +1432,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782590632,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -1432,7 +1443,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782584813,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "GjnDIUY7MuXcSpdEIShDqZfSTpV2",
@@ -1443,17 +1454,6 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1782583106,
-      "rank": 17
-    },
-    {
-      "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
-      "username": "Leizl",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 4,
-      "avatarId": 4,
-      "timestamp": 1782573899,
       "rank": 18
     },
     {
@@ -2592,6 +2592,17 @@
       "rank": 8
     },
     {
+      "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
+      "username": "Leizl",
+      "score": 4,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 4,
+      "avatarId": 4,
+      "timestamp": 1782615225,
+      "rank": 9
+    },
+    {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
       "username": "Ttt",
       "score": 4,
@@ -2600,7 +2611,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782584813,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
@@ -2611,7 +2622,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1782559682,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
@@ -2622,17 +2633,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782255240,
-      "rank": 11
-    },
-    {
-      "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
-      "username": "Leizl",
-      "score": 3,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 4,
-      "avatarId": 4,
-      "timestamp": 1782573899,
       "rank": 12
     },
     {
