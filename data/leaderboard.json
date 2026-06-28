@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T08:09:37Z",
+  "updated_at": "2026-06-28T08:10:25Z",
   "total_players": 107,
   "classic_normal": [
     {
@@ -54,7 +54,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782634170,
+      "timestamp": 1782634211,
       "rank": 5
     },
     {
@@ -76,7 +76,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1782634160,
+      "timestamp": 1782634223,
       "rank": 7
     },
     {
@@ -1189,7 +1189,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1782634160,
+      "timestamp": 1782634223,
       "rank": 1
     },
     {
@@ -1226,6 +1226,17 @@
       "rank": 4
     },
     {
+      "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
+      "username": "Huseyin",
+      "score": 1368,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1782634210,
+      "rank": 5
+    },
+    {
       "uid": "2nLLc7AaWdhz0wnEXegCL88v8Ry2",
       "username": "Sara",
       "score": 945,
@@ -1234,17 +1245,6 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782224503,
-      "rank": 5
-    },
-    {
-      "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
-      "username": "Huseyin",
-      "score": 917,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
-      "timestamp": 1782634170,
       "rank": 6
     },
     {
@@ -2423,7 +2423,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1782634170,
+      "timestamp": 1782634211,
       "rank": 7
     },
     {
@@ -2478,7 +2478,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1782634159,
+      "timestamp": 1782634222,
       "rank": 12
     },
     {
