@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T20:03:00Z",
+  "updated_at": "2026-06-29T20:21:01Z",
   "total_players": 112,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782763361,
+      "timestamp": 1782763468,
       "rank": 1
     },
     {
@@ -21,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782636442,
+      "timestamp": 1782763711,
       "rank": 2
     },
     {
@@ -1266,7 +1266,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782636442,
+      "timestamp": 1782763711,
       "rank": 3
     },
     {
@@ -1376,7 +1376,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782763361,
+      "timestamp": 1782763468,
       "rank": 13
     },
     {
@@ -2467,7 +2467,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782636442,
+      "timestamp": 1782763711,
       "rank": 1
     },
     {
@@ -2522,7 +2522,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782763360,
+      "timestamp": 1782763468,
       "rank": 6
     },
     {
