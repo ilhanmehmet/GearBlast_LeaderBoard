@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T11:22:18Z",
+  "updated_at": "2026-06-29T11:32:57Z",
   "total_players": 111,
   "classic_normal": [
     {
@@ -39,11 +39,11 @@
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 1802209,
-      "leagueLevel": 3,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782654897,
+      "timestamp": 1782732635,
       "rank": 4
     },
     {
@@ -230,7 +230,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782732117,
+      "timestamp": 1782732758,
       "rank": 21
     },
     {
@@ -1233,7 +1233,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782732117,
+      "timestamp": 1782732758,
       "rank": 1
     },
     {
@@ -1358,6 +1358,17 @@
       "rank": 12
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1782732635,
+      "rank": 13
+    },
+    {
       "uid": "Nz7rC1iFgahlZQn5dggWRwiBQOi1",
       "username": "Tzoogjmk",
       "score": 0,
@@ -1366,7 +1377,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782676156,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -1377,7 +1388,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782664889,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "YCkV5FXondXwxcQ2oUnGA70TiJg1",
@@ -1388,17 +1399,6 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1782656430,
-      "rank": 15
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1782654898,
       "rank": 16
     },
     {
@@ -2451,12 +2451,12 @@
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
-      "score": 27,
+      "score": 28,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782732117,
+      "timestamp": 1782732758,
       "rank": 2
     },
     {
@@ -2467,7 +2467,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782654898,
+      "timestamp": 1782732635,
       "rank": 3
     },
     {
