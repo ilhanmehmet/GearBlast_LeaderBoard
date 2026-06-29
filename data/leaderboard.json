@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T12:28:47Z",
+  "updated_at": "2026-06-29T16:11:44Z",
   "total_players": 111,
   "classic_normal": [
     {
@@ -17,11 +17,11 @@
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 2821757,
-      "leagueLevel": 0,
+      "leagueLevel": 3,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782733864,
+      "timestamp": 1782739971,
       "rank": 2
     },
     {
@@ -65,7 +65,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1782736119,
+      "timestamp": 1782736288,
       "rank": 6
     },
     {
@@ -1233,7 +1233,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1782736119,
+      "timestamp": 1782736288,
       "rank": 1
     },
     {
@@ -1376,7 +1376,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782733864,
+      "timestamp": 1782739972,
       "rank": 14
     },
     {
@@ -2500,7 +2500,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782733864,
+      "timestamp": 1782739972,
       "rank": 6
     },
     {
@@ -2566,7 +2566,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1782736119,
+      "timestamp": 1782736288,
       "rank": 12
     },
     {
