@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T15:25:22Z",
+  "updated_at": "2026-06-30T16:53:13Z",
   "total_players": 113,
   "classic_normal": [
     {
@@ -54,7 +54,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782827401,
+      "timestamp": 1782837852,
       "rank": 5
     },
     {
@@ -1380,6 +1380,17 @@
       "rank": 12
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1782837852,
+      "rank": 13
+    },
+    {
       "uid": "71Uv4Bk95bPiOgUU0uaxHOcBwtb2",
       "username": "Smooy",
       "score": 0,
@@ -1388,17 +1399,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782833104,
-      "rank": 13
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1782827401,
       "rank": 14
     },
     {
@@ -2511,7 +2511,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782827401,
+      "timestamp": 1782837852,
       "rank": 3
     },
     {
