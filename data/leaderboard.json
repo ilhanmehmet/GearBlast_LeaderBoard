@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T09:47:47Z",
+  "updated_at": "2026-06-30T11:38:42Z",
   "total_players": 112,
   "classic_normal": [
     {
@@ -384,7 +384,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 4,
       "avatarId": 4,
-      "timestamp": 1782754645,
+      "timestamp": 1782819506,
       "rank": 35
     },
     {
@@ -1369,6 +1369,17 @@
       "rank": 12
     },
     {
+      "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
+      "username": "Leizl",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 4,
+      "avatarId": 4,
+      "timestamp": 1782819506,
+      "rank": 13
+    },
+    {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 0,
@@ -1377,7 +1388,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1782808995,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -1388,7 +1399,7 @@
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1782763206,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "9RaqDpCrleRoI50zeqvSbe9kiBz1",
@@ -1399,17 +1410,6 @@
       "profileAvatarId": 25,
       "avatarId": 25,
       "timestamp": 1782757493,
-      "rank": 15
-    },
-    {
-      "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
-      "username": "Leizl",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 4,
-      "avatarId": 4,
-      "timestamp": 1782754645,
       "rank": 16
     },
     {
@@ -2526,6 +2526,17 @@
       "rank": 6
     },
     {
+      "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
+      "username": "Leizl",
+      "score": 8,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 4,
+      "avatarId": 4,
+      "timestamp": 1782819505,
+      "rank": 7
+    },
+    {
       "uid": "1SsbG4d0k5VpSCUxIIQjZZCQJU72",
       "username": "Cefri",
       "score": 8,
@@ -2534,17 +2545,6 @@
       "profileAvatarId": 13,
       "avatarId": 13,
       "timestamp": 1782625662,
-      "rank": 7
-    },
-    {
-      "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
-      "username": "Leizl",
-      "score": 7,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 4,
-      "avatarId": 4,
-      "timestamp": 1782754643,
       "rank": 8
     },
     {
