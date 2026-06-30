@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T00:29:34Z",
+  "updated_at": "2026-06-30T00:31:30Z",
   "total_players": 112,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782779361,
+      "timestamp": 1782779475,
       "rank": 1
     },
     {
@@ -1250,12 +1250,12 @@
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
-      "score": 11445,
+      "score": 16710,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782779361,
+      "timestamp": 1782779475,
       "rank": 2
     },
     {
@@ -2478,7 +2478,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1782779361,
+      "timestamp": 1782779475,
       "rank": 2
     },
     {
