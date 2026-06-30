@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T23:47:00Z",
+  "updated_at": "2026-06-30T23:49:25Z",
   "total_players": 113,
   "classic_normal": [
     {
@@ -28,11 +28,11 @@
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
       "username": "Emili",
       "score": 2906344,
-      "leagueLevel": 3,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782862803,
+      "timestamp": 1782863347,
       "rank": 3
     },
     {
@@ -1272,12 +1272,12 @@
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
       "username": "Emili",
-      "score": 7910,
-      "leagueLevel": 3,
+      "score": 3722,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782862804,
+      "timestamp": 1782863347,
       "rank": 3
     },
     {
@@ -2489,7 +2489,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1782862804,
+      "timestamp": 1782863347,
       "rank": 1
     },
     {
