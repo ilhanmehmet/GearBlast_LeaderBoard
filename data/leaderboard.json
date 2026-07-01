@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T17:41:21Z",
+  "updated_at": "2026-07-01T18:01:21Z",
   "total_players": 116,
   "classic_normal": [
     {
@@ -58,6 +58,17 @@
       "rank": 5
     },
     {
+      "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
+      "username": "Filiz",
+      "score": 1340439,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "timestamp": 1782928863,
+      "rank": 6
+    },
+    {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
       "username": "Ttt",
       "score": 1073419,
@@ -66,17 +77,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782912241,
-      "rank": 6
-    },
-    {
-      "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
-      "username": "Filiz",
-      "score": 905828,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1782927666,
       "rank": 7
     },
     {
@@ -1431,7 +1431,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1782927666,
+      "timestamp": 1782928864,
       "rank": 14
     },
     {
@@ -2841,7 +2841,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1782927666,
+      "timestamp": 1782928864,
       "rank": 27
     },
     {
