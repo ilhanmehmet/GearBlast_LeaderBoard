@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T18:01:21Z",
+  "updated_at": "2026-07-01T18:05:37Z",
   "total_players": 116,
   "classic_normal": [
     {
@@ -60,12 +60,12 @@
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
       "username": "Filiz",
-      "score": 1340439,
+      "score": 1359161,
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1782928863,
+      "timestamp": 1782929120,
       "rank": 6
     },
     {
@@ -1431,7 +1431,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1782928864,
+      "timestamp": 1782929120,
       "rank": 14
     },
     {
@@ -2841,7 +2841,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1782928864,
+      "timestamp": 1782929120,
       "rank": 27
     },
     {
