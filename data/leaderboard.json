@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T22:41:44Z",
+  "updated_at": "2026-07-02T23:10:37Z",
   "total_players": 118,
   "classic_normal": [
     {
@@ -36,6 +36,17 @@
       "rank": 3
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 2437170,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1783033822,
+      "rank": 4
+    },
+    {
       "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
       "username": "Ruk",
       "score": 2043012,
@@ -44,17 +55,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782255240,
-      "rank": 4
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 1802209,
-      "leagueLevel": 3,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1783021414,
       "rank": 5
     },
     {
@@ -1424,6 +1424,17 @@
       "rank": 11
     },
     {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1783033822,
+      "rank": 12
+    },
+    {
       "uid": "PWNxBtEk7sh5nVQlxHxfl7KiW0l2",
       "username": "Player",
       "score": 0,
@@ -1432,7 +1443,7 @@
       "profileAvatarId": 0,
       "avatarId": 60,
       "timestamp": 1783030053,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "cbEneVJ2AeVs9uxgGMEzKPlt5y33",
@@ -1443,17 +1454,6 @@
       "profileAvatarId": 0,
       "avatarId": 18,
       "timestamp": 1783024405,
-      "rank": 13
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1783021414,
       "rank": 14
     },
     {
@@ -2621,7 +2621,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1783021414,
+      "timestamp": 1783033822,
       "rank": 3
     },
     {
