@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T14:02:19Z",
+  "updated_at": "2026-07-02T14:06:37Z",
   "total_players": 120,
   "classic_normal": [
     {
@@ -428,7 +428,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "timestamp": 1783000920,
+      "timestamp": 1783001183,
       "rank": 39
     },
     {
@@ -1475,7 +1475,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "timestamp": 1783000920,
+      "timestamp": 1783001183,
       "rank": 14
     },
     {
@@ -2779,6 +2779,17 @@
       "rank": 13
     },
     {
+      "uid": "sAhzjzRKPCTO7m0ag2mvHYEDbvL2",
+      "username": "Shosho",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 11,
+      "avatarId": 11,
+      "timestamp": 1783001181,
+      "rank": 14
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 2,
@@ -2787,7 +2798,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1782965985,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "G12M4C37AKT6TzGASUCURefwbDY2",
@@ -2798,7 +2809,7 @@
       "profileAvatarId": 0,
       "avatarId": 25,
       "timestamp": 1782937607,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "I77EKA8pFLXuQk91kCMqaaNuc7b2",
@@ -2809,7 +2820,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782927593,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "71Uv4Bk95bPiOgUU0uaxHOcBwtb2",
@@ -2820,7 +2831,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782833103,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "bs6ldT7PJlbIWH7tJj7IGwnvhHJ2",
@@ -2831,7 +2842,7 @@
       "profileAvatarId": 23,
       "avatarId": 23,
       "timestamp": 1782172750,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "xA46ht12pFZZyC9Z6prAmVBI7Zk2",
@@ -2842,17 +2853,6 @@
       "profileAvatarId": 58,
       "avatarId": 58,
       "timestamp": 1782126695,
-      "rank": 19
-    },
-    {
-      "uid": "sAhzjzRKPCTO7m0ag2mvHYEDbvL2",
-      "username": "Shosho",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 11,
-      "avatarId": 11,
-      "timestamp": 1783000919,
       "rank": 20
     },
     {
