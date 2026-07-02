@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T12:18:11Z",
+  "updated_at": "2026-07-02T13:10:38Z",
   "total_players": 119,
   "classic_normal": [
     {
@@ -21,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782808995,
+      "timestamp": 1782995785,
       "rank": 2
     },
     {
@@ -428,7 +428,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782994673,
+      "timestamp": 1782995891,
       "rank": 39
     },
     {
@@ -1464,8 +1464,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782994673,
+      "timestamp": 1782995891,
       "rank": 14
+    },
+    {
+      "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
+      "username": "Nadir",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1782995785,
+      "rank": 15
     },
     {
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
@@ -1476,7 +1487,7 @@
       "profileAvatarId": 27,
       "avatarId": 27,
       "timestamp": 1782994477,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -1487,7 +1498,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1782965986,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "G12M4C37AKT6TzGASUCURefwbDY2",
@@ -1498,7 +1509,7 @@
       "profileAvatarId": 0,
       "avatarId": 25,
       "timestamp": 1782937608,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "7uQFMNNs8QW1upvT59SUZcggaAD3",
@@ -1509,7 +1520,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1782929179,
-      "rank": 18
+      "rank": 19
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
@@ -1520,7 +1531,7 @@
       "profileAvatarId": 20,
       "avatarId": 20,
       "timestamp": 1782929120,
-      "rank": 19
+      "rank": 20
     },
     {
       "uid": "Nz7rC1iFgahlZQn5dggWRwiBQOi1",
@@ -1531,7 +1542,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782917950,
-      "rank": 20
+      "rank": 21
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
@@ -1542,7 +1553,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782912241,
-      "rank": 21
+      "rank": 22
     },
     {
       "uid": "4jNdZfFgFwg1Y0sxrLEE6fTuVOp1",
@@ -1553,7 +1564,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1782903486,
-      "rank": 22
+      "rank": 23
     },
     {
       "uid": "sV3Jk5QWhQWnuV9uzo908TeXa5c2",
@@ -1564,7 +1575,7 @@
       "profileAvatarId": 7,
       "avatarId": 7,
       "timestamp": 1782900522,
-      "rank": 23
+      "rank": 24
     },
     {
       "uid": "71Uv4Bk95bPiOgUU0uaxHOcBwtb2",
@@ -1575,7 +1586,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782833104,
-      "rank": 24
+      "rank": 25
     },
     {
       "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
@@ -1586,17 +1597,6 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782819506,
-      "rank": 25
-    },
-    {
-      "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
-      "username": "Nadir",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 10,
-      "timestamp": 1782808995,
       "rank": 26
     },
     {
@@ -2665,7 +2665,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782994672,
+      "timestamp": 1782995891,
       "rank": 5
     },
     {
@@ -2687,7 +2687,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1782808995,
+      "timestamp": 1782995785,
       "rank": 7
     },
     {
