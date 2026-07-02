@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T11:15:51Z",
+  "updated_at": "2026-07-02T11:58:41Z",
   "total_players": 119,
   "classic_normal": [
     {
@@ -50,11 +50,11 @@
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 1802209,
-      "leagueLevel": 0,
+      "leagueLevel": 3,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782943798,
+      "timestamp": 1782993440,
       "rank": 5
     },
     {
@@ -428,7 +428,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782986496,
+      "timestamp": 1782993508,
       "rank": 39
     },
     {
@@ -1464,8 +1464,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "timestamp": 1782986496,
+      "timestamp": 1782993508,
       "rank": 14
+    },
+    {
+      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
+      "username": "Ali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "timestamp": 1782993440,
+      "rank": 15
     },
     {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
@@ -1476,17 +1487,6 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1782965986,
-      "rank": 15
-    },
-    {
-      "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
-      "username": "Ali",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
-      "timestamp": 1782943798,
       "rank": 16
     },
     {
@@ -2643,7 +2643,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "timestamp": 1782943798,
+      "timestamp": 1782993440,
       "rank": 3
     },
     {
@@ -2746,6 +2746,17 @@
       "rank": 12
     },
     {
+      "uid": "76QgNC839PSSwJS6HUjDT9ydUW02",
+      "username": "Uyuuuu",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1782993507,
+      "rank": 13
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 2,
@@ -2754,7 +2765,7 @@
       "profileAvatarId": 43,
       "avatarId": 43,
       "timestamp": 1782965985,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "G12M4C37AKT6TzGASUCURefwbDY2",
@@ -2765,7 +2776,7 @@
       "profileAvatarId": 0,
       "avatarId": 25,
       "timestamp": 1782937607,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "I77EKA8pFLXuQk91kCMqaaNuc7b2",
@@ -2776,7 +2787,7 @@
       "profileAvatarId": 49,
       "avatarId": 49,
       "timestamp": 1782927593,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "71Uv4Bk95bPiOgUU0uaxHOcBwtb2",
@@ -2787,7 +2798,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782833103,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "bs6ldT7PJlbIWH7tJj7IGwnvhHJ2",
@@ -2798,7 +2809,7 @@
       "profileAvatarId": 23,
       "avatarId": 23,
       "timestamp": 1782172750,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "xA46ht12pFZZyC9Z6prAmVBI7Zk2",
@@ -2809,17 +2820,6 @@
       "profileAvatarId": 58,
       "avatarId": 58,
       "timestamp": 1782126695,
-      "rank": 18
-    },
-    {
-      "uid": "76QgNC839PSSwJS6HUjDT9ydUW02",
-      "username": "Uyuuuu",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 13,
-      "avatarId": 13,
-      "timestamp": 1782986495,
       "rank": 19
     },
     {
