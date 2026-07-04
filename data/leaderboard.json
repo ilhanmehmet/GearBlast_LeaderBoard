@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T05:21:39Z",
+  "updated_at": "2026-07-04T05:23:05Z",
   "total_players": 123,
   "classic_normal": [
     {
@@ -87,7 +87,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "timestamp": 1783142481,
+      "timestamp": 1783142567,
       "rank": 8
     },
     {
@@ -1365,7 +1365,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "timestamp": 1783142481,
+      "timestamp": 1783142567,
       "rank": 1
     },
     {
@@ -2836,12 +2836,12 @@
     {
       "uid": "Y8Zt1ykxUUgPNTfHzUVFNlSsAmf1",
       "username": "1er",
-      "score": 2,
+      "score": 3,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "timestamp": 1783142481,
+      "timestamp": 1783142566,
       "rank": 13
     },
     {
