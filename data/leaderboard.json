@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T21:14:23Z",
+  "updated_at": "2026-07-04T21:15:34Z",
   "total_players": 124,
   "classic_normal": [
     {
@@ -428,7 +428,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1783199641,
+      "timestamp": 1783199718,
       "rank": 39
     },
     {
@@ -1391,6 +1391,17 @@
       "rank": 2
     },
     {
+      "uid": "T24IYhp6CTbV1xit2c8eYeeouk73",
+      "username": "Mehmetilhan",
+      "score": 8674,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "timestamp": 1783199717,
+      "rank": 3
+    },
+    {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
       "username": "Emili",
       "score": 7910,
@@ -1399,7 +1410,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1783197296,
-      "rank": 3
+      "rank": 4
     },
     {
       "uid": "7H8FsOwyhiaFAuVvLbvnmyXfXW02",
@@ -1410,7 +1421,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1783114522,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "2nLLc7AaWdhz0wnEXegCL88v8Ry2",
@@ -1421,7 +1432,7 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782224503,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
@@ -1432,17 +1443,6 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782400253,
-      "rank": 6
-    },
-    {
-      "uid": "T24IYhp6CTbV1xit2c8eYeeouk73",
-      "username": "Mehmetilhan",
-      "score": 412,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
-      "timestamp": 1783199641,
       "rank": 7
     },
     {
@@ -3094,7 +3094,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1783199641,
+      "timestamp": 1783199718,
       "rank": 33
     },
     {
