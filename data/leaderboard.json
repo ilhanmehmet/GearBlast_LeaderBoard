@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T05:20:22Z",
+  "updated_at": "2026-07-04T05:21:39Z",
   "total_players": 123,
   "classic_normal": [
     {
@@ -87,7 +87,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "timestamp": 1783142409,
+      "timestamp": 1783142481,
       "rank": 8
     },
     {
@@ -1365,7 +1365,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "timestamp": 1783142409,
+      "timestamp": 1783142481,
       "rank": 1
     },
     {
@@ -2834,6 +2834,17 @@
       "rank": 12
     },
     {
+      "uid": "Y8Zt1ykxUUgPNTfHzUVFNlSsAmf1",
+      "username": "1er",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 7,
+      "avatarId": 7,
+      "timestamp": 1783142481,
+      "rank": 13
+    },
+    {
       "uid": "3BRDzugHPuTPm0LlLfjxANY2XyY2",
       "username": ",zaweria",
       "score": 2,
@@ -2842,7 +2853,7 @@
       "profileAvatarId": 11,
       "avatarId": 11,
       "timestamp": 1783104789,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "PWNxBtEk7sh5nVQlxHxfl7KiW0l2",
@@ -2853,7 +2864,7 @@
       "profileAvatarId": 0,
       "avatarId": 60,
       "timestamp": 1783030052,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "G12M4C37AKT6TzGASUCURefwbDY2",
@@ -2864,7 +2875,7 @@
       "profileAvatarId": 0,
       "avatarId": 25,
       "timestamp": 1782937607,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "71Uv4Bk95bPiOgUU0uaxHOcBwtb2",
@@ -2875,7 +2886,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782833103,
-      "rank": 16
+      "rank": 17
     },
     {
       "uid": "bs6ldT7PJlbIWH7tJj7IGwnvhHJ2",
@@ -2886,7 +2897,7 @@
       "profileAvatarId": 23,
       "avatarId": 23,
       "timestamp": 1782172750,
-      "rank": 17
+      "rank": 18
     },
     {
       "uid": "xA46ht12pFZZyC9Z6prAmVBI7Zk2",
@@ -2897,17 +2908,6 @@
       "profileAvatarId": 58,
       "avatarId": 58,
       "timestamp": 1782126695,
-      "rank": 18
-    },
-    {
-      "uid": "Y8Zt1ykxUUgPNTfHzUVFNlSsAmf1",
-      "username": "1er",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 7,
-      "avatarId": 7,
-      "timestamp": 1783142408,
       "rank": 19
     },
     {
