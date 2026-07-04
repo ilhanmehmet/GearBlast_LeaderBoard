@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T20:16:12Z",
+  "updated_at": "2026-07-04T20:18:47Z",
   "total_players": 123,
   "classic_normal": [
     {
@@ -32,7 +32,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1783196159,
+      "timestamp": 1783196309,
       "rank": 3
     },
     {
@@ -1387,7 +1387,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1783196159,
+      "timestamp": 1783196309,
       "rank": 3
     },
     {
@@ -2715,12 +2715,12 @@
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
       "username": "Emili",
-      "score": 40,
+      "score": 41,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1783196158,
+      "timestamp": 1783196309,
       "rank": 1
     },
     {
