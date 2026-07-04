@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T21:24:53Z",
+  "updated_at": "2026-07-04T21:26:20Z",
   "total_players": 124,
   "classic_normal": [
     {
@@ -256,6 +256,17 @@
       "rank": 23
     },
     {
+      "uid": "T24IYhp6CTbV1xit2c8eYeeouk73",
+      "username": "Mehmetilhan",
+      "score": 14028,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "timestamp": 1783200366,
+      "rank": 24
+    },
+    {
       "uid": "cNBslbTTXOZY3KNPwhasebrJyaf2",
       "username": "Shristi Mahara",
       "score": 11755,
@@ -264,17 +275,6 @@
       "profileAvatarId": 0,
       "avatarId": 53,
       "timestamp": 1781783350,
-      "rank": 24
-    },
-    {
-      "uid": "T24IYhp6CTbV1xit2c8eYeeouk73",
-      "username": "Mehmetilhan",
-      "score": 9517,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
-      "timestamp": 1783200280,
       "rank": 25
     },
     {
@@ -1387,7 +1387,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1783200280,
+      "timestamp": 1783200366,
       "rank": 2
     },
     {
@@ -3094,7 +3094,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1783200279,
+      "timestamp": 1783200366,
       "rank": 33
     },
     {
