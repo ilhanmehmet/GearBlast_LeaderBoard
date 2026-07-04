@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T14:52:04Z",
+  "updated_at": "2026-07-04T15:06:24Z",
   "total_players": 125,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783162985,
+      "timestamp": 1783177429,
       "rank": 1
     },
     {
@@ -113,6 +113,17 @@
       "rank": 10
     },
     {
+      "uid": "XuoxbjlnqgftOFPfghaGoIaS9Sz2",
+      "username": "Salaar",
+      "score": 491636,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 11,
+      "avatarId": 11,
+      "timestamp": 1783134306,
+      "rank": 11
+    },
+    {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
       "username": "HüseyinN",
       "score": 319708,
@@ -121,7 +132,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1783119878,
-      "rank": 11
+      "rank": 12
     },
     {
       "uid": "sV3Jk5QWhQWnuV9uzo908TeXa5c2",
@@ -132,7 +143,7 @@
       "profileAvatarId": 7,
       "avatarId": 7,
       "timestamp": 1782900522,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "cfI0yJNGrYN4lq1YWoiMHtHK38G2",
@@ -143,7 +154,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782466496,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
@@ -154,7 +165,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782400253,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "KpkhsyofcfYH2NI5jAAefndFdn13",
@@ -165,7 +176,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782089507,
-      "rank": 15
+      "rank": 16
     },
     {
       "uid": "XCKpxNAYZQPR964d3YyPyQMeLwr2",
@@ -176,17 +187,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1783167986,
-      "rank": 16
-    },
-    {
-      "uid": "XuoxbjlnqgftOFPfghaGoIaS9Sz2",
-      "username": "Salaar",
-      "score": 125411,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 11,
-      "avatarId": 11,
-      "timestamp": 1782368024,
       "rank": 17
     },
     {
@@ -1398,7 +1398,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783162984,
+      "timestamp": 1783177429,
       "rank": 2
     },
     {
@@ -1563,7 +1563,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "timestamp": 1783133427,
+      "timestamp": 1783134322,
       "rank": 17
     },
     {
@@ -2764,7 +2764,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783162985,
+      "timestamp": 1783177429,
       "rank": 1
     },
     {
@@ -3160,7 +3160,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "timestamp": 1783133427,
+      "timestamp": 1783134322,
       "rank": 37
     },
     {
