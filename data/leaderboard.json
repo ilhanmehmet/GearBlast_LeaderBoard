@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T21:32:12Z",
+  "updated_at": "2026-07-04T21:33:59Z",
   "total_players": 124,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783200609,
+      "timestamp": 1783200824,
       "rank": 1
     },
     {
@@ -21,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1783200545,
+      "timestamp": 1783200798,
       "rank": 2
     },
     {
@@ -1468,17 +1468,6 @@
       "rank": 9
     },
     {
-      "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
-      "username": "HüseyinN",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
-      "timestamp": 1783200703,
-      "rank": 10
-    },
-    {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
       "score": 0,
@@ -1486,8 +1475,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783200609,
-      "rank": 11
+      "timestamp": 1783200824,
+      "rank": 10
     },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -1497,7 +1486,18 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1783200545,
+      "timestamp": 1783200798,
+      "rank": 11
+    },
+    {
+      "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
+      "username": "HüseyinN",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1783200703,
       "rank": 12
     },
     {
@@ -2748,12 +2748,12 @@
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
-      "score": 42,
+      "score": 43,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783200609,
+      "timestamp": 1783200823,
       "rank": 2
     },
     {
@@ -2786,7 +2786,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1783200545,
+      "timestamp": 1783200798,
       "rank": 5
     },
     {
