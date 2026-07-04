@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T21:13:51Z",
+  "updated_at": "2026-07-04T21:14:07Z",
   "total_players": 124,
   "classic_normal": [
     {
@@ -428,7 +428,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1783199615,
+      "timestamp": 1783199641,
       "rank": 39
     },
     {
@@ -1435,6 +1435,17 @@
       "rank": 6
     },
     {
+      "uid": "T24IYhp6CTbV1xit2c8eYeeouk73",
+      "username": "Mehmetilhan",
+      "score": 412,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "timestamp": 1783199641,
+      "rank": 7
+    },
+    {
       "uid": "fy6klS40vHOdbbpslTsxPzKVTVl1",
       "username": "Hggsfs",
       "score": 114,
@@ -1443,7 +1454,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782383135,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "8Kpw8fsQbsMAURC9PTdaDflQ0hC3",
@@ -1454,7 +1465,7 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1782375121,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "l9rbn6i4wcNxzu5AC6AozynRa552",
@@ -1465,7 +1476,7 @@
       "profileAvatarId": 7,
       "avatarId": 7,
       "timestamp": 1782274296,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "u3duvosHY0Y63xxN3NLB4I08cMx1",
@@ -1476,7 +1487,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782045438,
-      "rank": 10
+      "rank": 11
     },
     {
       "uid": "omw7uzEDuBXIFGg6xe6Z4FywrND2",
@@ -1487,17 +1498,6 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782356957,
-      "rank": 11
-    },
-    {
-      "uid": "T24IYhp6CTbV1xit2c8eYeeouk73",
-      "username": "Mehmetilhan",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
-      "timestamp": 1783199615,
       "rank": 12
     },
     {
@@ -3094,7 +3094,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "timestamp": 1783199614,
+      "timestamp": 1783199641,
       "rank": 33
     },
     {
