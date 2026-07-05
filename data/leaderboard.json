@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T22:14:07Z",
+  "updated_at": "2026-07-05T22:33:19Z",
   "total_players": 39,
   "classic_normal": [
     {
@@ -542,6 +542,17 @@
       "avatarId": 19,
       "timestamp": 1782356957,
       "rank": 10
+    },
+    {
+      "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
+      "username": "HüseyinN",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1783290783,
+      "rank": 11
     }
   ],
   "adventure": [
