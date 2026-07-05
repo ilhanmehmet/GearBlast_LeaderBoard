@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T12:17:01Z",
+  "updated_at": "2026-07-05T12:19:00Z",
   "total_players": 131,
   "classic_normal": [
     {
@@ -439,7 +439,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 3,
-      "timestamp": 1783253803,
+      "timestamp": 1783253922,
       "rank": 40
     },
     {
@@ -1563,7 +1563,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 3,
-      "timestamp": 1783253803,
+      "timestamp": 1783253922,
       "rank": 11
     },
     {
@@ -2955,6 +2955,17 @@
       "rank": 6
     },
     {
+      "uid": "6z6hgpJgEwPqTYyL5cLarx7cNUC3",
+      "username": "Player",
+      "score": 8,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 3,
+      "timestamp": 1783253921,
+      "rank": 7
+    },
+    {
       "uid": "GQyAZSbhYwPduAdPeyiyPgT4Sxy1",
       "username": "Leizl",
       "score": 8,
@@ -2963,17 +2974,6 @@
       "profileAvatarId": 4,
       "avatarId": 4,
       "timestamp": 1782819505,
-      "rank": 7
-    },
-    {
-      "uid": "6z6hgpJgEwPqTYyL5cLarx7cNUC3",
-      "username": "Player",
-      "score": 7,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 3,
-      "timestamp": 1783253802,
       "rank": 8
     },
     {
