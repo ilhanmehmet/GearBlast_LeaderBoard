@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T20:15:08Z",
+  "updated_at": "2026-07-06T20:17:15Z",
   "total_players": 42,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783368893,
+      "timestamp": 1783369016,
       "rank": 1
     },
     {
@@ -21,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1783362232,
+      "timestamp": 1783369016,
       "rank": 2
     },
     {
@@ -469,12 +469,12 @@
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
-      "score": 24358,
+      "score": 25296,
       "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783368893,
+      "timestamp": 1783369016,
       "rank": 1
     },
     {
@@ -599,6 +599,17 @@
       "rank": 12
     },
     {
+      "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
+      "username": "Nadir",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1783369017,
+      "rank": 13
+    },
+    {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
       "username": "HüseyinN",
       "score": 0,
@@ -607,7 +618,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1783363463,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "0ff92hXixRX5P0itt4DCOY3wdKk2",
@@ -618,7 +629,7 @@
       "profileAvatarId": 2,
       "avatarId": 999,
       "timestamp": 1783365901,
-      "rank": 14
+      "rank": 15
     }
   ],
   "adventure": [
@@ -641,7 +652,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783368893,
+      "timestamp": 1783369016,
       "rank": 2
     },
     {
@@ -685,7 +696,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "timestamp": 1783362232,
+      "timestamp": 1783369017,
       "rank": 6
     },
     {
