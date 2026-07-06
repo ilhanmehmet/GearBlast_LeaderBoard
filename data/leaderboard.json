@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T09:42:13Z",
+  "updated_at": "2026-07-06T10:31:32Z",
   "total_players": 41,
   "classic_normal": [
     {
@@ -91,6 +91,17 @@
       "rank": 8
     },
     {
+      "uid": "Ak8zzaGCEZhwCmk1aFnnKpSNSGj1",
+      "username": "Светлана",
+      "score": 691854,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "timestamp": 1783333872,
+      "rank": 9
+    },
+    {
       "uid": "9RaqDpCrleRoI50zeqvSbe9kiBz1",
       "username": "Cansu",
       "score": 688441,
@@ -99,17 +110,6 @@
       "profileAvatarId": 25,
       "avatarId": 25,
       "timestamp": 1782757492,
-      "rank": 9
-    },
-    {
-      "uid": "Ak8zzaGCEZhwCmk1aFnnKpSNSGj1",
-      "username": "Светлана",
-      "score": 619993,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1783320439,
       "rank": 10
     },
     {
@@ -566,6 +566,17 @@
       "rank": 10
     },
     {
+      "uid": "Ak8zzaGCEZhwCmk1aFnnKpSNSGj1",
+      "username": "Светлана",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "timestamp": 1783333872,
+      "rank": 11
+    },
+    {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
       "username": "Ttt",
       "score": 0,
@@ -574,17 +585,6 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1783326093,
-      "rank": 11
-    },
-    {
-      "uid": "Ak8zzaGCEZhwCmk1aFnnKpSNSGj1",
-      "username": "Светлана",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1783320439,
       "rank": 12
     },
     {
@@ -993,7 +993,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1783320439,
+      "timestamp": 1783333872,
       "rank": 34
     }
   ]
