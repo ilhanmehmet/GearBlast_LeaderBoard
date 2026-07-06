@@ -80,6 +80,54 @@
   }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
 
+  /* ─── ATTENTION BANNER ─── */
+  .attention-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 68, 68, 0.12);
+    border: 2px solid rgba(255, 68, 68, 0.6);
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin: 0 0 14px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #ff5555;
+    text-align: center;
+    animation: blink-attention 1.8s infinite;
+    box-shadow: 0 0 12px rgba(255, 68, 68, 0.2);
+  }
+  @keyframes blink-attention {
+    0%, 100% { opacity: 1; border-color: rgba(255, 68, 68, 0.8); box-shadow: 0 0 15px rgba(255, 68, 68, 0.4); }
+    50% { opacity: 0.45; border-color: rgba(255, 68, 68, 0.25); box-shadow: 0 0 5px rgba(255, 68, 68, 0.05); }
+  }
+  .play-store-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #112240;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.82rem;
+    color: #fff;
+    margin-top: 6px;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  .play-store-btn:hover {
+    background: #1a305c;
+    border-color: #4ab8f0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(74, 184, 240, 0.25);
+  }
+  .play-store-btn:active {
+    transform: translateY(0);
+  }
+
   /* ─── NAV TABS ─── */
   nav.tabs {
     display: flex; gap: 4px; background: var(--panel);
@@ -336,6 +384,25 @@
   <header>
     <h1 id="title-lb">🏆 SKOR TABLOSU</h1>
   </header>
+
+  <!-- WARNING BANNER -->
+  <div class="attention-banner">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span class="warning-icon">⚠️</span>
+        <span id="attention-text">DİKKAT: Listede görünmek için lütfen oyunu Google Play'den en son sürüme güncelleyin!</span>
+      </div>
+      <a href="https://play.google.com/store/apps/details?id=com.gearblast.game" target="_blank" class="play-store-btn">
+        <svg class="play-icon" viewBox="0 0 24 24" width="20" height="20" style="vertical-align: middle;">
+          <path fill="#EA4335" d="M5.25 2.1c-.24.24-.38.61-.38 1.07v17.65c0 .47.14.83.38 1.07l.1.1 10.02-10.02v-.2L6.35 1.76c-.05.05-.1.17-.1.34z"/>
+          <path fill="#FBBC05" d="M20.27 12.18l-4.9-2.9-4.9 4.9 4.9 4.9 4.9-2.9a2.03 2.03 0 0 0 0-3.56c-.04-.03-.04-.03 0-.44z"/>
+          <path fill="#34A853" d="M10.47 14.08l4.9-4.9-10.02-5.92c-.37-.22-.84-.19-1.1.09l6.22 10.73z"/>
+          <path fill="#4285F4" d="M10.47 9.92L4.25 20.65c.26.28.73.31 1.1.09l10.02-5.92-4.9-4.9z"/>
+        </svg>
+        <span id="play-store-btn-text">Google Play'den Güncelle</span>
+      </a>
+    </div>
+  </div>
 
   <!-- UPDATE BANNER -->
   <div class="update-banner">
@@ -936,6 +1003,19 @@ function applyLang() {
   if (si) si.placeholder = userLang === 'tr' ? si.dataset.placeholderTr : si.dataset.placeholderEn;
   document.getElementById('title-lb').textContent =
     userLang === 'tr' ? '🏆 SKOR TABLOSU' : '🏆 LEADERBOARD';
+
+  const attEl = document.getElementById('attention-text');
+  if (attEl) {
+    attEl.textContent = userLang === 'tr'
+      ? 'DİKKAT: Listede görünmek için lütfen oyunu Google Play\'den en son sürüme güncelleyin!'
+      : 'ATTENTION: Please update the game to the latest version on Google Play to appear on the leaderboard!';
+  }
+  const playBtnText = document.getElementById('play-store-btn-text');
+  if (playBtnText) {
+    playBtnText.textContent = userLang === 'tr'
+      ? 'Google Play\'den Güncelle'
+      : 'Update on Google Play';
+  }
 
   const rulesTr = document.getElementById('rules-lang-tr');
   const rulesEn = document.getElementById('rules-lang-en');
