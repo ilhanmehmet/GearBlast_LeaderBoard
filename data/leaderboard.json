@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T10:31:32Z",
+  "updated_at": "2026-07-06T10:37:25Z",
   "total_players": 41,
   "classic_normal": [
     {
@@ -94,11 +94,11 @@
       "uid": "Ak8zzaGCEZhwCmk1aFnnKpSNSGj1",
       "username": "Светлана",
       "score": 691854,
-      "leagueLevel": 2,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1783333872,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1783334232,
       "rank": 9
     },
     {
@@ -489,6 +489,17 @@
       "rank": 3
     },
     {
+      "uid": "Ak8zzaGCEZhwCmk1aFnnKpSNSGj1",
+      "username": "Светлана",
+      "score": 1080,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1783334232,
+      "rank": 4
+    },
+    {
       "uid": "2nLLc7AaWdhz0wnEXegCL88v8Ry2",
       "username": "Sara",
       "score": 945,
@@ -497,7 +508,7 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782224503,
-      "rank": 4
+      "rank": 5
     },
     {
       "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
@@ -508,7 +519,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782400253,
-      "rank": 5
+      "rank": 6
     },
     {
       "uid": "fy6klS40vHOdbbpslTsxPzKVTVl1",
@@ -519,7 +530,7 @@
       "profileAvatarId": 5,
       "avatarId": 5,
       "timestamp": 1782383135,
-      "rank": 6
+      "rank": 7
     },
     {
       "uid": "8Kpw8fsQbsMAURC9PTdaDflQ0hC3",
@@ -530,7 +541,7 @@
       "profileAvatarId": 14,
       "avatarId": 14,
       "timestamp": 1782375121,
-      "rank": 7
+      "rank": 8
     },
     {
       "uid": "l9rbn6i4wcNxzu5AC6AozynRa552",
@@ -541,7 +552,7 @@
       "profileAvatarId": 7,
       "avatarId": 7,
       "timestamp": 1782274296,
-      "rank": 8
+      "rank": 9
     },
     {
       "uid": "u3duvosHY0Y63xxN3NLB4I08cMx1",
@@ -552,7 +563,7 @@
       "profileAvatarId": 6,
       "avatarId": 6,
       "timestamp": 1782045438,
-      "rank": 9
+      "rank": 10
     },
     {
       "uid": "omw7uzEDuBXIFGg6xe6Z4FywrND2",
@@ -563,17 +574,6 @@
       "profileAvatarId": 19,
       "avatarId": 19,
       "timestamp": 1782356957,
-      "rank": 10
-    },
-    {
-      "uid": "Ak8zzaGCEZhwCmk1aFnnKpSNSGj1",
-      "username": "Светлана",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1783333872,
       "rank": 11
     },
     {
@@ -991,9 +991,9 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 20,
-      "avatarId": 20,
-      "timestamp": 1783333872,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "timestamp": 1783334232,
       "rank": 34
     }
   ]
