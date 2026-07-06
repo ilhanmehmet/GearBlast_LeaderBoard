@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T20:31:07Z",
+  "updated_at": "2026-07-06T20:31:34Z",
   "total_players": 43,
   "classic_normal": [
     {
@@ -302,12 +302,12 @@
     {
       "uid": "VA6V6EKIRkgHdm5agea4Hs3f2U73",
       "username": "Evren",
-      "score": 8533,
+      "score": 8956,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1783369851,
+      "timestamp": 1783369882,
       "rank": 28
     },
     {
@@ -443,17 +443,6 @@
       "rank": 40
     },
     {
-      "uid": "maDSkdQtrpUw2XmYZaN4Ezbza4r1",
-      "username": "Sem",
-      "score": 113,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 10,
-      "timestamp": 1783369526,
-      "rank": 41
-    },
-    {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
       "username": "Qwertyuiopasdfghjklñzx",
       "score": 92,
@@ -462,7 +451,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 42
+      "rank": 41
     },
     {
       "uid": "7uQFMNNs8QW1upvT59SUZcggaAD3",
@@ -473,6 +462,17 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1782929179,
+      "rank": 42
+    },
+    {
+      "uid": "maDSkdQtrpUw2XmYZaN4Ezbza4r1",
+      "username": "Sem",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 999,
+      "timestamp": 1783369881,
       "rank": 43
     }
   ],
@@ -617,19 +617,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1783369852,
+      "timestamp": 1783369882,
       "rank": 13
-    },
-    {
-      "uid": "maDSkdQtrpUw2XmYZaN4Ezbza4r1",
-      "username": "Sem",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 10,
-      "timestamp": 1783369526,
-      "rank": 14
     },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -640,7 +629,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1783369469,
-      "rank": 15
+      "rank": 14
     },
     {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
@@ -651,6 +640,17 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1783363463,
+      "rank": 15
+    },
+    {
+      "uid": "maDSkdQtrpUw2XmYZaN4Ezbza4r1",
+      "username": "Sem",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 999,
+      "timestamp": 1783369881,
       "rank": 16
     }
   ],
@@ -696,7 +696,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "timestamp": 1783369852,
+      "timestamp": 1783369881,
       "rank": 4
     },
     {
@@ -1014,8 +1014,8 @@
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
-      "avatarId": 10,
-      "timestamp": 1783369526,
+      "avatarId": 999,
+      "timestamp": 1783369881,
       "rank": 33
     }
   ]
