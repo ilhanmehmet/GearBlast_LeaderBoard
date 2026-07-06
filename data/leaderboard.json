@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T18:43:32Z",
+  "updated_at": "2026-07-06T20:14:52Z",
   "total_players": 42,
   "classic_normal": [
     {
@@ -10,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783200824,
+      "timestamp": 1783368878,
       "rank": 1
     },
     {
@@ -153,7 +153,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783363380,
+      "timestamp": 1783363463,
       "rank": 14
     },
     {
@@ -461,7 +461,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 999,
-      "timestamp": 1783363383,
+      "timestamp": 1783365901,
       "rank": 42
     }
   ],
@@ -588,6 +588,17 @@
       "rank": 11
     },
     {
+      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
+      "username": "Aytuntas",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1783368878,
+      "rank": 12
+    },
+    {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
       "username": "HüseyinN",
       "score": 0,
@@ -595,8 +606,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783363380,
-      "rank": 12
+      "timestamp": 1783363463,
+      "rank": 13
     },
     {
       "uid": "0ff92hXixRX5P0itt4DCOY3wdKk2",
@@ -606,8 +617,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 999,
-      "timestamp": 1783363383,
-      "rank": 13
+      "timestamp": 1783365901,
+      "rank": 14
     }
   ],
   "adventure": [
@@ -630,7 +641,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783200823,
+      "timestamp": 1783368877,
       "rank": 2
     },
     {
@@ -663,7 +674,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "timestamp": 1783363380,
+      "timestamp": 1783363462,
       "rank": 5
     },
     {
