@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-06T20:18:19Z",
-  "total_players": 42,
+  "updated_at": "2026-07-06T20:18:43Z",
+  "total_players": 43,
   "classic_normal": [
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -432,6 +432,17 @@
       "rank": 39
     },
     {
+      "uid": "maDSkdQtrpUw2XmYZaN4Ezbza4r1",
+      "username": "Sem",
+      "score": 97,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1783369107,
+      "rank": 40
+    },
+    {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
       "username": "Qwertyuiopasdfghjklñzx",
       "score": 92,
@@ -440,7 +451,7 @@
       "profileAvatarId": 9,
       "avatarId": 9,
       "timestamp": 1782063694,
-      "rank": 40
+      "rank": 41
     },
     {
       "uid": "7uQFMNNs8QW1upvT59SUZcggaAD3",
@@ -451,7 +462,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1782929179,
-      "rank": 41
+      "rank": 42
     },
     {
       "uid": "0ff92hXixRX5P0itt4DCOY3wdKk2",
@@ -462,7 +473,7 @@
       "profileAvatarId": 2,
       "avatarId": 999,
       "timestamp": 1783365901,
-      "rank": 42
+      "rank": 43
     }
   ],
   "classic_timed": [
@@ -599,6 +610,17 @@
       "rank": 12
     },
     {
+      "uid": "maDSkdQtrpUw2XmYZaN4Ezbza4r1",
+      "username": "Sem",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1783369107,
+      "rank": 13
+    },
+    {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 0,
@@ -607,7 +629,7 @@
       "profileAvatarId": 10,
       "avatarId": 10,
       "timestamp": 1783369017,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
@@ -618,7 +640,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1783363463,
-      "rank": 14
+      "rank": 15
     },
     {
       "uid": "0ff92hXixRX5P0itt4DCOY3wdKk2",
@@ -629,7 +651,7 @@
       "profileAvatarId": 2,
       "avatarId": 999,
       "timestamp": 1783365901,
-      "rank": 15
+      "rank": 16
     }
   ],
   "adventure": [
@@ -986,6 +1008,17 @@
       "rank": 32
     },
     {
+      "uid": "maDSkdQtrpUw2XmYZaN4Ezbza4r1",
+      "username": "Sem",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "timestamp": 1783369107,
+      "rank": 33
+    },
+    {
       "uid": "0ff92hXixRX5P0itt4DCOY3wdKk2",
       "username": "Mehmet",
       "score": 0,
@@ -994,7 +1027,7 @@
       "profileAvatarId": 2,
       "avatarId": 999,
       "timestamp": 1783363383,
-      "rank": 33
+      "rank": 34
     }
   ]
 }
