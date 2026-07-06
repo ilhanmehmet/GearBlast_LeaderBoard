@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T15:00:24Z",
+  "updated_at": "2026-07-06T15:02:08Z",
   "total_players": 42,
   "classic_normal": [
     {
@@ -126,12 +126,12 @@
     {
       "uid": "XuoxbjlnqgftOFPfghaGoIaS9Sz2",
       "username": "Salaar",
-      "score": 491636,
+      "score": 492063,
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "timestamp": 1783134306,
+      "timestamp": 1783306852,
       "rank": 12
     },
     {
@@ -639,7 +639,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "timestamp": 1783306723,
+      "timestamp": 1783306854,
       "rank": 16
     },
     {
@@ -1037,7 +1037,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "timestamp": 1783306744,
+      "timestamp": 1783306854,
       "rank": 35
     }
   ]
