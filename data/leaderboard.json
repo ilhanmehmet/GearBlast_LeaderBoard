@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-06T18:29:19Z",
-  "total_players": 41,
+  "updated_at": "2026-07-06T18:30:42Z",
+  "total_players": 42,
   "classic_normal": [
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -452,6 +452,17 @@
       "avatarId": 18,
       "timestamp": 1782929179,
       "rank": 41
+    },
+    {
+      "uid": "0ff92hXixRX5P0itt4DCOY3wdKk2",
+      "username": "Mehmet",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1783362636,
+      "rank": 42
     }
   ],
   "classic_timed": [
@@ -575,6 +586,17 @@
       "avatarId": 19,
       "timestamp": 1782356957,
       "rank": 11
+    },
+    {
+      "uid": "0ff92hXixRX5P0itt4DCOY3wdKk2",
+      "username": "Mehmet",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "timestamp": 1783362636,
+      "rank": 12
     }
   ],
   "adventure": [
@@ -795,7 +817,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "timestamp": 1783361979,
+      "timestamp": 1783362635,
       "rank": 20
     },
     {
