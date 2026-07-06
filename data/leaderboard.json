@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T13:29:50Z",
+  "updated_at": "2026-07-06T15:00:06Z",
   "total_players": 42,
   "classic_normal": [
     {
@@ -632,6 +632,17 @@
       "rank": 15
     },
     {
+      "uid": "XuoxbjlnqgftOFPfghaGoIaS9Sz2",
+      "username": "Salaar",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 11,
+      "avatarId": 11,
+      "timestamp": 1783306723,
+      "rank": 16
+    },
+    {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
       "username": "HüseyinN",
       "score": 0,
@@ -640,7 +651,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1783291856,
-      "rank": 16
+      "rank": 17
     }
   ],
   "adventure": [
@@ -1017,6 +1028,17 @@
       "avatarId": 13,
       "timestamp": 1783334448,
       "rank": 34
+    },
+    {
+      "uid": "XuoxbjlnqgftOFPfghaGoIaS9Sz2",
+      "username": "Salaar",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 11,
+      "avatarId": 11,
+      "timestamp": 1783306744,
+      "rank": 35
     }
   ]
 }
