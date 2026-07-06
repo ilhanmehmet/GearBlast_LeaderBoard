@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T06:43:06Z",
+  "updated_at": "2026-07-06T08:08:50Z",
   "total_players": 41,
   "classic_normal": [
     {
@@ -109,7 +109,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1783320151,
+      "timestamp": 1783320439,
       "rank": 10
     },
     {
@@ -566,6 +566,17 @@
       "rank": 10
     },
     {
+      "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
+      "username": "Ttt",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 6,
+      "avatarId": 6,
+      "timestamp": 1783325310,
+      "rank": 11
+    },
+    {
       "uid": "Ak8zzaGCEZhwCmk1aFnnKpSNSGj1",
       "username": "Светлана",
       "score": 0,
@@ -573,8 +584,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1783320151,
-      "rank": 11
+      "timestamp": 1783320439,
+      "rank": 12
     },
     {
       "uid": "0ff92hXixRX5P0itt4DCOY3wdKk2",
@@ -585,7 +596,7 @@
       "profileAvatarId": 2,
       "avatarId": 2,
       "timestamp": 1783313909,
-      "rank": 12
+      "rank": 13
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -596,7 +607,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1783312571,
-      "rank": 13
+      "rank": 14
     },
     {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
@@ -607,7 +618,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1783291856,
-      "rank": 14
+      "rank": 15
     }
   ],
   "adventure": [
@@ -982,7 +993,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "timestamp": 1783320151,
+      "timestamp": 1783320439,
       "rank": 34
     }
   ]
