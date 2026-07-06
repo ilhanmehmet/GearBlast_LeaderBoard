@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T04:35:37Z",
+  "updated_at": "2026-07-06T04:36:30Z",
   "total_players": 39,
   "classic_normal": [
     {
@@ -544,6 +544,17 @@
       "rank": 10
     },
     {
+      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
+      "username": "Aytuntas",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "timestamp": 1783312571,
+      "rank": 11
+    },
+    {
       "uid": "CNDyDrSwivOZVMoZbsQmoo1g0Ai2",
       "username": "HüseyinN",
       "score": 0,
@@ -552,7 +563,7 @@
       "profileAvatarId": 18,
       "avatarId": 18,
       "timestamp": 1783291856,
-      "rank": 11
+      "rank": 12
     }
   ],
   "adventure": [
