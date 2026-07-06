@@ -30,6 +30,9 @@ LIMIT = 2000  # Maksimum kayıt sayısı
 MAX_AVATAR_ID = 65
 AVATAR_COUNT = 62  # ui/avatars.lua avatarNames uzunlugu (indeks = avatarId)
 
+# Oyunla ayni lig esikleri (systems/league.lua)
+LEAGUE_TIER_MIN = [0, 320000, 1360000, 3200000, 7750000]
+
 # Gear Blast 2.0 global liste kesiti (2026-06-12 00:00 UTC). Eski Extra/v1 skorlari haric tutulur.
 V2_CUTOFF_TS = int(os.environ.get("V2_CUTOFF_TS", "1781222400"))
 # versionCode 20 = oyun 2.0.0
@@ -83,13 +86,13 @@ def stable_avatar_id(uid, username):
     return min(AVATAR_COUNT, 2 + (h % span))
 
 
-_users_profile_cache = None
+_users_avatar_cache = None
 
 
-def load_users_profile_map():
-    global _users_profile_cache
-    if _users_profile_cache is not None:
-        return _users_profile_cache
+def load_users_avatar_map():
+    global _users_avatar_cache
+    if _users_avatar_cache is not None:
+        return _users_avatar_cache
     cache = {}
     try:
         raw = db.reference("users").get()
@@ -97,34 +100,23 @@ def load_users_profile_map():
             for uid, val in raw.items():
                 if not isinstance(val, dict):
                     continue
-                ic = val.get("isChicken")
-                is_ch = (ic is True) or (ic in (1, "1", "true", "True")) or (val.get("avatarId") == 999)
-                
-                avatar = None
                 for field in ("avatarId", "savedAvatarId"):
                     try:
                         av = int(val.get(field) or 0)
                     except (TypeError, ValueError):
                         av = 0
                     if 2 <= av <= MAX_AVATAR_ID and av != 999:
-                        avatar = av
+                        cache[uid] = av
                         break
-                cache[uid] = {
-                    "isChicken": is_ch,
-                    "avatarId": avatar
-                }
     except Exception as e:
-        print(f"[warn] users profile fetch failed: {e}")
-    _users_profile_cache = cache
-    print(f"[users] Loaded {len(cache)} profile records")
+        print(f"[warn] users avatar fetch failed: {e}")
+    _users_avatar_cache = cache
+    print(f"[users] Loaded {len(cache)} profile avatars")
     return cache
 
 
-def resolve_avatar_id(val, uid, users_profile):
+def resolve_avatar_id(val, uid, users_av):
     if is_chicken_entry(val):
-        return 999
-    profile = users_profile.get(uid, {})
-    if profile.get("isChicken"):
         return 999
     try:
         lb_av = int(val.get("avatarId", 1) or 1)
@@ -132,7 +124,7 @@ def resolve_avatar_id(val, uid, users_profile):
         lb_av = 1
     if lb_av == 999:
         return 999
-    profile_av = profile.get("avatarId")
+    profile_av = users_av.get(uid)
     if profile_av and 2 <= profile_av <= AVATAR_COUNT:
         return profile_av
     if 2 <= lb_av <= AVATAR_COUNT:
@@ -197,6 +189,31 @@ DEFAULT_DB_URL = (
 )
 
 
+def calculate_tier_from_score(score):
+    try:
+        s = int(score or 0)
+    except (TypeError, ValueError):
+        s = 0
+    for i in range(len(LEAGUE_TIER_MIN) - 1, -1, -1):
+        if s >= LEAGUE_TIER_MIN[i]:
+            return i + 1
+    return 1
+
+
+def resolve_display_league_level(entry, rank):
+    """Skor tablosu ile ayni rozet mantigi (states/leaderboard.lua getLeagueBadgeInfo)."""
+    is_chicken = is_chicken_entry(entry)
+    score = int(entry.get("score") or 0)
+    if is_chicken and score <= 0:
+        return 0
+    if rank == 1 and is_chicken:
+        return 0
+    lvl = int(entry.get("leagueLevel") or 0)
+    if lvl <= 0:
+        lvl = calculate_tier_from_score(entry.get("score"))
+    return max(0, min(lvl, 5))
+
+
 def init_firebase():
     db_url = os.environ.get("FIREBASE_DB_URL", "").strip() or DEFAULT_DB_URL
     if db_url != DEFAULT_DB_URL and "europe-west1" not in db_url:
@@ -214,7 +231,7 @@ def init_firebase():
     firebase_admin.initialize_app(cred, {"databaseURL": db_url})
     print(f"[Firebase] Connected: {db_url}")
 
-def fetch_mode(mode, users_profile):
+def fetch_mode(mode, users_av):
     ref = db.reference(f"leaderboards/{mode}")
     # Tam çekim: RTDB kurallarında .indexOn eksik olsa bile çalışır.
     # Çok büyük listelerde maliyet artar; LIMIT kadar üst skor burada kesilir.
@@ -241,19 +258,19 @@ def fetch_mode(mode, users_profile):
                 skipped_filtered += 1
                 continue
 
-            profile = users_profile.get(uid, {})
-            is_chicken = is_chicken_entry(val) or profile.get("isChicken", False)
-            avatar_id = resolve_avatar_id(val, uid, users_profile)
-            
+            is_chicken = is_chicken_entry(val)
+            profile_av = users_av.get(uid)
+            avatar_id = resolve_avatar_id(val, uid, users_av)
+            raw_score = int(val.get("score", 0) or 0)
+            raw_league = int(val.get("leagueLevel", 0) or 0)
             entries.append({
                 "uid":           uid,
                 "username":      val.get("username", "???"),
-                "score":         0 if is_chicken else int(val.get("score", 0)),
-                "leagueLevel":   0 if is_chicken else int(val.get("leagueLevel", 0)),
-                "playstyleLevel":0 if is_chicken else int(val.get("playstyleLevel", 0)),
-                "profileAvatarId": profile.get("avatarId") or 0,
+                "score":         raw_score,
+                "leagueLevel":   raw_league,
+                "playstyleLevel":int(val.get("playstyleLevel", 0)),
+                "profileAvatarId": profile_av or 0,
                 "avatarId":      avatar_id,
-                "timestamp":     entry_timestamp(val),
             })
         except Exception as e:
             print(f"[{mode}] Error parsing entry {uid}: {e}")
@@ -263,39 +280,29 @@ def fetch_mode(mode, users_profile):
 
     def sort_key(e):
         is_chicken = e.get("avatarId") == 999
-        score = 0 if is_chicken else int(e.get("score") or 0)
-        ts = e.get("timestamp") or 0
-        
-        if not is_chicken and score > 0:
-            return (0, -score, -ts, e.get("username") or "")
-        elif not is_chicken:
-            return (1, -ts, e.get("username") or "")
-        else:
-            return (2, ts, e.get("username") or "")
+        score = int(e.get("score") or 0)
+        active = (not is_chicken) and score > 0
+        chicken_rank = 1 if is_chicken else 0
+        return (0 if active else 1, chicken_rank, -score, e.get("username") or "")
 
     entries.sort(key=sort_key)
 
     if len(entries) > LIMIT:
         entries = entries[:LIMIT]
 
-    # Rank ve Rozet Kuralı ekle
+    # Rank ekle; rozet gosterimi istemcide rank ile cozulur (displayLeagueLevel yedek alan)
     for i, e in enumerate(entries):
         rank = i + 1
         e["rank"] = rank
-        
-        # KURAL: Sadece 1. numara şampiyon olabilir.
-        # Eğer oyuncu 1. sıradaysa lig seviyesini 5 yap.
-        # Eğer 1. sırada değilse ama 5 görünüyorsa onu 4'e (Elmas) çek.
-        current_lvl = int(e.get("leagueLevel", 0))
-        is_chicken = e.get("avatarId") == 999 or int(e.get("score") or 0) <= 0
-        if is_chicken:
+        is_chicken = e.get("avatarId") == 999
+        if is_chicken and int(e.get("score") or 0) <= 0:
             e["leagueLevel"] = 0
-            # Tavuk olanlarin rozeti/puanı olmamalı
             e["score"] = 0
-        elif rank == 1 and int(e.get("score") or 0) > 0:
-            e["leagueLevel"] = 5
-        elif current_lvl >= 5:
-            e["leagueLevel"] = 4
+        elif is_chicken and rank == 1:
+            e["leagueLevel"] = 0
+            e["displayLeagueLevel"] = 0
+        else:
+            e["displayLeagueLevel"] = resolve_display_league_level(e, rank)
 
     print(f"[{mode}] Fetched and cleaned {len(entries)} entries")
     return entries
@@ -308,10 +315,10 @@ def main():
         "total_players": 0,
     }
 
-    users_profile = load_users_profile_map()
+    users_av = load_users_avatar_map()
     total = 0
     for mode in MODES:
-        entries = fetch_mode(mode, users_profile)
+        entries = fetch_mode(mode, users_av)
         output[mode] = entries
         total = max(total, len(entries))
 

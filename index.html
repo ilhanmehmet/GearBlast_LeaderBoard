@@ -953,10 +953,10 @@ function calculateTierFromScore(score) {
 
 /** Skor tablosu ile ayni rozet mantigi (states/leaderboard.lua getLeagueBadgeInfo) */
 function resolveLeagueBadge(rank, entry) {
-  if (isChickenAvatar(entry.avatarId)) return null;
   const pts = parseInt(entry.score, 10) || 0;
+  if (isChickenAvatar(entry.avatarId) && pts <= 0) return null;
 
-  if (rank === 1 && pts > 0) {
+  if (rank === 1 && pts > 0 && !isChickenAvatar(entry.avatarId)) {
     return { file: 'Champion', nameTr: LEAGUE_NAMES.tr[5], nameEn: LEAGUE_NAMES.en[5] };
   }
 
@@ -1225,7 +1225,6 @@ function normalizeModeEntries(raw, modeKey) {
     if (!passesGlobalListFilter(val)) continue;
     const profile = usersProfileMap[uid] || {};
     const chicken = resolveChickenForEntry(uid, val);
-    const preserveAdventureScore = modeKey === 'adventure' && chicken;
     const avatarId = chicken ? 999 : resolveDisplayAvatarId({
       uid,
       username: val.username,
@@ -1235,9 +1234,9 @@ function normalizeModeEntries(raw, modeKey) {
     entries.push({
       uid,
       username: val.username || '???',
-      score: preserveAdventureScore ? (parseInt(val.score, 10) || 0) : (chicken ? 0 : parseInt(val.score, 10) || 0),
-      leagueLevel: preserveAdventureScore ? (parseInt(val.leagueLevel, 10) || 0) : (chicken ? 0 : parseInt(val.leagueLevel, 10) || 0),
-      playstyleLevel: chicken ? 0 : parseInt(val.playstyleLevel, 10) || 0,
+      score: parseInt(val.score, 10) || 0,
+      leagueLevel: parseInt(val.leagueLevel, 10) || 0,
+      playstyleLevel: parseInt(val.playstyleLevel, 10) || 0,
       profileAvatarId: profile.avatarId || 0,
       avatarId,
       timestamp: entryTimestamp(val),
@@ -1256,21 +1255,27 @@ function normalizeModeEntries(raw, modeKey) {
     }
     const aChicken = a.avatarId === 999;
     const bChicken = b.avatarId === 999;
-    const aScore = (aChicken && modeKey !== 'adventure') ? 0 : a.score;
-    const bScore = (bChicken && modeKey !== 'adventure') ? 0 : b.score;
-    if (!aChicken && aScore > 0 && !bChicken && bScore > 0) return bScore - aScore;
-    if (!aChicken && aScore > 0) return -1;
-    if (!bChicken && bScore > 0) return 1;
+    const aScore = parseInt(a.score, 10) || 0;
+    const bScore = parseInt(b.score, 10) || 0;
+    const aActive = !aChicken && aScore > 0;
+    const bActive = !bChicken && bScore > 0;
+    if (aActive !== bActive) return aActive ? -1 : 1;
     if (aChicken !== bChicken) return aChicken ? 1 : -1;
-    return (b.timestamp - a.timestamp) || String(a.username || '').localeCompare(b.username || '');
+    if (aScore !== bScore) return bScore - aScore;
+    return String(a.username || '').localeCompare(String(b.username || ''), undefined, { sensitivity: 'base' });
   });
 
   const limited = entries.slice(0, LIVE_LIMIT);
   limited.forEach((e, i) => {
     e.rank = i + 1;
     if (e.avatarId === 999 && modeKey !== 'adventure') {
-      e.leagueLevel = 0;
-      e.score = 0;
+      const pts = parseInt(e.score, 10) || 0;
+      if (pts <= 0) {
+        e.leagueLevel = 0;
+        e.score = 0;
+      } else if (i === 0) {
+        e.leagueLevel = 0;
+      }
     }
   });
   return limited;
