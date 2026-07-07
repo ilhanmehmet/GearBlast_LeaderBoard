@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-07T20:34:20Z",
-  "total_players": 45,
+  "updated_at": "2026-07-07T20:56:13Z",
+  "total_players": 44,
   "classic_normal": [
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -485,17 +485,6 @@
       "avatarId": 18,
       "rank": 44,
       "displayLeagueLevel": 1
-    },
-    {
-      "uid": "maDSkdQtrpUw2XmYZaN4Ezbza4r1",
-      "username": "Sem",
-      "score": 1556,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 999,
-      "rank": 45,
-      "displayLeagueLevel": 1
     }
   ],
   "classic_timed": [
@@ -706,17 +695,6 @@
       "profileAvatarId": 45,
       "avatarId": 45,
       "rank": 19,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "maDSkdQtrpUw2XmYZaN4Ezbza4r1",
-      "username": "Sem",
-      "score": 1374,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 999,
-      "rank": 20,
       "displayLeagueLevel": 1
     }
   ],
@@ -1093,17 +1071,6 @@
       "profileAvatarId": 25,
       "avatarId": 25,
       "rank": 34,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "maDSkdQtrpUw2XmYZaN4Ezbza4r1",
-      "username": "Sem",
-      "score": 2,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 999,
-      "rank": 35,
       "displayLeagueLevel": 1
     }
   ]
