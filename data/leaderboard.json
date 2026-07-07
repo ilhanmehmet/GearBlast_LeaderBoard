@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-07T20:17:21Z",
-  "total_players": 44,
+  "updated_at": "2026-07-07T20:28:04Z",
+  "total_players": 45,
   "classic_normal": [
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
@@ -443,6 +443,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "EepEvcU5szZU5cNrQYmOAp2mxx32",
+      "username": "AhmeX2",
+      "score": 173,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 41,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "JwDkYvEn0eTpCUl2EdqyLk2jkIB2",
       "username": "Qwertyuiopasdfghjklñzx",
       "score": 92,
@@ -450,7 +461,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 41,
+      "rank": 42,
       "displayLeagueLevel": 1
     },
     {
@@ -461,7 +472,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 42,
+      "rank": 43,
       "displayLeagueLevel": 1
     },
     {
@@ -472,7 +483,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 43,
+      "rank": 44,
       "displayLeagueLevel": 1
     },
     {
@@ -483,7 +494,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 999,
-      "rank": 44,
+      "rank": 45,
       "displayLeagueLevel": 1
     }
   ],
@@ -577,6 +588,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "EepEvcU5szZU5cNrQYmOAp2mxx32",
+      "username": "AhmeX2",
+      "score": 36,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 9,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "l9rbn6i4wcNxzu5AC6AozynRa552",
       "username": "Cipi",
       "score": 19,
@@ -584,7 +606,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -595,7 +617,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     },
     {
@@ -606,7 +628,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "rank": 11,
+      "rank": 12,
       "displayLeagueLevel": 1
     },
     {
@@ -617,7 +639,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "rank": 12,
+      "rank": 13,
       "displayLeagueLevel": 3
     },
     {
@@ -628,19 +650,19 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 13,
+      "rank": 14,
       "displayLeagueLevel": 1
     },
     {
       "uid": "9RaqDpCrleRoI50zeqvSbe9kiBz1",
       "username": "Cansu",
       "score": 0,
-      "leagueLevel": 0,
+      "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 14,
-      "displayLeagueLevel": 1
+      "rank": 15,
+      "displayLeagueLevel": 2
     },
     {
       "uid": "VA6V6EKIRkgHdm5agea4Hs3f2U73",
@@ -650,7 +672,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 15,
+      "rank": 16,
       "displayLeagueLevel": 1
     },
     {
@@ -661,7 +683,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 16,
+      "rank": 17,
       "displayLeagueLevel": 1
     },
     {
@@ -672,7 +694,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 17,
+      "rank": 18,
       "displayLeagueLevel": 4
     },
     {
@@ -683,7 +705,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 45,
       "avatarId": 45,
-      "rank": 18,
+      "rank": 19,
       "displayLeagueLevel": 1
     },
     {
@@ -694,7 +716,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 999,
-      "rank": 19,
+      "rank": 20,
       "displayLeagueLevel": 1
     }
   ],
@@ -1052,6 +1074,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "EepEvcU5szZU5cNrQYmOAp2mxx32",
+      "username": "AhmeX2",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 33,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "9RaqDpCrleRoI50zeqvSbe9kiBz1",
       "username": "Cansu",
       "score": 0,
@@ -1059,7 +1092,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 33,
+      "rank": 34,
       "displayLeagueLevel": 1
     },
     {
@@ -1070,7 +1103,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 999,
-      "rank": 34,
+      "rank": 35,
       "displayLeagueLevel": 1
     }
   ]
