@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T18:36:49Z",
+  "updated_at": "2026-07-08T20:01:44Z",
   "total_players": 45,
   "classic_normal": [
     {
@@ -17,7 +17,7 @@
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
       "score": 4439862,
-      "leagueLevel": 4,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
@@ -514,12 +514,12 @@
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
       "score": 29693,
-      "leagueLevel": 4,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
       "rank": 2,
-      "displayLeagueLevel": 4
+      "displayLeagueLevel": 1
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
