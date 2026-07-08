@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T20:01:44Z",
+  "updated_at": "2026-07-08T20:35:37Z",
   "total_players": 45,
   "classic_normal": [
     {
@@ -410,6 +410,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "1uHFy67L3vfS1EsHDL2sRWj0Bhj1",
+      "username": "Max",
+      "score": 1307,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 15,
+      "avatarId": 15,
+      "rank": 38,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "5fyDy4HzlZZ9SGs5YHbGMr8zfkK2",
       "username": "Fd b",
       "score": 1156,
@@ -417,7 +428,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 55,
       "avatarId": 55,
-      "rank": 38,
+      "rank": 39,
       "displayLeagueLevel": 1
     },
     {
@@ -428,7 +439,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 39,
+      "rank": 40,
       "displayLeagueLevel": 1
     },
     {
@@ -439,7 +450,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 40,
+      "rank": 41,
       "displayLeagueLevel": 1
     },
     {
@@ -450,7 +461,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 41,
+      "rank": 42,
       "displayLeagueLevel": 1
     },
     {
@@ -461,7 +472,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 42,
+      "rank": 43,
       "displayLeagueLevel": 1
     },
     {
@@ -472,7 +483,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 43,
+      "rank": 44,
       "displayLeagueLevel": 1
     },
     {
@@ -483,17 +494,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 44,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "1uHFy67L3vfS1EsHDL2sRWj0Bhj1",
-      "username": "Max",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 15,
-      "avatarId": 15,
       "rank": 45,
       "displayLeagueLevel": 1
     }
