@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T17:49:21Z",
+  "updated_at": "2026-07-09T17:55:38Z",
   "total_players": 45,
   "classic_normal": [
     {
@@ -201,6 +201,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "EepEvcU5szZU5cNrQYmOAp2mxx32",
+      "username": "AhmeX2",
+      "score": 184761,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 19,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "XCKpxNAYZQPR964d3YyPyQMeLwr2",
       "username": "Asseell",
       "score": 152292,
@@ -208,7 +219,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 19,
+      "rank": 20,
       "displayLeagueLevel": 1
     },
     {
@@ -219,7 +230,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "rank": 20,
+      "rank": 21,
       "displayLeagueLevel": 1
     },
     {
@@ -230,7 +241,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 21,
+      "rank": 22,
       "displayLeagueLevel": 1
     },
     {
@@ -241,7 +252,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 22,
+      "rank": 23,
       "displayLeagueLevel": 1
     },
     {
@@ -252,7 +263,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 23,
+      "rank": 24,
       "displayLeagueLevel": 1
     },
     {
@@ -263,17 +274,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "rank": 24,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "EepEvcU5szZU5cNrQYmOAp2mxx32",
-      "username": "AhmeX2",
-      "score": 15417,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
       "rank": 25,
       "displayLeagueLevel": 1
     },
