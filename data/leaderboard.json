@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T09:06:05Z",
+  "updated_at": "2026-07-09T09:06:54Z",
   "total_players": 45,
   "classic_normal": [
     {
@@ -358,7 +358,7 @@
       "uid": "Gwb3dG7lFvf0wgRe24wG7X4bbY73",
       "username": "Rrggvhb",
       "score": 2750,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 62,
       "avatarId": 62,
@@ -588,6 +588,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "Gwb3dG7lFvf0wgRe24wG7X4bbY73",
+      "username": "Rrggvhb",
+      "score": 52,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 62,
+      "avatarId": 62,
+      "rank": 9,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "8Kpw8fsQbsMAURC9PTdaDflQ0hC3",
       "username": "Qxb07",
       "score": 47,
@@ -595,7 +606,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -606,17 +617,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 10,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "Gwb3dG7lFvf0wgRe24wG7X4bbY73",
-      "username": "Rrggvhb",
-      "score": 29,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 62,
-      "avatarId": 62,
       "rank": 11,
       "displayLeagueLevel": 1
     },
