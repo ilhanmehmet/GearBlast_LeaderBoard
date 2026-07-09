@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T21:26:15Z",
+  "updated_at": "2026-07-09T21:42:07Z",
   "total_players": 47,
   "classic_normal": [
     {
@@ -17,7 +17,7 @@
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 6031035,
-      "leagueLevel": 0,
+      "leagueLevel": 4,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
@@ -47,6 +47,17 @@
       "displayLeagueLevel": 3
     },
     {
+      "uid": "VA6V6EKIRkgHdm5agea4Hs3f2U73",
+      "username": "Evren",
+      "score": 2286561,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "rank": 5,
+      "displayLeagueLevel": 3
+    },
+    {
       "uid": "6tUghsTNg2Zaqv3i5j45jTs6clu1",
       "username": "Ruk",
       "score": 2043012,
@@ -54,7 +65,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 5,
+      "rank": 6,
       "displayLeagueLevel": 3
     },
     {
@@ -65,17 +76,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 6,
-      "displayLeagueLevel": 3
-    },
-    {
-      "uid": "VA6V6EKIRkgHdm5agea4Hs3f2U73",
-      "username": "Evren",
-      "score": 1746248,
-      "leagueLevel": 3,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
       "rank": 7,
       "displayLeagueLevel": 3
     },
@@ -525,12 +525,12 @@
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 54632,
-      "leagueLevel": 0,
+      "leagueLevel": 4,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 1,
-      "displayLeagueLevel": 1
+      "displayLeagueLevel": 4
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -723,12 +723,12 @@
       "uid": "VA6V6EKIRkgHdm5agea4Hs3f2U73",
       "username": "Evren",
       "score": 0,
-      "leagueLevel": 3,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
       "rank": 19,
-      "displayLeagueLevel": 3
+      "displayLeagueLevel": 1
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
