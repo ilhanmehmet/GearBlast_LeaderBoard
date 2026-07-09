@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-09T19:54:57Z",
-  "total_players": 45,
+  "updated_at": "2026-07-09T20:14:52Z",
+  "total_players": 46,
   "classic_normal": [
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -355,6 +355,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "r0iTNJehvUSW7RSOcjW7eSyJ3zZ2",
+      "username": "Bru",
+      "score": 3473,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 48,
+      "avatarId": 48,
+      "rank": 33,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "5HPWXGcOmENscfcGzmpm7y2Sy5u2",
       "username": "Masum ahmed",
       "score": 2844,
@@ -362,7 +373,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 33,
+      "rank": 34,
       "displayLeagueLevel": 1
     },
     {
@@ -373,7 +384,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 62,
       "avatarId": 62,
-      "rank": 34,
+      "rank": 35,
       "displayLeagueLevel": 1
     },
     {
@@ -384,7 +395,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 38,
       "avatarId": 38,
-      "rank": 35,
+      "rank": 36,
       "displayLeagueLevel": 1
     },
     {
@@ -395,7 +406,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "rank": 36,
+      "rank": 37,
       "displayLeagueLevel": 1
     },
     {
@@ -406,7 +417,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 55,
       "avatarId": 55,
-      "rank": 37,
+      "rank": 38,
       "displayLeagueLevel": 1
     },
     {
@@ -417,7 +428,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "rank": 38,
+      "rank": 39,
       "displayLeagueLevel": 1
     },
     {
@@ -428,7 +439,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 15,
       "avatarId": 15,
-      "rank": 39,
+      "rank": 40,
       "displayLeagueLevel": 1
     },
     {
@@ -439,7 +450,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 55,
       "avatarId": 55,
-      "rank": 40,
+      "rank": 41,
       "displayLeagueLevel": 1
     },
     {
@@ -450,7 +461,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 41,
+      "rank": 42,
       "displayLeagueLevel": 1
     },
     {
@@ -461,7 +472,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 42,
+      "rank": 43,
       "displayLeagueLevel": 1
     },
     {
@@ -472,7 +483,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 43,
+      "rank": 44,
       "displayLeagueLevel": 1
     },
     {
@@ -483,7 +494,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 44,
+      "rank": 45,
       "displayLeagueLevel": 1
     },
     {
@@ -494,7 +505,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 45,
+      "rank": 46,
       "displayLeagueLevel": 1
     }
   ],
@@ -676,6 +687,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "r0iTNJehvUSW7RSOcjW7eSyJ3zZ2",
+      "username": "Bru",
+      "score": 0,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 48,
+      "avatarId": 48,
+      "rank": 17,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "9RaqDpCrleRoI50zeqvSbe9kiBz1",
       "username": "Cansu",
       "score": 0,
@@ -683,7 +705,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 17,
+      "rank": 18,
       "displayLeagueLevel": 2
     },
     {
@@ -694,7 +716,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 18,
+      "rank": 19,
       "displayLeagueLevel": 1
     },
     {
@@ -705,7 +727,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 19,
+      "rank": 20,
       "displayLeagueLevel": 3
     },
     {
@@ -716,7 +738,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 20,
+      "rank": 21,
       "displayLeagueLevel": 1
     },
     {
@@ -727,7 +749,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 15,
       "avatarId": 15,
-      "rank": 21,
+      "rank": 22,
       "displayLeagueLevel": 1
     },
     {
@@ -738,7 +760,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 45,
       "avatarId": 45,
-      "rank": 22,
+      "rank": 23,
       "displayLeagueLevel": 1
     }
   ],
@@ -1118,6 +1140,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "r0iTNJehvUSW7RSOcjW7eSyJ3zZ2",
+      "username": "Bru",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 48,
+      "avatarId": 48,
+      "rank": 35,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "9RaqDpCrleRoI50zeqvSbe9kiBz1",
       "username": "Cansu",
       "score": 0,
@@ -1125,7 +1158,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 35,
+      "rank": 36,
       "displayLeagueLevel": 1
     },
     {
@@ -1136,7 +1169,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 36,
+      "rank": 37,
       "displayLeagueLevel": 1
     },
     {
@@ -1147,7 +1180,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 62,
       "avatarId": 62,
-      "rank": 37,
+      "rank": 38,
       "displayLeagueLevel": 1
     }
   ]
