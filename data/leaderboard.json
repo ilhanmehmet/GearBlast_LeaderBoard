@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-07-09T15:28:49Z",
+  "updated_at": "2026-07-09T15:45:08Z",
   "total_players": 45,
   "classic_normal": [
+    {
+      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
+      "username": "Aytuntas",
+      "score": 7917630,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "rank": 1,
+      "displayLeagueLevel": 5
+    },
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
@@ -10,17 +21,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 1,
-      "displayLeagueLevel": 4
-    },
-    {
-      "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
-      "username": "Aytuntas",
-      "score": 4999783,
-      "leagueLevel": 4,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
       "rank": 2,
       "displayLeagueLevel": 4
     },
@@ -514,12 +514,12 @@
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
       "score": 29693,
-      "leagueLevel": 4,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
       "rank": 2,
-      "displayLeagueLevel": 4
+      "displayLeagueLevel": 5
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
