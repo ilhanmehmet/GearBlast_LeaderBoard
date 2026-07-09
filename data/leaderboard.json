@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T21:42:07Z",
+  "updated_at": "2026-07-09T21:52:39Z",
   "total_players": 47,
   "classic_normal": [
     {
@@ -50,7 +50,7 @@
       "uid": "VA6V6EKIRkgHdm5agea4Hs3f2U73",
       "username": "Evren",
       "score": 2286561,
-      "leagueLevel": 0,
+      "leagueLevel": 3,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
@@ -723,12 +723,12 @@
       "uid": "VA6V6EKIRkgHdm5agea4Hs3f2U73",
       "username": "Evren",
       "score": 0,
-      "leagueLevel": 0,
+      "leagueLevel": 3,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
       "rank": 19,
-      "displayLeagueLevel": 1
+      "displayLeagueLevel": 3
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
