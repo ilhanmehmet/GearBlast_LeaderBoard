@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T18:58:35Z",
+  "updated_at": "2026-07-10T19:07:08Z",
   "total_players": 47,
   "classic_normal": [
     {
@@ -83,7 +83,7 @@
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
       "username": "Ttt",
       "score": 1073419,
-      "leagueLevel": 2,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
@@ -775,6 +775,17 @@
       "displayLeagueLevel": 2
     },
     {
+      "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
+      "username": "Ttt",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 6,
+      "avatarId": 6,
+      "rank": 24,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "ZDxtieRqwKTN0TW8UY0mMPR9sA43",
       "username": "Yfuhξωξωξγξγξξξηξημξημ",
       "score": 0,
@@ -782,7 +793,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 45,
       "avatarId": 45,
-      "rank": 24,
+      "rank": 25,
       "displayLeagueLevel": 1
     }
   ],
@@ -887,6 +898,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
+      "username": "Ttt",
+      "score": 6,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 6,
+      "avatarId": 6,
+      "rank": 10,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "rFqsNnHMGXan2RmRZRSxdio4aVF3",
       "username": "Lex",
       "score": 5,
@@ -894,7 +916,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 43,
       "avatarId": 43,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     },
     {
@@ -905,7 +927,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 15,
       "avatarId": 15,
-      "rank": 11,
+      "rank": 12,
       "displayLeagueLevel": 1
     },
     {
@@ -916,17 +938,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "rank": 12,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
-      "username": "Ttt",
-      "score": 5,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 6,
-      "avatarId": 6,
       "rank": 13,
       "displayLeagueLevel": 1
     },
