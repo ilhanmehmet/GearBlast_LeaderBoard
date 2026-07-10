@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T17:22:33Z",
+  "updated_at": "2026-07-10T17:23:38Z",
   "total_players": 47,
   "classic_normal": [
     {
@@ -898,6 +898,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
+      "username": "Semi",
+      "score": 5,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 3,
+      "avatarId": 3,
+      "rank": 11,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "sAhzjzRKPCTO7m0ag2mvHYEDbvL2",
       "username": "Shosho",
       "score": 5,
@@ -905,7 +916,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "rank": 11,
+      "rank": 12,
       "displayLeagueLevel": 1
     },
     {
@@ -916,7 +927,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 12,
+      "rank": 13,
       "displayLeagueLevel": 1
     },
     {
@@ -927,7 +938,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 13,
+      "rank": 14,
       "displayLeagueLevel": 1
     },
     {
@@ -938,17 +949,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 14,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
-      "username": "Semi",
-      "score": 4,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 3,
-      "avatarId": 3,
       "rank": 15,
       "displayLeagueLevel": 1
     },
