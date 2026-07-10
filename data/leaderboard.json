@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-10T20:37:00Z",
+  "updated_at": "2026-07-10T21:12:33Z",
   "total_players": 47,
   "classic_normal": [
     {
       "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
       "username": "Semi",
-      "score": 468284177,
-      "leagueLevel": 5,
+      "score": 508396545,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 3,
       "avatarId": 3,
@@ -767,12 +767,12 @@
       "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
       "username": "Semi",
       "score": 0,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 3,
       "avatarId": 3,
       "rank": 23,
-      "displayLeagueLevel": 5
+      "displayLeagueLevel": 1
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
