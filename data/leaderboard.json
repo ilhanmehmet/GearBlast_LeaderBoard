@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T17:18:30Z",
+  "updated_at": "2026-07-10T17:20:07Z",
   "total_players": 47,
   "classic_normal": [
     {
@@ -986,6 +986,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
+      "username": "Semi",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 3,
+      "avatarId": 3,
+      "rank": 19,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "71Uv4Bk95bPiOgUU0uaxHOcBwtb2",
       "username": "Smooy",
       "score": 2,
@@ -993,7 +1004,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 19,
+      "rank": 20,
       "displayLeagueLevel": 1
     },
     {
@@ -1004,7 +1015,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "rank": 20,
+      "rank": 21,
       "displayLeagueLevel": 1
     },
     {
@@ -1015,7 +1026,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 44,
       "avatarId": 44,
-      "rank": 21,
+      "rank": 22,
       "displayLeagueLevel": 1
     },
     {
@@ -1026,7 +1037,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 22,
+      "rank": 23,
       "displayLeagueLevel": 1
     },
     {
@@ -1037,7 +1048,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 37,
       "avatarId": 37,
-      "rank": 23,
+      "rank": 24,
       "displayLeagueLevel": 1
     },
     {
@@ -1048,7 +1059,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 24,
+      "rank": 25,
       "displayLeagueLevel": 1
     },
     {
@@ -1059,7 +1070,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 56,
       "avatarId": 56,
-      "rank": 25,
+      "rank": 26,
       "displayLeagueLevel": 1
     },
     {
@@ -1070,17 +1081,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 26,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
-      "username": "Semi",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 3,
-      "avatarId": 3,
       "rank": 27,
       "displayLeagueLevel": 1
     },
