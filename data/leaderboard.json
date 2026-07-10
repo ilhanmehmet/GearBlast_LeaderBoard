@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T17:20:07Z",
+  "updated_at": "2026-07-10T17:21:43Z",
   "total_players": 47,
   "classic_normal": [
     {
@@ -942,6 +942,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
+      "username": "Semi",
+      "score": 3,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 3,
+      "avatarId": 3,
+      "rank": 15,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "3BRDzugHPuTPm0LlLfjxANY2XyY2",
       "username": ",zaweria",
       "score": 2,
@@ -949,7 +960,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "rank": 15,
+      "rank": 16,
       "displayLeagueLevel": 1
     },
     {
@@ -960,7 +971,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 16,
+      "rank": 17,
       "displayLeagueLevel": 1
     },
     {
@@ -971,7 +982,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 58,
       "avatarId": 58,
-      "rank": 17,
+      "rank": 18,
       "displayLeagueLevel": 1
     },
     {
@@ -982,17 +993,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 23,
       "avatarId": 23,
-      "rank": 18,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
-      "username": "Semi",
-      "score": 2,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 3,
-      "avatarId": 3,
       "rank": 19,
       "displayLeagueLevel": 1
     },
