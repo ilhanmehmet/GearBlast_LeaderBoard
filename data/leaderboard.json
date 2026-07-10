@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-07-10T19:48:49Z",
+  "updated_at": "2026-07-10T20:17:39Z",
   "total_players": 47,
   "classic_normal": [
+    {
+      "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
+      "username": "Semi",
+      "score": 468284177,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 3,
+      "avatarId": 3,
+      "rank": 1,
+      "displayLeagueLevel": 5
+    },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
       "username": "Aytuntas",
@@ -10,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 1,
+      "rank": 2,
       "displayLeagueLevel": 1
     },
     {
@@ -21,7 +32,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 2,
+      "rank": 3,
       "displayLeagueLevel": 4
     },
     {
@@ -32,7 +43,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 3,
+      "rank": 4,
       "displayLeagueLevel": 3
     },
     {
@@ -43,7 +54,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 4,
+      "rank": 5,
       "displayLeagueLevel": 1
     },
     {
@@ -54,7 +65,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "rank": 5,
+      "rank": 6,
       "displayLeagueLevel": 3
     },
     {
@@ -65,7 +76,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 6,
+      "rank": 7,
       "displayLeagueLevel": 3
     },
     {
@@ -76,7 +87,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 7,
+      "rank": 8,
       "displayLeagueLevel": 3
     },
     {
@@ -87,17 +98,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 8,
-      "displayLeagueLevel": 2
-    },
-    {
-      "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
-      "username": "Semi",
-      "score": 1031525,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 3,
-      "avatarId": 3,
       "rank": 9,
       "displayLeagueLevel": 2
     },
@@ -767,12 +767,12 @@
       "uid": "xwpkxnKNEFRRfbieQAEZCHeaE7f1",
       "username": "Semi",
       "score": 0,
-      "leagueLevel": 0,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 3,
       "avatarId": 3,
       "rank": 23,
-      "displayLeagueLevel": 1
+      "displayLeagueLevel": 5
     },
     {
       "uid": "zoXFKIcYGqM8hi8igYHTASPjOZo2",
