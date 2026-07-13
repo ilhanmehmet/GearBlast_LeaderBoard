@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T10:42:20Z",
+  "updated_at": "2026-07-13T10:42:57Z",
   "total_players": 48,
   "classic_normal": [
     {
@@ -50,7 +50,7 @@
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 2506872,
-      "leagueLevel": 3,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
@@ -72,12 +72,12 @@
       "uid": "Q5QEHtckLlNpxYHAWYSFIyVpl1J3",
       "username": "Mehmet",
       "score": 2011843,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 7,
-      "displayLeagueLevel": 3
+      "displayLeagueLevel": 1
     },
     {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
@@ -568,8 +568,8 @@
     {
       "uid": "Q5QEHtckLlNpxYHAWYSFIyVpl1J3",
       "username": "Mehmet",
-      "score": 4748,
-      "leagueLevel": 0,
+      "score": 7258,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
@@ -712,12 +712,12 @@
       "uid": "u1E7ptmCZUWuPYKAp3uVhNH9ox92",
       "username": "Ali",
       "score": 0,
-      "leagueLevel": 3,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
       "rank": 17,
-      "displayLeagueLevel": 3
+      "displayLeagueLevel": 1
     },
     {
       "uid": "4jNdZfFgFwg1Y0sxrLEE6fTuVOp1",
