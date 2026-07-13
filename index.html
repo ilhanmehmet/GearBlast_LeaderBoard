@@ -932,7 +932,7 @@ const DATA_URL = 'data/leaderboard.json';
 const LIVE_MODES = ['classic_normal', 'classic_timed', 'adventure'];
 const V2_CUTOFF_TS = 1781222400;
 const MIN_VERSION_CODE = 20;
-const LIVE_LIMIT = 2000;
+const LIVE_LIMIT = 0; // 0 = sınırsız; tüm geçerli kayıtlar listelenir
 
 const LEAGUE_NAMES = {
   tr: ['Bronz','Gümüş','Altın','Platin','Elmas','Şampiyon'],
@@ -1265,7 +1265,7 @@ function normalizeModeEntries(raw, modeKey) {
     return String(a.username || '').localeCompare(String(b.username || ''), undefined, { sensitivity: 'base' });
   });
 
-  const limited = entries.slice(0, LIVE_LIMIT);
+  const limited = LIVE_LIMIT > 0 ? entries.slice(0, LIVE_LIMIT) : entries;
   limited.forEach((e, i) => {
     e.rank = i + 1;
     if (e.avatarId === 999 && modeKey !== 'adventure') {

@@ -26,7 +26,7 @@ import firebase_admin
 from firebase_admin import credentials, db
 
 MODES = ["classic_normal", "classic_timed", "adventure"]
-LIMIT = 2000  # Maksimum kayıt sayısı
+LIMIT = 0  # 0 = sınırsız; global listede kesim yok
 MAX_AVATAR_ID = 65
 AVATAR_COUNT = 62  # ui/avatars.lua avatarNames uzunlugu (indeks = avatarId)
 
@@ -233,8 +233,7 @@ def init_firebase():
 
 def fetch_mode(mode, users_av):
     ref = db.reference(f"leaderboards/{mode}")
-    # Tam çekim: RTDB kurallarında .indexOn eksik olsa bile çalışır.
-    # Çok büyük listelerde maliyet artar; LIMIT kadar üst skor burada kesilir.
+    # Tam çekim: RTDB'deki tüm kayıtlar alınır; LIMIT=0 → kesim yok (1M+ kullanıcı).
     raw = ref.get()
 
     if not raw:
@@ -287,7 +286,7 @@ def fetch_mode(mode, users_av):
 
     entries.sort(key=sort_key)
 
-    if len(entries) > LIMIT:
+    if LIMIT > 0 and len(entries) > LIMIT:
         entries = entries[:LIMIT]
 
     # Rank ekle; rozet gosterimi istemcide rank ile cozulur (displayLeagueLevel yedek alan)
