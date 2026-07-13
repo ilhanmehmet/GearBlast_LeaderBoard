@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T10:39:53Z",
+  "updated_at": "2026-07-13T10:40:30Z",
   "total_players": 48,
   "classic_normal": [
     {
@@ -69,6 +69,17 @@
       "displayLeagueLevel": 3
     },
     {
+      "uid": "Q5QEHtckLlNpxYHAWYSFIyVpl1J3",
+      "username": "Mehmet",
+      "score": 2011843,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "rank": 7,
+      "displayLeagueLevel": 3
+    },
+    {
       "uid": "Z8uYtWV6MQSC21yRS3mVyiKbFXC2",
       "username": "Filiz",
       "score": 1943166,
@@ -76,7 +87,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 7,
+      "rank": 8,
       "displayLeagueLevel": 3
     },
     {
@@ -87,17 +98,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 8,
-      "displayLeagueLevel": 2
-    },
-    {
-      "uid": "Q5QEHtckLlNpxYHAWYSFIyVpl1J3",
-      "username": "Mehmet",
-      "score": 999946,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 10,
       "rank": 9,
       "displayLeagueLevel": 2
     },
@@ -778,12 +778,12 @@
       "uid": "Q5QEHtckLlNpxYHAWYSFIyVpl1J3",
       "username": "Mehmet",
       "score": 0,
-      "leagueLevel": 2,
+      "leagueLevel": 3,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 23,
-      "displayLeagueLevel": 2
+      "displayLeagueLevel": 3
     },
     {
       "uid": "bOrZFBqGAeXxGN1LDVXre4beNA93",
