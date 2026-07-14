@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T15:48:32Z",
+  "updated_at": "2026-07-14T16:01:34Z",
   "total_players": 49,
   "classic_normal": [
     {
@@ -179,6 +179,17 @@
       "displayLeagueLevel": 2
     },
     {
+      "uid": "1qGiDXJi6IXKRvfCGgllkwaLliS2",
+      "username": "Aleksandarmiletic",
+      "score": 314924,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 17,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "sV3Jk5QWhQWnuV9uzo908TeXa5c2",
       "username": "Như con cạc",
       "score": 283844,
@@ -186,7 +197,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 17,
+      "rank": 18,
       "displayLeagueLevel": 1
     },
     {
@@ -197,7 +208,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 45,
       "avatarId": 45,
-      "rank": 18,
+      "rank": 19,
       "displayLeagueLevel": 1
     },
     {
@@ -208,7 +219,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 19,
+      "rank": 20,
       "displayLeagueLevel": 1
     },
     {
@@ -219,7 +230,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 20,
+      "rank": 21,
       "displayLeagueLevel": 1
     },
     {
@@ -230,7 +241,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 21,
+      "rank": 22,
       "displayLeagueLevel": 1
     },
     {
@@ -241,7 +252,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 22,
+      "rank": 23,
       "displayLeagueLevel": 1
     },
     {
@@ -252,17 +263,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 23,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "1qGiDXJi6IXKRvfCGgllkwaLliS2",
-      "username": "Aleksandarmiletic",
-      "score": 146084,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
       "rank": 24,
       "displayLeagueLevel": 1
     },
