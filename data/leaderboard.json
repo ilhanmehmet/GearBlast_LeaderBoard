@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T15:48:07Z",
+  "updated_at": "2026-07-14T15:48:32Z",
   "total_players": 49,
   "classic_normal": [
     {
@@ -632,6 +632,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "1qGiDXJi6IXKRvfCGgllkwaLliS2",
+      "username": "Aleksandarmiletic",
+      "score": 840,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 9,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
       "username": "Jai Shree ram",
       "score": 610,
@@ -639,17 +650,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 9,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "1qGiDXJi6IXKRvfCGgllkwaLliS2",
-      "username": "Aleksandarmiletic",
-      "score": 473,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
       "rank": 10,
       "displayLeagueLevel": 1
     },
