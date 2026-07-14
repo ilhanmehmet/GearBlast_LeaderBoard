@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-14T15:44:30Z",
+  "updated_at": "2026-07-14T15:48:07Z",
   "total_players": 49,
   "classic_normal": [
     {
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 30203140,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
@@ -259,7 +259,7 @@
       "uid": "1qGiDXJi6IXKRvfCGgllkwaLliS2",
       "username": "Aleksandarmiletic",
       "score": 146084,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
@@ -547,12 +547,12 @@
       "uid": "XNR44s3GaXbeVnwyo3RiQ2mmLFf2",
       "username": "Nadir",
       "score": 54632,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 1,
-      "displayLeagueLevel": 5
+      "displayLeagueLevel": 1
     },
     {
       "uid": "4DBfGuGpKnZrLKMtmcnmLT6Ree82",
@@ -645,8 +645,8 @@
     {
       "uid": "1qGiDXJi6IXKRvfCGgllkwaLliS2",
       "username": "Aleksandarmiletic",
-      "score": 411,
-      "leagueLevel": 0,
+      "score": 473,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
