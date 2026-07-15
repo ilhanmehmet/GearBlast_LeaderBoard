@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T09:34:23Z",
+  "updated_at": "2026-07-15T09:35:43Z",
   "total_players": 50,
   "classic_normal": [
     {
@@ -1041,6 +1041,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
+      "username": "Liza",
+      "score": 3,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 60,
+      "avatarId": 60,
+      "rank": 16,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "3BRDzugHPuTPm0LlLfjxANY2XyY2",
       "username": ",zaweria",
       "score": 2,
@@ -1048,7 +1059,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 11,
       "avatarId": 11,
-      "rank": 16,
+      "rank": 17,
       "displayLeagueLevel": 1
     },
     {
@@ -1059,7 +1070,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 17,
+      "rank": 18,
       "displayLeagueLevel": 1
     },
     {
@@ -1070,17 +1081,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 58,
       "avatarId": 58,
-      "rank": 18,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
-      "username": "Liza",
-      "score": 2,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 60,
-      "avatarId": 60,
       "rank": 19,
       "displayLeagueLevel": 1
     },
