@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T09:43:51Z",
+  "updated_at": "2026-07-15T10:48:49Z",
   "total_players": 50,
   "classic_normal": [
     {
@@ -28,7 +28,7 @@
       "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
       "username": "Liza",
       "score": 8633378,
-      "leagueLevel": 0,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 60,
       "avatarId": 60,
@@ -580,12 +580,12 @@
       "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
       "username": "Liza",
       "score": 8783,
-      "leagueLevel": 0,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 60,
       "avatarId": 60,
       "rank": 3,
-      "displayLeagueLevel": 1
+      "displayLeagueLevel": 5
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
