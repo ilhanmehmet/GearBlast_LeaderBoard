@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T08:49:50Z",
+  "updated_at": "2026-07-15T08:54:31Z",
   "total_players": 50,
   "classic_normal": [
     {
@@ -127,12 +127,12 @@
       "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
       "username": "Liza",
       "score": 572349,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 60,
       "avatarId": 60,
       "rank": 12,
-      "displayLeagueLevel": 1
+      "displayLeagueLevel": 2
     },
     {
       "uid": "XuoxbjlnqgftOFPfghaGoIaS9Sz2",
@@ -591,7 +591,7 @@
       "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
       "username": "Liza",
       "score": 5277,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 60,
       "avatarId": 60,
@@ -1151,6 +1151,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
+      "username": "Liza",
+      "score": 1,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 60,
+      "avatarId": 60,
+      "rank": 26,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "kwMDAxnE8jUigSPyexgkJt6Cebl2",
       "username": "Nadeem Ahmed",
       "score": 1,
@@ -1158,7 +1169,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 56,
       "avatarId": 56,
-      "rank": 26,
+      "rank": 27,
       "displayLeagueLevel": 1
     },
     {
@@ -1169,7 +1180,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 27,
+      "rank": 28,
       "displayLeagueLevel": 1
     },
     {
@@ -1180,7 +1191,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 28,
+      "rank": 29,
       "displayLeagueLevel": 1
     },
     {
@@ -1191,7 +1202,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "rank": 29,
+      "rank": 30,
       "displayLeagueLevel": 1
     },
     {
@@ -1202,7 +1213,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 45,
       "avatarId": 45,
-      "rank": 30,
+      "rank": 31,
       "displayLeagueLevel": 1
     },
     {
@@ -1213,7 +1224,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 31,
+      "rank": 32,
       "displayLeagueLevel": 1
     },
     {
@@ -1224,7 +1235,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 32,
+      "rank": 33,
       "displayLeagueLevel": 1
     },
     {
@@ -1235,7 +1246,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 55,
       "avatarId": 55,
-      "rank": 33,
+      "rank": 34,
       "displayLeagueLevel": 1
     },
     {
@@ -1246,7 +1257,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 34,
+      "rank": 35,
       "displayLeagueLevel": 1
     },
     {
@@ -1257,7 +1268,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 4,
       "avatarId": 4,
-      "rank": 35,
+      "rank": 36,
       "displayLeagueLevel": 1
     },
     {
@@ -1268,7 +1279,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 36,
+      "rank": 37,
       "displayLeagueLevel": 1
     },
     {
@@ -1279,7 +1290,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 48,
       "avatarId": 48,
-      "rank": 37,
+      "rank": 38,
       "displayLeagueLevel": 1
     },
     {
@@ -1290,7 +1301,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 38,
+      "rank": 39,
       "displayLeagueLevel": 1
     },
     {
@@ -1301,17 +1312,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 39,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
-      "username": "Liza",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 60,
-      "avatarId": 60,
       "rank": 40,
       "displayLeagueLevel": 1
     },
