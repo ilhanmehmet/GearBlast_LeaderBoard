@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T16:57:13Z",
+  "updated_at": "2026-07-15T17:57:25Z",
   "total_players": 50,
   "classic_normal": [
     {
@@ -171,7 +171,7 @@
       "uid": "1qGiDXJi6IXKRvfCGgllkwaLliS2",
       "username": "Aleksandarmiletic",
       "score": 357524,
-      "leagueLevel": 2,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
@@ -621,6 +621,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "1qGiDXJi6IXKRvfCGgllkwaLliS2",
+      "username": "Aleksandarmiletic",
+      "score": 1366,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 7,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "Ak8zzaGCEZhwCmk1aFnnKpSNSGj1",
       "username": "Светлана",
       "score": 1080,
@@ -628,7 +639,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "rank": 7,
+      "rank": 8,
       "displayLeagueLevel": 2
     },
     {
@@ -639,19 +650,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "rank": 8,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "1qGiDXJi6IXKRvfCGgllkwaLliS2",
-      "username": "Aleksandarmiletic",
-      "score": 840,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
       "rank": 9,
-      "displayLeagueLevel": 2
+      "displayLeagueLevel": 1
     },
     {
       "uid": "jlOZuOjGymO2LLi0OmcTRxHfvpA2",
