@@ -1,18 +1,7 @@
 {
-  "updated_at": "2026-07-15T21:37:18Z",
+  "updated_at": "2026-07-15T21:46:22Z",
   "total_players": 3,
   "classic_normal": [
-    {
-      "uid": "03dmkRocWcQd07m1dAxXFE2ilJD3",
-      "username": "Evren",
-      "score": 486679,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 25,
-      "avatarId": 25,
-      "rank": 1,
-      "displayLeagueLevel": 2
-    },
     {
       "uid": "xsXx7oCtUBTvJQN7dihlA8rPfQ63",
       "username": "Mehmet",
@@ -21,7 +10,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 2,
+      "rank": 1,
       "displayLeagueLevel": 1
     },
     {
@@ -32,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "rank": 3,
+      "rank": 2,
       "displayLeagueLevel": 1
     }
   ],
@@ -49,17 +38,6 @@
       "displayLeagueLevel": 1
     },
     {
-      "uid": "03dmkRocWcQd07m1dAxXFE2ilJD3",
-      "username": "Evren",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 25,
-      "avatarId": 25,
-      "rank": 2,
-      "displayLeagueLevel": 1
-    },
-    {
       "uid": "pQ1lstpB3lhSx11eQEg4xCCZBi72",
       "username": "Huseyin",
       "score": 0,
@@ -67,7 +45,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "rank": 3,
+      "rank": 2,
       "displayLeagueLevel": 1
     }
   ],
