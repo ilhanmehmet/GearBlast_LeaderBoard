@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T09:15:59Z",
+  "updated_at": "2026-07-15T09:34:23Z",
   "total_players": 50,
   "classic_normal": [
     {
@@ -28,7 +28,7 @@
       "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
       "username": "Liza",
       "score": 8633378,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 60,
       "avatarId": 60,
@@ -580,12 +580,12 @@
       "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
       "username": "Liza",
       "score": 8783,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 60,
       "avatarId": 60,
       "rank": 3,
-      "displayLeagueLevel": 5
+      "displayLeagueLevel": 1
     },
     {
       "uid": "FHd5xn8y1jOHyOmJreEpJFFT1313",
@@ -1074,6 +1074,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
+      "username": "Liza",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 60,
+      "avatarId": 60,
+      "rank": 19,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "bs6ldT7PJlbIWH7tJj7IGwnvhHJ2",
       "username": "Red",
       "score": 2,
@@ -1081,7 +1092,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 23,
       "avatarId": 23,
-      "rank": 19,
+      "rank": 20,
       "displayLeagueLevel": 1
     },
     {
@@ -1092,7 +1103,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 20,
+      "rank": 21,
       "displayLeagueLevel": 1
     },
     {
@@ -1103,7 +1114,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "rank": 21,
+      "rank": 22,
       "displayLeagueLevel": 1
     },
     {
@@ -1114,7 +1125,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 44,
       "avatarId": 44,
-      "rank": 22,
+      "rank": 23,
       "displayLeagueLevel": 1
     },
     {
@@ -1125,7 +1136,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 23,
+      "rank": 24,
       "displayLeagueLevel": 1
     },
     {
@@ -1136,7 +1147,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 37,
       "avatarId": 37,
-      "rank": 24,
+      "rank": 25,
       "displayLeagueLevel": 1
     },
     {
@@ -1147,17 +1158,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 25,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "gS6NlIIB45QG4F4UbU5lnqFiuok2",
-      "username": "Liza",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 60,
-      "avatarId": 60,
       "rank": 26,
       "displayLeagueLevel": 1
     },
