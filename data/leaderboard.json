@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-16T01:06:18Z",
-  "total_players": 4,
+  "updated_at": "2026-07-16T01:54:17Z",
+  "total_players": 5,
   "classic_normal": [
     {
       "uid": "m8lWXjxOq3XVr7wEVTG87Q4WkLD3",
@@ -34,6 +34,17 @@
       "avatarId": 10,
       "rank": 3,
       "displayLeagueLevel": 1
+    },
+    {
+      "uid": "P6muW3wD7QU7LcsyRofYmEvo0fD3",
+      "username": "Ali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "rank": 4,
+      "displayLeagueLevel": 1
     }
   ],
   "classic_timed": [
@@ -60,6 +71,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "P6muW3wD7QU7LcsyRofYmEvo0fD3",
+      "username": "Ali",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "rank": 3,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "pQ1lstpB3lhSx11eQEg4xCCZBi72",
       "username": "Huseyin",
       "score": 0,
@@ -67,11 +89,22 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "rank": 3,
+      "rank": 4,
       "displayLeagueLevel": 1
     }
   ],
   "adventure": [
+    {
+      "uid": "P6muW3wD7QU7LcsyRofYmEvo0fD3",
+      "username": "Ali",
+      "score": 10,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "rank": 1,
+      "displayLeagueLevel": 1
+    },
     {
       "uid": "m8lWXjxOq3XVr7wEVTG87Q4WkLD3",
       "username": "Aytuntas",
@@ -80,7 +113,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 1,
+      "rank": 2,
       "displayLeagueLevel": 1
     },
     {
@@ -91,7 +124,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 2,
+      "rank": 3,
       "displayLeagueLevel": 1
     },
     {
@@ -102,7 +135,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 3,
+      "rank": 4,
       "displayLeagueLevel": 1
     },
     {
@@ -113,7 +146,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "rank": 4,
+      "rank": 5,
       "displayLeagueLevel": 1
     }
   ]
