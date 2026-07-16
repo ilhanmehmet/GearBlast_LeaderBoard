@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T17:10:41Z",
+  "updated_at": "2026-07-16T17:13:01Z",
   "total_players": 6,
   "classic_normal": [
     {
@@ -117,6 +117,17 @@
   ],
   "adventure": [
     {
+      "uid": "P6muW3wD7QU7LcsyRofYmEvo0fD3",
+      "username": "Ali",
+      "score": 12,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 27,
+      "avatarId": 27,
+      "rank": 1,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "m8lWXjxOq3XVr7wEVTG87Q4WkLD3",
       "username": "Aytuntas",
       "score": 12,
@@ -124,17 +135,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 1,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "P6muW3wD7QU7LcsyRofYmEvo0fD3",
-      "username": "Ali",
-      "score": 11,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 27,
-      "avatarId": 27,
       "rank": 2,
       "displayLeagueLevel": 1
     },
