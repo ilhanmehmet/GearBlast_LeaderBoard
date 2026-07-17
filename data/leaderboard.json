@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T23:26:29Z",
+  "updated_at": "2026-07-17T23:27:06Z",
   "total_players": 11,
   "classic_normal": [
     {
@@ -17,12 +17,12 @@
       "uid": "xsXx7oCtUBTvJQN7dihlA8rPfQ63",
       "username": "Mehmet",
       "score": 5378678,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 2,
-      "displayLeagueLevel": 1
+      "displayLeagueLevel": 4
     },
     {
       "uid": "P6muW3wD7QU7LcsyRofYmEvo0fD3",
@@ -128,8 +128,8 @@
     {
       "uid": "xsXx7oCtUBTvJQN7dihlA8rPfQ63",
       "username": "Mehmet",
-      "score": 22336,
-      "leagueLevel": 1,
+      "score": 24753,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
