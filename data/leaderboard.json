@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-17T09:02:44Z",
-  "total_players": 10,
+  "updated_at": "2026-07-17T10:01:54Z",
+  "total_players": 11,
   "classic_normal": [
     {
       "uid": "m8lWXjxOq3XVr7wEVTG87Q4WkLD3",
@@ -69,6 +69,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "dW9bEnYyUNZUQyj6bkFtoBVimZl2",
+      "username": "5ttttgyyhuuuuu8",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 7,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "uWCvduhMRWhQKgibbuFu1mK04ef1",
       "username": "Aleksandarmiletic",
       "score": 0,
@@ -76,7 +87,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 7,
+      "rank": 8,
       "displayLeagueLevel": 1
     },
     {
@@ -87,7 +98,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 8,
+      "rank": 9,
       "displayLeagueLevel": 1
     },
     {
@@ -98,7 +109,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 62,
       "avatarId": 62,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -109,7 +120,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     }
   ],
@@ -170,6 +181,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "dW9bEnYyUNZUQyj6bkFtoBVimZl2",
+      "username": "5ttttgyyhuuuuu8",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 6,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "uWCvduhMRWhQKgibbuFu1mK04ef1",
       "username": "Aleksandarmiletic",
       "score": 0,
@@ -177,7 +199,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 6,
+      "rank": 7,
       "displayLeagueLevel": 1
     },
     {
@@ -188,7 +210,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "rank": 7,
+      "rank": 8,
       "displayLeagueLevel": 1
     },
     {
@@ -199,7 +221,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "rank": 8,
+      "rank": 9,
       "displayLeagueLevel": 1
     },
     {
@@ -210,7 +232,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 62,
       "avatarId": 62,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -221,7 +243,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     }
   ],
@@ -271,6 +293,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "dW9bEnYyUNZUQyj6bkFtoBVimZl2",
+      "username": "5ttttgyyhuuuuu8",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 5,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "uWCvduhMRWhQKgibbuFu1mK04ef1",
       "username": "Aleksandarmiletic",
       "score": 0,
@@ -278,7 +311,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 5,
+      "rank": 6,
       "displayLeagueLevel": 1
     },
     {
@@ -289,7 +322,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 6,
+      "rank": 7,
       "displayLeagueLevel": 1
     },
     {
@@ -300,7 +333,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 7,
+      "rank": 8,
       "displayLeagueLevel": 1
     },
     {
@@ -311,7 +344,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 62,
       "avatarId": 62,
-      "rank": 8,
+      "rank": 9,
       "displayLeagueLevel": 1
     },
     {
@@ -322,7 +355,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -333,7 +366,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     }
   ]
