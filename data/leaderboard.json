@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-21T18:54:31Z",
-  "total_players": 15,
+  "updated_at": "2026-07-21T18:55:15Z",
+  "total_players": 16,
   "classic_normal": [
     {
       "uid": "m8lWXjxOq3XVr7wEVTG87Q4WkLD3",
@@ -157,6 +157,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "N1UjQVYsqGhFdJ766fzYLei6U143",
+      "username": "zte",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 9,
+      "rank": 15,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "koGRVTySgEhFxGo9HSXufzA1Jhr2",
       "username": "יהב",
       "score": 0,
@@ -164,7 +175,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 15,
+      "rank": 16,
       "displayLeagueLevel": 1
     }
   ],
@@ -324,6 +335,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "N1UjQVYsqGhFdJ766fzYLei6U143",
+      "username": "zte",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 9,
+      "rank": 15,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "kLGuiCqMaFeEUI9o3y3Cik24NKA3",
       "username": "Σπανούλης",
       "score": 0,
@@ -331,7 +353,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "rank": 15,
+      "rank": 16,
       "displayLeagueLevel": 1
     }
   ],
@@ -480,6 +502,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "N1UjQVYsqGhFdJ766fzYLei6U143",
+      "username": "zte",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 9,
+      "rank": 14,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "kLGuiCqMaFeEUI9o3y3Cik24NKA3",
       "username": "Σπανούλης",
       "score": 0,
@@ -487,7 +520,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "rank": 14,
+      "rank": 15,
       "displayLeagueLevel": 1
     },
     {
@@ -498,7 +531,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 15,
+      "rank": 16,
       "displayLeagueLevel": 1
     }
   ]
