@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T03:28:31Z",
+  "updated_at": "2026-07-23T03:30:22Z",
   "total_players": 18,
   "classic_normal": [
     {
@@ -91,6 +91,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "Ru66Yo7a9Ect4NHWym4hgLZf2uL2",
+      "username": "이태웅",
+      "score": 3379,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 7,
+      "avatarId": 7,
+      "rank": 9,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "2aMjFa6h8ygSA5zofmwdhzJx7Xp2",
       "username": "Tyyjjjiijjjllljjjjjnnn",
       "score": 258,
@@ -98,7 +109,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -109,7 +120,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     },
     {
@@ -120,7 +131,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 11,
+      "rank": 12,
       "displayLeagueLevel": 1
     },
     {
@@ -131,7 +142,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 12,
+      "rank": 13,
       "displayLeagueLevel": 1
     },
     {
@@ -142,7 +153,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 13,
+      "rank": 14,
       "displayLeagueLevel": 1
     },
     {
@@ -153,7 +164,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 62,
       "avatarId": 62,
-      "rank": 14,
+      "rank": 15,
       "displayLeagueLevel": 1
     },
     {
@@ -164,7 +175,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 9,
-      "rank": 15,
+      "rank": 16,
       "displayLeagueLevel": 1
     },
     {
@@ -175,23 +186,12 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 16,
+      "rank": 17,
       "displayLeagueLevel": 1
     },
     {
       "uid": "fJUTVyINLDRtIsUjhoQBKT3erRJ2",
       "username": "معاذ",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 7,
-      "avatarId": 7,
-      "rank": 17,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "Ru66Yo7a9Ect4NHWym4hgLZf2uL2",
-      "username": "이태웅",
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
@@ -393,7 +393,7 @@
       "uid": "Ru66Yo7a9Ect4NHWym4hgLZf2uL2",
       "username": "이태웅",
       "score": 0,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
