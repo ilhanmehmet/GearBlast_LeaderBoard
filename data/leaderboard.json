@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T16:52:43Z",
+  "updated_at": "2026-07-23T17:51:50Z",
   "total_players": 19,
   "classic_normal": [
     {
@@ -27,13 +27,13 @@
     {
       "uid": "xVTTITwYnuVDn6oStTk5kcEDOmg1",
       "username": "Nadir",
-      "score": 6679211,
-      "leagueLevel": 4,
+      "score": 8606132,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 3,
-      "displayLeagueLevel": 4
+      "displayLeagueLevel": 5
     },
     {
       "uid": "P6muW3wD7QU7LcsyRofYmEvo0fD3",
@@ -316,12 +316,12 @@
       "uid": "xVTTITwYnuVDn6oStTk5kcEDOmg1",
       "username": "Nadir",
       "score": 0,
-      "leagueLevel": 4,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 10,
-      "displayLeagueLevel": 4
+      "displayLeagueLevel": 5
     },
     {
       "uid": "9NrtWAAAK6TNbqICtQ43yT3R1r53",
