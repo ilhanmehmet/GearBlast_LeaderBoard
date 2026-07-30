@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T20:54:16Z",
+  "updated_at": "2026-07-30T20:59:00Z",
   "total_players": 23,
   "classic_normal": [
     {
@@ -94,7 +94,7 @@
       "uid": "idKjBrlXNie10LXb7Sr8nopCHFT2",
       "username": "1234",
       "score": 56277,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
@@ -294,7 +294,7 @@
       "uid": "idKjBrlXNie10LXb7Sr8nopCHFT2",
       "username": "1234",
       "score": 1037,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
@@ -579,8 +579,8 @@
       "displayLeagueLevel": 1
     },
     {
-      "uid": "QpRYVtrCCmVitqQQjyjnYcSZoi53",
-      "username": "Broomer",
+      "uid": "idKjBrlXNie10LXb7Sr8nopCHFT2",
+      "username": "1234",
       "score": 5,
       "leagueLevel": 0,
       "playstyleLevel": 0,
@@ -590,9 +590,9 @@
       "displayLeagueLevel": 1
     },
     {
-      "uid": "idKjBrlXNie10LXb7Sr8nopCHFT2",
-      "username": "1234",
-      "score": 4,
+      "uid": "QpRYVtrCCmVitqQQjyjnYcSZoi53",
+      "username": "Broomer",
+      "score": 5,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
