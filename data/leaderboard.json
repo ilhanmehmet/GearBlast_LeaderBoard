@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T01:33:43Z",
+  "updated_at": "2026-07-30T01:34:40Z",
   "total_players": 23,
   "classic_normal": [
     {
@@ -91,6 +91,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "idKjBrlXNie10LXb7Sr8nopCHFT2",
+      "username": "1234",
+      "score": 55735,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "rank": 9,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "kLGuiCqMaFeEUI9o3y3Cik24NKA3",
       "username": "Σπανούλης",
       "score": 11874,
@@ -98,7 +109,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -109,7 +120,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     },
     {
@@ -120,17 +131,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 11,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "idKjBrlXNie10LXb7Sr8nopCHFT2",
-      "username": "1234",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
       "rank": 12,
       "displayLeagueLevel": 1
     },
@@ -327,7 +327,7 @@
       "uid": "idKjBrlXNie10LXb7Sr8nopCHFT2",
       "username": "1234",
       "score": 0,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
