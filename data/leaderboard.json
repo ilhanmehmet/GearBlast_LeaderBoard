@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-05T11:48:00Z",
-  "total_players": 26,
+  "updated_at": "2026-08-05T12:26:34Z",
+  "total_players": 27,
   "classic_normal": [
     {
       "uid": "xVTTITwYnuVDn6oStTk5kcEDOmg1",
@@ -287,6 +287,17 @@
       "avatarId": 7,
       "rank": 26,
       "displayLeagueLevel": 1
+    },
+    {
+      "uid": "Mb4wYJEJKmMfRZ8DXrwAgBGSOdi1",
+      "username": "둘째공주",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 40,
+      "rank": 27,
+      "displayLeagueLevel": 1
     }
   ],
   "classic_timed": [
@@ -566,6 +577,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "Mb4wYJEJKmMfRZ8DXrwAgBGSOdi1",
+      "username": "둘째공주",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 40,
+      "rank": 26,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "Ru66Yo7a9Ect4NHWym4hgLZf2uL2",
       "username": "이태웅",
       "score": 0,
@@ -573,7 +595,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 26,
+      "rank": 27,
       "displayLeagueLevel": 1
     }
   ],
@@ -854,6 +876,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "Mb4wYJEJKmMfRZ8DXrwAgBGSOdi1",
+      "username": "둘째공주",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 40,
+      "rank": 26,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "Ru66Yo7a9Ect4NHWym4hgLZf2uL2",
       "username": "이태웅",
       "score": 0,
@@ -861,7 +894,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 26,
+      "rank": 27,
       "displayLeagueLevel": 1
     }
   ]
