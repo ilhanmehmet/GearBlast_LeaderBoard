@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T21:59:12Z",
+  "updated_at": "2026-08-13T22:05:48Z",
   "total_players": 31,
   "classic_normal": [
     {
@@ -72,7 +72,7 @@
       "uid": "pQ1lstpB3lhSx11eQEg4xCCZBi72",
       "username": "Huseyin",
       "score": 296200,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
@@ -514,7 +514,7 @@
       "uid": "pQ1lstpB3lhSx11eQEg4xCCZBi72",
       "username": "Huseyin",
       "score": 0,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
@@ -713,7 +713,7 @@
     {
       "uid": "pQ1lstpB3lhSx11eQEg4xCCZBi72",
       "username": "Huseyin",
-      "score": 20,
+      "score": 21,
       "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 14,
