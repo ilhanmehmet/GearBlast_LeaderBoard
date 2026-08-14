@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T18:26:06Z",
+  "updated_at": "2026-08-14T18:53:15Z",
   "total_players": 31,
   "classic_normal": [
     {
@@ -50,7 +50,7 @@
       "uid": "qm9JFHRh3XWpP0IZVmG8TH0KeBL2",
       "username": "Evren",
       "score": 3877002,
-      "leagueLevel": 4,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
@@ -382,12 +382,12 @@
       "uid": "qm9JFHRh3XWpP0IZVmG8TH0KeBL2",
       "username": "Evren",
       "score": 4130,
-      "leagueLevel": 4,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
       "rank": 4,
-      "displayLeagueLevel": 4
+      "displayLeagueLevel": 1
     },
     {
       "uid": "xVTTITwYnuVDn6oStTk5kcEDOmg1",
@@ -722,6 +722,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "qm9JFHRh3XWpP0IZVmG8TH0KeBL2",
+      "username": "Evren",
+      "score": 15,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "rank": 4,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "P6muW3wD7QU7LcsyRofYmEvo0fD3",
       "username": "Ali",
       "score": 14,
@@ -729,17 +740,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "rank": 4,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "qm9JFHRh3XWpP0IZVmG8TH0KeBL2",
-      "username": "Evren",
-      "score": 14,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
       "rank": 5,
       "displayLeagueLevel": 1
     },
