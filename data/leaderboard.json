@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T10:00:08Z",
+  "updated_at": "2026-08-14T10:42:19Z",
   "total_players": 31,
   "classic_normal": [
     {
@@ -39,7 +39,7 @@
       "uid": "7iywdx637IYBHjFOEwTVAWDjEJq1",
       "username": "İlhanİlhan",
       "score": 9119177,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
@@ -371,12 +371,12 @@
       "uid": "7iywdx637IYBHjFOEwTVAWDjEJq1",
       "username": "İlhanİlhan",
       "score": 7610,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
       "rank": 3,
-      "displayLeagueLevel": 5
+      "displayLeagueLevel": 1
     },
     {
       "uid": "qm9JFHRh3XWpP0IZVmG8TH0KeBL2",
