@@ -3,8 +3,8 @@ name: Update Leaderboard
 on:
   workflow_dispatch:
   schedule:
-    # Yedek senkron (GitHub Actions gecikmesi olabilir)
-    - cron: "*/5 * * * *"
+    # Yedek senkron — saatte bir (5 dk cron Actions maliyetini artırıyordu)
+    - cron: "0 * * * *"
   push:
     branches:
       - main
