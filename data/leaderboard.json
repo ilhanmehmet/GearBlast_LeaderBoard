@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T11:12:08Z",
+  "updated_at": "2026-08-16T11:46:09Z",
   "total_players": 31,
   "classic_normal": [
     {
@@ -777,6 +777,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "Mb4wYJEJKmMfRZ8DXrwAgBGSOdi1",
+      "username": "둘째공주",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 40,
+      "rank": 9,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "ZFAJc7jz5nVik0CybyF37Mivo653",
       "username": "Hüseyin",
       "score": 1,
@@ -784,7 +795,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -795,7 +806,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     },
     {
@@ -806,17 +817,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 11,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "Mb4wYJEJKmMfRZ8DXrwAgBGSOdi1",
-      "username": "둘째공주",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 40,
       "rank": 12,
       "displayLeagueLevel": 1
     },
