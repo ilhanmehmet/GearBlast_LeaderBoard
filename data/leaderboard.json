@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-08-20T17:20:16Z",
+  "updated_at": "2026-08-20T17:29:52Z",
   "total_players": 33,
   "classic_normal": [
+    {
+      "uid": "m8lWXjxOq3XVr7wEVTG87Q4WkLD3",
+      "username": "Aytuntas",
+      "score": 107113271,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "rank": 1,
+      "displayLeagueLevel": 5
+    },
     {
       "uid": "xVTTITwYnuVDn6oStTk5kcEDOmg1",
       "username": "Nadir",
@@ -10,17 +21,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 1,
-      "displayLeagueLevel": 5
-    },
-    {
-      "uid": "m8lWXjxOq3XVr7wEVTG87Q4WkLD3",
-      "username": "Aytuntas",
-      "score": 76523951,
-      "leagueLevel": 5,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
       "rank": 2,
       "displayLeagueLevel": 5
     },
@@ -39,7 +39,7 @@
       "uid": "7iywdx637IYBHjFOEwTVAWDjEJq1",
       "username": "İlhanİlhan",
       "score": 9119177,
-      "leagueLevel": 0,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
@@ -393,12 +393,12 @@
       "uid": "7iywdx637IYBHjFOEwTVAWDjEJq1",
       "username": "İlhanİlhan",
       "score": 7610,
-      "leagueLevel": 0,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
       "rank": 3,
-      "displayLeagueLevel": 1
+      "displayLeagueLevel": 5
     },
     {
       "uid": "qm9JFHRh3XWpP0IZVmG8TH0KeBL2",
