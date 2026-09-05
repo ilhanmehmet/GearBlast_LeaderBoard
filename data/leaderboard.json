@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T17:51:10Z",
+  "updated_at": "2026-09-05T17:53:31Z",
   "total_players": 34,
   "classic_normal": [
     {
@@ -445,6 +445,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "tOsu1POXxLh1h63zZZrRlXd5Ypx2",
+      "username": "Ata",
+      "score": 306,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 7,
+      "avatarId": 7,
+      "rank": 7,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "dW9bEnYyUNZUQyj6bkFtoBVimZl2",
       "username": "5ttttgyyhuuuuu8",
       "score": 164,
@@ -452,17 +463,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 7,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "tOsu1POXxLh1h63zZZrRlXd5Ypx2",
-      "username": "Ata",
-      "score": 35,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 7,
-      "avatarId": 7,
       "rank": 8,
       "displayLeagueLevel": 1
     },
