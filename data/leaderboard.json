@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T17:08:43Z",
+  "updated_at": "2026-10-02T17:09:11Z",
   "total_players": 40,
   "classic_normal": [
     {
@@ -533,6 +533,17 @@
       "displayLeagueLevel": 2
     },
     {
+      "uid": "1oRVaOTSV8T8E8xlk2SXpgZOFbZ2",
+      "username": "Y HD dguju teklifi gff",
+      "score": 174,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 3,
+      "avatarId": 3,
+      "rank": 9,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "dW9bEnYyUNZUQyj6bkFtoBVimZl2",
       "username": "5ttttgyyhuuuuu8",
       "score": 164,
@@ -540,7 +551,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -551,17 +562,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "rank": 10,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "1oRVaOTSV8T8E8xlk2SXpgZOFbZ2",
-      "username": "Y HD dguju teklifi gff",
-      "score": 48,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 3,
-      "avatarId": 3,
       "rank": 11,
       "displayLeagueLevel": 1
     },
