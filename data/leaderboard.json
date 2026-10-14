@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T17:15:17Z",
+  "updated_at": "2026-10-14T17:16:06Z",
   "total_players": 43,
   "classic_normal": [
     {
@@ -533,6 +533,17 @@
       "displayLeagueLevel": 5
     },
     {
+      "uid": "cjDFhcIHvnOaaiJGIiTuPdiLwPf2",
+      "username": "Gery",
+      "score": 1478,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 18,
+      "avatarId": 18,
+      "rank": 6,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "hTG3ilbvC8S5uGl2wE2ZHN7eMn02",
       "username": "BhLk",
       "score": 1080,
@@ -540,7 +551,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 6,
+      "rank": 7,
       "displayLeagueLevel": 1
     },
     {
@@ -551,7 +562,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 7,
+      "rank": 8,
       "displayLeagueLevel": 1
     },
     {
@@ -562,7 +573,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 3,
       "avatarId": 3,
-      "rank": 8,
+      "rank": 9,
       "displayLeagueLevel": 1
     },
     {
@@ -573,7 +584,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 2
     },
     {
@@ -584,7 +595,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     },
     {
@@ -595,17 +606,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "rank": 11,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "cjDFhcIHvnOaaiJGIiTuPdiLwPf2",
-      "username": "Gery",
-      "score": 116,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 18,
-      "avatarId": 18,
       "rank": 12,
       "displayLeagueLevel": 1
     },
