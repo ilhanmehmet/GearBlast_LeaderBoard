@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T18:12:25Z",
+  "updated_at": "2026-10-14T18:16:11Z",
   "total_players": 43,
   "classic_normal": [
     {
@@ -226,7 +226,7 @@
       "uid": "cjDFhcIHvnOaaiJGIiTuPdiLwPf2",
       "username": "Gery",
       "score": 258,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
@@ -535,8 +535,8 @@
     {
       "uid": "cjDFhcIHvnOaaiJGIiTuPdiLwPf2",
       "username": "Gery",
-      "score": 1478,
-      "leagueLevel": 0,
+      "score": 1921,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
