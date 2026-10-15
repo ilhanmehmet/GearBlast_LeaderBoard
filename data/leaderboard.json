@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T11:53:58Z",
+  "updated_at": "2026-10-15T12:02:04Z",
   "total_players": 44,
   "classic_normal": [
     {
@@ -25,6 +25,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "nIPuWgIuXRXZ6FCPgvniVYiJtQE3",
+      "username": "Yui",
+      "score": 32430461,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 55,
+      "rank": 3,
+      "displayLeagueLevel": 5
+    },
+    {
       "uid": "qm9JFHRh3XWpP0IZVmG8TH0KeBL2",
       "username": "Evren",
       "score": 28523954,
@@ -32,17 +43,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 9,
       "avatarId": 9,
-      "rank": 3,
-      "displayLeagueLevel": 5
-    },
-    {
-      "uid": "nIPuWgIuXRXZ6FCPgvniVYiJtQE3",
-      "username": "Yui",
-      "score": 19264546,
-      "leagueLevel": 5,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 55,
       "rank": 4,
       "displayLeagueLevel": 5
     },
