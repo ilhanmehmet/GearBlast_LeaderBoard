@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T08:13:39Z",
+  "updated_at": "2026-10-15T11:51:01Z",
   "total_players": 44,
   "classic_normal": [
     {
@@ -36,6 +36,17 @@
       "displayLeagueLevel": 5
     },
     {
+      "uid": "nIPuWgIuXRXZ6FCPgvniVYiJtQE3",
+      "username": "Yui",
+      "score": 17159774,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 55,
+      "rank": 4,
+      "displayLeagueLevel": 5
+    },
+    {
       "uid": "P6muW3wD7QU7LcsyRofYmEvo0fD3",
       "username": "Ali",
       "score": 6839407,
@@ -43,7 +54,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 27,
       "avatarId": 27,
-      "rank": 4,
+      "rank": 5,
       "displayLeagueLevel": 4
     },
     {
@@ -54,7 +65,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 5,
+      "rank": 6,
       "displayLeagueLevel": 2
     },
     {
@@ -65,7 +76,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 34,
       "avatarId": 34,
-      "rank": 6,
+      "rank": 7,
       "displayLeagueLevel": 2
     },
     {
@@ -76,17 +87,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 7,
-      "displayLeagueLevel": 2
-    },
-    {
-      "uid": "nIPuWgIuXRXZ6FCPgvniVYiJtQE3",
-      "username": "Yui",
-      "score": 372691,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 55,
       "rank": 8,
       "displayLeagueLevel": 2
     },
@@ -877,12 +877,12 @@
       "uid": "nIPuWgIuXRXZ6FCPgvniVYiJtQE3",
       "username": "Yui",
       "score": 0,
-      "leagueLevel": 2,
+      "leagueLevel": 5,
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 55,
       "rank": 36,
-      "displayLeagueLevel": 2
+      "displayLeagueLevel": 5
     },
     {
       "uid": "rVxCtyjHMROOc16hSJ6RrvoxH8B3",
