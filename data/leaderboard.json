@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T11:33:40Z",
+  "updated_at": "2026-10-16T11:35:30Z",
   "total_players": 42,
   "classic_normal": [
     {
@@ -1019,6 +1019,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "e9T66G8SqHMCpzRV0lWrzjo94eA3",
+      "username": "Mehmet",
+      "score": 4,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "rank": 9,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "Mb4wYJEJKmMfRZ8DXrwAgBGSOdi1",
       "username": "둘째공주",
       "score": 4,
@@ -1026,17 +1037,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 40,
-      "rank": 9,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "e9T66G8SqHMCpzRV0lWrzjo94eA3",
-      "username": "Mehmet",
-      "score": 3,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
       "rank": 10,
       "displayLeagueLevel": 1
     },
