@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T05:04:31Z",
+  "updated_at": "2026-10-16T05:37:51Z",
   "total_players": 42,
   "classic_normal": [
     {
@@ -69,6 +69,17 @@
       "displayLeagueLevel": 2
     },
     {
+      "uid": "e9T66G8SqHMCpzRV0lWrzjo94eA3",
+      "username": "Mehmet",
+      "score": 431057,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "rank": 7,
+      "displayLeagueLevel": 2
+    },
+    {
       "uid": "Ru66Yo7a9Ect4NHWym4hgLZf2uL2",
       "username": "이태웅",
       "score": 365747,
@@ -76,7 +87,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 7,
+      "rank": 8,
       "displayLeagueLevel": 2
     },
     {
@@ -87,7 +98,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 8,
       "avatarId": 8,
-      "rank": 8,
+      "rank": 9,
       "displayLeagueLevel": 1
     },
     {
@@ -98,7 +109,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -109,7 +120,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     },
     {
@@ -120,7 +131,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 11,
+      "rank": 12,
       "displayLeagueLevel": 1
     },
     {
@@ -131,7 +142,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 12,
+      "rank": 13,
       "displayLeagueLevel": 1
     },
     {
@@ -142,17 +153,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "rank": 13,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "e9T66G8SqHMCpzRV0lWrzjo94eA3",
-      "username": "Mehmet",
-      "score": 129428,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
       "rank": 14,
       "displayLeagueLevel": 1
     },
@@ -745,12 +745,12 @@
       "uid": "e9T66G8SqHMCpzRV0lWrzjo94eA3",
       "username": "Mehmet",
       "score": 0,
-      "leagueLevel": 1,
+      "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 26,
-      "displayLeagueLevel": 1
+      "displayLeagueLevel": 2
     },
     {
       "uid": "2vZhOVgjnOZhO8tczPBEvDRAHxf1",
