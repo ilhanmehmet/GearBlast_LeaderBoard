@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T08:19:33Z",
+  "updated_at": "2026-10-19T08:27:11Z",
   "total_players": 44,
   "classic_normal": [
     {
@@ -193,7 +193,7 @@
       "uid": "Vs9Ps7AS9hdUbHTfbmkuVrc35VH3",
       "username": "From",
       "score": 23790,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
@@ -701,7 +701,7 @@
       "uid": "Vs9Ps7AS9hdUbHTfbmkuVrc35VH3",
       "username": "From",
       "score": 0,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
@@ -1096,6 +1096,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "Vs9Ps7AS9hdUbHTfbmkuVrc35VH3",
+      "username": "From",
+      "score": 1,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 12,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "ZFAJc7jz5nVik0CybyF37Mivo653",
       "username": "Hüseyin",
       "score": 1,
@@ -1103,7 +1114,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 12,
+      "rank": 13,
       "displayLeagueLevel": 1
     },
     {
@@ -1114,7 +1125,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 13,
+      "rank": 14,
       "displayLeagueLevel": 1
     },
     {
@@ -1125,7 +1136,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 14,
+      "rank": 15,
       "displayLeagueLevel": 1
     },
     {
@@ -1136,7 +1147,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 15,
+      "rank": 16,
       "displayLeagueLevel": 1
     },
     {
@@ -1147,7 +1158,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 28,
-      "rank": 16,
+      "rank": 17,
       "displayLeagueLevel": 1
     },
     {
@@ -1158,7 +1169,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 17,
+      "rank": 18,
       "displayLeagueLevel": 1
     },
     {
@@ -1169,17 +1180,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 18,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "Vs9Ps7AS9hdUbHTfbmkuVrc35VH3",
-      "username": "From",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
       "rank": 19,
       "displayLeagueLevel": 1
     },
