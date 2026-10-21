@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T08:29:21Z",
-  "total_players": 65,
+  "updated_at": "2026-10-21T08:52:47Z",
+  "total_players": 66,
   "classic_normal": [
     {
       "uid": "m8lWXjxOq3XVr7wEVTG87Q4WkLD3",
@@ -696,6 +696,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "e7jCnBwkVDXvKuO8QOzZEjcis2Y2",
+      "username": "يىقصى",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "rank": 64,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "1Ccp3PcgArgWmFGmNEmkdYWSyzI3",
       "username": "すずきからん",
       "score": 0,
@@ -703,7 +714,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 64,
+      "rank": 65,
       "displayLeagueLevel": 1
     },
     {
@@ -714,7 +725,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 40,
-      "rank": 65,
+      "rank": 66,
       "displayLeagueLevel": 1
     }
   ],
@@ -1413,6 +1424,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "e7jCnBwkVDXvKuO8QOzZEjcis2Y2",
+      "username": "يىقصى",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "rank": 64,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "Mb4wYJEJKmMfRZ8DXrwAgBGSOdi1",
       "username": "둘째공주",
       "score": 0,
@@ -1420,7 +1442,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 40,
-      "rank": 64,
+      "rank": 65,
       "displayLeagueLevel": 1
     },
     {
@@ -1431,7 +1453,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 65,
+      "rank": 66,
       "displayLeagueLevel": 2
     }
   ],
@@ -2130,6 +2152,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "e7jCnBwkVDXvKuO8QOzZEjcis2Y2",
+      "username": "يىقصى",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 20,
+      "avatarId": 20,
+      "rank": 64,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "1Ccp3PcgArgWmFGmNEmkdYWSyzI3",
       "username": "すずきからん",
       "score": 0,
@@ -2137,7 +2170,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 64,
+      "rank": 65,
       "displayLeagueLevel": 1
     },
     {
@@ -2148,7 +2181,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 65,
+      "rank": 66,
       "displayLeagueLevel": 1
     }
   ]
