@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T01:18:57Z",
+  "updated_at": "2026-10-21T01:19:12Z",
   "total_players": 58,
   "classic_normal": [
     {
@@ -300,6 +300,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "xRLd2o2n3nTq9yEPNswNqNxXMUI3",
+      "username": "Gggcgvfffffffddddddddd",
+      "score": 107,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 9,
+      "avatarId": 9,
+      "rank": 28,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "dW9bEnYyUNZUQyj6bkFtoBVimZl2",
       "username": "5ttttgyyhuuuuu8",
       "score": 0,
@@ -307,7 +318,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 28,
+      "rank": 29,
       "displayLeagueLevel": 1
     },
     {
@@ -318,7 +329,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 29,
+      "rank": 30,
       "displayLeagueLevel": 1
     },
     {
@@ -329,7 +340,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 15,
-      "rank": 30,
+      "rank": 31,
       "displayLeagueLevel": 1
     },
     {
@@ -340,7 +351,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 8,
       "avatarId": 8,
-      "rank": 31,
+      "rank": 32,
       "displayLeagueLevel": 1
     },
     {
@@ -351,7 +362,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 50,
       "avatarId": 50,
-      "rank": 32,
+      "rank": 33,
       "displayLeagueLevel": 1
     },
     {
@@ -362,7 +373,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 33,
+      "rank": 34,
       "displayLeagueLevel": 1
     },
     {
@@ -373,7 +384,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 34,
+      "rank": 35,
       "displayLeagueLevel": 1
     },
     {
@@ -384,7 +395,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 28,
-      "rank": 35,
+      "rank": 36,
       "displayLeagueLevel": 1
     },
     {
@@ -395,17 +406,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 36,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "xRLd2o2n3nTq9yEPNswNqNxXMUI3",
-      "username": "Gggcgvfffffffddddddddd",
-      "score": 0,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 9,
-      "avatarId": 9,
       "rank": 37,
       "displayLeagueLevel": 1
     },
