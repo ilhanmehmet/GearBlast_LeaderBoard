@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T09:44:12Z",
+  "updated_at": "2026-10-21T09:44:38Z",
   "total_players": 66,
   "classic_normal": [
     {
@@ -256,6 +256,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "ItdVkGQIZKQqXwWtDTQuXYLcyEF2",
+      "username": "JHkkhdsZchklo",
+      "score": 4295,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 17,
+      "avatarId": 17,
+      "rank": 24,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "kst3G4T3grcoqML5abAUYi3309C3",
       "username": "Eleni",
       "score": 3470,
@@ -263,17 +274,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 24,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "ItdVkGQIZKQqXwWtDTQuXYLcyEF2",
-      "username": "JHkkhdsZchklo",
-      "score": 3027,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 17,
-      "avatarId": 17,
       "rank": 25,
       "displayLeagueLevel": 1
     },
@@ -1130,7 +1130,7 @@
       "uid": "ItdVkGQIZKQqXwWtDTQuXYLcyEF2",
       "username": "JHkkhdsZchklo",
       "score": 0,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
