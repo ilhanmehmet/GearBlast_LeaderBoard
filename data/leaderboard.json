@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T14:48:24Z",
+  "updated_at": "2026-10-22T14:51:46Z",
   "total_players": 79,
   "classic_normal": [
     {
@@ -49,13 +49,13 @@
     {
       "uid": "3inuoEp7arYYXGgcsXzuo6zLKQD3",
       "username": "1234567890",
-      "score": 3130502,
-      "leagueLevel": 3,
+      "score": 4935075,
+      "leagueLevel": 4,
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
       "rank": 5,
-      "displayLeagueLevel": 3
+      "displayLeagueLevel": 4
     },
     {
       "uid": "DchbMcg7pQaBpPSHkOFBYNZkEEX2",
@@ -347,7 +347,7 @@
       "uid": "IC8Cpu5pIdbrev747ptUPQzSJIH2",
       "username": "TyK",
       "score": 653,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
@@ -1119,12 +1119,12 @@
       "uid": "3inuoEp7arYYXGgcsXzuo6zLKQD3",
       "username": "1234567890",
       "score": 0,
-      "leagueLevel": 3,
+      "leagueLevel": 4,
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
       "rank": 23,
-      "displayLeagueLevel": 3
+      "displayLeagueLevel": 4
     },
     {
       "uid": "acKAXBByrPQ7Ny4PC307jPA7m4s1",
@@ -1515,7 +1515,7 @@
       "uid": "IC8Cpu5pIdbrev747ptUPQzSJIH2",
       "username": "TyK",
       "score": 0,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
