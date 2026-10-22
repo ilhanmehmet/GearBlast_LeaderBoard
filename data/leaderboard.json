@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T08:06:45Z",
+  "updated_at": "2026-10-22T08:42:45Z",
   "total_players": 75,
   "classic_normal": [
     {
@@ -1789,6 +1789,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "NKCWmdRNbabXnOo0mlHDMFrERS93",
+      "username": "ولظ",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 5,
+      "avatarId": 5,
+      "rank": 13,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "x3gE3WWQfKYGUrzdYWke0HB5j0I3",
       "username": "Agil",
       "score": 1,
@@ -1796,7 +1807,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 13,
+      "rank": 14,
       "displayLeagueLevel": 1
     },
     {
@@ -1807,7 +1818,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
-      "rank": 14,
+      "rank": 15,
       "displayLeagueLevel": 1
     },
     {
@@ -1818,7 +1829,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 15,
+      "rank": 16,
       "displayLeagueLevel": 1
     },
     {
@@ -1829,7 +1840,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 16,
+      "rank": 17,
       "displayLeagueLevel": 1
     },
     {
@@ -1840,7 +1851,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 30,
       "avatarId": 30,
-      "rank": 17,
+      "rank": 18,
       "displayLeagueLevel": 1
     },
     {
@@ -1851,17 +1862,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 18,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "NKCWmdRNbabXnOo0mlHDMFrERS93",
-      "username": "ولظ",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 5,
-      "avatarId": 5,
       "rank": 19,
       "displayLeagueLevel": 1
     },
