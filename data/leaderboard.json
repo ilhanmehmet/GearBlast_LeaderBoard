@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T16:05:05Z",
+  "updated_at": "2026-10-22T16:18:16Z",
   "total_players": 79,
   "classic_normal": [
     {
@@ -311,6 +311,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "IC8Cpu5pIdbrev747ptUPQzSJIH2",
+      "username": "TyK",
+      "score": 3481,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 14,
+      "avatarId": 14,
+      "rank": 29,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "kst3G4T3grcoqML5abAUYi3309C3",
       "username": "Eleni",
       "score": 3470,
@@ -318,7 +329,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 29,
+      "rank": 30,
       "displayLeagueLevel": 1
     },
     {
@@ -329,7 +340,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 30,
       "avatarId": 30,
-      "rank": 30,
+      "rank": 31,
       "displayLeagueLevel": 1
     },
     {
@@ -340,17 +351,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 31,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "IC8Cpu5pIdbrev747ptUPQzSJIH2",
-      "username": "TyK",
-      "score": 653,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 14,
-      "avatarId": 14,
       "rank": 32,
       "displayLeagueLevel": 1
     },
