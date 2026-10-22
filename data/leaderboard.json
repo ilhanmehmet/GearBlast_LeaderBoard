@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T14:42:55Z",
+  "updated_at": "2026-10-22T14:44:23Z",
   "total_players": 79,
   "classic_normal": [
     {
@@ -47,6 +47,17 @@
       "displayLeagueLevel": 4
     },
     {
+      "uid": "3inuoEp7arYYXGgcsXzuo6zLKQD3",
+      "username": "1234567890",
+      "score": 3130502,
+      "leagueLevel": 3,
+      "playstyleLevel": 0,
+      "profileAvatarId": 25,
+      "avatarId": 25,
+      "rank": 5,
+      "displayLeagueLevel": 3
+    },
+    {
       "uid": "DchbMcg7pQaBpPSHkOFBYNZkEEX2",
       "username": "Kadir86",
       "score": 935083,
@@ -54,24 +65,13 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 5,
+      "rank": 6,
       "displayLeagueLevel": 2
     },
     {
       "uid": "QyRgkvjr1Cdjv7kB2WipuesvOJo2",
       "username": "Hilal",
       "score": 534195,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 25,
-      "avatarId": 25,
-      "rank": 6,
-      "displayLeagueLevel": 2
-    },
-    {
-      "uid": "3inuoEp7arYYXGgcsXzuo6zLKQD3",
-      "username": "1234567890",
-      "score": 510556,
       "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 25,
@@ -1119,12 +1119,12 @@
       "uid": "3inuoEp7arYYXGgcsXzuo6zLKQD3",
       "username": "1234567890",
       "score": 0,
-      "leagueLevel": 2,
+      "leagueLevel": 3,
       "playstyleLevel": 0,
       "profileAvatarId": 25,
       "avatarId": 25,
       "rank": 23,
-      "displayLeagueLevel": 2
+      "displayLeagueLevel": 3
     },
     {
       "uid": "acKAXBByrPQ7Ny4PC307jPA7m4s1",
