@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T09:13:32Z",
+  "updated_at": "2026-10-23T09:23:31Z",
   "total_players": 80,
   "classic_normal": [
     {
@@ -102,6 +102,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "2vZhOVgjnOZhO8tczPBEvDRAHxf1",
+      "username": "Mert",
+      "score": 307578,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 8,
+      "avatarId": 8,
+      "rank": 10,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "pQ1lstpB3lhSx11eQEg4xCCZBi72",
       "username": "Huseyin",
       "score": 296200,
@@ -109,7 +120,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     },
     {
@@ -120,7 +131,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 11,
+      "rank": 12,
       "displayLeagueLevel": 1
     },
     {
@@ -131,7 +142,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 12,
+      "rank": 13,
       "displayLeagueLevel": 1
     },
     {
@@ -142,7 +153,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 8,
       "avatarId": 8,
-      "rank": 13,
+      "rank": 14,
       "displayLeagueLevel": 1
     },
     {
@@ -153,7 +164,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 14,
+      "rank": 15,
       "displayLeagueLevel": 1
     },
     {
@@ -164,7 +175,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 16,
       "avatarId": 16,
-      "rank": 15,
+      "rank": 16,
       "displayLeagueLevel": 1
     },
     {
@@ -175,7 +186,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "rank": 16,
+      "rank": 17,
       "displayLeagueLevel": 1
     },
     {
@@ -186,17 +197,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 42,
       "avatarId": 42,
-      "rank": 17,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "2vZhOVgjnOZhO8tczPBEvDRAHxf1",
-      "username": "Mert",
-      "score": 98629,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 8,
-      "avatarId": 8,
       "rank": 18,
       "displayLeagueLevel": 1
     },
