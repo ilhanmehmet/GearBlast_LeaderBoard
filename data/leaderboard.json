@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T07:05:51Z",
+  "updated_at": "2026-10-24T08:05:28Z",
   "total_players": 85,
   "classic_normal": [
     {
@@ -347,7 +347,7 @@
       "uid": "IC8Cpu5pIdbrev747ptUPQzSJIH2",
       "username": "TyK",
       "score": 3978,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
@@ -1625,7 +1625,7 @@
       "uid": "IC8Cpu5pIdbrev747ptUPQzSJIH2",
       "username": "TyK",
       "score": 0,
-      "leagueLevel": 1,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
