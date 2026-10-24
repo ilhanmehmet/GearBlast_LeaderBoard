@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T03:37:30Z",
+  "updated_at": "2026-10-24T03:39:00Z",
   "total_players": 84,
   "classic_normal": [
     {
@@ -201,6 +201,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "KG58XddJm3eyhHZNaGGS1ypH41f2",
+      "username": "RAFFFA224425",
+      "score": 67761,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 19,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "tOsu1POXxLh1h63zZZrRlXd5Ypx2",
       "username": "Ata",
       "score": 59468,
@@ -208,7 +219,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 19,
+      "rank": 20,
       "displayLeagueLevel": 1
     },
     {
@@ -219,7 +230,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 20,
+      "rank": 21,
       "displayLeagueLevel": 1
     },
     {
@@ -230,7 +241,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 5,
       "avatarId": 5,
-      "rank": 21,
+      "rank": 22,
       "displayLeagueLevel": 1
     },
     {
@@ -241,17 +252,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 22,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "KG58XddJm3eyhHZNaGGS1ypH41f2",
-      "username": "RAFFFA224425",
-      "score": 35452,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
       "rank": 23,
       "displayLeagueLevel": 1
     },
