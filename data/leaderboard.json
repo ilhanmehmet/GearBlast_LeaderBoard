@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T19:36:37Z",
+  "updated_at": "2026-10-25T19:38:01Z",
   "total_players": 92,
   "classic_normal": [
     {
@@ -311,6 +311,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "H0hS9YLDdWU6f2M8ynII8MrAoAu2",
+      "username": "هغوابثاثسباال",
+      "score": 7489,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 12,
+      "avatarId": 12,
+      "rank": 29,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "wzMr987OMmUeKarRQDuHkgwhZcD3",
       "username": "Qec go n",
       "score": 6424,
@@ -318,7 +329,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 39,
       "avatarId": 39,
-      "rank": 29,
+      "rank": 30,
       "displayLeagueLevel": 1
     },
     {
@@ -329,7 +340,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 8,
       "avatarId": 8,
-      "rank": 30,
+      "rank": 31,
       "displayLeagueLevel": 1
     },
     {
@@ -340,7 +351,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "rank": 31,
+      "rank": 32,
       "displayLeagueLevel": 1
     },
     {
@@ -351,17 +362,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 32,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "H0hS9YLDdWU6f2M8ynII8MrAoAu2",
-      "username": "هغوابثاثسباال",
-      "score": 3858,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 12,
-      "avatarId": 12,
       "rank": 33,
       "displayLeagueLevel": 1
     },
