@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T19:33:16Z",
+  "updated_at": "2026-10-25T19:36:37Z",
   "total_players": 92,
   "classic_normal": [
     {
@@ -355,6 +355,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "H0hS9YLDdWU6f2M8ynII8MrAoAu2",
+      "username": "هغوابثاثسباال",
+      "score": 3858,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 12,
+      "avatarId": 12,
+      "rank": 33,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "kst3G4T3grcoqML5abAUYi3309C3",
       "username": "Eleni",
       "score": 3470,
@@ -362,7 +373,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 33,
+      "rank": 34,
       "displayLeagueLevel": 1
     },
     {
@@ -373,7 +384,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 21,
       "avatarId": 21,
-      "rank": 34,
+      "rank": 35,
       "displayLeagueLevel": 1
     },
     {
@@ -384,7 +395,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 30,
       "avatarId": 30,
-      "rank": 35,
+      "rank": 36,
       "displayLeagueLevel": 1
     },
     {
@@ -395,17 +406,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 36,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "H0hS9YLDdWU6f2M8ynII8MrAoAu2",
-      "username": "هغوابثاثسباال",
-      "score": 650,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 12,
-      "avatarId": 12,
       "rank": 37,
       "displayLeagueLevel": 1
     },
