@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T15:03:49Z",
+  "updated_at": "2026-10-25T15:36:50Z",
   "total_players": 88,
   "classic_normal": [
     {
@@ -256,6 +256,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "IC8Cpu5pIdbrev747ptUPQzSJIH2",
+      "username": "TyK",
+      "score": 30345,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 14,
+      "avatarId": 14,
+      "rank": 24,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "Vs9Ps7AS9hdUbHTfbmkuVrc35VH3",
       "username": "From",
       "score": 23790,
@@ -263,7 +274,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 24,
+      "rank": 25,
       "displayLeagueLevel": 1
     },
     {
@@ -274,7 +285,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 25,
+      "rank": 26,
       "displayLeagueLevel": 1
     },
     {
@@ -285,7 +296,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "rank": 26,
+      "rank": 27,
       "displayLeagueLevel": 1
     },
     {
@@ -296,7 +307,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 26,
       "avatarId": 26,
-      "rank": 27,
+      "rank": 28,
       "displayLeagueLevel": 1
     },
     {
@@ -307,7 +318,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 39,
       "avatarId": 39,
-      "rank": 28,
+      "rank": 29,
       "displayLeagueLevel": 1
     },
     {
@@ -318,7 +329,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 8,
       "avatarId": 8,
-      "rank": 29,
+      "rank": 30,
       "displayLeagueLevel": 1
     },
     {
@@ -329,7 +340,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "rank": 30,
+      "rank": 31,
       "displayLeagueLevel": 1
     },
     {
@@ -340,17 +351,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 31,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "IC8Cpu5pIdbrev747ptUPQzSJIH2",
-      "username": "TyK",
-      "score": 3978,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 14,
-      "avatarId": 14,
       "rank": 32,
       "displayLeagueLevel": 1
     },
@@ -1680,7 +1680,7 @@
       "uid": "IC8Cpu5pIdbrev747ptUPQzSJIH2",
       "username": "TyK",
       "score": 0,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 14,
       "avatarId": 14,
