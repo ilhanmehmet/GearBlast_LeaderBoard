@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T19:02:00Z",
+  "updated_at": "2026-10-27T19:02:38Z",
   "total_players": 97,
   "classic_normal": [
     {
@@ -963,7 +963,7 @@
       "uid": "1azKm8e0B4hBYBju7AVe66XVKVL2",
       "username": "roro hm",
       "score": 0,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 45,
       "avatarId": 45,
@@ -1226,6 +1226,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "1azKm8e0B4hBYBju7AVe66XVKVL2",
+      "username": "roro hm",
+      "score": 35,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 45,
+      "avatarId": 45,
+      "rank": 15,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "kbONBJglSKf9VMxpBXQ7rfIQEJh2",
       "username": "01116043656",
       "score": 32,
@@ -1233,7 +1244,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 6,
       "avatarId": 6,
-      "rank": 15,
+      "rank": 16,
       "displayLeagueLevel": 1
     },
     {
@@ -1244,17 +1255,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 16,
       "avatarId": 16,
-      "rank": 16,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "1azKm8e0B4hBYBju7AVe66XVKVL2",
-      "username": "roro hm",
-      "score": 32,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 45,
-      "avatarId": 45,
       "rank": 17,
       "displayLeagueLevel": 1
     },
