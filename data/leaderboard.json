@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T12:37:46Z",
+  "updated_at": "2026-10-28T12:40:23Z",
   "total_players": 100,
   "classic_normal": [
     {
@@ -311,6 +311,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "acKAXBByrPQ7Ny4PC307jPA7m4s1",
+      "username": "BAD MAN",
+      "score": 14392,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 16,
+      "avatarId": 16,
+      "rank": 29,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "o67OQNDZx1eptJhHzLUjjGoHmEi1",
       "username": "زةس",
       "score": 13671,
@@ -318,7 +329,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "rank": 29,
+      "rank": 30,
       "displayLeagueLevel": 1
     },
     {
@@ -329,7 +340,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 30,
+      "rank": 31,
       "displayLeagueLevel": 1
     },
     {
@@ -340,7 +351,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "rank": 31,
+      "rank": 32,
       "displayLeagueLevel": 1
     },
     {
@@ -351,7 +362,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 26,
       "avatarId": 26,
-      "rank": 32,
+      "rank": 33,
       "displayLeagueLevel": 1
     },
     {
@@ -362,7 +373,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 45,
       "avatarId": 45,
-      "rank": 33,
+      "rank": 34,
       "displayLeagueLevel": 1
     },
     {
@@ -373,7 +384,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 8,
       "avatarId": 8,
-      "rank": 34,
+      "rank": 35,
       "displayLeagueLevel": 1
     },
     {
@@ -384,17 +395,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 39,
       "avatarId": 39,
-      "rank": 35,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "acKAXBByrPQ7Ny4PC307jPA7m4s1",
-      "username": "BAD MAN",
-      "score": 4982,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 16,
-      "avatarId": 16,
       "rank": 36,
       "displayLeagueLevel": 1
     },
