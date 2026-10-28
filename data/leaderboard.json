@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T04:50:10Z",
+  "updated_at": "2026-10-28T04:51:44Z",
   "total_players": 100,
   "classic_normal": [
     {
@@ -366,6 +366,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "6xXI2uSaYxaoO5slJQYTkhgMXUo2",
+      "username": "Kft",
+      "score": 6453,
+      "leagueLevel": 1,
+      "playstyleLevel": 0,
+      "profileAvatarId": 8,
+      "avatarId": 8,
+      "rank": 34,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "wzMr987OMmUeKarRQDuHkgwhZcD3",
       "username": "Qec go n",
       "score": 6424,
@@ -373,7 +384,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 39,
       "avatarId": 39,
-      "rank": 34,
+      "rank": 35,
       "displayLeagueLevel": 1
     },
     {
@@ -384,7 +395,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 8,
       "avatarId": 8,
-      "rank": 35,
+      "rank": 36,
       "displayLeagueLevel": 1
     },
     {
@@ -395,7 +406,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 19,
       "avatarId": 19,
-      "rank": 36,
+      "rank": 37,
       "displayLeagueLevel": 1
     },
     {
@@ -406,17 +417,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 17,
       "avatarId": 17,
-      "rank": 37,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "6xXI2uSaYxaoO5slJQYTkhgMXUo2",
-      "username": "Kft",
-      "score": 3622,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 8,
-      "avatarId": 8,
       "rank": 38,
       "displayLeagueLevel": 1
     },
