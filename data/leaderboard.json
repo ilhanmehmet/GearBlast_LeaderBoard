@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T10:20:35Z",
+  "updated_at": "2026-10-31T11:02:54Z",
   "total_players": 102,
   "classic_normal": [
     {
@@ -61,7 +61,7 @@
       "uid": "DchbMcg7pQaBpPSHkOFBYNZkEEX2",
       "username": "Kadir86",
       "score": 1024705,
-      "leagueLevel": 0,
+      "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
@@ -1746,12 +1746,12 @@
       "uid": "DchbMcg7pQaBpPSHkOFBYNZkEEX2",
       "username": "Kadir86",
       "score": 0,
-      "leagueLevel": 0,
+      "leagueLevel": 2,
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 57,
-      "displayLeagueLevel": 1
+      "displayLeagueLevel": 2
     },
     {
       "uid": "8cLOpMVacbh5tEqyO5ZKcmXKxRh2",
