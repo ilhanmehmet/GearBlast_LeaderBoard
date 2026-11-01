@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T17:15:13Z",
+  "updated_at": "2026-11-01T17:17:20Z",
   "total_players": 99,
   "classic_normal": [
     {
@@ -190,6 +190,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "OGhTcc1jmJMMKH7cBQM2bBmhaQa2",
+      "username": "Alex",
+      "score": 127201,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "rank": 18,
+      "displayLeagueLevel": 2
+    },
+    {
       "uid": "lbfIxVqwtJdkQjptA5dFmnuzLzE2",
       "username": "Jie diaz",
       "score": 104222,
@@ -197,7 +208,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 42,
       "avatarId": 42,
-      "rank": 18,
+      "rank": 19,
       "displayLeagueLevel": 1
     },
     {
@@ -208,7 +219,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 19,
+      "rank": 20,
       "displayLeagueLevel": 1
     },
     {
@@ -219,7 +230,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 12,
       "avatarId": 12,
-      "rank": 20,
+      "rank": 21,
       "displayLeagueLevel": 1
     },
     {
@@ -230,7 +241,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 21,
+      "rank": 22,
       "displayLeagueLevel": 1
     },
     {
@@ -241,7 +252,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 22,
+      "rank": 23,
       "displayLeagueLevel": 1
     },
     {
@@ -252,7 +263,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 16,
       "avatarId": 16,
-      "rank": 23,
+      "rank": 24,
       "displayLeagueLevel": 1
     },
     {
@@ -263,7 +274,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 24,
+      "rank": 25,
       "displayLeagueLevel": 1
     },
     {
@@ -274,7 +285,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 25,
+      "rank": 26,
       "displayLeagueLevel": 1
     },
     {
@@ -285,19 +296,8 @@
       "playstyleLevel": 0,
       "profileAvatarId": 18,
       "avatarId": 18,
-      "rank": 26,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "OGhTcc1jmJMMKH7cBQM2bBmhaQa2",
-      "username": "Alex",
-      "score": 32892,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
       "rank": 27,
-      "displayLeagueLevel": 2
+      "displayLeagueLevel": 1
     },
     {
       "uid": "Vs9Ps7AS9hdUbHTfbmkuVrc35VH3",
