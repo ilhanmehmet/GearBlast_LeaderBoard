@@ -1,7 +1,43 @@
 {
-  "updated_at": "2026-11-01T21:56:17Z",
-  "total_players": 0,
-  "classic_normal": [],
-  "adventure": [],
-  "gearzone": []
+  "updated_at": "2026-11-01T21:57:31Z",
+  "total_players": 1,
+  "classic_normal": [
+    {
+      "uid": "OGhTcc1jmJMMKH7cBQM2bBmhaQa2",
+      "username": "Alexi",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "rank": 1,
+      "displayLeagueLevel": 1
+    }
+  ],
+  "adventure": [
+    {
+      "uid": "OGhTcc1jmJMMKH7cBQM2bBmhaQa2",
+      "username": "Alexi",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "rank": 1,
+      "displayLeagueLevel": 1
+    }
+  ],
+  "gearzone": [
+    {
+      "uid": "OGhTcc1jmJMMKH7cBQM2bBmhaQa2",
+      "username": "Alexi",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 13,
+      "avatarId": 13,
+      "rank": 1,
+      "displayLeagueLevel": 1
+    }
+  ]
 }
