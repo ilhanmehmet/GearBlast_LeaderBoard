@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GearBlast – Global Liderlik Tablosu</title>
-<meta name="description" content="GearBlast oyununun global liderlik tablosu. Tüm oyuncuların sıralamasını görün.">
+<meta name="description" content="Gear Blast global liderlik tablosu: Klasik, Macera ve Dişli Bölgesi sıralamaları, oyun kuralları ve rehber. İnternetsiz de oynanır.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -157,21 +157,27 @@
     background: transparent;
   }
   .mode-tab[data-mode="classic_normal"] { color: var(--blue);   border-color: var(--blue); }
-  .mode-tab[data-mode="classic_timed"]  { color: var(--accent); border-color: var(--accent); }
   .mode-tab[data-mode="adventure"]      { color: var(--green);  border-color: var(--green); }
+  .mode-tab[data-mode="gearzone"]       { color: #1fbdaa;       border-color: #1fbdaa; }
 
   .mode-tab[data-mode="classic_normal"].active {
     background: var(--blue); color: #fff;
     box-shadow: 0 0 18px rgba(74, 184, 240, 0.55);
   }
-  .mode-tab[data-mode="classic_timed"].active {
-    background: var(--accent); color: #fff;
-    box-shadow: 0 0 18px rgba(240, 160, 48, 0.55);
-  }
   .mode-tab[data-mode="adventure"].active {
     background: var(--green); color: #000;
     box-shadow: 0 0 18px rgba(61, 232, 112, 0.6);
   }
+  .mode-tab[data-mode="gearzone"].active {
+    background: #1fbdaa; color: #000;
+    box-shadow: 0 0 18px rgba(31, 189, 170, 0.6);
+  }
+
+  /* Gear Zone: the character the player runs with */
+  .gz-char { width: 52px; height: 52px; object-fit: contain; display: block; margin: 4px auto; }
+  .lb-row .gz-char-wrap .gz-char { width: 44px; height: 44px; margin: 0; }
+  .gz-lines { line-height: 1.25; text-align: right; }
+  .podium-card .gz-lines { text-align: center; }
   .mode-tab:active { transform: scale(0.97); }
 
   /* ─── SEARCH ─── */
@@ -429,13 +435,13 @@
     <!-- MODE TABS -->
     <div class="mode-tabs">
       <button class="mode-tab active" data-mode="classic_normal">
-        <span data-tr="Klasik Normal"  data-en="Classic Normal">Klasik Normal</span>
-      </button>
-      <button class="mode-tab"        data-mode="classic_timed">
-        <span data-tr="Klasik Süre"   data-en="Classic Timed">Klasik Süre</span>
+        <span data-tr="Klasik"  data-en="Classic">Klasik</span>
       </button>
       <button class="mode-tab"        data-mode="adventure">
         <span data-tr="Macera"       data-en="Adventure">Macera</span>
+      </button>
+      <button class="mode-tab"        data-mode="gearzone">
+        <span data-tr="Dişli Bölgesi" data-en="Gear Zone">Dişli Bölgesi</span>
       </button>
     </div>
 
@@ -466,12 +472,48 @@
       <!-- Türkçe Rehber -->
       <div id="rules-lang-tr" style="display: none;">
         <div class="rules-section">
-          <h2>📖 Gear Blast Nasıl Oynanır?</h2>
-          <p>Gear Blast, renkli dişlilerden oluşanblokları ızgaraya yerleştirerek satır ve sütunları temizlediğiniz, skor topladığınız ve diğer oyuncularla yarıştığınız bir bulmaca oyunudur. Kurallar basit; ustalaşmak ise strateji ister.</p>
+          <h2>📖 Gear Blast Nedir?</h2>
+          <p>Gear Blast, dişli temalı bir bulmaca ve bölge fethetme oyunudur. Üç modu vardır: <strong>Klasik</strong>, <strong>Macera</strong> ve <strong>Dişli Bölgesi</strong>. Her mod için ayrı bir skor tablosu bulunur; kullanıcı adınız ve avatarınızla dünya genelindeki oyuncularla yarışırsınız.</p>
         </div>
 
         <div class="rules-section">
-          <h2>⚙️ Temel Oynanış</h2>
+          <h2>🎯 Neden Gear Blast?</h2>
+          <ul>
+            <li><span class="icon">🎲</span> <strong>Sıfır şans, saf strateji:</strong> Her hamle sizin kararınız.</li>
+        <li><span class="icon">🧠</span> <strong>Akıllı parça sistemi:</strong> Bloklar tahtanıza uyum sağlar; oyun, siz stratejik bir hata yapana kadar bitmez.</li>
+        <li><span class="icon">📼</span> <strong>VAR (Hata Analizi):</strong> Sıkıştığınızda oyun hemen bitmez; son hamleleriniz geri sarılır, hatanız gösterilir ve kaldığınız yerden devam edebilirsiniz.</li>
+        <li><span class="icon">↩️</span> <strong>Geri Al:</strong> Klasik modda son hamlenizi geri alırsınız.</li>
+        <li><span class="icon">📴</span> <strong>İnternetsiz oynanır:</strong> Klasik, Macera ve Dişli Bölgesi internet olmadan çalışır; yalnızca skor tabloları için çevrimiçi olmanız gerekir.</li>
+        <li><span class="icon">💰</span> <strong>Cüzdan ve anahtar sekmesi:</strong> altın, mücevher ve anahtarlarınız her an elinizin altında.</li>
+        <li><span class="icon">🏅</span> <strong>Lig sistemi:</strong> 5 lig, ligden düşme yok.</li>
+        <li><span class="icon">👤</span> <strong>60'tan fazla avatar</strong> ve profil oluşturmadan da oynayabilme.</li>
+        <li><span class="icon">🌐</span> <strong>40'tan fazla dil</strong> ve 3 hamlelik hızlı eğitim.</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
+          <h2>🚀 İlk Adımlar</h2>
+          <ul>
+            <li><span class="icon">1️⃣</span> Uygulamayı açın. Oyun dilinizi otomatik seçer (ayarlardan değiştirilebilir).</li>
+            <li><span class="icon">2️⃣</span> Gizlilik ve veri kullanımı için kısa bir onay verin.</li>
+            <li><span class="icon">3️⃣</span> Kullanıcı adınızı (3–22 karakter) ve avatarınızı seçin; skor tablosunda bu isimle görünürsünüz.</li>
+            <li><span class="icon">4️⃣</span> Ana menüden oynamak istediğiniz modu seçin.</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
+          <h2>🏠 Ana Menü</h2>
+          <ul>
+            <li><span class="icon">👤</span> <strong>Profil kartı:</strong> avatarınız ve kullanıcı adınız.</li>
+            <li><span class="icon">💰</span> <strong>Cüzdan ve anahtar sekmesi:</strong> altın, mücevher ve anahtar sayınız.</li>
+            <li><span class="icon">🏆</span> <strong>Skor tablosu:</strong> üç mod için sıralamalar ve Global Liste.</li>
+            <li><span class="icon">🎮</span> <strong>Klasik, Macera, Dişli Bölgesi:</strong> üç oyun modu.</li>
+            <li><span class="icon">🛒</span> Alt sıradaki simgeler: mağaza, profil, ayarlar ve arşiv (rozetler ve istatistikler).</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
+          <h2>⚙️ Temel Oynanış (Klasik ve Macera)</h2>
           <p>Her turda ekranın altında 3 parça görürsünüz. Bir parçayı parmağınızla sürükleyip ızgaraya bırakırsınız. Parça yerleştiğinde:</p>
           <ul>
             <li><span class="icon">🔹</span> Tam dolan satır veya sütunlar patlar ve puan kazanırsınız.</li>
@@ -482,115 +524,55 @@
         </div>
 
         <div class="rules-section">
-          <h2>🚀 İlk Adımlar</h2>
-          <ul>
-            <li><span class="icon">1️⃣</span> Uygulamayı açın.</li>
-            <li><span class="icon">2️⃣</span> Kullanıcı adınızı ve avatarınızı seçin (skor tablosunda bu isimle görünürsünüz).</li>
-            <li><span class="icon">3️⃣</span> Ana menüden oynamak istediğiniz modu seçin.</li>
-            <li><span class="icon">4️⃣</span> Parçaları sürükleyip bırakarak oynamaya başlayın.</li>
-          </ul>
-        </div>
-
-        <div class="rules-section">
-          <h2>🎮 Oyun Modları</h2>
+          <h2>🎮 Üç Oyun Modu</h2>
+          <div class="tip-card" style="border-left-color: var(--accent); margin-bottom: 12px;">
+            <div class="tip-title" style="color: var(--accent);">🔑 Oyna, anahtar kazan, dünyanın kilidini aç</div>
+            <p>Klasik ve Macera'da oynadıkça anahtar, altın ve mücevher kazanırsınız; hepsi cüzdanınıza gider. Anahtarlarla Dişli Bölgesi haritasındaki yeni şehirlerin kilidini açarsınız. Ne kadar çok oynarsanız dünya o kadar açılır.</p>
+          </div>
           <div class="tip-cards">
-            <div class="tip-card">
-              <div class="tip-title">Macera Modu</div>
-              <p>3000 bölümlük bir haritada ilerlersiniz. Süre veya hamle sınırı yoktur. Üstteki renk barlarını doldurarak veya engel taşlarını temizleyerek bölümü tamamlarsınız. Belirli bölümlerde nadir robotlar kazanarak koleksiyonunuzu büyütürsünüz. Rahat tempoda, hikâye odaklı oynamak isteyenler için idealdir.</p>
+            <div class="tip-card" style="border-left-color: var(--blue);">
+              <div class="tip-title" style="color: var(--blue);">Klasik</div>
+              <p><strong>Süre sınırı olmayan saf skor oyunu.</strong> Kombo zinciri kurar, kombo bataryasını doldurur ve girdap patlamalarını tetiklersiniz. Yüksek kombo zincirlerinde robot ve sandık kazanırsınız. Undo (geri al) hakları bu modda aktiftir. En yüksek skorunuz skor tablosuna yazılır ve lig rozetinizi belirler. Kazandığınız her puan sizi bir sonraki harita anahtarına yaklaştırır.</p>
             </div>
-            <div class="tip-card">
-              <div class="tip-title">Klasik Normal Mod</div>
-              <p>Sınırsız skor ve level sistemi vardır. Temizlemelerle combo sayacını doldurup buz çerçevesini kırarak level atlarsınız. Her level geçişinde 60 saniyelik bonus turu teklif edilir; bonus turunda skor çarpanı yükselir ve ızgara hareket eder. En yüksek skorunuz skor tablosuna yazılır; lig rozetleri ve meydan okuma bu modda aktiftir.</p>
+            <div class="tip-card" style="border-left-color: var(--green);">
+              <div class="tip-title" style="color: var(--green);">Macera</div>
+              <p>3000 bölümlük bir haritada ilerlersiniz. Üstteki renk barlarını doldurarak veya engel taşlarını temizleyerek bölümü tamamlarsınız. Bölümler ilerledikçe nadir robotlar kazanarak koleksiyonunuzu büyütürsünüz. Skor tablosunda en yüksek bölümünüz yarışır. Bölüm geçtikçe harita anahtarı kazanırsınız.</p>
             </div>
-            <div class="tip-card">
-              <div class="tip-title">Klasik Zamanlı Mod</div>
-              <p>Süre baskısı vardır. İlk parçayı tuttuğunuzda sayaç başlar. Her üç parçayı bitirdiğinizde süre kısmen yenilenir (genelde birkaç saniye). Süre dolmadan veya ızgara kilitlenmeden mümkün olduğunca çok puan toplamanız gerekir. Hızlı refleks ve kısa hamle planı sevenler için uygundur.</p>
-            </div>
-            <div class="tip-card" style="border-left-color: var(--accent);">
-              <div class="tip-title" style="color: var(--accent);">Meydan Okuma</div>
-              <p>Başka bir oyuncunun skorunu aynı oturumda geçmeye çalıştığınız rekabet modudur. Klasik Normal veya Klasik Zamanlı’da oynanır. Hedef skora ulaştığınız an kazanırsınız. Kazanırsanız rakibin puanı size geçer; kaybederseniz ciddi sonuçlar doğabilir — bu yüzden meydan okumadan önce kuralları okumanız önerilir.</p>
+            <div class="tip-card" style="border-left-color: #1fbdaa;">
+              <div class="tip-title" style="color: #1fbdaa;">Dişli Bölgesi</div>
+              <p>Dünya haritasında bir ülke, ardından bir şehir seçip rakiplerle dolu arenaya girersiniz. Robotunuzla kendi alanınızdan çıkıp geri dönerek yeni toprak kazanırsınız. Haritanın tamamını boyayan şehri bitirmiş olursunuz. Skorunuz bitirdiğiniz <strong>ülke</strong> ve <strong>şehir</strong> sayısıdır. Klasik ve Macera'da kazandığınız anahtarlarla yeni şehirlerin kilidini açarsınız.</p>
             </div>
           </div>
         </div>
 
         <div class="rules-section">
-          <h2>⚔️ Meydan Okuma Kuralları</h2>
-          <ul id="challenge-rules-list-tr">
-            <li style="margin-bottom: 12px; line-height: 1.6; color: var(--text2); font-weight: bold; color: var(--accent);">
-              <span>"CANLI Meydan okuma Duello için bildirim izni ve internet erişimin açık olmalı"</span>
-            </li>
-            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #3de870; display: flex; align-items: center; gap: 8px;">
-              <span class="icon">🐔</span>
-              <span>Meydan okuduğun rakibini duelloda yenersen,</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2);">
-              <span>Rakibinin Avatarı Yolunmuş "TAVUK AVATARI" Olur ve Puanı sıfırlanır,</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2);">
-              <span>Rakibinin Tüm Puanı senin Hanene yazılır ve Ligden düşer</span>
-            </li>
-            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #ff4a4a; display: flex; align-items: center; gap: 8px;">
-              <span class="icon">⚠️</span>
-              <span>Eğer rakibini yenemezsen, ya da rakibin seni yenerse,</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2);">
-              <span>Senin Avatarın Yolunmuş "TAVUK AVATARI" Olur ve Puanın sıfırlanır,</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2);">
-              <span>Tüm Puanın Rakibinin hanesine yazılır ve Ligden düşersin</span>
-            </li>
-            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #ffd700; display: flex; align-items: center; gap: 8px;">
-              <span class="icon">✨</span>
-              <span>TAVUK AVATARINDAN KURTULMAK İÇİN YAPMAN GEREKEN</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">•</span>
-              <span>Üç saatin sonunda tavuk avatarından kurtulursun ve avatarını geri alırsın</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">•</span>
-              <span>Reklam izleyerek kurtulursun</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">•</span>
-              <span>Macera modunda en az iki bölüm geçersen kurtulursun</span>
-            </li>
-            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #4ab8f0; display: flex; align-items: center; gap: 8px;">
-              <span class="icon">🎮</span>
-              <span>CANLI DUELLO KURALLARI:</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>Meydan okumayı kabul etmelisin ya da rakibin kabul etmeli; 30 saniye içinde cevaplamalısın ya da rakibin cevaplamalı</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>Duelloda Klasik Normal ve Zamanlı kuralları geçerlidir</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>Duello başladığında oyundan çıkarsan kaybedersin; uygulamayı kapatırsan ve arka plana alırsan da kaybedersin</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>Duelloda ilk elenen kaybeder</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>Duelloyu kazandığında oynamaya devam edebilirsin</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>Duelloya aynı anda canlı olarak rakibinle başlarsın</span>
-            </li>
-            <li style="margin-bottom: 12px; line-height: 1.6; color: #ff4a4a; font-weight: bold; margin-top: 15px;">
-              <span>"Unutma, Tavuk Avatarın varsa meydan okuyup duello yapamazsın"</span>
-            </li>
+          <h2>🌍 Dişli Bölgesi Rehberi</h2>
+          <ul>
+            <li><span class="icon">🧭</span> <strong>Arena:</strong> Robotunuzu parmağınızla yönlendirirsiniz. Kendi alanınızdan çıkıp bir döngü çizerek geri dönerseniz içerdeki toprak sizin olur. Çizdiğiniz iz kesilirse elenirsiniz; rakiplerin izini keserek onları da eleyebilirsiniz.</li>
+            <li><span class="icon">❤️</span> <strong>Canlanma:</strong> Bir turda en fazla 3 kez, reklam izleyerek kaldığınız yerden devam edebilirsiniz. Teklif, elenirken haritanın en az %60'ı sizdeyse çıkar.</li>
+            <li><span class="icon">🔑</span> <strong>Harita anahtarları:</strong> Ülkeler baştan açıktır; şehirler kilitlidir. Bir şehri 1–5 anahtarla (şehrin büyüklüğüne göre), 20 mücevherle ya da 10.000 altınla açarsınız. Başlangıçta kendi ülkenizin en küçük şehri açıktır.</li>
+            <li><span class="icon">🗝️</span> <strong>Anahtar kazanma:</strong> Klasik'te ilk anahtar 25.000 puanda gelir, sonrakiler her seferinde 10.000 puan daha fazladır. Macera'da ilk kez geçtiğiniz tek numaralı bölümler (1, 3, 5, 7...) birer anahtar verir. Günlük görevler ve ücretsiz sandık da anahtar verebilir.</li>
+            <li><span class="icon">🪙</span> <strong>Altın ve mücevher:</strong> Arenada toplanır; tur sonunda ve şehir bitirince ödüller de cüzdanınıza eklenir. Günlük giriş bonusu 7 günlük seri halindedir; her gün 4 günlük görev yenilenir.</li>
+            <li><span class="icon">🤖</span> <strong>Karakterler:</strong> 70 karakter vardır (robotlar ve hayvanlar). Bir kısmı ilerledikçe açılır, bir kısmı altın ya da mücevherle alınır. Seçtiğiniz karakter skor tablosunda adınızın yanında görünür.</li>
+            <li><span class="icon">🛴</span> <strong>Araçlar:</strong> 40 araç (10 tür, 4 sürüm). Her biri hız, mıknatıs veya altın bonusu verir.</li>
+            <li><span class="icon">⚡</span> <strong>Skiller:</strong> Kalkan, Hız, Atılma, Şok Dalgası, Boya Bombası ve Mıknatıs. Altınla yükseltilir; her seviye +%5 güç verir, toplam en fazla +%50.</li>
+            <li><span class="icon">🎁</span> <strong>Sandıklar:</strong> Ücretsiz sandık 4 saatte bir açılır (reklam izleyerek 1 saat kısaltılır). Altın ve mücevherle alınan sandıklar vardır; içerik olasılıkları sandık kartında yazar.</li>
+            <li><span class="icon">💾</span> Dişli Bölgesi ilerlemeniz (altın, mücevher, karakterler, araçlar) cihazınızda saklanır. Skorunuz skor tablosuna gönderilir.</li>
           </ul>
         </div>
 
         <div class="rules-section">
-          <h2>⏸️ Ekran &amp; Duraklat Menüsü</h2>
+          <h2>🔄 Kilitlenme, Hata Analizi ve Canlandırma (Klasik ve Macera)</h2>
+          <p>Izgarada hamle kalmadığında oyun biter. Ardından şu adımlar izlenir:</p>
+          <ul>
+            <li><span class="icon">🔍</span> <strong>Hata Analizi:</strong> Son hamleleriniz incelenir, yanlış yerleşimler ve doğru alternatifler gösterilir.</li>
+            <li><span class="icon">❤️</span> <strong>Canlandırma:</strong> Bir oyunda en fazla 4 kez canlanabilirsiniz (reklam izleyerek ya da reklamsız paketle).</li>
+            <li><span class="icon">🏁</span> Canlanma hakkı bittiğinde doğrudan oyun sonu ekranına gidersiniz.</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
+          <h2>⏸️ Duraklat Menüsü</h2>
           <p>Oyun ortasında oyunu duraklattığınızda şu seçenekleri görürsünüz:</p>
           <ul>
             <li><span class="icon">▶️</span> <strong>Devam:</strong> Oyuna geri dön.</li>
@@ -602,35 +584,35 @@
         </div>
 
         <div class="rules-section">
-          <h2>🔄 Kilitlenme, Hata Analizi ve Canlandırma</h2>
-          <p>Izgarada hamle kalmadığında veya süre dolduğunda oyun biter. Ardından şu adımlar izlenir:</p>
-          <ul>
-            <li><span class="icon">🔍</span> <strong>Hata Analizi:</strong> Son hamleleriniz incelenir, yanlış yerleşimler ve doğru alternatifler gösterilir.</li>
-            <li><span class="icon">❤️</span> <strong>Canlandırma:</strong> Bir oturumda en fazla 2 kez canlanabilirsiniz (reklam veya reklamsız paketle).</li>
-            <li><span class="icon">🏁</span> Canlanma hakkı bittiğinde doğrudan oyun sonu ekranına gidersiniz.</li>
-          </ul>
-        </div>
-
-        <div class="rules-section">
           <h2>📊 Skor Tablosu ve Global Liste</h2>
-          <p>Oyun bittiğinde skorunuz otomatik olarak skor tablosuna gönderilir. Üç mod için ayrı sıralama vardır:</p>
+          <p>Skorunuz otomatik olarak skor tablosuna gönderilir. Üç mod için ayrı sıralama vardır:</p>
           <ul>
-            <li><span class="icon">🔹</span> Klasik Normal</li>
-            <li><span class="icon">🔹</span> Klasik Süre</li>
-            <li><span class="icon">🔹</span> Macera (en yüksek bölüm)</li>
+            <li><span class="icon">🔹</span> <strong>Klasik:</strong> en yüksek skor; lig rozetiniz görünür.</li>
+            <li><span class="icon">🔹</span> <strong>Macera:</strong> en yüksek bölüm.</li>
+            <li><span class="icon">🔹</span> <strong>Dişli Bölgesi:</strong> bitirdiğiniz ülke ve şehir sayısı; seçtiğiniz karakter listede görünür.</li>
           </ul>
-          <p style="margin-top: 10px;">Ana menüden veya web sitesindeki Global Liste’den dünya genelindeki oyuncuları görebilirsiniz.</p>
+          <p style="margin-top: 10px;">Ana menüden veya bu sitedeki Global Liste'den dünya genelindeki oyuncuları görebilirsiniz.</p>
         </div>
 
         <div class="rules-section">
-          <h2>🎖️ Lig Rozetleri &amp; Başarımlar</h2>
-          <p>En yüksek skorunuza göre lig seviyeniz belirlenir: <strong>Bronz, Gümüş, Altın, Platin ve Elmas</strong>. Ligler kalıcıdır ve düşmez (tavuk cezası hariç). Mod 1.'si ise geçici <strong>Şampiyon</strong> rozetini taşır.</p>
+          <h2>🎖️ Lig Rozetleri &amp; Arşiv</h2>
+          <p>Klasik moddaki en yüksek skorunuza göre lig seviyeniz belirlenir: <strong>Bronz, Gümüş, Altın, Platin ve Elmas</strong>. Ligler kalıcıdır ve düşmez. Mod 1.'si ise geçici <strong>Şampiyon</strong> rozetini taşır.</p>
           <ul id="badge-list-tr" style="margin-bottom: 12px;"></ul>
-          
+
           <div class="tip-card" style="margin-top: 12px;">
-            <div class="tip-title">24 Kalıcı Arşiv Rozeti</div>
-            <p>Arşiv ekranında biriken 24 adet rozet kademeli olarak (bronz → gümüş → altın → mor...) açılır. Günlük giriş, toplam oyun süresi, combo rekorları ve meydan okuma sayılarına göre otomatik verilir.</p>
+            <div class="tip-title">Arşiv</div>
+            <p>Arşiv ekranında Klasik, Macera ve Dişli Bölgesi için istatistiklerinizi ve kalıcı rozetlerinizi görürsünüz. Rozetler günlük giriş, toplam oyun süresi, combo rekorları ve tamamladığınız ülke ve şehir sayısı gibi başarılara göre kademeli olarak açılır.</p>
           </div>
+        </div>
+
+        <div class="rules-section">
+          <h2>🛒 Mağaza</h2>
+          <ul>
+            <li><span class="icon">💎</span> <strong>Mücevher paketleri:</strong> gerçek parayla alınır; Dişli Bölgesi'nde karakter, araç, sandık ve şehir kilidi açmak için kullanılır.</li>
+            <li><span class="icon">🪙</span> <strong>Altın paketleri:</strong> mücevherle alınır (50 mücevher = 50.000 altın).</li>
+            <li><span class="icon">🚫</span> <strong>Reklamsız oyna</strong> paketi ve <strong>geri alma</strong> paketleri.</li>
+            <li><span class="icon">✏️</span> <strong>Kullanıcı adı değiştirme</strong> paketi.</li>
+          </ul>
         </div>
 
         <div class="rules-section">
@@ -639,9 +621,9 @@
             <li><span class="icon">🔹</span> Köşeleri ve kenarları mümkün olduğunca boş bırakın; ortada sıkışmak kolaydır.</li>
             <li><span class="icon">🔹</span> Büyük parçalar gelmeden önce düz satır/sütun hazırlamaya çalışın.</li>
             <li><span class="icon">🔹</span> Combo zincirini kırmamak için tek hamlede birden fazla temizlik hedefleyin.</li>
-            <li><span class="icon">🔹</span> Klasik Normal’de bonus turu, skorunuzu hızla yükseltmenin en iyi fırsatıdır.</li>
-            <li><span class="icon">🔹</span> Macera’da acele etmeyin; barları doldurmak için renk planı yapın.</li>
-            <li><span class="icon">🔹</span> Zamanlı modda her saniye değerlidir; üç parçayı hızlı bitirip süreyi yenileyin.</li>
+            <li><span class="icon">🔹</span> Klasik'te kombo zincirini sürdürün: kombo bataryası dolunca girdap patlaması büyük puan ve ödül getirir.</li>
+            <li><span class="icon">🔹</span> Macera'da acele etmeyin; barları doldurmak için renk planı yapın.</li>
+            <li><span class="icon">🔹</span> Dişli Bölgesi'nde uzun döngüler çok toprak kazandırır ama iziniz uzadıkça risk artar; kendi alanınızın yakınında kalın.</li>
           </ul>
         </div>
 
@@ -660,29 +642,25 @@
                 <td style="padding: 8px;">Satır/sütun dolarsa patlar, puan alırsınız</td>
               </tr>
               <tr style="border-bottom: 1px solid var(--border);">
-                <td style="padding: 8px; font-weight: 600;">Combo oluşturursunuz</td>
-                <td style="padding: 8px;">Daha yüksek skor</td>
-              </tr>
-              <tr style="border-bottom: 1px solid var(--border);">
-                <td style="padding: 8px; font-weight: 600;">Modu tamamlarsınız / oyun biter</td>
-                <td style="padding: 8px;">Skor tablosuna yazılır</td>
+                <td style="padding: 8px; font-weight: 600;">Klasik oyun biter</td>
+                <td style="padding: 8px;">Skorunuz Klasik skor tablosuna yazılır</td>
               </tr>
               <tr style="border-bottom: 1px solid var(--border);">
                 <td style="padding: 8px; font-weight: 600;">Macera bölümü bitirirsiniz</td>
                 <td style="padding: 8px;">Haritada bir sonraki bölüme geçersiniz</td>
               </tr>
               <tr style="border-bottom: 1px solid var(--border);">
-                <td style="padding: 8px; font-weight: 600;">Meydan okumayı kazanırsınız</td>
-                <td style="padding: 8px;">Rakibin skoru size geçer</td>
+                <td style="padding: 8px; font-weight: 600;">Dişli Bölgesi'nde şehir bitirirsiniz</td>
+                <td style="padding: 8px;">Ülke ve şehir sayınız artar; ödül kazanırsınız</td>
               </tr>
             </tbody>
           </table>
-          <p style="line-height: 1.5; font-size: 0.85rem;">Gear Blast’ın özü şudur: doğru yere doğru parçayı koy, alanı yönet, skorunu yükselt, istersen rakiplerine meydan oku. Birkaç tur sonra temel mekanik oturur; asıl keyif mod seçiminde ve yüksek skor peşinde koşarken gelir.</p>
+          <p style="line-height: 1.5; font-size: 0.85rem;">Gear Blast'ın özü şudur: doğru yere doğru parçayı koy, alanı yönet, skorunu yükselt; istersen dünyayı şehir şehir fethet. Birkaç tur sonra temel mekanik oturur; asıl keyif mod seçiminde ve yüksek skor peşinde koşarken gelir.</p>
         </div>
 
         <div class="rules-section">
           <h2>⭐ Oyunu Değerlendirin</h2>
-          <p>Macera modunda belirli bölümleri tamamladığınızda (5, 10, 25, 50, 100) bazen “Oyunu beğendiniz mi?” ekranı çıkar. Bize yıldız verip değerlendirerek GearBlast'ın gelişmesine destek olabilirsiniz! Düşünceleriniz ve geri bildirimleriniz bizim için çok değerlidir. Bu ekran günde en fazla bir kez gösterilir.</p>
+          <p>Macera modunda belirli bölümleri tamamladığınızda (5, 10, 25, 50, 100) bazen "Oyunu beğendiniz mi?" ekranı çıkar. Bize yıldız verip değerlendirerek Gear Blast'ın gelişmesine destek olabilirsiniz! Düşünceleriniz ve geri bildirimleriniz bizim için çok değerlidir. Bu ekran günde en fazla bir kez gösterilir.</p>
         </div>
 
         <div class="rules-section">
@@ -690,15 +668,23 @@
           <div style="font-size: 0.83rem; color: var(--text2); line-height: 1.5; display: flex; flex-direction: column; gap: 10px;">
             <div>
               <strong style="color: var(--accent);">İnternet bağlantısı gerekli mi?</strong>
-              <p>Tek başınıza oynamak için gerekmez. Ancak skor tablosu, meydan okumalar ve profil senkronizasyonu için internet bağlantısı şarttır.</p>
+              <p>Hayır. Klasik, Macera ve Dişli Bölgesi internet olmadan oynanır. Yalnızca skor tablosu ve profil senkronizasyonu için internet gerekir.</p>
+            </div>
+            <div>
+              <strong style="color: var(--accent);">Anahtarlar ne işe yarar, nasıl kazanılır?</strong>
+              <p>Anahtarlar harita üzerindeki kilitli şehirleri açar. Klasik'te kazandığınız puanlarla (ilk anahtar 25.000 puanda, sonrakiler 10.000 puan daha fazlasında), Macera'da ilk kez geçtiğiniz tek numaralı bölümlerle (1, 3, 5, 7...) ve günlük görevler ile ücretsiz sandıktan anahtar kazanırsınız. Anahtar yerine mücevher ya da altınla da şehir açabilirsiniz.</p>
             </div>
             <div>
               <strong style="color: var(--accent);">Kullanıcı adımı değiştirebilir miyim?</strong>
               <p>Mağazadan isim değiştirme paketi alarak kullanıcı adınızı bir kez değiştirebilirsiniz. Avatarınızı ise profilinizden dilediğiniz zaman ücretsiz değiştirebilirsiniz.</p>
             </div>
             <div>
-              <strong style="color: var(--accent);">Tavuk oldum, nasıl kurtulurum?</strong>
-              <p>Herhangi bir aktif oyuncuya meydan okuyup maçı kazanarak tavuk cezasından kurtulabilir ve profilinizi geri alabilirsiniz.</p>
+              <strong style="color: var(--accent);">Dişli Bölgesi'nde neden bazı şehirler kilitli?</strong>
+              <p>Şehirleri anahtar, mücevher ya da altınla açarsınız. Klasik ve Macera oynayarak anahtar kazanabilirsiniz.</p>
+            </div>
+            <div>
+              <strong style="color: var(--accent);">Seçtiğim karakter skor tablosunda nasıl görünür?</strong>
+              <p>Dişli Bölgesi skor tablosunda adınızın yanında o an seçili karakteriniz çizilir. Karakter değiştirdiğinizde liste güncellenir.</p>
             </div>
           </div>
         </div>
@@ -707,157 +693,137 @@
       <!-- English Guide -->
       <div id="rules-lang-en" style="display: none;">
         <div class="rules-section">
-          <h2>📖 Gear Blast — Player Guide</h2>
-          <p>Gear Blast is an engaging puzzle game where you place shapes on a grid, clear rows and columns to score points, progress through an adventure map, and challenge other players. In this guide, all features of the game are explained in a clear and professional manner.</p>
+          <h2>📖 What Is Gear Blast?</h2>
+          <p>Gear Blast is a gear-themed puzzle and territory-capture game with three modes: <strong>Classic</strong>, <strong>Adventure</strong> and <strong>Gear Zone</strong>. Each mode has its own leaderboard, and you compete with players worldwide under your username and avatar.</p>
         </div>
 
         <div class="rules-section">
-          <h2>⚙️ How to Play?</h2>
+          <h2>🎯 Why Gear Blast?</h2>
           <ul>
-            <li><span class="icon">🎯</span> Match same-colored gears, fill rows and columns to blast them, and earn points.</li>
-            <li><span class="icon">💥</span> Clear 3 or more rows/columns at once to earn a COMBO bonus.</li>
-            <li><span class="icon">🔄</span> Move credits are limited, but you can fill your move meter to earn extra Undo credits.</li>
-            <li><span class="icon">⏱️</span> In Timed Mode, collect as many points as possible before time runs out.</li>
-            <li><span class="icon">🏅</span> Submit your score to climb the leaderboard!</li>
+            <li><span class="icon">🎲</span> <strong>Zero luck, pure strategy:</strong> Every move is your decision.</li>
+        <li><span class="icon">🧠</span> <strong>Smart piece system:</strong> Blocks adapt to your board; the game only ends when you make a strategic mistake.</li>
+        <li><span class="icon">📼</span> <strong>VAR (Mistake Analysis):</strong> When you get stuck the game doesn't end right away; your last moves are rewound, your mistake is shown and you continue where you left off.</li>
+        <li><span class="icon">↩️</span> <strong>Undo:</strong> Take back your last move in Classic mode.</li>
+        <li><span class="icon">📴</span> <strong>Play offline:</strong> Classic, Adventure and Gear Zone work without internet; you only need to be online for the leaderboards.</li>
+        <li><span class="icon">💰</span> <strong>Wallet and key tab:</strong> your gold, gems and keys are always at hand.</li>
+        <li><span class="icon">🏅</span> <strong>League system:</strong> 5 leagues, no demotion.</li>
+        <li><span class="icon">👤</span> <strong>60+ avatars</strong> and you can play without creating a profile.</li>
+        <li><span class="icon">🌐</span> <strong>40+ languages</strong> and a quick 3-move tutorial.</li>
           </ul>
         </div>
 
         <div class="rules-section">
           <h2>🚀 First Launch &amp; Registration</h2>
-          <p>When you open the app for the first time, you will start with the <strong>Welcome Screen</strong>:</p>
           <ul>
-            <li><span class="icon">🌐</span> Your game language is automatically selected (can be changed in settings later).</li>
+            <li><span class="icon">🌐</span> Your game language is selected automatically (you can change it in settings).</li>
             <li><span class="icon">🛡️</span> A quick approval is requested for privacy and data usage.</li>
             <li><span class="icon">✍️</span> Choose your <strong>username</strong> (3–22 characters; shown on leaderboards).</li>
-            <li><span class="icon">👤</span> Choose your <strong>avatar</strong> (the character representing you).</li>
+            <li><span class="icon">👤</span> Choose your <strong>avatar</strong>.</li>
+            <li><span class="icon">🎮</span> Pick a mode from the main menu.</li>
           </ul>
-          <p>Once registered, the main menu will open. On subsequent launches, you will go directly to the main menu without registering again.</p>
         </div>
 
         <div class="rules-section">
-          <h2>🏠 Main Menu — The Heart of the Game</h2>
-          <p>The main menu is the central hub of the game. Here you will find:</p>
+          <h2>🏠 Main Menu</h2>
           <ul>
-            <li><strong>Your Profile Card:</strong> Avatar, username, and undo credits.</li>
-            <li><strong>Leaderboards:</strong> Real-time rankings for three modes.</li>
-            <li><strong>Archive:</strong> Badges, stats, and match history.</li>
-            <li><strong>Shop:</strong> Undo packs and ad-free packages.</li>
-            <li><strong>Settings:</strong> Sound, music, vibration, language, and privacy choices.</li>
-            <li><strong>Rotating Champion Banner:</strong> Displays the current mode champion; tap to challenge.</li>
-            <li><strong>Challenge Input:</strong> Direct entry to launch duels.</li>
+            <li><span class="icon">👤</span> <strong>Profile card:</strong> your avatar and username.</li>
+            <li><span class="icon">💰</span> <strong>Wallet and key tab:</strong> your gold, gems and keys.</li>
+            <li><span class="icon">🏆</span> <strong>Leaderboard:</strong> rankings for three modes and the Global List.</li>
+            <li><span class="icon">🎮</span> <strong>Classic, Adventure, Gear Zone:</strong> the three game modes.</li>
+            <li><span class="icon">🛒</span> The icons along the bottom: shop, profile, settings and archive (badges and stats).</li>
           </ul>
         </div>
 
         <div class="rules-section">
-          <h2>🎮 Four Game Modes</h2>
+          <h2>⚙️ How to Play (Classic &amp; Adventure)</h2>
+          <ul>
+            <li><span class="icon">🎯</span> Drag one of the 3 pieces at the bottom onto the grid. Full rows and columns blast and earn points.</li>
+            <li><span class="icon">💥</span> Clear several rows or columns in one move to earn a COMBO bonus.</li>
+            <li><span class="icon">🔄</span> When all three pieces are placed, a new set arrives. The game ends when no piece fits.</li>
+            <li><span class="icon">🏅</span> Your score goes to the leaderboard automatically.</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
+          <h2>🎮 Three Game Modes</h2>
+          <div class="tip-card" style="border-left-color: var(--accent); margin-bottom: 12px;">
+            <div class="tip-title" style="color: var(--accent);">🔑 Play, earn keys, unlock the world</div>
+            <p>In Classic and Adventure you earn keys, gold and gems as you play, and they all go to your wallet. Keys unlock new cities on the Gear Zone map. The more you play, the more of the world opens up.</p>
+          </div>
           <div class="tip-cards">
-            <div class="tip-card">
-              <div class="tip-title">1. Adventure Mode</div>
-              <p>A journey through 3000 levels. There are no move or time limits. Fill the color bars at the top and clear obstacles to pass levels and collect rare robots for your collection.</p>
+            <div class="tip-card" style="border-left-color: var(--blue);">
+              <div class="tip-title" style="color: var(--blue);">Classic</div>
+              <p><strong>A pure score game with no time limit.</strong> Chain combos, charge the combo battery and trigger vortex blasts. High combo chains win you robots and chests. Undo credits are active in this mode. Your best score goes to the leaderboard and sets your league badge. Every point you score brings you closer to your next map key.</p>
             </div>
-            <div class="tip-card">
-              <div class="tip-title">2. Classic Normal Mode</div>
-              <p>Infinite scoring, a combo counter, and a level system. Shatter the ice frames to level up, and trigger 60-second bonus rounds for a 10x score multiplier on a shifting grid.</p>
+            <div class="tip-card" style="border-left-color: var(--green);">
+              <div class="tip-title" style="color: var(--green);">Adventure</div>
+              <p>A journey through 3000 levels. Fill the color bars at the top and clear obstacles to pass each level, and collect rare robots for your collection. Your highest level is ranked on the leaderboard. Passing levels also earns you map keys.</p>
             </div>
-            <div class="tip-card">
-              <div class="tip-title">3. Classic Timed Mode</div>
-              <p>A fast-paced mode with time pressure. The timer resets after completing every 3-piece set (typically 3-6 seconds). No levels or bonus rounds are available.</p>
-            </div>
-            <div class="tip-card">
-              <div class="tip-title">4. Challenge Mode (Duel)</div>
-              <p>A competitive mode where you try to beat another player's high score. Played in Classic Normal or Timed mode. You win immediately when reaching the target score.</p>
+            <div class="tip-card" style="border-left-color: #1fbdaa;">
+              <div class="tip-title" style="color: #1fbdaa;">Gear Zone</div>
+              <p>Pick a country on the world map, then a city, and enter an arena full of rivals. Leave your own territory and loop back to claim new land. Paint the whole map to finish the city. Your score is the number of <strong>countries</strong> and <strong>cities</strong> you have completed. Use the keys you earn in Classic and Adventure to unlock new cities.</p>
             </div>
           </div>
         </div>
 
         <div class="rules-section">
-          <h2>⚔️ Challenge Rules</h2>
-          <ul id="challenge-rules-list-en">
-            <li style="margin-bottom: 12px; line-height: 1.6; color: var(--text2); font-weight: bold; color: var(--accent);">
-              <span>"For a LIVE Challenge Duel, notification permission and internet access must be enabled"</span>
-            </li>
-            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #3de870; display: flex; align-items: center; gap: 8px;">
-              <span class="icon">🐔</span>
-              <span>If you defeat the opponent you challenged in a duel,</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2);">
-              <span>Their avatar becomes a Plucked "CHICKEN AVATAR" and their score resets to zero,</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2);">
-              <span>All of their points are added to your score and they drop from the league</span>
-            </li>
-            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #ff4a4a; display: flex; align-items: center; gap: 8px;">
-              <span class="icon">⚠️</span>
-              <span>If you cannot defeat your opponent, or if they defeat you,</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2);">
-              <span>Your avatar becomes a Plucked "CHICKEN AVATAR" and your score resets to zero,</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2);">
-              <span>All of your points are added to your opponent's score and you drop from the league</span>
-            </li>
-            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #ffd700; display: flex; align-items: center; gap: 8px;">
-              <span class="icon">✨</span>
-              <span>WHAT YOU NEED TO DO TO RECOVER FROM THE CHICKEN AVATAR</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">•</span>
-              <span>You will recover from the chicken avatar and get your original avatar back after three hours</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">•</span>
-              <span>Recover by watching an ad</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">•</span>
-              <span>Recover by passing at least two levels in Adventure mode</span>
-            </li>
-            <li style="font-weight: bold; margin-top: 18px; margin-bottom: 6px; color: #4ab8f0; display: flex; align-items: center; gap: 8px;">
-              <span class="icon">🎮</span>
-              <span>LIVE DUEL RULES:</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>You must accept the challenge or your opponent must accept; you must answer within 30 seconds or your opponent must answer</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>Classic Normal and Timed rules apply in the duel</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>If you exit the game when the duel starts, you lose; if you close the app or put it in the background, you also lose</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>The first one eliminated in the duel loses</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 6px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>When you win the duel, you can continue playing</span>
-            </li>
-            <li style="margin-left: 12px; margin-bottom: 12px; line-height: 1.6; color: var(--text2); display: flex; align-items: center; gap: 8px;">
-              <span class="icon" style="font-size: 0.8rem;">-</span>
-              <span>You start the duel at the same time live with your opponent</span>
-            </li>
-            <li style="margin-bottom: 12px; line-height: 1.6; color: #ff4a4a; font-weight: bold; margin-top: 15px;">
-              <span>"Remember, if you have a Chicken Avatar, you cannot challenge others and duel"</span>
-            </li>
+          <h2>🌍 Gear Zone Guide</h2>
+          <ul>
+            <li><span class="icon">🧭</span> <strong>Arena:</strong> steer your robot with your finger. Leave your territory, draw a loop and return: the land inside becomes yours. If your trail is cut you are out; you can cut rivals' trails to eliminate them.</li>
+            <li><span class="icon">❤️</span> <strong>Revive:</strong> up to 3 times per round, by watching an ad. The offer appears if you own at least 60% of the map when you are eliminated.</li>
+            <li><span class="icon">🔑</span> <strong>Map keys:</strong> countries are open from the start; cities are locked. Open a city with 1–5 keys (by its size), 20 gems or 10,000 gold. The smallest city of your own country starts open.</li>
+            <li><span class="icon">🗝️</span> <strong>Earning keys:</strong> in Classic the first key comes at 25,000 points and each next one needs 10,000 more. In Adventure, each odd-numbered level (1, 3, 5, 7...) passed for the first time gives a key. Daily quests and the free chest can also give keys.</li>
+            <li><span class="icon">🪙</span> <strong>Gold and gems:</strong> collected in the arena; rewards are also added to your wallet after a round and when you finish a city. The daily login bonus is a 7-day streak, and 4 daily quests refresh every day.</li>
+            <li><span class="icon">🤖</span> <strong>Characters:</strong> 70 characters (robots and animals). Some unlock as you progress, others are bought with gold or gems. Your selected character is shown next to your name on the leaderboard.</li>
+            <li><span class="icon">🛴</span> <strong>Vehicles:</strong> 40 vehicles (10 kinds, 4 versions). Each gives a speed, magnet or gold bonus.</li>
+            <li><span class="icon">⚡</span> <strong>Skills:</strong> Shield, Sprint, Dash, Shock Wave, Paint Bomb and Magnet. Upgrade them with gold; each level adds +5% power, up to +50%.</li>
+            <li><span class="icon">🎁</span> <strong>Chests:</strong> the free chest opens every 4 hours (an ad shortens the wait by 1 hour). Gold and gem chests are also available; the content odds are written on the chest card.</li>
+            <li><span class="icon">💾</span> Your Gear Zone progress (gold, gems, characters, vehicles) is stored on your device. Your score is sent to the leaderboard.</li>
           </ul>
         </div>
 
         <div class="rules-section">
-          <h2>🎖️ Leagues &amp; Badges</h2>
+          <h2>🔄 Deadlock, Error Analysis &amp; Revive (Classic &amp; Adventure)</h2>
+          <ul>
+            <li><span class="icon">🔍</span> <strong>Error analysis:</strong> your last moves are reviewed, with the wrong placements and better alternatives.</li>
+            <li><span class="icon">❤️</span> <strong>Revive:</strong> up to 4 times per game (by watching an ad or with the ad-free package).</li>
+            <li><span class="icon">🏁</span> When no revive is left you go straight to the game-over screen.</li>
+          </ul>
+        </div>
+
+        <div class="rules-section">
+          <h2>📊 Leaderboard &amp; Global List</h2>
+          <p>Your score is sent to the leaderboard automatically. There are three separate rankings:</p>
+          <ul>
+            <li><span class="icon">🔹</span> <strong>Classic:</strong> best score; your league badge is shown.</li>
+            <li><span class="icon">🔹</span> <strong>Adventure:</strong> highest level.</li>
+            <li><span class="icon">🔹</span> <strong>Gear Zone:</strong> countries and cities completed; your selected character is shown in the list.</li>
+          </ul>
+          <p style="margin-top: 10px;">You can see players worldwide from the main menu or from the Global List on this site.</p>
+        </div>
+
+        <div class="rules-section">
+          <h2>🎖️ League Badges &amp; Archive</h2>
           <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5; margin-bottom: 12px;">
-            Climb the leagues based on your highest score: Bronze, Silver, Gold, Platinum, and Diamond. The first place player on the leaderboard temporarily holds the Champion badge.
+            Your league follows your best Classic score: Bronze, Silver, Gold, Platinum and Diamond. Leagues are permanent. The first place player temporarily holds the Champion badge.
           </p>
           <ul id="badge-list-en" style="margin-bottom: 12px;"></ul>
           <div class="tip-cards">
             <div class="tip-card">
-              <div class="tip-title">Permanent Archive Badges</div>
-              <p>Collect 24 permanent badges in your Archive, unlocked through milestones like daily logins, total play time, combo records, and adventure progress.</p>
+              <div class="tip-title">Archive</div>
+              <p>The Archive shows your stats and permanent badges for Classic, Adventure and Gear Zone. Badges unlock in tiers through milestones like daily logins, total play time, combo records, and the countries and cities you complete.</p>
             </div>
           </div>
+        </div>
+
+        <div class="rules-section">
+          <h2>🛒 Shop</h2>
+          <ul>
+            <li><span class="icon">💎</span> <strong>Gem packs:</strong> bought with real money; used in Gear Zone for characters, vehicles, chests and city unlocks.</li>
+            <li><span class="icon">🪙</span> <strong>Gold packs:</strong> bought with gems (50 gems = 50,000 gold).</li>
+            <li><span class="icon">🚫</span> The <strong>ad-free</strong> package and <strong>undo</strong> packs.</li>
+            <li><span class="icon">✏️</span> The <strong>username change</strong> pack.</li>
+          </ul>
         </div>
 
         <div class="rules-section">
@@ -872,8 +838,8 @@
               <p>The more lines you clear in a single move, the larger your score multiplier grows.</p>
             </div>
             <div class="tip-card">
-              <div class="tip-title">Save Your Undos</div>
-              <p>Keep your Undos for tight situations when you run out of moves, or immediately after a wrong placement.</p>
+              <div class="tip-title">Stay Close in Gear Zone</div>
+              <p>Long loops win a lot of land but the longer your trail, the bigger the risk. Stay near your own territory.</p>
             </div>
           </div>
         </div>
@@ -881,7 +847,7 @@
         <div class="rules-section">
           <h2>⭐ Rate the Game</h2>
           <p style="font-size: 0.85rem; color: var(--text2); line-height: 1.5;">
-            When you complete certain levels in Adventure Mode (5, 10, 25, 50, 100), a "Do you like the game?" screen may appear. Please support GearBlast by rating and sharing your feedback with us! Your thoughts are extremely valuable to us.
+            When you complete certain levels in Adventure Mode (5, 10, 25, 50, 100), a "Do you like the game?" screen may appear. Please support Gear Blast by rating and sharing your feedback with us! This screen is shown at most once a day.
           </p>
         </div>
 
@@ -890,23 +856,30 @@
           <div style="font-size: 0.83rem; color: var(--text2); line-height: 1.5; display: flex; flex-direction: column; gap: 10px;">
             <div>
               <strong style="color: var(--accent);">Is an internet connection required?</strong>
-              <p>Not for playing offline, but internet is required for leaderboards, duels, and syncing your profile.</p>
+              <p>No. Classic, Adventure and Gear Zone all work offline. You only need the internet for leaderboards and syncing your profile.</p>
+            </div>
+            <div>
+              <strong style="color: var(--accent);">What are keys for and how do I earn them?</strong>
+              <p>Keys unlock the locked cities on the map. You earn them from your Classic score (the first key at 25,000 points, each next one 10,000 more), from odd-numbered Adventure levels (1, 3, 5, 7...) passed for the first time, and from daily quests and the free chest. You can also open a city with gems or gold instead of a key.</p>
             </div>
             <div>
               <strong style="color: var(--accent);">Can I change my username?</strong>
               <p>You can change your username once by buying the Username Change Pack in the shop. Avatars can be changed for free at any time.</p>
             </div>
             <div>
-              <strong style="color: var(--accent);">How do I recover from chicken status?</strong>
-              <p>Simply challenge any active player on the leaderboard and win the match to recover your profile.</p>
+              <strong style="color: var(--accent);">Why are some cities locked in Gear Zone?</strong>
+              <p>Cities are opened with keys, gems or gold. You can earn keys by playing Classic and Adventure.</p>
+            </div>
+            <div>
+              <strong style="color: var(--accent);">How does my character appear on the leaderboard?</strong>
+              <p>The Gear Zone leaderboard draws your currently selected character next to your name. It updates when you change characters.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Chicken Anim and Accept Button Container -->
-      <div class="chicken-anim-container" style="display: flex; flex-direction: column; align-items: center; margin-top: 32px; gap: 16px; width: 100%;">
-        <img id="animated-chicken" src="avatars/chicken/c1.png" style="width: 80px; height: 80px; border-radius: 12px; border: 2px solid var(--accent); box-shadow: 0 0 10px rgba(240, 160, 48, 0.3);" alt="Chicken" />
+      <!-- Accept Button Container -->
+      <div class="rules-accept-container" style="display: flex; flex-direction: column; align-items: center; margin-top: 32px; gap: 16px; width: 100%;">
         <button id="rules-accept-btn" style="background: #1faf3b; color: #fff; border: none; padding: 14px 32px; font-size: 1.1rem; font-weight: bold; border-radius: 12px; cursor: pointer; box-shadow: 0 4px 12px rgba(31,175,59,0.3); transition: all 0.2s;" data-tr="ANLADIM, BAŞLA" data-en="I UNDERSTAND, START">ANLADIM, BAŞLA</button>
       </div>
 
@@ -929,7 +902,8 @@ const FIREBASE_CONFIG = {
 };
 
 const DATA_URL = 'data/leaderboard.json';
-const LIVE_MODES = ['classic_normal', 'classic_timed', 'adventure'];
+const LIVE_MODES = ['classic_normal', 'adventure', 'gearzone'];
+const GZ_MOD = 10000; // Gear Zone score = countries * 10000 + cities (systems/gearzone/stats.lua)
 const V2_CUTOFF_TS = 1781222400;
 const MIN_VERSION_CODE = 20;
 const LIVE_LIMIT = 0; // 0 = sınırsız; tüm geçerli kayıtlar listelenir
@@ -941,7 +915,7 @@ const LEAGUE_NAMES = {
 const LEAGUE_FILES = ['Bronz','Silver','Gold','Platinum','Diamond','Champion'];
 
 // Oyunla ayni lig esikleri (systems/league.lua)
-const LEAGUE_TIER_MIN = [0, 320000, 1360000, 3200000, 7750000];
+const LEAGUE_TIER_MIN = [0, 32000, 136000, 320000, 775000];
 
 function calculateTierFromScore(score) {
   const s = parseInt(score, 10) || 0;
@@ -954,9 +928,7 @@ function calculateTierFromScore(score) {
 /** Skor tablosu ile ayni rozet mantigi (states/leaderboard.lua getLeagueBadgeInfo) */
 function resolveLeagueBadge(rank, entry) {
   const pts = parseInt(entry.score, 10) || 0;
-  if (isChickenAvatar(entry.avatarId) && pts <= 0) return null;
-
-  if (rank === 1 && pts > 0 && !isChickenAvatar(entry.avatarId)) {
+  if (rank === 1 && pts > 0) {
     return { file: 'Champion', nameTr: LEAGUE_NAMES.tr[5], nameEn: LEAGUE_NAMES.en[5] };
   }
 
@@ -1043,21 +1015,6 @@ function applyLang() {
 // ─────────────────────────────────────────────────────────
 // AVATAR HELPER
 // ─────────────────────────────────────────────────────────
-const CHICKEN_FRAMES = [
-  'avatars/chicken/c1.png', 'avatars/chicken/c2.png', 'avatars/chicken/c3.png',
-  'avatars/chicken/c4.png', 'avatars/chicken/c5.png', 'avatars/chicken/c6.png',
-  'avatars/chicken/c7.png'
-];
-const CHICKEN_FRAME_MS = 800;
-let chickenFrameIdx = 0;
-let chickenAnimTimer = null;
-
-CHICKEN_FRAMES.forEach(src => { const img = new Image(); img.src = src; });
-
-function isChickenAvatar(id) {
-  return parseInt(id) === 999;
-}
-
 function isValidUid(uid) {
   return !!(uid && uid !== '' && uid !== 'anonymous');
 }
@@ -1093,11 +1050,9 @@ function stableAvatarIdForEntry(entry) {
 }
 
 function resolveDisplayAvatarId(entry) {
-  if (isChickenAvatar(entry.avatarId)) return 999;
   const profileAv = parseInt(entry.profileAvatarId) || 0;
   if (profileAv >= 1 && profileAv <= AVATAR_COUNT) return profileAv;
   const av = parseInt(entry.avatarId) || 0;
-  if (av === 999) return 999;
   if (av >= 1 && av <= AVATAR_COUNT) return av;
   return stableAvatarIdForEntry(entry);
 }
@@ -1112,10 +1067,6 @@ function avatarSrc(id) {
 }
 
 function avatarInner(id, alt) {
-  if (isChickenAvatar(id)) {
-    const title = 'Yolunmuş Tavuk';
-    return `<img class="chicken-avatar" src="${CHICKEN_FRAMES[0]}" alt="${title}" title="${title}">`;
-  }
   const src = avatarSrc(id);
   return `<img src="${src}" alt="${escHtml(alt || '')}" title="${escHtml(alt || '')}" onerror="this.src='avatars/a-1.png'">`;
 }
@@ -1124,22 +1075,6 @@ function avatarInnerForEntry(entry) {
   return avatarInner(resolveDisplayAvatarId(entry), entry.username);
 }
 
-function tickChickenAvatars() {
-  chickenFrameIdx = (chickenFrameIdx + 1) % CHICKEN_FRAMES.length;
-  const src = CHICKEN_FRAMES[chickenFrameIdx];
-  document.querySelectorAll('.chicken-avatar').forEach(img => { img.src = src; });
-}
-
-function ensureChickenAnimation() {
-  const hasChicken = document.querySelector('.chicken-avatar');
-  if (!hasChicken) {
-    if (chickenAnimTimer) { clearInterval(chickenAnimTimer); chickenAnimTimer = null; }
-    return;
-  }
-  if (!chickenAnimTimer) {
-    chickenAnimTimer = setInterval(tickChickenAvatars, CHICKEN_FRAME_MS);
-  }
-}
 function badgeSrc(level) {
   const idx = Math.min(Math.max(parseInt(level) || 0, 0), LEAGUE_FILES.length - 1);
   return `badges/${LEAGUE_FILES[idx]}.png`;
@@ -1159,16 +1094,9 @@ let allData = null;
 let currentMode = 'classic_normal';
 let searchQuery = '';
 let usersProfileMap = {};
-let liveBoardRaw = { classic_normal: {}, classic_timed: {}, adventure: {} };
+let liveBoardRaw = { classic_normal: {}, adventure: {}, gearzone: {} };
 let liveReady = false;
 let useLive = false;
-
-function isChickenRow(val) {
-  if (!val || typeof val !== 'object') return false;
-  const ic = val.isChicken;
-  if (ic === true || ic === 1 || ic === '1' || ic === 'true') return true;
-  return parseInt(val.avatarId, 10) === 999;
-}
 
 function entryTimestamp(val) {
   return parseInt(val.timestamp, 10) || 0;
@@ -1195,26 +1123,9 @@ function buildUsersProfileMap(raw) {
       const av = parseInt(val[field], 10) || 0;
       if (av >= 2 && av <= MAX_AVATAR_ID && av !== 999) { avatar = av; break; }
     }
-    let isChicken = null;
-    if (val.isChicken !== undefined && val.isChicken !== null) {
-      const ic = val.isChicken;
-      isChicken = ic === true || ic === 1 || ic === '1' || ic === 'true';
-    } else if (parseInt(val.avatarId, 10) === 999) {
-      isChicken = true;
-    }
-    cache[uid] = {
-      isChicken,
-      avatarId: avatar,
-    };
+    cache[uid] = { avatarId: avatar };
   }
   return cache;
-}
-
-function resolveChickenForEntry(uid, val) {
-  const profile = usersProfileMap[uid] || {};
-  if (profile.isChicken === false) return false;
-  if (profile.isChicken === true) return true;
-  return isChickenRow(val);
 }
 
 function normalizeModeEntries(raw, modeKey) {
@@ -1224,11 +1135,10 @@ function normalizeModeEntries(raw, modeKey) {
     if (!val || typeof val !== 'object') continue;
     if (!passesGlobalListFilter(val)) continue;
     const profile = usersProfileMap[uid] || {};
-    const chicken = resolveChickenForEntry(uid, val);
-    const avatarId = chicken ? 999 : resolveDisplayAvatarId({
+    const avatarId = resolveDisplayAvatarId({     // (the chicken avatar is gone: an old 999 becomes a normal avatar)
       uid,
       username: val.username,
-      avatarId: val.avatarId,
+      avatarId: parseInt(val.avatarId, 10) === 999 ? 0 : val.avatarId,
       profileAvatarId: profile.avatarId || 0,
     });
     entries.push({
@@ -1244,23 +1154,11 @@ function normalizeModeEntries(raw, modeKey) {
   }
 
   entries.sort((a, b) => {
-    if (modeKey === 'adventure') {
-      const aScore = parseInt(a.score, 10) || 0;
-      const bScore = parseInt(b.score, 10) || 0;
-      const aActive = aScore > 0;
-      const bActive = bScore > 0;
-      if (aActive !== bActive) return aActive ? -1 : 1;
-      if (aScore !== bScore) return bScore - aScore;
-      return String(a.username || '').localeCompare(String(b.username || ''), undefined, { sensitivity: 'base' });
-    }
-    const aChicken = a.avatarId === 999;
-    const bChicken = b.avatarId === 999;
     const aScore = parseInt(a.score, 10) || 0;
     const bScore = parseInt(b.score, 10) || 0;
-    const aActive = !aChicken && aScore > 0;
-    const bActive = !bChicken && bScore > 0;
+    const aActive = aScore > 0;
+    const bActive = bScore > 0;
     if (aActive !== bActive) return aActive ? -1 : 1;
-    if (aChicken !== bChicken) return aChicken ? 1 : -1;
     if (aScore !== bScore) return bScore - aScore;
     return String(a.username || '').localeCompare(String(b.username || ''), undefined, { sensitivity: 'base' });
   });
@@ -1268,15 +1166,6 @@ function normalizeModeEntries(raw, modeKey) {
   const limited = LIVE_LIMIT > 0 ? entries.slice(0, LIVE_LIMIT) : entries;
   limited.forEach((e, i) => {
     e.rank = i + 1;
-    if (e.avatarId === 999 && modeKey !== 'adventure') {
-      const pts = parseInt(e.score, 10) || 0;
-      if (pts <= 0) {
-        e.leagueLevel = 0;
-        e.score = 0;
-      } else if (i === 0) {
-        e.leagueLevel = 0;
-      }
-    }
   });
   return limited;
 }
@@ -1286,13 +1175,13 @@ function rebuildLiveData() {
     updated_at: new Date().toISOString(),
     total_players: 0,
     classic_normal: normalizeModeEntries(liveBoardRaw.classic_normal, 'classic_normal'),
-    classic_timed: normalizeModeEntries(liveBoardRaw.classic_timed, 'classic_timed'),
     adventure: normalizeModeEntries(liveBoardRaw.adventure, 'adventure'),
+    gearzone: normalizeModeEntries(liveBoardRaw.gearzone, 'gearzone'),
   };
   allData.total_players = Math.max(
     allData.classic_normal.length,
-    allData.classic_timed.length,
-    allData.adventure.length
+    allData.adventure.length,
+    allData.gearzone.length
   );
   updateBanner(true);
   renderMode();
@@ -1386,7 +1275,19 @@ function renderMode() {
   const total = (allData && allData[currentMode]) ? allData[currentMode].length : 0;
   document.getElementById('totalCount').textContent =
     userLang === 'tr' ? `${total} oyuncu` : `${total} players`;
-  ensureChickenAnimation();
+}
+
+// Gear Zone rows: "Country N / City M" and the character the player runs with (id rides in playstyleLevel; none = the starter robot)
+function gzScoreHtml(e) {
+  const s = parseInt(e.score, 10) || 0;
+  const c = Math.floor(s / GZ_MOD), k = s % GZ_MOD;
+  const l1 = userLang === 'tr' ? `Ülke ${c}` : `Country ${c}`;
+  const l2 = userLang === 'tr' ? `Şehir ${k}` : `City ${k}`;
+  return `<div class="gz-lines">${l1}<br>${l2}</div>`;
+}
+function gzCharHtml(e) {
+  const id = parseInt(e.robotId ?? e.playstyleLevel, 10) || 1;
+  return `<img class="gz-char" src="robots/${id}.png" alt="" onerror="this.src='robots/1.png'">`;
 }
 
 function renderPodium(top3) {
@@ -1396,8 +1297,9 @@ function renderPodium(top3) {
   const classes = ['rank1','rank2','rank3'];
   el.innerHTML = top3.map((e, i) => {
     const rank = e.rank || i + 1;
-    const badge = resolveLeagueBadge(rank, e);
-    const badgeHtml = badge
+    const gz = currentMode === 'gearzone';
+    const badge = gz ? null : resolveLeagueBadge(rank, e);
+    const badgeHtml = gz ? `<div class="badge-wrap">${gzCharHtml(e)}</div>` : badge
       ? `<div class="badge-wrap"><img src="${leagueBadgeImgSrc(badge)}" alt="${leagueBadgeName(badge)}" onerror="this.style.display='none'"><span>${leagueBadgeName(badge)}</span></div>`
       : '';
 
@@ -1408,7 +1310,7 @@ function renderPodium(top3) {
       <div class="avatar-wrap">${avatarInnerForEntry(e)}</div>
       ${badgeHtml}
       <div class="uname">${escHtml(e.username)}</div>
-      <div class="score">${fmtScore(e.score)}</div>
+      <div class="score">${gz ? gzScoreHtml(e) : fmtScore(e.score)}</div>
     </div>`;
   }).join('');
 }
@@ -1430,7 +1332,8 @@ function renderList(rest) {
     const globalRank = e.rank || (i + 4);
     const rc = globalRank <= 3 ? rankColors[globalRank - 1] : '';
     
-    const badge = resolveLeagueBadge(globalRank, e);
+    const gz = currentMode === 'gearzone';
+    const badge = gz ? null : resolveLeagueBadge(globalRank, e);
 
     return `
     <div class="lb-row">
@@ -1442,7 +1345,8 @@ function renderList(rest) {
           ? `<img src="${leagueBadgeImgSrc(badge)}" alt="${leagueBadgeName(badge)}" onerror="this.style.display='none'"><span>${leagueBadgeName(badge)}</span>`
           : ''}</div>
       </div>
-      <div class="score-col">${fmtScore(e.score)}</div>
+      ${gz ? `<div class="gz-char-wrap">${gzCharHtml(e)}</div>` : ''}
+      <div class="score-col">${gz ? gzScoreHtml(e) : fmtScore(e.score)}</div>
     </div>`;
   }).join('');
 }
@@ -1511,14 +1415,6 @@ document.querySelectorAll('.tab[data-page]').forEach(btn => {
   });
 });
 
-document.querySelectorAll('#tab-rules, #rules-accept-btn').forEach(btn => {
-  // If we transition to rules page, ensure the image is reset to frame 1
-  btn.addEventListener('click', () => {
-    const img = document.getElementById('animated-chicken');
-    if (img) img.src = 'avatars/chicken/c1.png';
-  });
-});
-
 document.getElementById('searchInput').addEventListener('input', e => {
   searchQuery = e.target.value.trim();
   renderMode();
@@ -1530,16 +1426,6 @@ document.getElementById('searchInput').addEventListener('input', e => {
 applyLang();
 buildBadgeList();
 initFirebaseLive();
-
-// Animated Chicken Frame Loop
-let chickenFrame = 1;
-setInterval(() => {
-  chickenFrame = (chickenFrame % 7) + 1;
-  const img = document.getElementById('animated-chicken');
-  if (img) {
-    img.src = `avatars/chicken/c${chickenFrame}.png`;
-  }
-}, 200);
 
 // Rules Accept Button Event Listener
 const acceptBtn = document.getElementById('rules-accept-btn');

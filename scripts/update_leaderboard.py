@@ -25,13 +25,14 @@ from datetime import datetime, timezone
 import firebase_admin
 from firebase_admin import credentials, db
 
-MODES = ["classic_normal", "classic_timed", "adventure"]
+MODES = ["classic_normal", "adventure", "gearzone"]
+# gearzone rows: score = countries * 10000 + cities; the character the player runs with rides in playstyleLevel (the page draws robots/<id>.png)
 LIMIT = 0  # 0 = sınırsız; global listede kesim yok
 MAX_AVATAR_ID = 65
 AVATAR_COUNT = 62  # ui/avatars.lua avatarNames uzunlugu (indeks = avatarId)
 
 # Oyunla ayni lig esikleri (systems/league.lua)
-LEAGUE_TIER_MIN = [0, 320000, 1360000, 3200000, 7750000]
+LEAGUE_TIER_MIN = [0, 32000, 136000, 320000, 775000]
 
 # Gear Blast 2.0 global liste kesiti (2026-06-12 00:00 UTC). Eski Extra/v1 skorlari haric tutulur.
 V2_CUTOFF_TS = int(os.environ.get("V2_CUTOFF_TS", "1781222400"))
@@ -57,18 +58,6 @@ def entry_version_code(val):
         return int(val.get("versionCode", 0) or 0)
     except (TypeError, ValueError):
         return None
-
-
-def is_chicken_entry(val):
-  if not isinstance(val, dict):
-    return False
-  ic = val.get("isChicken")
-  if ic is True or ic in (1, "1", "true", "True"):
-    return True
-  try:
-    return int(val.get("avatarId", 1) or 1) == 999
-  except (TypeError, ValueError):
-    return False
 
 
 def stable_avatar_id(uid, username):
@@ -116,14 +105,10 @@ def load_users_avatar_map():
 
 
 def resolve_avatar_id(val, uid, users_av):
-    if is_chicken_entry(val):
-        return 999
     try:
         lb_av = int(val.get("avatarId", 1) or 1)
     except (TypeError, ValueError):
         lb_av = 1
-    if lb_av == 999:
-        return 999
     profile_av = users_av.get(uid)
     if profile_av and 2 <= profile_av <= AVATAR_COUNT:
         return profile_av
@@ -202,12 +187,6 @@ def calculate_tier_from_score(score):
 
 def resolve_display_league_level(entry, rank):
     """Skor tablosu ile ayni rozet mantigi (states/leaderboard.lua getLeagueBadgeInfo)."""
-    is_chicken = is_chicken_entry(entry)
-    score = int(entry.get("score") or 0)
-    if is_chicken and score <= 0:
-        return 0
-    if rank == 1 and is_chicken:
-        return 0
     lvl = int(entry.get("leagueLevel") or 0)
     if lvl <= 0:
         lvl = calculate_tier_from_score(entry.get("score"))
@@ -257,7 +236,6 @@ def fetch_mode(mode, users_av):
                 skipped_filtered += 1
                 continue
 
-            is_chicken = is_chicken_entry(val)
             profile_av = users_av.get(uid)
             avatar_id = resolve_avatar_id(val, uid, users_av)
             raw_score = int(val.get("score", 0) or 0)
@@ -278,11 +256,8 @@ def fetch_mode(mode, users_av):
     print(f"[{mode}] Raw entries count: {len(entries)} (skipped filtered: {skipped_filtered})")
 
     def sort_key(e):
-        is_chicken = e.get("avatarId") == 999
         score = int(e.get("score") or 0)
-        active = (not is_chicken) and score > 0
-        chicken_rank = 1 if is_chicken else 0
-        return (0 if active else 1, chicken_rank, -score, e.get("username") or "")
+        return (0 if score > 0 else 1, -score, e.get("username") or "")
 
     entries.sort(key=sort_key)
 
@@ -293,15 +268,7 @@ def fetch_mode(mode, users_av):
     for i, e in enumerate(entries):
         rank = i + 1
         e["rank"] = rank
-        is_chicken = e.get("avatarId") == 999
-        if is_chicken and int(e.get("score") or 0) <= 0:
-            e["leagueLevel"] = 0
-            e["score"] = 0
-        elif is_chicken and rank == 1:
-            e["leagueLevel"] = 0
-            e["displayLeagueLevel"] = 0
-        else:
-            e["displayLeagueLevel"] = resolve_display_league_level(e, rank)
+        e["displayLeagueLevel"] = resolve_display_league_level(e, rank)
 
     print(f"[{mode}] Fetched and cleaned {len(entries)} entries")
     return entries
