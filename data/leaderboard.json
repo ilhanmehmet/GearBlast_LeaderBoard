@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T16:07:48Z",
+  "updated_at": "2026-11-01T16:12:55Z",
   "total_players": 99,
   "classic_normal": [
     {
@@ -469,7 +469,7 @@
       "username": "Alex",
       "score": 1674,
       "leagueLevel": 0,
-      "playstyleLevel": 0,
+      "playstyleLevel": 1,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 43,
@@ -1483,7 +1483,7 @@
       "username": "Alex",
       "score": 0,
       "leagueLevel": 0,
-      "playstyleLevel": 0,
+      "playstyleLevel": 1,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 36,
@@ -2266,7 +2266,7 @@
       "username": "Alex",
       "score": 6,
       "leagueLevel": 0,
-      "playstyleLevel": 0,
+      "playstyleLevel": 1,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 8,
