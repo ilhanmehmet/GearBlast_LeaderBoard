@@ -37,7 +37,7 @@ LEAGUE_TIER_MIN = [0, 32000, 136000, 320000, 775000]
 # Gear Blast 2.0 global liste kesiti (2026-06-12 00:00 UTC). Eski Extra/v1 skorlari haric tutulur.
 V2_CUTOFF_TS = int(os.environ.get("V2_CUTOFF_TS", "1781222400"))
 # versionCode 20 = oyun 2.0.0
-MIN_VERSION_CODE = int(os.environ.get("MIN_VERSION_CODE", "20"))
+MIN_VERSION_CODE = int(os.environ.get("MIN_VERSION_CODE", "46"))
 
 
 def include_legacy_scores():
