@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T03:33:23Z",
-  "total_players": 2,
+  "updated_at": "2026-11-02T08:33:26Z",
+  "total_players": 3,
   "classic_normal": [
     {
       "uid": "G3DqTpZn2sYjYdjDLBypBJgkMSh1",
@@ -14,6 +14,17 @@
       "displayLeagueLevel": 3
     },
     {
+      "uid": "wz64FDGZOAcS3isEBH1ggT3GQ2d2",
+      "username": "Ajno",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 12,
+      "avatarId": 12,
+      "rank": 2,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "OGhTcc1jmJMMKH7cBQM2bBmhaQa2",
       "username": "Alexi",
       "score": 0,
@@ -21,7 +32,7 @@
       "playstyleLevel": 2,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "rank": 2,
+      "rank": 3,
       "displayLeagueLevel": 1
     }
   ],
@@ -38,6 +49,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "wz64FDGZOAcS3isEBH1ggT3GQ2d2",
+      "username": "Ajno",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 12,
+      "avatarId": 12,
+      "rank": 2,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "OGhTcc1jmJMMKH7cBQM2bBmhaQa2",
       "username": "Alexi",
       "score": 0,
@@ -45,7 +67,7 @@
       "playstyleLevel": 2,
       "profileAvatarId": 13,
       "avatarId": 13,
-      "rank": 2,
+      "rank": 3,
       "displayLeagueLevel": 1
     }
   ],
@@ -62,6 +84,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "wz64FDGZOAcS3isEBH1ggT3GQ2d2",
+      "username": "Ajno",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 12,
+      "avatarId": 12,
+      "rank": 2,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "G3DqTpZn2sYjYdjDLBypBJgkMSh1",
       "username": "Player",
       "score": 0,
@@ -69,7 +102,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 62,
-      "rank": 2,
+      "rank": 3,
       "displayLeagueLevel": 1
     }
   ]
