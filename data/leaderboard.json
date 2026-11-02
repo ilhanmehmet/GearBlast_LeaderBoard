@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-02T20:14:20Z",
+  "updated_at": "2026-11-02T20:45:27Z",
   "total_players": 3,
   "classic_normal": [
     {
       "uid": "GzYOJ1XyOuXniJDb9tUrMBb6cB73",
       "username": "İlhan",
       "score": 135572,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 1,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 1,
@@ -64,7 +64,7 @@
       "username": "İlhan",
       "score": 0,
       "leagueLevel": 0,
-      "playstyleLevel": 0,
+      "playstyleLevel": 1,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 3,
@@ -73,6 +73,17 @@
   ],
   "gearzone": [
     {
+      "uid": "GzYOJ1XyOuXniJDb9tUrMBb6cB73",
+      "username": "İlhan",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 1,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "rank": 1,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "qm9JFHRh3XWpP0IZVmG8TH0KeBL2",
       "username": "Evren",
       "score": 1,
@@ -80,17 +91,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 1,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "GzYOJ1XyOuXniJDb9tUrMBb6cB73",
-      "username": "İlhan",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
       "rank": 2,
       "displayLeagueLevel": 1
     },
