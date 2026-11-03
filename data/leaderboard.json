@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T09:58:27Z",
+  "updated_at": "2026-11-03T10:01:20Z",
   "total_players": 3,
   "classic_normal": [
     {
@@ -7,7 +7,7 @@
       "username": "İlhan",
       "score": 1364490,
       "leagueLevel": 0,
-      "playstyleLevel": 0,
+      "playstyleLevel": 113,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 1,
@@ -42,7 +42,7 @@
       "username": "İlhan",
       "score": 6,
       "leagueLevel": 0,
-      "playstyleLevel": 0,
+      "playstyleLevel": 113,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 1,
@@ -75,9 +75,9 @@
     {
       "uid": "GzYOJ1XyOuXniJDb9tUrMBb6cB73",
       "username": "İlhan",
-      "score": 9,
+      "score": 10,
       "leagueLevel": 0,
-      "playstyleLevel": 0,
+      "playstyleLevel": 113,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 1,
