@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T07:27:51Z",
-  "total_players": 5,
+  "updated_at": "2026-11-04T10:34:51Z",
+  "total_players": 6,
   "classic_normal": [
     {
       "uid": "XHHWn87DFBhUg0AU4BB7DjYWB5x1",
@@ -36,6 +36,17 @@
       "displayLeagueLevel": 2
     },
     {
+      "uid": "OxNQX1znU2MUScdRUoKWLvBQQZU2",
+      "username": "U-59420_Gb",
+      "score": 1322,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 53,
+      "rank": 4,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "KtYOPPcyu8VjPgrKYoTJzoEJVrF2",
       "username": "U-19682_Gb",
       "score": 756,
@@ -43,7 +54,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 7,
-      "rank": 4,
+      "rank": 5,
       "displayLeagueLevel": 1
     },
     {
@@ -54,7 +65,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 5,
+      "rank": 6,
       "displayLeagueLevel": 1
     }
   ],
@@ -113,6 +124,17 @@
       "avatarId": 7,
       "rank": 5,
       "displayLeagueLevel": 1
+    },
+    {
+      "uid": "OxNQX1znU2MUScdRUoKWLvBQQZU2",
+      "username": "U-59420_Gb",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 53,
+      "rank": 6,
+      "displayLeagueLevel": 1
     }
   ],
   "gearzone": [
@@ -169,6 +191,17 @@
       "profileAvatarId": 0,
       "avatarId": 9,
       "rank": 5,
+      "displayLeagueLevel": 1
+    },
+    {
+      "uid": "OxNQX1znU2MUScdRUoKWLvBQQZU2",
+      "username": "U-59420_Gb",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 53,
+      "rank": 6,
       "displayLeagueLevel": 1
     }
   ]
