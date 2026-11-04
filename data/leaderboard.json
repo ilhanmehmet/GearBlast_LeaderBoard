@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:14:31Z",
+  "updated_at": "2026-11-04T20:08:33Z",
   "total_players": 7,
   "classic_normal": [
     {
@@ -18,7 +18,7 @@
       "username": "Mehmet",
       "score": 221666,
       "leagueLevel": 0,
-      "playstyleLevel": 1,
+      "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 2,
@@ -119,7 +119,7 @@
       "username": "Mehmet",
       "score": 0,
       "leagueLevel": 0,
-      "playstyleLevel": 1,
+      "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 4,
@@ -176,7 +176,7 @@
       "username": "Mehmet",
       "score": 1,
       "leagueLevel": 0,
-      "playstyleLevel": 1,
+      "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
       "rank": 2,
