@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T15:57:00Z",
+  "updated_at": "2026-11-05T16:32:04Z",
   "total_players": 15,
   "classic_normal": [
     {
@@ -337,6 +337,17 @@
   ],
   "gearzone": [
     {
+      "uid": "SiaCUjvnteed0u0FiVJcWSuVDeI3",
+      "username": "Mehmet",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 1,
+      "profileAvatarId": 49,
+      "avatarId": 49,
+      "rank": 1,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "qm9JFHRh3XWpP0IZVmG8TH0KeBL2",
       "username": "Evren",
       "score": 1,
@@ -344,17 +355,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 1,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "SiaCUjvnteed0u0FiVJcWSuVDeI3",
-      "username": "Mehmet",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 49,
-      "avatarId": 49,
       "rank": 2,
       "displayLeagueLevel": 1
     },
