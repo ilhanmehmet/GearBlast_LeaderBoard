@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-11-05T05:59:34Z",
+  "updated_at": "2026-11-05T06:10:23Z",
   "total_players": 8,
   "classic_normal": [
+    {
+      "uid": "3npDJ7ZPTabCDyjvbDwZjjRuRjI3",
+      "username": "Nadir",
+      "score": 452267,
+      "leagueLevel": 4,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "rank": 1,
+      "displayLeagueLevel": 4
+    },
     {
       "uid": "XHHWn87DFBhUg0AU4BB7DjYWB5x1",
       "username": "U-50001_Gb",
@@ -10,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 9,
-      "rank": 1,
+      "rank": 2,
       "displayLeagueLevel": 3
     },
     {
@@ -21,7 +32,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "rank": 2,
+      "rank": 3,
       "displayLeagueLevel": 3
     },
     {
@@ -32,19 +43,8 @@
       "playstyleLevel": 1,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 3,
-      "displayLeagueLevel": 2
-    },
-    {
-      "uid": "3npDJ7ZPTabCDyjvbDwZjjRuRjI3",
-      "username": "Nadir",
-      "score": 14570,
-      "leagueLevel": 1,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 10,
       "rank": 4,
-      "displayLeagueLevel": 1
+      "displayLeagueLevel": 2
     },
     {
       "uid": "OxNQX1znU2MUScdRUoKWLvBQQZU2",
