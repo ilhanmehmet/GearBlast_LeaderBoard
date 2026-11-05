@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T10:22:25Z",
-  "total_players": 10,
+  "updated_at": "2026-11-05T11:55:12Z",
+  "total_players": 11,
   "classic_normal": [
     {
       "uid": "3npDJ7ZPTabCDyjvbDwZjjRuRjI3",
@@ -58,6 +58,17 @@
       "displayLeagueLevel": 2
     },
     {
+      "uid": "U20hPwBmUuVxK72Je3vbLsXHt4T2",
+      "username": "U-52136_Gb",
+      "score": 8174,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 40,
+      "rank": 6,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "OxNQX1znU2MUScdRUoKWLvBQQZU2",
       "username": "U-59420_Gb",
       "score": 4843,
@@ -65,7 +76,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 53,
-      "rank": 6,
+      "rank": 7,
       "displayLeagueLevel": 1
     },
     {
@@ -76,7 +87,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 32,
-      "rank": 7,
+      "rank": 8,
       "displayLeagueLevel": 1
     },
     {
@@ -87,7 +98,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 7,
-      "rank": 8,
+      "rank": 9,
       "displayLeagueLevel": 1
     },
     {
@@ -98,7 +109,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 12,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -109,7 +120,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     }
   ],
@@ -203,6 +214,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "U20hPwBmUuVxK72Je3vbLsXHt4T2",
+      "username": "U-52136_Gb",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 40,
+      "rank": 9,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "OxNQX1znU2MUScdRUoKWLvBQQZU2",
       "username": "U-59420_Gb",
       "score": 0,
@@ -210,7 +232,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 53,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -221,7 +243,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 12,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     }
   ],
@@ -315,6 +337,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "U20hPwBmUuVxK72Je3vbLsXHt4T2",
+      "username": "U-52136_Gb",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 40,
+      "rank": 9,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "OxNQX1znU2MUScdRUoKWLvBQQZU2",
       "username": "U-59420_Gb",
       "score": 0,
@@ -322,7 +355,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 53,
-      "rank": 9,
+      "rank": 10,
       "displayLeagueLevel": 1
     },
     {
@@ -333,7 +366,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 12,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     }
   ]
