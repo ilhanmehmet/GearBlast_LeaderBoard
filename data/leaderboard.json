@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T11:55:29Z",
-  "total_players": 11,
+  "updated_at": "2026-11-05T12:47:51Z",
+  "total_players": 12,
   "classic_normal": [
     {
       "uid": "3npDJ7ZPTabCDyjvbDwZjjRuRjI3",
@@ -61,7 +61,7 @@
       "uid": "U20hPwBmUuVxK72Je3vbLsXHt4T2",
       "username": "U-52136_Gb",
       "score": 8174,
-      "leagueLevel": 0,
+      "leagueLevel": 1,
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 40,
@@ -102,6 +102,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "TBSdL7jlviT2RPwkam9S1LUTAqX2",
+      "username": "U-91292_Gb",
+      "score": 122,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 35,
+      "rank": 10,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "3c64OHh32EaBGDOUaaXQLAKaMrm2",
       "username": "U-88223_Gb",
       "score": 98,
@@ -109,7 +120,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 12,
-      "rank": 10,
+      "rank": 11,
       "displayLeagueLevel": 1
     },
     {
@@ -120,7 +131,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 7,
       "avatarId": 7,
-      "rank": 11,
+      "rank": 12,
       "displayLeagueLevel": 1
     }
   ],
@@ -245,6 +256,17 @@
       "avatarId": 12,
       "rank": 11,
       "displayLeagueLevel": 1
+    },
+    {
+      "uid": "TBSdL7jlviT2RPwkam9S1LUTAqX2",
+      "username": "U-91292_Gb",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 35,
+      "rank": 12,
+      "displayLeagueLevel": 1
     }
   ],
   "gearzone": [
@@ -367,6 +389,17 @@
       "profileAvatarId": 0,
       "avatarId": 12,
       "rank": 11,
+      "displayLeagueLevel": 1
+    },
+    {
+      "uid": "TBSdL7jlviT2RPwkam9S1LUTAqX2",
+      "username": "U-91292_Gb",
+      "score": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 35,
+      "rank": 12,
       "displayLeagueLevel": 1
     }
   ]
