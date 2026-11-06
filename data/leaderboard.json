@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T20:09:05Z",
+  "updated_at": "2026-11-06T20:13:15Z",
   "total_players": 24,
   "classic_normal": [
     {
@@ -83,8 +83,8 @@
       "uid": "8RsUTjoQtShr42bBpSJNVvLgfiO2",
       "username": "U-18659_Gb",
       "score": 60599,
-      "leagueLevel": 0,
-      "playstyleLevel": 1,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 40,
       "rank": 8,
@@ -350,7 +350,7 @@
       "username": "U-18659_Gb",
       "score": 0,
       "leagueLevel": 0,
-      "playstyleLevel": 1,
+      "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 40,
       "rank": 8,
@@ -535,6 +535,17 @@
   ],
   "gearzone": [
     {
+      "uid": "8RsUTjoQtShr42bBpSJNVvLgfiO2",
+      "username": "U-18659_Gb",
+      "score": 3,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 40,
+      "rank": 1,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "SiaCUjvnteed0u0FiVJcWSuVDeI3",
       "username": "Mehmet",
       "score": 2,
@@ -542,17 +553,6 @@
       "playstyleLevel": 1,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "rank": 1,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "8RsUTjoQtShr42bBpSJNVvLgfiO2",
-      "username": "U-18659_Gb",
-      "score": 2,
-      "leagueLevel": 0,
-      "playstyleLevel": 1,
-      "profileAvatarId": 0,
-      "avatarId": 40,
       "rank": 2,
       "displayLeagueLevel": 1
     },
