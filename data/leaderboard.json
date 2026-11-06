@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T20:19:42Z",
+  "updated_at": "2026-11-06T20:24:59Z",
   "total_players": 24,
   "classic_normal": [
     {
@@ -50,8 +50,8 @@
       "uid": "8RsUTjoQtShr42bBpSJNVvLgfiO2",
       "username": "U-18659_Gb",
       "score": 177897,
-      "leagueLevel": 3,
-      "playstyleLevel": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 1,
       "profileAvatarId": 0,
       "avatarId": 40,
       "rank": 5,
@@ -350,7 +350,7 @@
       "username": "U-18659_Gb",
       "score": 0,
       "leagueLevel": 0,
-      "playstyleLevel": 0,
+      "playstyleLevel": 1,
       "profileAvatarId": 0,
       "avatarId": 40,
       "rank": 8,
@@ -537,9 +537,9 @@
     {
       "uid": "8RsUTjoQtShr42bBpSJNVvLgfiO2",
       "username": "U-18659_Gb",
-      "score": 3,
+      "score": 4,
       "leagueLevel": 0,
-      "playstyleLevel": 0,
+      "playstyleLevel": 1,
       "profileAvatarId": 0,
       "avatarId": 40,
       "rank": 1,
