@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T19:11:53Z",
+  "updated_at": "2026-11-06T19:19:27Z",
   "total_players": 24,
   "classic_normal": [
     {
@@ -83,8 +83,8 @@
       "uid": "8RsUTjoQtShr42bBpSJNVvLgfiO2",
       "username": "U-18659_Gb",
       "score": 60599,
-      "leagueLevel": 2,
-      "playstyleLevel": 0,
+      "leagueLevel": 0,
+      "playstyleLevel": 1,
       "profileAvatarId": 0,
       "avatarId": 40,
       "rank": 8,
@@ -350,7 +350,7 @@
       "username": "U-18659_Gb",
       "score": 0,
       "leagueLevel": 0,
-      "playstyleLevel": 0,
+      "playstyleLevel": 1,
       "profileAvatarId": 0,
       "avatarId": 40,
       "rank": 8,
@@ -557,6 +557,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "8RsUTjoQtShr42bBpSJNVvLgfiO2",
+      "username": "U-18659_Gb",
+      "score": 1,
+      "leagueLevel": 0,
+      "playstyleLevel": 1,
+      "profileAvatarId": 0,
+      "avatarId": 40,
+      "rank": 3,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "4kXWrhspTjcfGGu2CK80sHVk2ma2",
       "username": "Ajno",
       "score": 0,
@@ -564,7 +575,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 8,
       "avatarId": 8,
-      "rank": 3,
+      "rank": 4,
       "displayLeagueLevel": 1
     },
     {
@@ -575,7 +586,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 20,
       "avatarId": 20,
-      "rank": 4,
+      "rank": 5,
       "displayLeagueLevel": 1
     },
     {
@@ -586,7 +597,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 5,
+      "rank": 6,
       "displayLeagueLevel": 1
     },
     {
@@ -597,17 +608,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 32,
-      "rank": 6,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "8RsUTjoQtShr42bBpSJNVvLgfiO2",
-      "username": "U-18659_Gb",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 40,
       "rank": 7,
       "displayLeagueLevel": 1
     },
