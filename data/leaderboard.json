@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T19:34:49Z",
+  "updated_at": "2026-11-08T20:54:02Z",
   "total_players": 35,
   "classic_normal": [
     {
@@ -72,8 +72,8 @@
       "uid": "ljibtvxmY8PHryhIbcCiDi4CqCA2",
       "username": "Trty",
       "score": 103661,
-      "leagueLevel": 0,
-      "playstyleLevel": 2,
+      "leagueLevel": 2,
+      "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 7,
@@ -471,7 +471,7 @@
       "username": "Trty",
       "score": 0,
       "leagueLevel": 0,
-      "playstyleLevel": 2,
+      "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 8,
@@ -792,7 +792,7 @@
       "username": "Trty",
       "score": 9,
       "leagueLevel": 0,
-      "playstyleLevel": 2,
+      "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
       "rank": 2,
