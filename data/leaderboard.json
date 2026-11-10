@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-11-10T07:10:04Z",
+  "updated_at": "2026-11-10T07:16:09Z",
   "total_players": 39,
   "classic_normal": [
+    {
+      "uid": "ljibtvxmY8PHryhIbcCiDi4CqCA2",
+      "username": "Trty",
+      "score": 1313371,
+      "leagueLevel": 5,
+      "playstyleLevel": 0,
+      "profileAvatarId": 10,
+      "avatarId": 10,
+      "rank": 1,
+      "displayLeagueLevel": 5
+    },
     {
       "uid": "3npDJ7ZPTabCDyjvbDwZjjRuRjI3",
       "username": "Nadir",
@@ -10,7 +21,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 10,
       "avatarId": 10,
-      "rank": 1,
+      "rank": 2,
       "displayLeagueLevel": 5
     },
     {
@@ -21,7 +32,7 @@
       "playstyleLevel": 1,
       "profileAvatarId": 49,
       "avatarId": 49,
-      "rank": 2,
+      "rank": 3,
       "displayLeagueLevel": 5
     },
     {
@@ -32,7 +43,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 57,
-      "rank": 3,
+      "rank": 4,
       "displayLeagueLevel": 4
     },
     {
@@ -43,17 +54,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 9,
-      "rank": 4,
-      "displayLeagueLevel": 3
-    },
-    {
-      "uid": "ljibtvxmY8PHryhIbcCiDi4CqCA2",
-      "username": "Trty",
-      "score": 244543,
-      "leagueLevel": 3,
-      "playstyleLevel": 0,
-      "profileAvatarId": 10,
-      "avatarId": 10,
       "rank": 5,
       "displayLeagueLevel": 3
     },
