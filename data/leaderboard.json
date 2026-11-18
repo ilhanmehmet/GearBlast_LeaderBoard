@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-18T12:40:10Z",
+  "updated_at": "2026-11-18T21:00:09Z",
   "total_players": 56,
   "classic_normal": [
     {
       "uid": "UIQuW9tFxQNhj5PGvwYUp2sPJmE2",
       "username": "Aytuntass",
       "score": 1305601,
-      "leagueLevel": 5,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
@@ -448,8 +448,8 @@
       "score": 538,
       "leagueLevel": 1,
       "playstyleLevel": 0,
-      "profileAvatarId": 8,
-      "avatarId": 8,
+      "profileAvatarId": 10,
+      "avatarId": 10,
       "rank": 41,
       "displayLeagueLevel": 1
     },
@@ -665,6 +665,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "UIQuW9tFxQNhj5PGvwYUp2sPJmE2",
+      "username": "Aytuntass",
+      "score": 1,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 5,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "lceb2ALMTPZOs7kR90mBhYfqwsn2",
       "username": "U-13410_Gb",
       "score": 1,
@@ -672,7 +683,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 57,
-      "rank": 5,
+      "rank": 6,
       "displayLeagueLevel": 1
     },
     {
@@ -683,7 +694,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 33,
-      "rank": 6,
+      "rank": 7,
       "displayLeagueLevel": 1
     },
     {
@@ -694,7 +705,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 9,
-      "rank": 7,
+      "rank": 8,
       "displayLeagueLevel": 1
     },
     {
@@ -703,19 +714,8 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 8,
-      "avatarId": 8,
-      "rank": 8,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "UIQuW9tFxQNhj5PGvwYUp2sPJmE2",
-      "username": "Aytuntass",
-      "score": 0,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
+      "profileAvatarId": 10,
+      "avatarId": 10,
       "rank": 9,
       "displayLeagueLevel": 1
     },
@@ -1252,7 +1252,7 @@
     {
       "uid": "y72DDzHwlZMuhXKAaw1offn0Gz43",
       "username": "Emili",
-      "score": 9,
+      "score": 11,
       "leagueLevel": 0,
       "playstyleLevel": 3,
       "profileAvatarId": 13,
@@ -1310,8 +1310,8 @@
       "score": 0,
       "leagueLevel": 0,
       "playstyleLevel": 0,
-      "profileAvatarId": 8,
-      "avatarId": 8,
+      "profileAvatarId": 10,
+      "avatarId": 10,
       "rank": 7,
       "displayLeagueLevel": 1
     },
