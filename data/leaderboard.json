@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T11:50:46Z",
+  "updated_at": "2026-11-24T21:45:03Z",
   "total_players": 61,
   "classic_normal": [
     {
@@ -72,7 +72,7 @@
       "uid": "XHHWn87DFBhUg0AU4BB7DjYWB5x1",
       "username": "U-50001_Gb",
       "score": 316735,
-      "leagueLevel": 3,
+      "leagueLevel": 0,
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 9,
@@ -676,6 +676,17 @@
   ],
   "adventure": [
     {
+      "uid": "UIQuW9tFxQNhj5PGvwYUp2sPJmE2",
+      "username": "Aytuntass",
+      "score": 24,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 2,
+      "avatarId": 2,
+      "rank": 1,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "RyXANPacoPVI6DIKitE4LsQNU8P2",
       "username": "U-40397_Gb",
       "score": 22,
@@ -683,17 +694,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 23,
-      "rank": 1,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "UIQuW9tFxQNhj5PGvwYUp2sPJmE2",
-      "username": "Aytuntass",
-      "score": 15,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 2,
-      "avatarId": 2,
       "rank": 2,
       "displayLeagueLevel": 1
     },
@@ -709,6 +709,17 @@
       "displayLeagueLevel": 1
     },
     {
+      "uid": "XHHWn87DFBhUg0AU4BB7DjYWB5x1",
+      "username": "U-50001_Gb",
+      "score": 2,
+      "leagueLevel": 0,
+      "playstyleLevel": 0,
+      "profileAvatarId": 0,
+      "avatarId": 9,
+      "rank": 4,
+      "displayLeagueLevel": 1
+    },
+    {
       "uid": "668Y87nBeaZG4EUrZ179GykQlRN2",
       "username": "U-81287_Gb",
       "score": 2,
@@ -716,7 +727,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 38,
-      "rank": 4,
+      "rank": 5,
       "displayLeagueLevel": 1
     },
     {
@@ -727,7 +738,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 2,
       "avatarId": 2,
-      "rank": 5,
+      "rank": 6,
       "displayLeagueLevel": 1
     },
     {
@@ -738,7 +749,7 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 57,
-      "rank": 6,
+      "rank": 7,
       "displayLeagueLevel": 1
     },
     {
@@ -749,17 +760,6 @@
       "playstyleLevel": 0,
       "profileAvatarId": 0,
       "avatarId": 33,
-      "rank": 7,
-      "displayLeagueLevel": 1
-    },
-    {
-      "uid": "XHHWn87DFBhUg0AU4BB7DjYWB5x1",
-      "username": "U-50001_Gb",
-      "score": 1,
-      "leagueLevel": 0,
-      "playstyleLevel": 0,
-      "profileAvatarId": 0,
-      "avatarId": 9,
       "rank": 8,
       "displayLeagueLevel": 1
     },
